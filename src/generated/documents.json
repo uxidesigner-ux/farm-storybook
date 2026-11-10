@@ -106,7 +106,9 @@
       "related": [
         "bx-positioning",
         "ops-validation",
-        "bx-architecture"
+        "bx-architecture",
+        "bx-plusx-research",
+        "bx-foundation"
       ],
       "storyTitle": "BX/B01 리서치에서 출발하기",
       "storyId": "doc-bx-research--docs",
@@ -197,7 +199,9 @@
       "related": [
         "bx-research",
         "marketing-positioning",
-        "ops-validation"
+        "ops-validation",
+        "bx-foundation",
+        "bx-creative-territories"
       ],
       "storyTitle": "BX/B02 세 가지 포지셔닝 가설",
       "storyId": "doc-bx-positioning--docs",
@@ -296,7 +300,8 @@
       "related": [
         "bx-positioning",
         "design-packaging",
-        "design-foundations"
+        "design-foundations",
+        "bx-foundation"
       ],
       "storyTitle": "BX/B03 브랜드와 제품의 구조",
       "storyId": "doc-bx-architecture--docs",
@@ -395,7 +400,8 @@
       "related": [
         "bx-positioning",
         "design-packaging",
-        "marketing-measurement"
+        "marketing-measurement",
+        "bx-experience-principles"
       ],
       "storyTitle": "BX/B04 고객 경험 원칙",
       "storyId": "doc-bx-experience--docs",
@@ -488,7 +494,8 @@
       "related": [
         "design-components",
         "design-content",
-        "bx-architecture"
+        "bx-architecture",
+        "bx-creative-territories"
       ],
       "storyTitle": "디자인/D01 문서 공간의 시각 원칙",
       "storyId": "doc-design-foundations--docs",
@@ -677,7 +684,8 @@
       "related": [
         "design-foundations",
         "design-components",
-        "ops-governance"
+        "ops-governance",
+        "bx-creative-territories"
       ],
       "storyTitle": "디자인/D03 문서·접근성 작성 기준",
       "storyId": "doc-design-content--docs",
@@ -776,7 +784,9 @@
       "related": [
         "bx-experience",
         "bx-architecture",
-        "ops-farm"
+        "ops-farm",
+        "bx-experience-principles",
+        "bx-farm-truth"
       ],
       "storyTitle": "디자인/D04 패키지와 상품 정보 설계",
       "storyId": "doc-design-packaging--docs",
@@ -956,7 +966,8 @@
       "related": [
         "dev-mvp",
         "ops-farm",
-        "dev-handoff"
+        "dev-handoff",
+        "bx-experience-principles"
       ],
       "storyTitle": "개발/DEV02 주문·재고·채널 연동 검토",
       "storyId": "doc-dev-channels--docs",
@@ -1048,7 +1059,8 @@
       "related": [
         "dev-mvp",
         "design-components",
-        "dev-documentation"
+        "dev-documentation",
+        "bx-decisions"
       ],
       "storyTitle": "개발/DEV03 개발 인수인계와 완료 기준",
       "storyId": "doc-dev-handoff--docs",
@@ -1140,7 +1152,8 @@
       "related": [
         "ops-governance",
         "design-content",
-        "dev-handoff"
+        "dev-handoff",
+        "bx-decisions"
       ],
       "storyTitle": "개발/DEV04 문서 추가와 공유 절차",
       "storyId": "doc-dev-documentation--docs",
@@ -1228,7 +1241,8 @@
       "related": [
         "bx-positioning",
         "marketing-content",
-        "marketing-measurement"
+        "marketing-measurement",
+        "bx-foundation"
       ],
       "storyTitle": "마케팅/M01 타깃과 메시지 가설",
       "storyId": "doc-marketing-positioning--docs",
@@ -1317,7 +1331,8 @@
       "related": [
         "marketing-positioning",
         "marketing-measurement",
-        "design-content"
+        "design-content",
+        "bx-creative-territories"
       ],
       "storyTitle": "마케팅/M02 콘텐츠와 AI 제작 기준",
       "storyId": "doc-marketing-content--docs",
@@ -1416,7 +1431,8 @@
       "related": [
         "marketing-positioning",
         "ops-validation",
-        "marketing-content"
+        "marketing-content",
+        "bx-experience-principles"
       ],
       "storyTitle": "마케팅/M03 실험과 성과 측정",
       "storyId": "doc-marketing-measurement--docs",
@@ -1508,7 +1524,8 @@
       "related": [
         "ops-validation",
         "dev-channels",
-        "design-packaging"
+        "design-packaging",
+        "bx-farm-truth"
       ],
       "storyTitle": "운영/OPS01 농가 확인과 공급 기준",
       "storyId": "doc-ops-farm--docs",
@@ -1598,7 +1615,8 @@
       "related": [
         "bx-positioning",
         "ops-farm",
-        "marketing-measurement"
+        "marketing-measurement",
+        "bx-farm-truth"
       ],
       "storyTitle": "운영/OPS02 4주 BX 검증 계획",
       "storyId": "doc-ops-validation--docs",
@@ -1719,17 +1737,1719 @@
       "related": [
         "dev-documentation",
         "design-content",
-        "ops-validation"
+        "ops-validation",
+        "bx-decisions"
       ],
       "storyTitle": "운영/OPS03 문서 상태와 결정 기록",
       "storyId": "doc-ops-governance--docs",
       "markdownHref": "./downloads/docs/ops-governance.md"
+    },
+    {
+      "id": "bx-plusx-research",
+      "code": "B05",
+      "category": "BX",
+      "title": "Plus X 공개 작업에서 찾은 BX 설계 원리",
+      "eyebrow": "PLUS X RESEARCH → BRAND EXPERIENCE",
+      "summary": "공개 프로젝트 146건, 핵심 심층 사례 18건의 확인 범위와 한계를 기록하고 농작물 서비스에 적용할 설계 질문을 정리합니다.",
+      "status": "리서치 완료",
+      "updatedAt": "2026-11-10",
+      "readingMinutes": 9,
+      "tags": [
+        "Plus X",
+        "146개 프로젝트",
+        "18개 심층 사례",
+        "공식 출처",
+        "확인 범위"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "146개 공개 프로젝트와 18개 심층 사례",
+          "body": [
+            "2026년 11월 10일 Plus X 공식 Experience 카탈로그의 공개 프로젝트 146건을 조사 범위로 정했습니다. 비공개 의뢰, 삭제된 과거 작업, 모든 이미지와 영상 프레임을 포함한 전체 역사라는 뜻은 아닙니다.",
+            "146건의 개별 분석에 더해 관련성이 높은 18건을 문제·전략·접점·농작물 서비스의 적용 조건으로 심층 분석했습니다. 데스크톱·모바일 중복은 한 프로젝트로 처리하고, 동일 고객의 별도 프로젝트는 각각 유지했습니다."
+          ],
+          "table": {
+            "headers": [
+              "공식 분류",
+              "건수",
+              "해석"
+            ],
+            "rows": [
+              [
+                "BX 전용",
+                "82",
+                "브랜드 전략·아이덴티티·패키지 등"
+              ],
+              [
+                "UX 전용",
+                "55",
+                "서비스 구조·탐색·구매·운영 경험 등"
+              ],
+              [
+                "BX와 UX 동시",
+                "5",
+                "두 범주에 등록된 프로젝트"
+              ],
+              [
+                "별도 분류 없음",
+                "4",
+                "카탈로그 all에만 등록된 프로젝트"
+              ]
+            ]
+          },
+          "callout": {
+            "title": "읽는 기준",
+            "body": "아래의 공식 설명은 제작사가 밝힌 문제와 설계 의도입니다. 농작물 서비스 적용은 우리의 해석이며 실제 고객 조사, 품질 검증, 브랜드 성과를 의미하지 않습니다."
+          }
+        },
+        {
+          "id": "evidence",
+          "title": "무엇을 확인했고 무엇을 확인하지 않았는가",
+          "body": [
+            "146건 모두 공개 상세 자료에 접근했습니다. 본문·설명형 대체텍스트에 근거한 분석 132건, 짧은 설명·이미지 중심으로 제한적인 분석 12건, 전략 판단 근거 부족 2건으로 구분했습니다.",
+            "근거가 부족한 두 건은 Beauty of Joseon과 British Council Words입니다. Beauty of Joseon은 별도의 Plus X 공식 회고로 심층 분석을 보강했습니다. 개별 아카이브의 근거 부족과 추가 자료에 의한 보강을 함께 기록합니다.",
+            "BTS, YG, A NORMAL, SYSTEM, Channel A, Plus X Identity, 29CM, Hyundai Card Purple, Simply Juice의 정적 화면 또는 이미지를 확인했습니다. 확인 범위는 9개 사례의 일부 정적 자료이며, 각 사례의 모든 디자인을 시각 검수한 결과가 아닙니다.",
+            "영상, 실물, 현재 서비스의 실제 동작, 사업 성과는 검증하지 않았습니다. 제목·메타데이터의 템플릿 오류는 본문과 대조했습니다. 공개 페이지 접근 성공을 실제 서비스의 효과나 현재 운영 상태의 증거로 취급하지 않습니다."
+          ],
+          "table": {
+            "headers": [
+              "확인 수준",
+              "건수",
+              "해석"
+            ],
+            "rows": [
+              [
+                "본문·설명형 대체텍스트",
+                "132",
+                "공식 설명으로 프로젝트의 문제와 설계 원리를 요약"
+              ],
+              [
+                "짧은 설명·이미지 중심",
+                "12",
+                "설명된 범위만 제한적으로 분석"
+              ],
+              [
+                "전략 판단 근거 부족",
+                "2",
+                "제목이나 익숙한 브랜드 이미지로 내용을 보충하지 않음"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "design-logic",
+          "title": "의미를 형태와 행동으로 연결하는 구조",
+          "body": [
+            "Plus X Identity 공식 사례는 고객 브랜드의 근본 가치에서 경험을 설계하는 태도를 설명합니다. 여러 사례를 비교하면 문제 → 의미 → 원칙 → 체계 → 행동이라는 연결 구조를 읽을 수 있습니다. 이 구조는 이번 연구의 해석이며 Plus X가 공식 명명한 단일 방법론이 아닙니다.",
+            "농가의 선별 도구, 수확 판단, 식감, 손질 동작, 계절 변화 가운데 실제로 중요한 단서를 찾아 여러 접점에서 반복 가능한 규칙으로 발전시킵니다. 농가의 사실이 확인되기 전에 다른 브랜드의 핵심 형태를 가져오지 않습니다."
+          ],
+          "table": {
+            "headers": [
+              "설계 단계",
+              "실제 사례에서 확인한 연결",
+              "우리 프로젝트의 산출물"
+            ],
+            "rows": [
+              [
+                "1. 문제",
+                "YG: 사업 확장에 대응할 체계",
+                "농가의 강점·판매 제약·고객의 선택 불안"
+              ],
+              [
+                "2. 의미",
+                "BTS: 성장 서사에서 문 모티프 도출",
+                "브랜드가 고객에게 맡을 역할"
+              ],
+              [
+                "3. 원칙",
+                "Simply Juice: 브랜드 성격을 디자인 원칙으로 번역",
+                "정확성·절제·배려의 판단 기준"
+              ],
+              [
+                "4. 체계",
+                "29CM: 다양한 접점을 위한 조합 규칙",
+                "품목이 바뀌어도 유지되는 정보·표현 규칙"
+              ],
+              [
+                "5. 행동",
+                "Purple: 꺼내기와 정보 탐색까지 설계",
+                "선택·개봉·보관·먹기·문제 해결의 경험"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "food-cases",
+          "title": "식재료의 특성을 읽을 수 있는 정보로",
+          "body": [
+            "식품에 가까운 사례는 재료와 생산의 특성을 어떤 표현 규칙으로 바꿨는지 살펴봅니다. 다음 표의 가운데 열은 공식 사례의 설명이고, 마지막 열은 이번 농작물 서비스에 대한 적용 제안입니다.",
+            "무엇인가 → 왜 골랐는가 → 어떻게 즐기는가 → 어떤 상태로 받는가의 순서를 정보 구조의 후보로 둡니다. 자연스러운 디자인 인상은 실제 인증이나 품질의 증명이 아닙니다."
+          ],
+          "table": {
+            "headers": [
+              "공식 사례",
+              "확인한 설계",
+              "농작물 서비스 적용 제안"
+            ],
+            "rows": [
+              [
+                "Simply Juice",
+                "과일 상자 모티프와 절제된 색으로 재료를 중심에 둔다.",
+                "상품의 색과 상태를 보여주고, 브랜드는 선별 이유를 명료하게 전달한다."
+              ],
+              [
+                "우리술방",
+                "술의 분류·재료·제조 과정을 병과 라벨 규칙으로 연결한다.",
+                "품종·농가·수확·취급 정보의 공통 라벨 체계를 만든다."
+              ],
+              [
+                "Archiveat",
+                "요리 동작과 소리를 시각 언어로 전개한다.",
+                "식감과 손질 동작을 사진·콘텐츠·사용 안내의 단서로 삼는다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "premium-cases",
+          "title": "품격을 선택과 사용의 디테일로",
+          "body": [
+            "29CM, Hyundai Card Purple, Plus X Object는 선택·꺼내기·정보 탐색·제품 사용 맥락을 함께 검토하게 합니다. 감각적인 인상과 실제 사용의 편안함을 별도로 확인해야 합니다.",
+            "고객이 편리하다고 느끼는 이유와 갖고 싶어 하는 이유를 각각 검증합니다. 브랜드 사이트의 설명, 거래 채널의 옵션·가격·출고 정보, Storybook의 내부 근거가 서로 일치하도록 설계하는 데 참고합니다."
+          ],
+          "table": {
+            "headers": [
+              "공식 사례",
+              "확인한 설계",
+              "농작물 서비스 적용 제안"
+            ],
+            "rows": [
+              [
+                "29CM",
+                "선택을 돕는 미션에서 확장 가능한 디자인 원칙을 도출한다.",
+                "추천의 이유와 품목 탐색 방식을 일관되게 정리한다."
+              ],
+              [
+                "Hyundai Card Purple",
+                "구성물 배열·꺼내는 구조·혜택 정보의 위계를 함께 설계한다.",
+                "상자 개봉부터 품목에 맞는 보관까지 손이 덜 가도록 구성한다."
+              ],
+              [
+                "Plus X Object",
+                "제품 사용 맥락과 자사몰의 고유 정보 역할을 다룬다.",
+                "브랜드 사이트를 선별·농가·먹는 방법의 원본 정보로 운영한다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "architecture-cases",
+          "title": "품목이 바뀌어도 유지할 기준",
+          "body": [
+            "YG, Cleanlab, Konny의 공식 사례는 사업·상품·매체의 확장에 맞춰 브랜드 체계를 정리한 과정을 설명합니다. 확장 가능성을 설계하는 것과 출시부터 여러 품목을 운영하는 것은 별도의 판단입니다."
+          ],
+          "table": {
+            "headers": [
+              "공식 사례",
+              "확인한 설계",
+              "농작물 서비스 적용 제안"
+            ],
+            "rows": [
+              [
+                "YG",
+                "핵심 가치를 서체·서브브랜드·내부 가이드로 확장한다.",
+                "농가·포장·콘텐츠 담당자가 같은 판단 기준을 사용한다."
+              ],
+              [
+                "Cleanlab",
+                "특정 제품의 인지에서 여러 생활 영역을 아우르는 정체성으로 확장한다.",
+                "브랜드는 선별 태도, 상품은 작물명과 용도로 구분한다."
+              ],
+              [
+                "Konny",
+                "기존 의미를 계승하면서 제품과 매체 확장에 맞게 심벌을 정리한다.",
+                "작은 라벨·흑백 인쇄·모바일에서도 작동하는 자산을 만든다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "expression-cases",
+          "title": "고유한 의미에서 반복 가능한 표현으로",
+          "body": [
+            "BTS는 서사의 문을 펼침과 빛의 활용으로, A NORMAL은 향과 감각을 명명·탐색·그래픽으로, SYSTEM은 제작 태도와 기록을 브랜드 맥락으로 연결합니다. 각 표현의 표면보다 의미가 여러 접점으로 전개되는 원리를 참고합니다.",
+            "BTS의 공개 응용물에는 아이덴티티 활용 예시가 포함됩니다. 이를 모두 실제 출시된 제품으로 취급하지 않습니다. 선별 노트도 실제 차이를 전달하는 장치의 후보이며 형식 자체가 경쟁력으로 검증된 것은 아닙니다."
+          ],
+          "table": {
+            "headers": [
+              "공식 사례",
+              "확인한 설계",
+              "농작물 서비스 적용 제안"
+            ],
+            "rows": [
+              [
+                "BTS",
+                "문 모티프를 펼침·빛·디지털 동작의 활용 예시로 확장한다.",
+                "선별·개봉·손질의 실제 행동에서 표현 원리를 찾는다."
+              ],
+              [
+                "A NORMAL",
+                "향과 감각을 명명·제품 탐색·그래픽 변형으로 연결한다.",
+                "작물명과 사용 상황을 함께 탐색하는 구조를 검증한다."
+              ],
+              [
+                "SYSTEM",
+                "제품을 만드는 태도와 축적된 기록을 브랜드 맥락으로 다룬다.",
+                "농가의 수확 판단과 취급 기록을 지속적으로 축적한다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "experience-cases",
+          "title": "조직·지역·탐색까지 이어지는 태도",
+          "body": [
+            "다음 여섯 사례는 브랜드의 태도가 조직의 행동, 지역성, 탐색과 상위 의미에서도 이어지는지 묻게 합니다. 사례의 디자인 의도를 이번 서비스의 확정 약속으로 옮기지 않습니다.",
+            "146개 개별 분석과 18개 심층 분석은 아래 연결된 산출물에서 확인할 수 있습니다. 기존 국내외 35개 농작물 서비스 비교 리서치는 B01에 유지하며, 두 조사를 서로 다른 목적과 범위의 자료로 사용합니다."
+          ],
+          "table": {
+            "headers": [
+              "사례",
+              "관찰한 설계 원리",
+              "우리의 적용 질문"
+            ],
+            "rows": [
+              [
+                "Channel A",
+                "내부 구성원과 이용자에게 연결되는 브랜드 약속",
+                "농가가 지킬 행동이 고객의 이익으로 설명되는가?"
+              ],
+              [
+                "Deepondé",
+                "브랜드 태도를 이름과 층·깊이의 표현으로 연결",
+                "우리의 판단 태도에서 고유 원리를 만들 수 있는가?"
+              ],
+              [
+                "Beauty of Joseon",
+                "전통 원료를 상위 브랜드 가치로 재해석",
+                "농가의 지역성이 오늘의 식사에 어떤 의미인가?"
+              ],
+              [
+                "G9",
+                "목적이 다른 사용자의 탐색과 콘텐츠 운영을 구분",
+                "처음 고르는 고객과 다시 사는 고객을 돕는가?"
+              ],
+              [
+                "Tetrapod",
+                "지역 모티프를 잔·라벨·도구·공간으로 확장",
+                "지역의 실제 특성이 사용의 이익으로 이어지는가?"
+              ],
+              [
+                "Plus X Identity",
+                "고객 브랜드의 본질을 바탕으로 경험 설계",
+                "대행사의 스타일보다 우리 농가의 근거가 먼저인가?"
+              ]
+            ]
+          }
+        }
+      ],
+      "related": [
+        "bx-research",
+        "bx-foundation",
+        "bx-experience-principles",
+        "bx-creative-territories"
+      ],
+      "downloadAssetIds": [
+        "plusx-cases",
+        "plusx-deep-dive",
+        "plusx-report",
+        "plusx-pack"
+      ],
+      "sources": [
+        {
+          "label": "Plus X 공식 공개 프로젝트 카탈로그",
+          "url": "https://www.plus-ex.com/source/data/experience.json"
+        },
+        {
+          "label": "Plus X Identity",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusx_identity.html"
+        },
+        {
+          "label": "YG Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/yg1.html"
+        },
+        {
+          "label": "BTS Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bts.html"
+        },
+        {
+          "label": "A NORMAL",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/anormal.html"
+        },
+        {
+          "label": "HANDSOME SYSTEM",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/hssystem.html"
+        },
+        {
+          "label": "Channel A",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/channel_a.html"
+        },
+        {
+          "label": "Shinsegae Simply Juice",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/simplyjuice.html"
+        },
+        {
+          "label": "우리술방 / Korean Craft Liquor",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/korcraft.html"
+        },
+        {
+          "label": "29CM Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm3.html"
+        },
+        {
+          "label": "Hyundai Card the Purple Package",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_purple.html"
+        },
+        {
+          "label": "Archiveat 공식 회고",
+          "url": "https://xs.ulp.plus-ex.com/detail/uppercase-a"
+        },
+        {
+          "label": "Deepondé",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/deeponde.html"
+        },
+        {
+          "label": "Beauty of Joseon 공식 회고",
+          "url": "https://xs.ulp.plus-ex.com/detail/uppercase-j"
+        },
+        {
+          "label": "Cleanlab",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cleanlab.html"
+        },
+        {
+          "label": "Konny",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/konny.html"
+        },
+        {
+          "label": "G9 UX/UI",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/g9.html"
+        },
+        {
+          "label": "Plus X Object",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusxobject.html"
+        },
+        {
+          "label": "Plus X Object 자사몰 리뉴얼 공식 글",
+          "url": "https://object.plus-ex.com/20/?bmode=view&idx=15331597"
+        },
+        {
+          "label": "Tetrapod Brewing 공식 브랜드 페이지",
+          "url": "https://tetrapodbrewing.plus-ex.com/index.html"
+        }
+      ],
+      "storyTitle": "BX/B05 Plus X 공개 작업에서 찾은 BX 설계 원리",
+      "storyId": "doc-bx-plusx-research--docs",
+      "markdownHref": "./downloads/docs/bx-plusx-research.md"
+    },
+    {
+      "id": "bx-foundation",
+      "code": "B06",
+      "category": "BX",
+      "title": "브랜드 정의 v0.1과 다섯 키워드",
+      "eyebrow": "BX FOUNDATION v0.1",
+      "summary": "최상의 퀄리티·품격·유니크·차별화·선택받은을 제품 기준, 고객 태도, 표현 자산과 선택 이유로 구체화하는 검토안입니다.",
+      "status": "검토 중",
+      "updatedAt": "2026-11-10",
+      "readingMinutes": 6,
+      "tags": [
+        "브랜드 정의",
+        "다섯 키워드",
+        "전략 가설",
+        "포지셔닝",
+        "선별"
+      ],
+      "sections": [
+        {
+          "id": "working-hypothesis",
+          "title": "선별의 기준이, 일상의 취향이 되다",
+          "body": [
+            "브랜드의 역할을 좋은 농작물을 고르는 판단과 선택한 농작물을 잘 즐기는 방법을 함께 제공하는 서비스로 제안합니다. 특정 작물의 형태보다 선별·취급·사용을 책임지는 태도를 중심에 둡니다.",
+            "확장 가능한 마스터브랜드와 좁은 첫 상품 제안을 함께 검토합니다. 치커리·셀러리 등 한 작물에 이름을 묶지 않되 출시 때에는 누구의 어떤 식사 상황을 해결할지 먼저 좁힙니다.",
+            "이 문서의 고객 행동, 품질 약속, 표현 방향은 검증할 제안입니다. 실제 제공 범위와 책임자가 확정되기 전에는 소비자용 운영 약속으로 사용하지 않습니다."
+          ],
+          "callout": {
+            "title": "현재 상태",
+            "body": "전략 초안 v0.1입니다. 품목·품종·타깃·가격·브랜드명·로고·인증·공급 능력·품질 기준은 미확정입니다. 핵심 문장은 광고 슬로건의 최종안이 아닙니다."
+          }
+        },
+        {
+          "id": "five-keywords",
+          "title": "다섯 키워드에 서로 다른 역할을 부여한다",
+          "body": [
+            "다섯 표현을 같은 층위의 핵심 가치로 나열하면 실제 판단 기준이 흐려집니다. 퀄리티는 제품과 운영의 기준, 품격은 고객을 대하는 태도, 유니크는 식별 자산, 차별화는 대안 대비 선택 이유, 선택받은은 상품과 고객의 감정으로 나누어 검토합니다.",
+            "선택받은의 가설은 기준으로 고른 상품 → 이유를 이해하는 고객 → 좋은 선택을 했다는 만족입니다. 공급이 실제 수확량·품질 조건 때문에 제한된다면 그 이유와 다음 기회를 명확히 설명합니다."
+          ],
+          "table": {
+            "headers": [
+              "키워드",
+              "전략상 역할",
+              "고객이 확인할 경험"
+            ],
+            "rows": [
+              [
+                "최상의 퀄리티",
+                "제품과 운영이 지향할 기준",
+                "선별 기준, 실제 상태, 취급 기록, 반복되는 도착 품질"
+              ],
+              [
+                "품격",
+                "고객을 대하는 태도",
+                "정돈된 정보, 쉬운 개봉·보관, 차분하고 책임 있는 응대"
+              ],
+              [
+                "유니크",
+                "브랜드를 알아보게 하는 자산",
+                "농가의 실제 단서에서 나온 고유한 언어·사진·정보 규칙"
+              ],
+              [
+                "차별화",
+                "대안 대비 고객의 선택 결과",
+                "왜 더 지불하거나 다시 선택하는지 설명되는 차이"
+              ],
+              [
+                "선택받은",
+                "상품의 상태와 고객의 감정",
+                "기준을 통과한 농작물, 내 취향과 판단을 존중받는 느낌"
+              ]
+            ]
+          },
+          "callout": {
+            "title": "최상의 퀄리티는 내부 지향점",
+            "body": "비교 범위와 근거가 없는 절대적 우월 주장이나 아직 확인하지 않은 품질 보증 문구로 사용하지 않습니다."
+          }
+        },
+        {
+          "id": "constitution",
+          "title": "브랜드의 존재 이유·역할·고객 가설",
+          "body": [
+            "다음 정의는 농가와 고객 검증을 시작하기 위한 작업 가설입니다. 정서적으로는 내 선택에 기준이 있다는 확신과, 내게 어울리는 식탁을 제안받고 취향이 섬세하게 드러나는 경험을 목표로 검토합니다."
+          ],
+          "table": {
+            "headers": [
+              "항목",
+              "작업 정의"
+            ],
+            "rows": [
+              [
+                "존재 이유",
+                "좋은 먹거리를 고르는 판단과 준비의 수고를 덜어, 만족스러운 식사를 돕는다."
+              ],
+              [
+                "초기 고객 가설",
+                "먹는 질을 중시하고, 선택 이유를 이해하고 싶지만 매번 비교·준비할 시간은 부족한 사람."
+              ],
+              [
+                "고객 긴장 가설",
+                "좋다는 설명은 많지만, 내 식사에 맞는 이유와 받아서 잘 쓸 방법은 불분명하다."
+              ],
+              [
+                "브랜드 역할",
+                "농가의 생산 지식과 고객의 식탁을 연결하는 선별자이자 안내자."
+              ],
+              [
+                "핵심 생각",
+                "선별의 기준이, 일상의 취향이 되다."
+              ],
+              [
+                "기능적 이익",
+                "이유가 분명한 선택, 이해하기 쉬운 사용 안내, 예측 가능한 수령 경험."
+              ],
+              [
+                "정서적 이익",
+                "내 선택에는 기준이 있다는 확신, 내게 어울리는 식탁을 제안받고 내 취향이 섬세하게 드러나는 느낌."
+              ],
+              [
+                "성격",
+                "정확한 안목 / 절제된 자신감 / 세심한 배려."
+              ],
+              [
+                "증명 수단",
+                "품목별 선별 기준, 농가의 실제 기록, 보관·사용 실험, 배송 확인, 문제 해결 이력."
+              ]
+            ]
+          },
+          "bullets": [
+            "기준 있게 고릅니다.",
+            "차이를 이해하게 합니다.",
+            "식탁에서의 사용까지 배려합니다.",
+            "세 실행 가치는 농가·포장·콘텐츠·고객 응대의 행동과 책임으로 각각 번역합니다."
+          ]
+        },
+        {
+          "id": "positioning-routes",
+          "title": "첫 상품의 강점으로 앞세울 경험을 고른다",
+          "body": [
+            "미각의 발견, 정돈된 식사, 계절의 선택은 첫 상품의 중심 약속을 고르기 위한 세 경로입니다. B02의 기존 포지셔닝 가설을 이번 BX 정의에 연결한 것이며, 표현 시안을 비교하는 B08의 세 콘셉트와는 구분합니다.",
+            "설명 가능한 선별은 신뢰의 공통 요건으로 둡니다. 차별화는 구체적인 식사 상황에서 농가가 반복해서 제공할 수 있는 강점이 만드는 체감 차이로 결정합니다. 첫 상품에는 한 경로를 우선하고 맛·편의·희소성의 검증 범위를 정합니다."
+          ],
+          "table": {
+            "headers": [
+              "경로",
+              "선택 조건",
+              "첫 고객 경험"
+            ],
+            "rows": [
+              [
+                "미각의 발견",
+                "품종·재배·수확 판단에서 체감할 맛·식감 차이를 반복 확인할 수 있다.",
+                "무엇이 다른지 설명하고, 차이가 드러나는 먹는 방법을 제공한다."
+              ],
+              [
+                "정돈된 식사",
+                "규격·손질·포장·출고 일정이 안정적이고 고객의 실제 수고를 줄일 수 있다.",
+                "내 식사에 맞는 양과 준비 상태를 쉽게 고른다."
+              ],
+              [
+                "계절의 선택",
+                "특정 시기의 품질은 좋지만 수량과 공급 기간이 제한적이다.",
+                "출고 가능 시기·수량·선별 이유와 다음 수확을 이해한다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "brand-layers",
+          "title": "상위 브랜드와 실제 상품 정보를 나눈다",
+          "body": [
+            "마스터브랜드는 선별과 식탁 경험의 역할을 담고, 상품은 작물·품종·규격·손질 상태를 설명합니다. 상품군과 기록 단위는 실제 공급·판매·출고 운영을 확인한 뒤 정합니다.",
+            "아래 수확 배치는 향후 검토할 정보 계층입니다. 수확별 기록과 번호 체계를 현재 운영 중인 기능으로 전제하지 않습니다. 첫 상품의 약속과 품질 재현성을 먼저 확인합니다."
+          ],
+          "table": {
+            "headers": [
+              "정보 계층",
+              "지금 정할 것",
+              "나중에 채울 것"
+            ],
+            "rows": [
+              [
+                "마스터브랜드",
+                "선별과 식탁의 경험을 책임지는 역할",
+                "이름·상표·로고"
+              ],
+              [
+                "상품군",
+                "고객의 용도와 선택 방식",
+                "생식·가열·반찬 등 실제 분류"
+              ],
+              [
+                "상품",
+                "품종·규격·손질 상태",
+                "첫 작물과 판매 옵션"
+              ],
+              [
+                "수확 배치",
+                "실제 기록과 정보 갱신 책임",
+                "농가·수확일·포장일·확인 결과"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "proof-and-choice",
+          "title": "보기 좋은 인상과 선택 이유를 각각 검증한다",
+          "body": [
+            "고객에게 상품명과 디자인을 가린 상태에서 품질과 사용의 차이를 설명하게 하고, 이후 정보·포장·가격을 제시해 선택 이유가 어떻게 달라지는지 확인하는 방법을 제안합니다. 호감, 구매 이유, 재구매 이유를 분리해 기록합니다.",
+            "기본적인 품질 충족과 브랜드만의 선별 취향도 구분합니다. 도착 상태의 기준과 특정 요리에 맞는 식감은 서로 다른 판단입니다. 품질 기준·측정법·책임자·예외 처리가 정해진 뒤 고객 문구를 확정합니다.",
+            "실제 타깃 세그먼트와 지불 의사 결과는 아직 없습니다. 농가 자료와 품질 증거의 구체적인 확인 항목은 OPS04에서 관리합니다."
+          ],
+          "callout": {
+            "title": "차별화의 작업 문장",
+            "body": "우리는 [구체적인 식사 상황의 고객]에게 [농가가 반복해서 제공할 강점]으로 [고객이 체감할 차이]를 제공한다. 대괄호는 실물과 사용자 근거가 확보될 때 채웁니다."
+          }
+        }
+      ],
+      "related": [
+        "bx-plusx-research",
+        "bx-positioning",
+        "bx-architecture",
+        "bx-creative-territories",
+        "bx-farm-truth"
+      ],
+      "downloadAssetIds": [
+        "plusx-report",
+        "plusx-pack"
+      ],
+      "sources": [
+        {
+          "label": "YG Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/yg1.html"
+        },
+        {
+          "label": "Shinsegae Simply Juice",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/simplyjuice.html"
+        },
+        {
+          "label": "29CM Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm3.html"
+        },
+        {
+          "label": "Hyundai Card the Purple Package",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_purple.html"
+        },
+        {
+          "label": "Cleanlab",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cleanlab.html"
+        },
+        {
+          "label": "Konny",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/konny.html"
+        }
+      ],
+      "storyTitle": "BX/B06 브랜드 정의 v0.1과 다섯 키워드",
+      "storyId": "doc-bx-foundation--docs",
+      "markdownHref": "./downloads/docs/bx-foundation.md"
+    },
+    {
+      "id": "bx-experience-principles",
+      "code": "B07",
+      "category": "BX",
+      "title": "선택부터 식탁까지의 경험과 선별 노트",
+      "eyebrow": "EXPERIENCE & SIGNATURE NOTE",
+      "summary": "구매 전 확신, 수령 후 사용, 문제 해결을 하나의 약속으로 연결하고 선별 노트의 정보·운영 구조를 검토합니다.",
+      "status": "초안",
+      "updatedAt": "2026-11-10",
+      "readingMinutes": 7,
+      "tags": [
+        "고객 여정",
+        "선별 노트",
+        "개봉",
+        "보관",
+        "접점 설계"
+      ],
+      "sections": [
+        {
+          "id": "scope",
+          "title": "고객이 느낄 감정과 제공할 행동을 연결한다",
+          "body": [
+            "이 문서는 기존 B04 고객 경험 원칙을 구체화한 설계안입니다. 구매 때의 확신, 받을 때의 정돈감, 먹을 때의 만족, 문제가 생겼을 때의 신뢰가 이어지는지 검증합니다.",
+            "품격에는 정돈된 정보와 책임 있는 서비스뿐 아니라 고르고 차리고 즐기는 순간의 감각적 만족이 포함됩니다. 편리하다고 느끼는 이유와 이 브랜드를 갖고 싶어 하는 이유를 각각 확인합니다."
+          ],
+          "callout": {
+            "title": "제안과 현재 기능을 구분",
+            "body": "아래 행동·알림·개인화·처리 시간은 목표 경험입니다. 제공 범위와 담당자, 운영 정책과 구현 상태가 확인되기 전에는 소비자에게 제공 중인 기능으로 안내하지 않습니다."
+          }
+        },
+        {
+          "id": "choose",
+          "title": "발견·비교·주문·수령 전의 경험",
+          "body": [
+            "이번에 제안하는 상품과 추천 이유를 먼저 보여주고 자세한 농가 이야기와 기준으로 이어지도록 합니다. 상품 비교와 주문에 필요한 정보는 브랜드 서사나 영상 속에 숨기지 않습니다."
+          ],
+          "table": {
+            "headers": [
+              "접점",
+              "고객이 느낄 것",
+              "제안하는 행동·정보"
+            ],
+            "rows": [
+              [
+                "첫 발견",
+                "이 브랜드는 고르는 기준이 있구나",
+                "실제 상품과 식사 장면에 구체적인 선별 이유 하나를 붙인다."
+              ],
+              [
+                "브랜드 이해",
+                "누가 어떤 판단을 하는지 알겠다",
+                "농가의 생산 지식, 선별 방식, 브랜드가 맡는 일을 분리해 설명한다."
+              ],
+              [
+                "상품 비교",
+                "내 식사에 맞는 선택이다",
+                "품목·양·손질 상태·맛/식감·용도·가격·일정을 비교 가능하게 둔다."
+              ],
+              [
+                "주문",
+                "무엇을 언제 받는지 분명하다",
+                "실제 판매 옵션과 출고 조건, 변경 가능 범위를 확정 정보로 보여준다."
+              ],
+              [
+                "수령 전",
+                "준비 과정이 예측 가능하다",
+                "확인된 출고 상태와 필요한 보관 준비를 짧게 알린다."
+              ]
+            ]
+          },
+          "bullets": [
+            "고객이 이 상품을 고른 이유를 자기 말로 설명하는지 확인합니다.",
+            "적정 사용량과 손질 상태를 이해하는지 관찰합니다.",
+            "가격·출고 조건을 놓치지 않는지 실제 탐색 행동으로 확인합니다."
+          ]
+        },
+        {
+          "id": "live",
+          "title": "개봉·보관·식사·문제 해결·재구매",
+          "body": [
+            "받은 순간의 인상뿐 아니라 보관하고 먹고 문제를 해결하는 경험에서 반복 구매의 이유를 확인합니다. 보관 방식과 안내는 실제 품목의 특성에 맞춰 정합니다.",
+            "장식 때문에 상태를 확인하기 어렵거나 보관 설명이 QR 안에만 있거나 문의할 때마다 답이 달라지는 상황은 신뢰를 약하게 만들 수 있다는 설계 가설로 검토합니다."
+          ],
+          "table": {
+            "headers": [
+              "접점",
+              "고객이 느낄 것",
+              "제안하는 행동·정보"
+            ],
+            "rows": [
+              [
+                "개봉",
+                "차분하고 세심하게 준비됐구나",
+                "상품을 손상 없이 꺼낼 수 있고 구성과 상태를 한눈에 확인한다."
+              ],
+              [
+                "보관",
+                "받은 뒤 무엇을 할지 안다",
+                "제품과 함께 바로 읽을 수 있는 보관·사용 안내를 둔다."
+              ],
+              [
+                "손질·식사",
+                "내 일상에서 차이가 느껴진다",
+                "검증한 먹는 방법을 최소한의 단계로 안내한다."
+              ],
+              [
+                "문제 발생",
+                "이 브랜드가 책임지고 있구나",
+                "문의 이력을 이어 받고 다음 처리 단계와 시간을 명확히 안내한다."
+              ],
+              [
+                "재구매",
+                "내 취향을 이해하고 다음 선택을 돕는다",
+                "지난 선택의 용도와 피드백을 바탕으로 실제 판매 가능한 제안을 한다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "selection-note",
+          "title": "선별 노트: 선택의 이유와 잘 즐기는 방법",
+          "body": [
+            "선별 노트를 첫 고유 경험의 후보로 제안합니다. 기록 형식 자체가 독자적인 경쟁력으로 확인된 것은 아닙니다. 실제 상품의 차이를 짧고 일정한 구조로 전달하는 장치입니다.",
+            "기록 단위는 품목·농가·출고 운영을 확인한 뒤 정합니다. 수확별 기록은 지속적으로 차이를 확인하고 관리할 수 있을 때 도입합니다. 먼저 후보 작물에 가안 적용해 이해도·작성 부담·정보 유지 가능성을 확인합니다."
+          ],
+          "table": {
+            "headers": [
+              "앞면의 핵심 정보",
+              "작성 규칙"
+            ],
+            "rows": [
+              [
+                "무엇인가",
+                "확정된 품목·품종·규격. 익숙한 이름과 설명을 우선한다."
+              ],
+              [
+                "누가 길렀는가",
+                "확인된 농가·지역과 생산자가 공개에 동의한 내용."
+              ],
+              [
+                "언제의 기록인가",
+                "수확·포장·출고를 혼동하지 않고 실제 확인 날짜를 쓴다."
+              ],
+              [
+                "왜 골랐는가",
+                "해당 배치에서 확인한 선택 이유 한 문장. 근거 없는 최상급은 제외한다."
+              ],
+              [
+                "어떻게 즐기는가",
+                "검증한 보관·손질·사용 안내를 짧게 제공한다."
+              ]
+            ]
+          },
+          "callout": {
+            "title": "첫 템플릿의 범위",
+            "body": "확인 가능한 정보만 채웁니다. 선별 노트의 날짜가 수확일인지 포장일인지 출고일인지 분명히 표시하고, 아직 확인하지 않은 항목은 사실처럼 작성하지 않습니다."
+          }
+        },
+        {
+          "id": "note-template",
+          "title": "내부 문장 템플릿과 기록의 연결",
+          "body": [
+            "내부 예시: “이번 [품목]은 [용도]에 맞는 [확인한 특성]을 기준으로 골랐습니다. [검증한 사용 방법]으로 즐겨보세요.” 대괄호는 실제 자료로 채우기 전까지 내부 초안에서만 사용합니다.",
+            "라벨·상품 상세·출고 안내가 같은 기록을 참조하도록 설계합니다. 상세 이력은 링크로 확장하되 기본 보관과 상품 식별 정보는 제품 표면 또는 동봉 안내에서 바로 읽을 수 있게 합니다.",
+            "맛 점수, 등급, 배치 번호는 실제 기준과 관리 체계가 있을 때만 도입합니다. 기록 책임자와 수정 시 갱신해야 할 채널을 함께 정합니다."
+          ]
+        },
+        {
+          "id": "touchpoints",
+          "title": "패키지·브랜드 사이트·판매 채널·Storybook의 역할",
+          "body": [
+            "각 채널이 맡는 일을 같은 브랜드 약속으로 연결합니다. 고객에게 설명할 원본 정보와 거래 채널의 옵션·가격·주문·배송 정보는 서로 일치해야 합니다.",
+            "플랫폼 결제·재고·배송의 자동 연동은 완료된 기능이 아닙니다. 실제 API와 권한, 운영 범위는 개발 가이드에서 별도로 확인합니다."
+          ],
+          "table": {
+            "headers": [
+              "영역",
+              "초기 역할",
+              "필요한 산출물"
+            ],
+            "rows": [
+              [
+                "패키징",
+                "상품 보호, 구성 확인, 보관 전환",
+                "구조 시제품, 실제 부착 라벨, 선별 노트, 포장 작업 가이드"
+              ],
+              [
+                "브랜드 사이트",
+                "선별 근거와 농가·식사 콘텐츠의 원본",
+                "브랜드 소개, 상품 판단 정보, 농가 기록, 사용 안내"
+              ],
+              [
+                "거래 채널",
+                "정확한 옵션·가격·주문·배송 정보",
+                "상품 정보 기준표, 재고·옵션 관리 책임, 구매 후 안내"
+              ],
+              [
+                "Storybook",
+                "팀과 사용자가 공유할 기준과 근거",
+                "BX 연구, 의사결정 기록, 디자인 원칙, 개발·마케팅 가이드"
+              ],
+              [
+                "마케팅",
+                "선택의 이유를 이해하고 사용하도록 도움",
+                "선별 근거·농가 판단·식사 활용의 콘텐츠 시리즈"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "validation",
+          "title": "사용 관찰과 다음 개선 기록",
+          "body": [
+            "개봉과 손질에 걸리는 시간, 품질 만족, 불편 발생, 재구매 이유를 관찰합니다. 수치 목표나 보관 가능 기간은 품목과 실제 근거 없이 정하지 않습니다.",
+            "고객의 기능적 편익, 감각적 만족, 취향 표현을 나누어 기록합니다. 질문에 대한 말뿐 아니라 실물·포장·안내를 사용하는 행동을 함께 봅니다.",
+            "농가·상품·선별 근거·사용 안내의 데이터 소유자와 갱신 경로를 정하고, 이미지 대체텍스트와 모바일의 정보 우선순위를 포함합니다. 확인된 문제를 OPS05 결정 기록에 연결합니다."
+          ]
+        }
+      ],
+      "related": [
+        "bx-experience",
+        "bx-foundation",
+        "design-packaging",
+        "dev-channels",
+        "bx-farm-truth",
+        "bx-decisions"
+      ],
+      "downloadAssetIds": [
+        "plusx-report",
+        "plusx-pack"
+      ],
+      "sources": [
+        {
+          "label": "BTS Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bts.html"
+        },
+        {
+          "label": "A NORMAL",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/anormal.html"
+        },
+        {
+          "label": "우리술방 / Korean Craft Liquor",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/korcraft.html"
+        },
+        {
+          "label": "29CM Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm3.html"
+        },
+        {
+          "label": "Hyundai Card the Purple Package",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_purple.html"
+        },
+        {
+          "label": "Plus X Object",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusxobject.html"
+        },
+        {
+          "label": "Plus X Object 자사몰 리뉴얼 공식 글",
+          "url": "https://object.plus-ex.com/20/?bmode=view&idx=15331597"
+        }
+      ],
+      "storyTitle": "BX/B07 선택부터 식탁까지의 경험과 선별 노트",
+      "storyId": "doc-bx-experience-principles--docs",
+      "markdownHref": "./downloads/docs/bx-experience-principles.md"
+    },
+    {
+      "id": "bx-creative-territories",
+      "code": "B08",
+      "category": "BX",
+      "title": "세 가지 표현 방향과 언어·시각 원칙",
+      "eyebrow": "CREATIVE TERRITORIES",
+      "summary": "선별된 식탁·계절의 컬렉션·깊이 있는 원물을 비교하고, 브랜드의 감각·말투·네이밍을 검증할 기준을 정리합니다.",
+      "status": "검토 중",
+      "updatedAt": "2026-11-10",
+      "readingMinutes": 6,
+      "tags": [
+        "표현 방향",
+        "시각 원칙",
+        "말투",
+        "네이밍",
+        "취향"
+      ],
+      "sections": [
+        {
+          "id": "creative-brief",
+          "title": "기능적 신뢰에 감각적 매력을 더한다",
+          "body": [
+            "표현 방향은 브랜드가 고객에게 어떤 생활과 감정을 떠올리게 할지 비교하기 위한 초안입니다. 실제 상품과 농가의 근거를 바탕으로 식별성과 사용성을 함께 확인합니다.",
+            "다음 세 이름은 콘셉트를 구분하기 위한 작업명입니다. 실제 브랜드 네이밍 후보나 확정 디자인이 아닙니다. B06의 세 포지셔닝 경로는 첫 상품의 중심 편익을 고르는 기준이고, 여기의 세 방향은 감각적 표현을 탐색하는 기준입니다."
+          ],
+          "callout": {
+            "title": "현재 디자인의 지위",
+            "body": "FIELDNOTES와 이 Storybook의 색·서체·레이아웃은 문서 공간의 임시 체계입니다. 상품 브랜드의 CI·로고·패키지 시안으로 확정한 것이 아닙니다."
+          }
+        },
+        {
+          "id": "three-territories",
+          "title": "A. 선별된 식탁 / B. 계절의 컬렉션 / C. 깊이 있는 원물",
+          "body": [
+            "기능적인 품질 근거가 어떤 감각적 만족과 자기표현으로 이어지는지 비교합니다. 각 방향은 농가의 실제 강점과 제작·운영 조건을 충족할 때 선택할 수 있습니다."
+          ],
+          "table": {
+            "headers": [
+              "방향",
+              "고객이 기대할 감정",
+              "표현의 출발점과 조건"
+            ],
+            "rows": [
+              [
+                "A. 선별된 식탁",
+                "내 안목과 일상에 어울린다. 고르고 차리는 과정이 즐겁다.",
+                "정제된 편집, 재료의 질감, 현실적인 식사 장면. 상품·추천·사용의 완성도가 뒷받침되어야 한다."
+              ],
+              [
+                "B. 계절의 컬렉션",
+                "지금 이 계절을 가장 잘 즐기고 있다는 만족.",
+                "실제 제철과 수확 차이, 일정한 기록 체계, 계절별 변주. 공급과 품질의 계절성이 확인되어야 한다."
+              ],
+              [
+                "C. 깊이 있는 원물",
+                "생산자의 판단과 재료를 이해하는 즐거움.",
+                "농가의 관찰·선별·물성, 가까이 보는 사진, 간결한 설명. 생산 방식에 설득력 있는 고유 근거가 필요하다."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "priority-and-test",
+          "title": "첫 탐색은 선별된 식탁, 선택은 검증 뒤에",
+          "body": [
+            "A. 선별된 식탁을 첫 탐색 방향으로 제안합니다. 작물이 미정이어도 고객의 식탁과 취향이라는 관계를 먼저 설계할 수 있기 때문입니다. 실제 농가의 특성에 따라 B 또는 C가 주도하는 방향으로 달라질 수 있으며 세 방향을 한 디자인에 모두 넣는 것으로 결정하지 않습니다.",
+            "상자에서 꺼내고 식탁에 놓는 장면을 보고 어떤 생활이 떠오르는지, 가격을 가린 상태에서도 갖고 싶은지, 다른 브랜드와 구분되는 단서를 말할 수 있는지 확인합니다. 실제 상품과 포장으로 검토하고 선호 이유를 기능·감각·자기표현으로 나누어 기록합니다."
+          ]
+        },
+        {
+          "id": "visual-principles",
+          "title": "정확하게 드러내고 절제해서 정돈하며 생명력을 남긴다",
+          "body": [
+            "색상과 서체를 먼저 확정하지 않고 여러 시안을 같은 기준으로 평가합니다. 농작물의 실제 색·표면·식감·손질 장면에서 표현의 단서를 찾습니다.",
+            "확정 이후의 브랜드명·정보 구조·말투·선별 근거 표기 규칙은 고정 자산으로 관리하고, 작물 사진·농가 기록·계절별 콘텐츠는 변주합니다. 색상은 품목 구분과 강조 등 역할을 먼저 정합니다."
+          ],
+          "table": {
+            "headers": [
+              "원칙",
+              "시각·정보에 적용할 방식",
+              "검증할 질문"
+            ],
+            "rows": [
+              [
+                "정확하게 드러낸다",
+                "실제 상품 상태와 식감이 읽히는 사진, 분명한 정보 위계, 구별되는 품목 표기",
+                "예쁜 사진 때문에 크기·상태·손질 수준을 오해하지 않는가?"
+              ],
+              [
+                "절제해서 정돈한다",
+                "여백과 일정한 정렬, 제한된 장식, 가격·중량·일정의 높은 가독성",
+                "브랜드 인상과 구매 정보가 함께 읽히는가?"
+              ],
+              [
+                "생명력을 남긴다",
+                "농작물 고유의 색·표면·계절 변화, 실제 손질과 식사 장면",
+                "비슷한 웰니스 브랜드와 구별할 고유 단서가 있는가?"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "verbal-principles",
+          "title": "말은 짧게, 근거는 구체적으로",
+          "body": [
+            "전문적이되 가르치려 들지 않고, 자신감이 있되 과시하지 않으며, 친절하되 정보가 흐려지지 않는 말투를 제안합니다. 아래 문장은 내부 검토 예시이며 현재 운영 중인 고객 문구가 아닙니다."
+          ],
+          "table": {
+            "headers": [
+              "상황",
+              "제안하는 표현 원칙",
+              "내부 문장 예시"
+            ],
+            "rows": [
+              [
+                "브랜드 소개",
+                "고객에게 맡는 일을 먼저 설명",
+                "좋은 농작물을 고르는 기준과, 잘 즐기는 방법을 전합니다."
+              ],
+              [
+                "상품 소개",
+                "실제 선택 기준과 용도를 연결",
+                "[확인한 특성]이 [용도]에 맞아 이번 수확에서 골랐습니다."
+              ],
+              [
+                "한정 공급",
+                "실제 원인과 다음 기회를 설명",
+                "이번 출고는 [확인 수량/일정]입니다. 다음 소식은 [확정 방식]으로 안내합니다."
+              ],
+              [
+                "품질 문의",
+                "현재 확인 내용과 다음 행동을 안내",
+                "보내주신 상태를 확인했습니다. [확정한 처리]를 [확정한 시점]까지 안내하겠습니다."
+              ],
+              [
+                "재구매",
+                "고객의 판단을 돕는 이유 제시",
+                "지난번 [용도]를 좋아하셨다면, 이번 [상품]의 [확인한 차이]를 살펴보세요."
+              ]
+            ]
+          },
+          "callout": {
+            "title": "소비자 문구로 옮길 조건",
+            "body": "효능·인증·시간 보증·등급·수량·개인화 기능은 확인 자료와 실제 구현·운영 상태가 있을 때만 반영합니다. 농작물 미확정 상태에서 최상급 품질이나 건강 효과를 약속하지 않습니다."
+          }
+        },
+        {
+          "id": "naming",
+          "title": "네이밍 개발의 브리프",
+          "body": [
+            "상위 이름은 한 작물에 갇히지 않고 선택·식탁·생산자 태도 중 브랜드의 핵심과 연결되어야 합니다. 한글로 말하고 듣기 쉬우며 실제 상품명과 함께 읽혀야 합니다.",
+            "의미와 소리의 적합성, 검색 혼동, 활용 환경을 평가하고 후보와 사용 범위가 구체화되면 도메인·상표를 별도 검토합니다. 지금의 콘셉트 이름을 최종 브랜드명으로 전제하지 않습니다."
+          ]
+        },
+        {
+          "id": "production-and-ai",
+          "title": "실제 제작 조건과 AI 표현의 경계",
+          "body": [
+            "작은 라벨, 흑백 출력, 모바일 화면, 습기·마찰이 있는 포장 환경에서 확인합니다. 농가에서 반복 출력·부착할 수 있는지, 담당자가 달라도 같은 결과가 나오는지 함께 검토합니다.",
+            "AI는 확인된 정보를 바탕으로 문장·구성·변형안을 만드는 데 활용합니다. 실제 농가·상품·인증·수확 기록은 출처가 있는 자료로 관리하며, 생성 이미지로 실제 납품 상품이나 농가의 모습을 대체해 사실처럼 제시하지 않습니다.",
+            "우리의 고유한 단서를 확보한 뒤 형태·사진·언어·행동으로 확장합니다. Plus X 사례의 로고, 핵심 모티프, 전용 서체를 우리 브랜드의 고유 자산으로 복제하지 않습니다."
+          ]
+        }
+      ],
+      "related": [
+        "bx-foundation",
+        "bx-positioning",
+        "bx-plusx-research",
+        "design-foundations",
+        "design-content",
+        "marketing-content"
+      ],
+      "downloadAssetIds": [
+        "plusx-report",
+        "plusx-pack"
+      ],
+      "sources": [
+        {
+          "label": "Plus X Identity",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusx_identity.html"
+        },
+        {
+          "label": "BTS Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bts.html"
+        },
+        {
+          "label": "A NORMAL",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/anormal.html"
+        },
+        {
+          "label": "HANDSOME SYSTEM",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/hssystem.html"
+        },
+        {
+          "label": "Shinsegae Simply Juice",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/simplyjuice.html"
+        },
+        {
+          "label": "Deepondé",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/deeponde.html"
+        },
+        {
+          "label": "Beauty of Joseon 공식 회고",
+          "url": "https://xs.ulp.plus-ex.com/detail/uppercase-j"
+        }
+      ],
+      "storyTitle": "BX/B08 세 가지 표현 방향과 언어·시각 원칙",
+      "storyId": "doc-bx-creative-territories--docs",
+      "markdownHref": "./downloads/docs/bx-creative-territories.md"
+    },
+    {
+      "id": "bx-farm-truth",
+      "code": "OPS04",
+      "category": "운영",
+      "title": "농가의 사실·품질 증거·검증 순서",
+      "eyebrow": "FARM TRUTH & VALIDATION",
+      "summary": "농가 인터뷰와 샘플, 품질·포장·출고의 실제 조건을 BX 판단에 연결하고 필요한 역할과 다음 단계의 진입 조건을 정리합니다.",
+      "status": "검토 중",
+      "updatedAt": "2026-11-10",
+      "readingMinutes": 7,
+      "tags": [
+        "농가 질문",
+        "품질 증거",
+        "역할",
+        "선별",
+        "검증 순서"
+      ],
+      "sections": [
+        {
+          "id": "first-inputs",
+          "title": "먼저 확보할 네 가지 입력",
+          "body": [
+            "다음 BX 결정을 위한 첫 입력은 농가의 실제 차이입니다. 후보 작물, 농가의 강점, 가능한 선별·포장 수준, 안정적인 출하 범위를 확인합니다. 답변을 바로 홍보 문장으로 바꾸지 않고 기록·관찰·샘플에 연결합니다.",
+            "이 문서는 기존 OPS01 농가 확인 항목을 BX 품질 증거와 의사결정에 연결하는 검토안입니다. 작물·품종·공급량·인증·가격·담당자·운영 정책이 확정됐다는 뜻이 아닙니다."
+          ],
+          "callout": {
+            "title": "현재 필요한 자료",
+            "body": "후보 작물 / 실제 농가의 강점 / 가능한 선별·포장 수준 / 안정적인 출하 범위"
+          }
+        },
+        {
+          "id": "farm-questions",
+          "title": "농가 대표에게 묻고 실물·기록으로 확인한다",
+          "body": [
+            "질문마다 답변 주체, 확인 날짜, 자료 또는 실물 관찰, 공개 가능한 범위를 함께 기록합니다. 생산자가 공개에 동의한 정보와 내부 검토용 자료를 구분합니다."
+          ],
+          "table": {
+            "headers": [
+              "질문",
+              "받을 자료 또는 관찰"
+            ],
+            "rows": [
+              [
+                "무엇을, 언제, 어느 정도 생산할 수 있는가?",
+                "작물·품종 목록, 계절별 출하 범위, 일정 변동 요인"
+              ],
+              [
+                "같은 작물 중 좋은 것을 어떻게 구별하는가?",
+                "실물 비교와 선별 기준, 제외하는 상태의 예"
+              ],
+              [
+                "그 차이는 고객의 어느 식사에서 드러나는가?",
+                "생식·가열 등 사용 비교, 농가의 추천 이유"
+              ],
+              [
+                "누가 선별하고 어떤 기록을 남기는가?",
+                "작업 흐름, 담당자, 반복 가능한 기록 방식"
+              ],
+              [
+                "현재 어디까지 손질·포장할 수 있는가?",
+                "작업대·재료·도구·소요 시간·포장 샘플"
+              ],
+              [
+                "배송 이후 상태는 어떻게 달라지는가?",
+                "실제 배송 관찰과 손상·변화 이력"
+              ],
+              [
+                "브랜드가 공개해도 되는 생산 정보는 무엇인가?",
+                "농가 동의 범위, 확인 가능한 자료"
+              ],
+              [
+                "공급이 부족하거나 품질이 안 맞으면 어떻게 하는가?",
+                "대체·취소·출고 보류 등 현실적인 처리 방식"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "quality-evidence",
+          "title": "품질 기준·측정·기록·예외 처리를 함께 정한다",
+          "body": [
+            "엄선이라는 표현을 사용하려면 어떤 기준으로 선택하고 기준에 미치지 못할 때 어떻게 처리하는지 정의해야 합니다. 다음 항목은 수집할 증거이며 현재 확인된 품질 보증이 아닙니다."
+          ],
+          "table": {
+            "headers": [
+              "증거 영역",
+              "정의할 항목",
+              "현재 상태"
+            ],
+            "rows": [
+              [
+                "품목과 용도",
+                "정확한 작물·품종·목표 식사 상황",
+                "미확정"
+              ],
+              [
+                "감각과 규격",
+                "용도에 맞는 식감·크기·상태의 기준과 측정 방법",
+                "농가·샘플 확인 필요"
+              ],
+              [
+                "재배·수확",
+                "실제 제공 가능한 농가·수확 기록과 확인 주체",
+                "농가 자료 필요"
+              ],
+              [
+                "선별·포장",
+                "허용 상태, 검사 빈도, 포장 방법, 제외 처리",
+                "운영 합의 필요"
+              ],
+              [
+                "운송·도착",
+                "손상·상태 변화·출고와 수령 변동",
+                "포장·배송 시험 필요"
+              ],
+              [
+                "사용 경험",
+                "보관 안내, 손질·조리 시간, 남는 양",
+                "사용 관찰 필요"
+              ],
+              [
+                "문제 해결",
+                "접수 경로, 확인 항목, 대응 책임, 개선 반영",
+                "서비스 정책 필요"
+              ]
+            ]
+          },
+          "callout": {
+            "title": "검증 전에는 빈칸을 유지",
+            "body": "기준·측정법·책임자·예외 처리가 정해진 뒤 고객 문구를 확정합니다. 임의의 맛 점수·품질 등급·시간 보증으로 수치화하지 않습니다."
+          }
+        },
+        {
+          "id": "record-scope",
+          "title": "기본 품질과 선별 취향, 기록 단위를 구분한다",
+          "body": [
+            "모든 상품이 지켜야 할 도착 상태와 특정 요리에 맞춰 선택하는 식감은 다른 기준입니다. 기본적인 품질 충족과 브랜드만의 선별 취향을 각각 검토합니다.",
+            "선별 노트의 기록 단위는 품목·농가·출고 운영을 확인한 뒤 정합니다. 수확별 기록과 배치 번호는 실제 차이를 지속적으로 확인·관리할 수 있을 때 도입합니다.",
+            "수확·포장·출고 날짜를 혼동하지 않고 보관 방식은 실제 품목에 맞게 확인합니다. 검사 빈도, 포장 작업량, 정보 갱신 책임이 농가가 반복 수행할 수 있는 수준인지 함께 봅니다."
+          ]
+        },
+        {
+          "id": "ownership",
+          "title": "필요한 역량과 책임 산출물",
+          "body": [
+            "직군은 필요한 역량을 뜻합니다. 초기에는 한 사람이 여러 역할을 맡을 수 있지만 중요한 판단의 책임은 실제 담당자로 지정해야 합니다.",
+            "기존 계획의 태훈은 브랜드·패키지·사이트·채널·마케팅의 조율 역할로 연결할 수 있습니다. 모든 전문 판단까지 단독 수행한다고 가정하지 않습니다. 농가 대표는 생산·선별의 가능 범위를, 사업 책임자는 고객에게 약속할 범위를 함께 확인해야 합니다.",
+            "담당자·외주 여부·예산·일정은 미확정입니다. 아래 목록은 채용 인원이나 계약 범위의 확정안이 아닙니다."
+          ],
+          "table": {
+            "headers": [
+              "역할",
+              "핵심 역량",
+              "책임 산출물"
+            ],
+            "rows": [
+              [
+                "사업·상품 책임자",
+                "고객 문제, 상품 구성, 원가·판매 조건 판단",
+                "첫 상품 범위와 브랜드 약속의 현실성"
+              ],
+              [
+                "농가 생산 책임자",
+                "재배·수확·상태 판정, 생산 기록",
+                "농가 사실 자료와 품목별 선별 기준"
+              ],
+              [
+                "품질·포장 운영",
+                "검수, 포장 작업, 배송 시험, 문제 원인 분석",
+                "출고 기준과 작업·예외 처리 기록"
+              ],
+              [
+                "BX 전략·콘텐츠",
+                "포지셔닝, 정보 구조, 언어·증거 편집",
+                "브랜드 원칙과 선별 노트 체계"
+              ],
+              [
+                "시각·패키지 디자인",
+                "아이덴티티 체계, 인쇄·소재·구조 설계",
+                "재현 가능한 시각 자산과 패키지"
+              ],
+              [
+                "UX·프런트엔드",
+                "사용 흐름, 접근성, 컴포넌트·콘텐츠 구현",
+                "브랜드 사이트·Storybook·구매 연결"
+              ],
+              [
+                "CRM·CS·마케팅",
+                "안내, 문의 처리, 실험, 성과 해석",
+                "구매 전후 커뮤니케이션과 개선 기록"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "sequence-gates",
+          "title": "앞 단계의 근거가 다음 결정을 지지하도록",
+          "body": [
+            "농가의 사실 → 고객과 약속 → 언어와 이름 → 시각 원리 → 실제 경험 → 작은 판매 검증 순서로 검토합니다. 각 단계는 완료해야 할 산출물과 다음 단계로 갈 조건을 함께 둡니다.",
+            "아래는 실행 순서의 제안입니다. 일정은 농가 접근성·품목·출하 시기·담당 인력에 따라 달라지므로 특정 주차·비용·전환율을 확정하지 않습니다."
+          ],
+          "table": {
+            "headers": [
+              "순서",
+              "작업과 산출물",
+              "다음 단계로 갈 조건"
+            ],
+            "rows": [
+              [
+                "1. 농가의 사실",
+                "현장·샘플·선별·포장·공급 자료",
+                "반복 가능한 차이와 제약을 문서로 설명"
+              ],
+              [
+                "2. 고객과 약속",
+                "우선 고객, 식사 상황, BX 정의 v0.2",
+                "고객 문제와 농가의 강점이 연결됨"
+              ],
+              [
+                "3. 언어와 이름",
+                "포지셔닝 문장, 네이밍 후보, 말투",
+                "의미·발음·혼동·활용 적합성을 평가"
+              ],
+              [
+                "4. 시각 원리",
+                "복수 방향의 표현과 대표 접점 시안",
+                "농가의 근거·식별성·제작성 기준으로 비교"
+              ],
+              [
+                "5. 실제 경험",
+                "상품 상세, 포장, 안내, 문의 흐름 시제품",
+                "선택·수령·사용 전 과정에서 작동"
+              ],
+              [
+                "6. 작은 판매 검증",
+                "유료 구매·사용·재구매 이유와 운영 기록",
+                "약속·품질·운영 비용의 지속 가능성을 확인"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "validation-size",
+          "title": "초기 관찰과 v0.2로 넘어갈 조건",
+          "body": [
+            "먼저 6~8명 정도의 목적 있는 인터뷰·사용 관찰로 이해되지 않는 부분을 찾는 방안을 제안합니다. 이는 통계적인 시장 검증이 아닙니다. 표본·성공 기준·예산은 실행 전에 별도로 정합니다.",
+            "이후 실제 결제와 반복 배송으로 행동과 운영 재현성을 검토합니다. 고객의 호감, 사용상의 차이, 지불 의사, 품질 재현성과 운영 비용을 함께 확인합니다.",
+            "농가의 네 가지 입력과 첫 고객 근거가 확보되면 BX v0.2에서 고객 가설과 첫 상품 경로를 좁히고 네이밍·시각 방향의 브리프를 작성합니다. 단계별 판단은 OPS05 결정 기록에 연결합니다."
+          ]
+        }
+      ],
+      "related": [
+        "ops-farm",
+        "ops-validation",
+        "bx-foundation",
+        "bx-experience-principles",
+        "bx-decisions"
+      ],
+      "downloadAssetIds": [
+        "plusx-farm-truth",
+        "plusx-report"
+      ],
+      "sources": [
+        {
+          "label": "우리술방 / Korean Craft Liquor",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/korcraft.html"
+        },
+        {
+          "label": "Hyundai Card the Purple Package",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_purple.html"
+        },
+        {
+          "label": "Cleanlab",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cleanlab.html"
+        },
+        {
+          "label": "Plus X Object",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusxobject.html"
+        }
+      ],
+      "storyTitle": "운영/OPS04 농가의 사실·품질 증거·검증 순서",
+      "storyId": "doc-bx-farm-truth--docs",
+      "markdownHref": "./downloads/docs/bx-farm-truth.md"
+    },
+    {
+      "id": "bx-decisions",
+      "code": "OPS05",
+      "category": "운영",
+      "title": "BX 결정 기록 v0.1과 산출물 연결",
+      "eyebrow": "DECISIONS & EVIDENCE",
+      "summary": "브랜드·고객·품질·선별 노트·첫 작물·연동·게시의 10개 결정을 근거, 책임 역할, 검증 조건과 함께 기록합니다.",
+      "status": "검토 중",
+      "updatedAt": "2026-11-10",
+      "readingMinutes": 6,
+      "tags": [
+        "결정 기록",
+        "BX v0.1",
+        "상태",
+        "책임",
+        "변경 이력"
+      ],
+      "sections": [
+        {
+          "id": "status-rules",
+          "title": "리서치 결과와 우리 서비스의 약속을 구분한다",
+          "body": [
+            "기존 OPS03의 문서 상태·변경 규칙에 따라 이번 BX의 판단을 기록합니다. 리서치 완료는 명시한 조사 범위의 완료를 뜻하며 브랜드 가설이나 고객용 품질 약속의 승인을 의미하지 않습니다.",
+            "결정별 제안·검증 대기·미정·후속 단계·미실행을 유지합니다. 확정으로 바꾸려면 해당 근거와 검증 조건, 실제 책임자를 기록해야 합니다.",
+            "다음 10개 항목은 2026년 11월 10일 BX Foundation v0.1의 결정 원본을 옮긴 것입니다. 자료의 게시와 사업·품질 결정의 확정은 별도로 관리합니다."
+          ],
+          "callout": {
+            "title": "검토안의 공개와 운영 약속",
+            "body": "Storybook에서 이 초안을 공유하더라도 상품·브랜드·가격·품질·기능이 확정되는 것은 아닙니다. 소비자 문구는 실제 제공 범위와 책임자가 확인된 뒤 별도로 확정합니다."
+          }
+        },
+        {
+          "id": "decisions-001-005",
+          "title": "BX-001~005: 중심·고객·핵심 생각·품질·선택받은",
+          "body": [
+            "브랜드의 중심과 고객 감정을 정리한 첫 다섯 판단입니다. 외부 사례의 공식 설명은 설계 참고 근거이며 우리 농가의 실제 강점이나 고객 선호를 입증하는 자료는 아닙니다."
+          ],
+          "table": {
+            "headers": [
+              "결정 ID · 항목",
+              "상태 · 검토 내용",
+              "근거 · 책임 역할",
+              "확정 또는 다음 실행 조건"
+            ],
+            "rows": [
+              [
+                "BX-001 / 브랜드 중심",
+                "제안 — 작물 자체보다 선별·사용 경험을 중심에 둔다.",
+                "YG Brand Experience · Cleanlab · Konny / 사업/BX 책임자",
+                "농가 사실과 첫 고객 검증"
+              ],
+              [
+                "BX-002 / 고객 가설",
+                "검증 대기 — 먹는 질을 중시하지만 비교·준비 시간이 부족한 사람.",
+                "사용자 목표 · 기존 B01 국내외 농작물 서비스 35개 비교 리서치 / 사업/BX 책임자",
+                "목적 있는 인터뷰와 사용 관찰"
+              ],
+              [
+                "BX-003 / 브랜드 핵심 생각",
+                "제안 — 선별의 기준이, 일상의 취향이 되다",
+                "Plus X Identity · Shinsegae Simply Juice · 29CM Brand Experience · Hyundai Card the Purple Package / BX 책임자",
+                "상품 근거·고객 이해·사용 경험 연결"
+              ],
+              [
+                "BX-004 / 최상의 퀄리티",
+                "검증 대기 — 내부 지향점이며 품목별 측정·선별 기준으로 구체화.",
+                "사용자 키워드 / 농가/품질 책임자",
+                "기준·측정법·기록·예외 처리 확정"
+              ],
+              [
+                "BX-005 / 선택받은의 의미",
+                "제안 — 선별된 상품과 고객의 취향을 존중하는 감정.",
+                "사용자 키워드 · 29CM Brand Experience / BX 책임자",
+                "고객 해석·배타성 오해 확인"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "decisions-006-010",
+          "title": "BX-006~010: 경험·작물·표현·연동·게시",
+          "body": [
+            "선별 노트, 첫 작물, 네이밍·CI와 플랫폼 연동은 실제 자료와 구현 상태를 확인한 뒤 결정합니다. 아직 실행하지 않은 작업을 완료로 표시하지 않습니다.",
+            "BX-010의 게시 미실행은 보고서 원본 작성 시점의 기록입니다. 이번 Storybook 업데이트의 구현·검증·원격 반영·배포 결과는 실제 작업 결과와 승인 범위를 확인해 후속 변경 이력으로 남깁니다."
+          ],
+          "table": {
+            "headers": [
+              "결정 ID · 항목",
+              "상태 · 검토 내용",
+              "근거 · 책임 역할",
+              "확정 또는 다음 실행 조건"
+            ],
+            "rows": [
+              [
+                "BX-006 / 시그니처 경험",
+                "검증 대기 — 선별 노트의 정보 구조를 첫 고유 경험 후보로 개발.",
+                "우리술방 / Korean Craft Liquor · Hyundai Card the Purple Package · Plus X Object / BX/운영 책임자",
+                "실물 적용·이해도·작성 부담 확인"
+              ],
+              [
+                "BX-007 / 첫 작물",
+                "미정 — 치커리·셀러리 등에 한정하지 않으며 실제 공급 자료로 판단.",
+                "사용자 제공 조건 / 사업/농가 책임자",
+                "품질·수요·공급·운영 가능성"
+              ],
+              [
+                "BX-008 / 네이밍·CI",
+                "후속 단계 — 농가의 근거와 포지셔닝 뒤에 개발.",
+                "이번 연구의 전략 판단 / BX/디자인 책임자",
+                "명명 브리프와 평가 기준 확보"
+              ],
+              [
+                "BX-009 / 플랫폼 연동",
+                "검증 대기 — 구매 채널 역할을 나누되 연동을 완료 사실로 쓰지 않음.",
+                "기존 서비스 계획 / 개발/채널 책임자",
+                "현재 API·권한·운영 범위 확인"
+              ],
+              [
+                "BX-010 / 게시·배포",
+                "게시 미실행(원본 기록) — 번호 작업 브랜치에서 구현·검증하고 저장소의 dev 반영·게시 절차를 따른다.",
+                "사용자 개발 규칙 / 저장소 책임자",
+                "구현·검토 후 병합/푸시 승인"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "record-template",
+          "title": "결정마다 남길 최소 정보",
+          "body": [
+            "결정 ID는 유지하고 상태, 근거, 책임자, 변경일, 검증 조건을 함께 기록합니다. 의견이 바뀌면 이전 판단을 지우기보다 무엇을 어떤 근거로 변경했는지 남깁니다."
+          ],
+          "table": {
+            "headers": [
+              "기록 항목",
+              "작성 내용"
+            ],
+            "rows": [
+              [
+                "ID·주제",
+                "한 번 정한 결정 식별자와 다루는 질문"
+              ],
+              [
+                "상태·제안",
+                "확정·제안·검증 대기·보류 등 현재 상태와 구체적인 내용"
+              ],
+              [
+                "근거",
+                "공식 출처, 농가 기록, 샘플·사용 관찰, 구현·운영 확인 자료"
+              ],
+              [
+                "책임자",
+                "필요 역량의 역할과 실제 담당자; 미정이면 미정으로 표시"
+              ],
+              [
+                "변경일·변경 이유",
+                "언제 어떤 판단을 왜 바꾸었는지"
+              ],
+              [
+                "검증·다음 조건",
+                "어떤 증거가 있어야 확정하거나 다음 단계로 넘어가는지"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "artifact-register",
+          "title": "산출물과 상태를 함께 탐색한다",
+          "body": [
+            "기존 국내외 농작물 서비스 리서치는 유지하고 Plus X 조사, 브랜드 정의, 경험·표현·농가 근거를 새 문서로 연결합니다. 자료별 완료 범위와 다음 입력을 분명히 표시합니다."
+          ],
+          "table": {
+            "headers": [
+              "기록",
+              "Storybook 연결",
+              "상태"
+            ],
+            "rows": [
+              [
+                "Plus X 조사",
+                "B05 · 146개 개별 분석 · 18개 심층 분석",
+                "조사 범위 내 리서치 완료"
+              ],
+              [
+                "브랜드 정의 v0.1",
+                "B06 · 존재 이유·고객·역할·다섯 키워드",
+                "검토 중 / 전략 가설"
+              ],
+              [
+                "경험 원칙·선별 노트",
+                "B07 · 선택·수령·사용·문제 해결",
+                "초안 / 검증 대기"
+              ],
+              [
+                "표현·언어·네이밍",
+                "B08 · 세 방향과 판단 기준",
+                "검토 중 / 최종 CI 미정"
+              ],
+              [
+                "농가 사실·품질 증거",
+                "OPS04 · 질문·자료·역할·검증 순서",
+                "검토 중 / 실제 자료 대기"
+              ],
+              [
+                "결정 기록",
+                "OPS05 · 10개 결정과 근거·책임·조건",
+                "검토 중 / 변경 이력 유지"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "parallel-work",
+          "title": "구축과 BX를 병행하는 방식",
+          "body": [
+            "개발은 콘텐츠 구조·공통 컴포넌트·출처·상태 표기 체계를 진행할 수 있습니다. 색상·로고·실제 품질 주장처럼 BX 검증에 의존하는 항목은 가변 상태로 둡니다.",
+            "공유된 문서 ID와 기존 출처를 보존하고, 새 문서의 게시·원격 반영·배포는 저장소 규칙과 확인된 사용자 승인 범위에 따라 처리합니다. 문서 수정, 로컬 검증, 원격 반영, 외부 배포를 각각의 실행 결과로 기록합니다.",
+            "구체적인 연동 기술과 운영 책임은 현재 저장소와 API·권한을 확인한 뒤 정합니다. 연결되지 않은 기능이나 아직 확인하지 않은 공개 URL을 완료 사실로 보고하지 않습니다."
+          ]
+        }
+      ],
+      "related": [
+        "ops-governance",
+        "dev-documentation",
+        "dev-handoff",
+        "bx-foundation",
+        "bx-farm-truth",
+        "bx-experience-principles"
+      ],
+      "downloadAssetIds": [
+        "plusx-decisions",
+        "plusx-pack"
+      ],
+      "sources": [
+        {
+          "label": "Plus X Identity",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusx_identity.html"
+        },
+        {
+          "label": "YG Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/yg1.html"
+        },
+        {
+          "label": "Shinsegae Simply Juice",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/simplyjuice.html"
+        },
+        {
+          "label": "우리술방 / Korean Craft Liquor",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/korcraft.html"
+        },
+        {
+          "label": "29CM Brand Experience",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm3.html"
+        },
+        {
+          "label": "Hyundai Card the Purple Package",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_purple.html"
+        },
+        {
+          "label": "Cleanlab",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cleanlab.html"
+        },
+        {
+          "label": "Konny",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/konny.html"
+        },
+        {
+          "label": "Plus X Object",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusxobject.html"
+        }
+      ],
+      "storyTitle": "운영/OPS05 BX 결정 기록 v0.1과 산출물 연결",
+      "storyId": "doc-bx-decisions--docs",
+      "markdownHref": "./downloads/docs/bx-decisions.md"
     }
   ],
   "routes": {
     "home": "home--docs",
     "explore": "explore--docs",
     "benchmarks": "benchmarks--docs",
+    "plusx": "plusx--docs",
     "tokens": "tokens--docs",
     "archive": "archive--docs"
   },
@@ -1748,17 +3468,52 @@
     },
     "guide-data": {
       "href": "./downloads/guide-data.json",
-      "bytes": 68482
+      "bytes": 149339
     },
     "benchmarks-data": {
       "href": "./downloads/benchmarks.json",
       "bytes": 24756
+    },
+    "plusx-report": {
+      "href": "./downloads/bx-foundation-v01.pdf",
+      "bytes": 177050
+    },
+    "plusx-foundation-md": {
+      "href": "./downloads/bx-foundation-v01.md",
+      "bytes": 41655
+    },
+    "plusx-pack": {
+      "href": "./downloads/bx-foundation-pack-v01.zip",
+      "bytes": 222474
+    },
+    "plusx-cases": {
+      "href": "./downloads/plusx-146-cases.csv",
+      "bytes": 164053
+    },
+    "plusx-deep-dive": {
+      "href": "./downloads/plusx-18-deep-dive.md",
+      "bytes": 20902
+    },
+    "plusx-decisions": {
+      "href": "./downloads/bx-decisions-v01.csv",
+      "bytes": 2048
+    },
+    "plusx-farm-truth": {
+      "href": "./downloads/farm-truth-interview.md",
+      "bytes": 2257
+    },
+    "plusx-research-data": {
+      "href": "./downloads/plusx-research.json",
+      "bytes": 292571
     }
   },
   "stats": {
-    "documents": 18,
-    "sections": 72,
+    "documents": 24,
+    "sections": 113,
     "components": 6,
-    "stories": 18
+    "stories": 18,
+    "plusxProjects": 146,
+    "plusxDeepDives": 18,
+    "plusxStaticVisuals": 9
   }
 }
