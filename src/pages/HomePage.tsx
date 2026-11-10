@@ -62,14 +62,14 @@ export function HomePage() {
           <article className="decision decision-open"><h3><CircleDashed size={18} aria-hidden="true" /> 검토 중인 사항</h3><ul>{open.map((item) => <li key={item}>{item}</li>)}</ul></article>
         </div>
         <Callout title="문서 상태 읽는 법" tone="info">상태는 사업의 진행률이 아니라 각 문서의 성숙도입니다. ‘리서치 완료’와 ‘운영 기준’도 전략이 확정됐다는 뜻이 아닙니다.</Callout>
-        <ul className="status-legend">{statuses.map((status) => { const count = documents.filter((doc) => doc.status === status).length; return <li key={status}><button type="button" onClick={() => goExplore({ status })} aria-label={`${status} 문서 ${count}개 보기`}><StatusBadge status={status} /><strong>{count}개</strong><span>{statusMeta[status].short}</span><ArrowRight size={15} aria-hidden="true" /></button></li>; })}</ul>
+        <ul className="status-legend">{statuses.map((status) => { const count = documents.filter((doc) => doc.status === status).length; return <li key={status}><button type="button" onClick={() => goExplore({ status })}><StatusBadge status={status} /><strong>{count}개<span className="sr-only"> 문서 보기</span></strong><span>{statusMeta[status].short}</span><ArrowRight size={15} aria-hidden="true" /></button></li>; })}</ul>
       </section>
 
       <section className="section" aria-labelledby="home-areas">
         <div className="section-head"><p className="eyebrow">BROWSE BY AREA</p><h2 id="home-areas">분야별 문서</h2><p>다섯 분야의 문서 {stats.documents}개입니다. 분야 이름을 누르면 해당 분야만 모아 볼 수 있습니다.</p></div>
         <div className="area-grid">{categories.map((category) => { const meta = categoryMeta[category]; const list = documents.filter((doc) => doc.category === category); return <article key={category} className={`area-card tone-${meta.tone}`}>
           <p className="small-code">{meta.english}</p>
-          <h3><button type="button" onClick={() => goExplore({ category })} aria-label={`${category} 문서 ${list.length}개 모아 보기`}>{meta.label}<span className="area-count">{list.length}</span></button></h3>
+          <h3><button type="button" onClick={() => goExplore({ category })}>{meta.label}<span className="area-count">{list.length}<span className="sr-only">개 문서 모아 보기</span></span></button></h3>
           <p>{meta.description}</p>
           <ul>{category === 'BX' && <li><BookLink storyId={routes.benchmarks}><span className="small-code">B00</span>글로벌 벤치마크 {brands.length}개</BookLink></li>}{category === '디자인' && <li><BookLink storyId={routes.tokens}><span className="small-code">D00</span>디자인 토큰</BookLink></li>}{list.map((doc) => <li key={doc.id}><BookLink storyId={doc.storyId}><span className="small-code">{doc.code}</span>{doc.title}</BookLink></li>)}{category === '디자인' && <li><BookLink storyId="ui-button--docs"><span className="small-code">C01–06</span>컴포넌트 {stats.components}종</BookLink></li>}</ul>
         </article>; })}

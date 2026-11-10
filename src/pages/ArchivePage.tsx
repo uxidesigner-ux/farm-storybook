@@ -28,7 +28,7 @@ export function ArchivePage() {
           <span className="small-code">{doc.code}</span>
           <BookLink storyId={doc.storyId} className="md-title">{doc.title}</BookLink>
           <StatusBadge status={doc.status} />
-          <a href={doc.markdownHref} download={`${doc.id}.md`} className="md-download" aria-label={`${doc.title} Markdown 다운로드`}><Download size={16} aria-hidden="true" /><span>.md</span></a>
+          <a href={doc.markdownHref} download={`${doc.id}.md`} className="md-download"><Download size={16} aria-hidden="true" /><span className="sr-only">{doc.title} </span><span>.md</span><span className="sr-only"> 다운로드</span></a>
         </li>)}</ul></div>)}
       </section>
 
