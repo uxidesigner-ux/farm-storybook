@@ -70,7 +70,7 @@ export function PageTop({ section, storyId }: { section: string; storyId: string
         <span aria-current="page">{section}</span>
       </nav>
       <div className="page-top-right">
-        <span className="edition">WORKING EDITION 01</span>
+        <span className="edition">WORKING EDITION 02</span>
         <button type="button" onClick={share} className="icon-label"><Link2 size={15} aria-hidden="true" /> 공유</button>
       </div>
     </header>
@@ -88,7 +88,7 @@ export function DocCard({ document: doc }: { document: GuideDocument }) {
 }
 
 export function DownloadCard({ file }: { file: Pick<ArchiveFile, 'type' | 'title' | 'description' | 'detail' | 'version' | 'status' | 'href'> }) {
-  const Icon = file.type === 'XLSX' ? FileSpreadsheet : file.type === 'JSON' ? Braces : FileText;
+  const Icon = file.type === 'XLSX' || file.type === 'CSV' ? FileSpreadsheet : file.type === 'JSON' ? Braces : FileText;
   return <article className="download-card"><div className={`file-icon file-${file.type.toLowerCase()}`}><Icon size={23} aria-hidden="true" /><span>{file.type}</span></div><div className="download-info"><div className="download-title"><h3>{file.title}</h3><StatusBadge status={file.status} /></div><p>{file.description}</p><small>{file.version} · {file.detail}</small></div><a href={file.href} download className="download-button" aria-label={`${file.title} 다운로드 (${file.type})`}><Download size={18} aria-hidden="true" /><span>다운로드</span></a></article>;
 }
 
