@@ -1,6 +1,6 @@
 import { Download } from 'lucide-react';
 import { BookLink, Callout, DownloadCard, PageFooter, PageTop, StatusBadge } from '../components/UI';
-import { categories, dataFiles, documents, files, routes } from '../data';
+import { categories, dataFiles, documents, files, plusxFiles, routes } from '../data';
 
 export function ArchivePage() {
   return <div className="fn-page sb-unstyled">
@@ -12,13 +12,18 @@ export function ArchivePage() {
         <p className="lead">리서치 원본과 계획 문서, 작성 템플릿, 그리고 이 사이트를 만드는 구조화 데이터를 내려받습니다. 각 파일의 상태는 해당 산출물의 성숙도입니다.</p>
       </header>
 
+      <section className="section" aria-labelledby="archive-foundation">
+        <div className="section-head"><p className="eyebrow">BX FOUNDATION v0.1</p><h2 id="archive-foundation">Plus X 연구와 첫 브랜드 기준</h2><p>146개 공개 프로젝트의 분석과 이를 바탕으로 만든 BX 초안입니다. <BookLink storyId={routes.plusx}>프로젝트 탐색</BookLink>에서 사례별 근거와 적용 조건을 먼저 살펴볼 수 있습니다.</p></div>
+        <div className="stack">{plusxFiles.map((file) => <DownloadCard key={file.id} file={file} />)}</div>
+      </section>
+
       <section className="section" aria-labelledby="archive-files">
-        <div className="section-head"><p className="eyebrow">ORIGINAL FILES</p><h2 id="archive-files">원본 산출물</h2></div>
+        <div className="section-head"><p className="eyebrow">MARKET RESEARCH & PLANNING</p><h2 id="archive-files">시장 리서치와 구축 계획</h2></div>
         <div className="stack">{files.map((file) => <DownloadCard key={file.id} file={file} />)}</div>
       </section>
 
       <section className="section" aria-labelledby="archive-data">
-        <div className="section-head"><p className="eyebrow">STRUCTURED DATA</p><h2 id="archive-data">구조화 데이터</h2><p>모든 문서와 벤치마크 화면은 아래 두 파일에서 만들어집니다. 다른 도구로 옮기거나 분석할 때 사용하세요.</p></div>
+        <div className="section-head"><p className="eyebrow">STRUCTURED DATA</p><h2 id="archive-data">구조화 데이터</h2><p>가이드 문서, 시장 벤치마크, Plus X 프로젝트 탐색의 원본 데이터입니다. 다른 도구로 옮기거나 분석할 때 사용하세요.</p></div>
         <div className="stack">{dataFiles.map((file) => <DownloadCard key={file.id} file={file} />)}</div>
       </section>
 

@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import type { MouseEvent } from 'react';
 import { ArrowLeft, ArrowRight, CalendarDays, Clock, Download, ExternalLink, Link2, List } from 'lucide-react';
-import { BookLink, Button, Callout, DataTable, DocCard, PageFooter, PageTop, ShareNotice, StatusBadge, useShare } from '../components/UI';
-import { categoryMeta, docById, documents, routes, statusMeta } from '../data';
+import { BookLink, Button, Callout, DataTable, DocCard, DownloadCard, PageFooter, PageTop, ShareNotice, StatusBadge, useShare } from '../components/UI';
+import { categoryMeta, docById, documents, fileById, routes, statusMeta } from '../data';
 import type { GuideDocument } from '../types';
 
 /** 화면 위쪽 기준선을 지난 마지막 절을 현재 위치로 본다. 짧은 문서의 끝에서는 마지막 절로 맞춘다. */
@@ -42,6 +42,7 @@ export function GuidePage({ documentId }: { documentId: string }) {
   const previous = siblings[position - 1];
   const next = siblings[position + 1];
   const related = (doc.related ?? []).map(docById).filter((item) => item !== undefined);
+  const downloads = (doc.downloadAssetIds ?? []).map(fileById).filter((item) => item !== undefined);
 
   function jump(event: MouseEvent<HTMLAnchorElement>, id: string) {
     event.preventDefault();
@@ -70,6 +71,7 @@ export function GuidePage({ documentId }: { documentId: string }) {
         <div className="doc-actions">
           <Button variant="secondary" onClick={share}><Link2 size={16} aria-hidden="true" />공유 링크 복사</Button>
           <a className="fn-button fn-button-secondary" href={doc.markdownHref} download={`${doc.id}.md`}><Download size={16} aria-hidden="true" />Markdown 다운로드</a>
+          {doc.id === 'bx-plusx-research' && <BookLink storyId={routes.plusx} className="fn-button fn-button-primary">146개 프로젝트 탐색 <ArrowRight size={16} aria-hidden="true" /></BookLink>}
         </div>
         {result && <ShareNotice result={result} onClose={close} />}
       </header>
@@ -97,6 +99,11 @@ export function GuidePage({ documentId }: { documentId: string }) {
           </section> : <section className="sources sources-none" aria-label="출처"><p>이 문서는 외부 출처 없이 프로젝트 내부 논의와 <BookLink storyId={routes.benchmarks}>벤치마크 리서치</BookLink>를 바탕으로 작성했습니다.</p></section>}
         </article>
       </div>
+
+      {downloads.length > 0 && <section className="section" aria-labelledby="document-downloads">
+        <div className="section-head"><p className="eyebrow">SOURCE FILES</p><h2 id="document-downloads">연결된 산출물</h2><p>이 문서와 함께 읽을 보고서·분석표·기록 양식입니다. 파일마다 표시된 작성 시점과 상태를 확인해 주세요.</p></div>
+        <div className="stack">{downloads.map((file) => <DownloadCard key={file.id} file={file} />)}</div>
+      </section>}
 
       {related.length > 0 && <section className="section related" aria-labelledby="related-title">
         <div className="section-head"><p className="eyebrow">RELATED</p><h2 id="related-title">관련 문서</h2></div>
