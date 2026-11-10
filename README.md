@@ -11,10 +11,30 @@
 | 영역 | 내용 |
 | --- | --- |
 | 시작하기 | 프로젝트 홈(H01), 문서 탐색·본문 검색(H02) |
-| BX | 글로벌 벤치마크 35개(B00), 문서 4개 |
+| BX | 글로벌 벤치마크 35개(B00), 문서 8개(B01–B08), Plus X 프로젝트 탐색 146개(B09) |
 | 디자인 | 디자인 토큰(D00), 문서 4개, 컴포넌트 6종·스토리 18개 |
-| 개발 · 마케팅 · 운영 | 문서 4 · 3 · 3개 |
-| 자료실 | 리서치 PDF, WBS Excel, 작성 템플릿, 구조화 데이터, 문서별 Markdown |
+| 개발 · 마케팅 · 운영 | 문서 4 · 3 · 5개 |
+| 자료실 | 기존 시장 리서치·WBS·작성 템플릿, BX Foundation PDF·ZIP·Markdown, 146개 분석 CSV·18개 심층 분석, 결정 기록·농가 질문지, 구조화 데이터 3종, 문서별 Markdown |
+
+총 **24개 문서**와 **6개 색인·탐색 화면**, 컴포넌트 6종·스토리 18개입니다. 시장 사례 35개와 Plus X 디자인 참고 작업 146개는 서로 다른 조사 집합입니다.
+
+## BX Foundation v0.1
+
+홈에서 브랜드 정의와 다음 농가 확인 단계로 이동할 수 있습니다. 새 문서는 기존 가이드와 동일하게 본문 검색, 표·목차, 출처, 관련 문서, Markdown 다운로드를 지원합니다.
+
+| 코드 | 문서 | 상태 |
+| --- | --- | --- |
+| B05 | Plus X 연구 | 리서치 완료 |
+| B06 | BX Foundation | 검토 중 |
+| B07 | 브랜드 경험 원칙 | 초안 |
+| B08 | 크리에이티브 방향 | 검토 중 |
+| OPS04 | 농가의 사실 확인 | 검토 중 |
+| OPS05 | BX 결정 기록 | 검토 중 |
+
+- Plus X 탐색은 분야·관련성·근거 수준 필터, 검색, 핵심 18개 보기, 단계별 더 보기를 제공합니다.
+- 146개는 조사 시점의 공식 공개 프로젝트 목록이며 역사상 모든 작업을 뜻하지 않습니다. 직접 정적 화면을 확인한 9개, 심층 분석한 18개, 공식 텍스트 기반 분석의 범위를 구분합니다.
+- 사례 상세에서 공식 자료의 사실, 우리 사업에 대한 해석, 적용 조건, 조사 한계와 출처를 함께 확인합니다. 원본 페이지 전문이나 포트폴리오 이미지를 재배포하지 않습니다.
+- ‘선별의 기준이, 일상의 취향이 되다’와 ‘선별된 식탁’은 검증 전 작업 가설입니다. 실제 작물·브랜드명·가격·인증·공급 능력을 확정하지 않습니다.
 
 ## 실행
 
@@ -34,9 +54,10 @@ npm run verify:build # dist/index.json의 실제 ID, 다운로드, 상대 경로
 ```
 content/guide-data.json      문서 원본 (본문·표·출처·상태)
 content/benchmarks.json      벤치마크 원본 (사실·해석·공식 출처)
+content/plusx-research.json  Plus X 146개 분석·심층 18개·조사 범위·출처
 content/published-ids.json   한 번 공유된 문서 ID 등록부
 scripts/                     생성·검증 스크립트
-src/pages/                   홈·탐색·문서 상세·벤치마크·자료실·토큰 화면
+src/pages/                   홈·탐색·문서 상세·벤치마크·Plus X·자료실·토큰 화면
 src/components/UI.tsx        공통 컴포넌트
 src/stories/*.mdx            자동 생성 (직접 고치지 않음)
 src/stories/components/      컴포넌트 스토리 (직접 작성)
@@ -59,7 +80,7 @@ public/downloads/            원본 산출물과 자동 생성 Markdown
 ```json
 {
   "id": "ops-pricing",
-  "code": "OPS04",
+  "code": "OPS06",
   "category": "운영",
   "title": "가격 검토 기준",
   "eyebrow": "PRICING REVIEW",
@@ -70,7 +91,8 @@ public/downloads/            원본 산출물과 자동 생성 Markdown
   "tags": ["가격"],
   "sections": [{ "id": "scope", "title": "절 제목", "body": ["문단"] }],
   "sources": [{ "label": "출처 이름", "url": "https://example.com" }],
-  "related": ["ops-farm"]
+  "related": ["ops-farm"],
+  "downloadAssetIds": ["plusx-farm-truth"]
 }
 ```
 
@@ -78,6 +100,7 @@ public/downloads/            원본 산출물과 자동 생성 Markdown
 - `status`: 리서치 완료 / 검토 중 / 초안 / 운영 기준. 상태는 문서의 성숙도이며, 가설을 ‘운영 기준’으로 표시하지 않습니다.
 - 절에는 `bullets`, `table`(`headers`, `rows`), `callout`(`title`, `body`)을 선택해서 넣습니다. 표의 모든 행은 머리글과 칸 수가 같아야 합니다.
 - 새 `id`는 `content/published-ids.json`의 `documents` 끝에 추가합니다.
+- `downloadAssetIds`는 선택 필드입니다. `scripts/lib/content.mjs`의 `ASSETS`에 등록된 자료 ID를 넣으면 문서 하단과 Markdown에 자료 링크가 생성됩니다.
 
 ### 공유 주소 규칙
 
@@ -85,12 +108,18 @@ public/downloads/            원본 산출물과 자동 생성 Markdown
 
 - 제목·순서·코드·분야를 바꿔도 주소는 유지됩니다.
 - **`id`는 바꾸거나 지우지 않습니다.** 등록부에 있는 ID가 사라지면 `npm run check`가 실패합니다.
-- 색인 화면의 주소는 `home`, `explore`, `benchmarks`, `tokens`, `archive`로 고정돼 있습니다(`scripts/lib/content.mjs`).
+- 색인 화면의 주소는 `home`, `explore`, `benchmarks`, `plusx`, `tokens`, `archive`로 고정돼 있습니다(`scripts/lib/content.mjs`).
 
 ### 출처와 변경 이력
 
 - 외부 사실에는 공식 출처(https)를 `sources`에 남깁니다. 벤치마크는 `fact`(확인한 사실)와 `lesson`(우리 사업에 대한 해석)을 나눠 적습니다.
 - 내용을 고치면 `updatedAt`을 갱신하고, 무엇을 왜 바꿨는지 커밋 메시지에 적습니다. 결정 사항의 기록 방식은 운영 문서 OPS03을 따릅니다.
+
+### Plus X 분석 데이터를 수정할 때
+
+`content/plusx-research.json`의 `projects`가 원본입니다. `sourceFacts`와 `interpretation`을 분리하고, 공식 출처·근거의 한계를 보존합니다. `deepDive18`과 `staticVisual9`는 실제 상세 분석·시각 확인 상태와 일치해야 합니다. 화면의 관련성 평가는 독립적인 분석 판단이며 Plus X의 공식 평가가 아닙니다.
+
+`npm run content`는 원본 JSON을 다운로드 경로에 복사하고, 홈의 요약 수치를 생성합니다. `npm run check`는 ID·순번·필수 값·공식 HTTPS 출처·카테고리와 근거 수치·상세 검토 매핑을 확인합니다. `npm run verify:build`는 실제 Storybook ID·상대 경로·다운로드와 세 JSON 원본의 일치 여부를 확인합니다. 생성 파일을 직접 고치지 않습니다.
 
 ## 배포
 
