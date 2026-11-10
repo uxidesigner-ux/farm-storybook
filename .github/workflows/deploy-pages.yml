@@ -8,6 +8,7 @@ on:
       confirm:
         description: '외부 공개에 동의하면 "publish"를 입력'
         required: true
+        type: string
 
 permissions:
   contents: read
