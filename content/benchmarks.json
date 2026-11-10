@@ -1,0 +1,511 @@
+{
+  "asOf": "2026-11-10",
+  "scope": "국내 12 · 해외 23개 목적 표본. 전 세계 사업자 전수조사나 성과 검증을 뜻하지 않습니다.",
+  "brands": [
+    {
+      "id": "K01",
+      "name": "어글리어스",
+      "region": "한국",
+      "model": "채소 구독",
+      "status": "공식 서비스",
+      "fact": "못난이·친환경 채소를 집밥·샐러드·이유식 등 식습관별 박스로 제안한다. 구성 변경, 비선호 제외, 배송 미루기와 레시피를 안내한다.",
+      "lesson": "소량·정기배송·레시피는 이미 제공되는 가치다. 첫 상품의 맛이나 사용 상황에서 더 구체적인 구매 이유가 필요하다.",
+      "urls": [
+        "https://uglyus.co.kr/main"
+      ]
+    },
+    {
+      "id": "K02",
+      "name": "언니네텃밭",
+      "region": "한국",
+      "model": "생산자 꾸러미",
+      "status": "공식 서비스",
+      "fact": "여성농민 공동체가 제철 채소와 두부·유정란·농가공품 등을 꾸러미로 공급한다. 회원 회비·가입비와 생산자 공동체를 연결한다.",
+      "lesson": "생산을 함께 지지하는 관계 자체가 가치다. 농부의 정성이라는 표현을 실제 생산자와 책임 구조로 구체화한다.",
+      "urls": [
+        "https://sistersgarden.org/?act=package.about",
+        "https://www.sistersgarden.org/?act=package.view_package&id=2"
+      ]
+    },
+    {
+      "id": "K03",
+      "name": "흙살림",
+      "region": "한국",
+      "model": "친환경 꾸러미",
+      "status": "공식 서비스",
+      "fact": "친환경·유기농업 연구와 생산·유통의 배경 아래 제철 농산물 꾸러미와 관련 상품을 소개한다. 공식 꾸러미 안내가 확인된다.",
+      "lesson": "친환경 전문성은 재배·연구·관리 체계와 연결된다. 관련 근거가 없는 농가가 같은 약속을 복제하기는 어렵다.",
+      "urls": [
+        "https://www.heuksalim.com/bbs/board.php?bo_table=brand01",
+        "https://m.marketoyou.com/"
+      ]
+    },
+    {
+      "id": "K04",
+      "name": "팜에이트",
+      "region": "한국",
+      "model": "재배·채소 제품",
+      "status": "공식 제품",
+      "fact": "스마트팜 채소, 일반 농산물, 신선편의·즉석섭취 제품을 구분한다. 공식 몰에서 규격별 원물·샐러드 상품을 확인할 수 있다.",
+      "lesson": "재배 기술을 품질·규격·사용 편의로 번역한다. 우리 상품의 공정과 다른 세척·즉석섭취 약속은 별도 검증해야 한다.",
+      "urls": [
+        "https://farm8.co.kr/",
+        "https://farm8mall.com/product/detail.html?cate_no=76&display_group=3&product_no=318"
+      ]
+    },
+    {
+      "id": "K05",
+      "name": "씨드바이 · 채리원",
+      "region": "한국",
+      "model": "농작물 브랜드",
+      "status": "공식 브랜드",
+      "fact": "종자 선정부터 직접 재배·유통 관리를 설명한다. 공식 사이트에 스낵당근·스낵오이·달달양배추·대왕콜라비·컵채소 등 제품군을 소개한다.",
+      "lesson": "상위 브랜드는 공통 기준을, 제품명은 작물·맛·섭취 장면을 맡는다. 현재 결제 조건은 확인하지 않았다.",
+      "urls": [
+        "https://www.seedbuy.com/sh_page/page40.php",
+        "https://www.seedbuy.com/"
+      ]
+    },
+    {
+      "id": "K06",
+      "name": "컬리",
+      "region": "한국",
+      "model": "장보기 대체재",
+      "status": "공식 상품",
+      "fact": "셀러리 등 채소 단품을 규격·원산지·포장·손질·보관·활용 정보와 함께 판매한다. 종합 장보기 경험의 비교 기준이다.",
+      "lesson": "독립 브랜드는 같은 작물을 대형 몰에서 사는 것보다 무엇이 나은지 설명해야 한다. 정보 구성과 구매 편의는 기본 기대다.",
+      "urls": [
+        "https://www.kurly.com/goods/5050252"
+      ]
+    },
+    {
+      "id": "K07",
+      "name": "오아시스마켓",
+      "region": "한국",
+      "model": "친환경 장보기",
+      "status": "공식 상품",
+      "fact": "친환경 채소와 산지직송 상품을 제공하며 샐러드·즙용 등 용도별 탐색을 둔다. 모듬 쌈채소 상품의 규격과 배송 정보를 공개한다.",
+      "lesson": "친환경과 합리적 가격을 함께 제안하는 대체재가 있다. 작은 농가의 최저가 경쟁은 손익부터 확인해야 한다.",
+      "urls": [
+        "https://www.oasis.co.kr/product/detail/107424",
+        "https://cdn.oasis.co.kr/company/introduce/store"
+      ]
+    },
+    {
+      "id": "K08",
+      "name": "한살림",
+      "region": "한국",
+      "model": "생협·신뢰 체계",
+      "status": "공식 제도",
+      "fact": "생산자·소비자·실무자가 생산과정을 함께 확인하는 참여인증을 설명한다. 포장의 마크와 QR로 공동체·과정 정보를 연결한다.",
+      "lesson": "신뢰는 농가 사진보다 확인 가능한 기준과 참여 과정으로 축적된다. 참여인증을 국가 유기농 인증과 동일시하지 않는다.",
+      "urls": [
+        "https://www.hansalimpgs.or.kr/common/info/info1.asp",
+        "https://www.hansalimpgs.or.kr/common/info/info4.asp"
+      ]
+    },
+    {
+      "id": "K09",
+      "name": "무릉외갓집",
+      "region": "한국",
+      "model": "산지·체험 브랜드",
+      "status": "참고 사례",
+      "fact": "제주관광 공식 소개는 제주 농산물 월간 꾸러미와 카페·전시·수확·가공 체험을 연결한다. 현재 직접 구매 조건은 재확인 대상이다.",
+      "lesson": "외갓집이라는 관계 언어와 제주 산지 경험이 결합된다. 지역명을 붙이기보다 실제 지역성을 경험하게 만드는 구조를 참고한다.",
+      "urls": [
+        "https://visitjeju.net/kareumstay/ko/hosts/svh-hsv-existing-experience-57",
+        "https://www.murungfarm.co.kr/"
+      ]
+    },
+    {
+      "id": "K10",
+      "name": "올프레쉬",
+      "region": "한국",
+      "model": "과일 선물·선별",
+      "status": "공식 상품",
+      "fact": "과일 선별 전문가와 선물 완성도를 강조하며 혼합과일 선물·단품·정기구독을 구분한다. 이번 비교는 상품 구조에 한정한다.",
+      "lesson": "선물은 받는 사람의 경험과 선택 위임이 구매 이유다. 채소에 적용하려면 별도의 선물 수요부터 확인해야 한다.",
+      "urls": [
+        "https://www.allfresh.co.kr/"
+      ]
+    },
+    {
+      "id": "K11",
+      "name": "농부시장 마르쉐@",
+      "region": "한국",
+      "model": "시장·커뮤니티",
+      "status": "공식 활동",
+      "fact": "농부·요리사·소비자가 대화하는 시장과 제철·씨앗·요리 관련 활동을 운영한다. 관계와 다양성을 브랜드의 중심에 둔다.",
+      "lesson": "낯선 채소를 이해시키는 데 시식·대화·요리 경험을 쓸 수 있다. 정기배송 서비스와는 별개의 경험 벤치마크다.",
+      "urls": [
+        "https://www.marcheat.net/about",
+        "https://www.marcheat.net/schedule"
+      ]
+    },
+    {
+      "id": "K12",
+      "name": "퍼밀",
+      "region": "한국",
+      "model": "미식 큐레이션",
+      "status": "참고 사례",
+      "fact": "공식 검색 색인에서 산지별 식재료와 초당옥수수 레시피 등 편집 구조가 확인된다. 현재 홈·구매 조건은 안정적으로 재확인하지 못했다.",
+      "lesson": "품종과 먹는 방법을 소비자가 이해할 이야기로 바꾸는 방식만 참고한다. 과거 실적을 현재 사업 성과로 사용하지 않는다.",
+      "urls": [
+        "https://web.permeal.co.kr/"
+      ]
+    },
+    {
+      "id": "G01",
+      "name": "Riverford",
+      "region": "영국",
+      "model": "유기농 채소박스",
+      "status": "공식 서비스",
+      "fact": "계절 박스와 빠른 조리용·영국산·무포장 등 목적별 박스를 제공한다. 단발·정기 주문, 일부 상품의 교체 기능을 안내한다.",
+      "lesson": "프리미엄을 추상적 품질보다 고객의 선택 기준으로 번역한다. 많은 구성 유형을 운영할 공급 능력은 별도 조건이다.",
+      "urls": [
+        "https://www.riverford.co.uk/shop/categories/seasonal-organic-boxes/veg-boxes",
+        "https://www.riverford.co.uk/about/faqs"
+      ]
+    },
+    {
+      "id": "G02",
+      "name": "Abel & Cole",
+      "region": "영국",
+      "model": "유기농 장보기",
+      "status": "공식 서비스",
+      "fact": "과일·채소박스에 일상 식료품을 더하는 구조이며 일부 박스 교체와 정기 주문의 변경·건너뛰기를 안내한다.",
+      "lesson": "반복 구매의 편의는 배송·변경 운영에서 나온다. 소농은 넓은 구색보다 변경 안내와 예측 가능성을 참고할 수 있다.",
+      "urls": [
+        "https://www.abelandcole.co.uk/fresh-chilled/fruit-veg/fruit-veg-boxes",
+        "https://www.abelandcole.co.uk/?custstatus=4"
+      ]
+    },
+    {
+      "id": "G03",
+      "name": "Natoora",
+      "region": "영국 등",
+      "model": "맛·제철 큐레이션",
+      "status": "공식 서비스",
+      "fact": "생산자·품종·산지와 제철의 early·peak·late 단계를 설명한다. 셰프용으로 설계된 탐색·제철 정보를 가정 구매에 연결한다.",
+      "lesson": "왜 맛있는지 설명할 수 있는 생산 지식이 프리미엄의 근거가 된다. 앱 기능보다 품종·수확·요리 정보 체계가 먼저다.",
+      "urls": [
+        "https://natoora.com/en-GB/natoora-app/",
+        "https://natoora.com/en-GB/faqs/"
+      ]
+    },
+    {
+      "id": "G04",
+      "name": "Oddbox",
+      "region": "영국",
+      "model": "잉여 농산물 박스",
+      "status": "공식 서비스",
+      "fact": "폐기 위험에 놓인 과채류를 생산자에게서 조달한다. 현재 FAQ는 매주 구조 대상 목록에서 구성품을 교체할 수 있다고 안내한다.",
+      "lesson": "고객 행동에 환경적 의미를 부여하면서 선택권도 제공한다. 실제 해결하는 잉여·규격 외 문제가 있을 때 적용 가능한 이야기다.",
+      "urls": [
+        "https://www.oddbox.co.uk/home-box",
+        "https://support.oddbox.co.uk/hc/en-gb/articles/16488818111250-How-does-it-work"
+      ]
+    },
+    {
+      "id": "G05",
+      "name": "Farm Fresh To You",
+      "region": "미국",
+      "model": "농장 기반 구독",
+      "status": "공식 서비스",
+      "fact": "가족농장과 협력 농가의 유기농산물을 구성한다. 박스 변경·추가 식료품·건너뛰기와 농장 소식·레시피·활용 팁을 제공한다.",
+      "lesson": "농가 이야기를 매번 받는 경험으로 반복한다. 다농가 조달·지역 배송망을 단일 농가 모델로 오해하면 안 된다.",
+      "urls": [
+        "https://www.farmfreshtoyou.com/how-it-works/home-delivery",
+        "https://www.farmfreshtoyou.com/help"
+      ]
+    },
+    {
+      "id": "G06",
+      "name": "The Chef’s Garden",
+      "region": "미국",
+      "model": "셰프용 농산물",
+      "status": "공식 서비스",
+      "fact": "특수·전통 품종 채소와 허브 등을 셰프와 가정에 공급하며 가정용 박스·구독을 제공한다. Farmer Jones Farm은 같은 농장 계열로 묶었다.",
+      "lesson": "전문성과 품종의 용도가 프리미엄을 설명한다. 공식 FAQ의 배송비 부담 설명은 상품 가치와 물류 손익을 따로 볼 필요를 보여준다.",
+      "urls": [
+        "https://chefs-garden.com/product-category/at-home-products/subscriptions/",
+        "https://chefs-garden.com/faqs/"
+      ]
+    },
+    {
+      "id": "G07",
+      "name": "The FruitGuys",
+      "region": "미국",
+      "model": "일상 과일·간식",
+      "status": "공식 서비스",
+      "fact": "지역 거점 주변의 소규모·가족농장 상품을 조달하고 직장·가정용 과일·채소·간식 박스를 제안한다. 맛 확인과 품질 대응을 설명한다.",
+      "lesson": "품목보다 직장 간식이라는 사용 상황이 구매를 조직한다. 지역 조달·배송망의 규모를 초기 소농에 그대로 적용할 수는 없다.",
+      "urls": [
+        "https://fruitguys.com/home-delivery/",
+        "https://fruitguys.com/customer-care/how-it-works/"
+      ]
+    },
+    {
+      "id": "G08",
+      "name": "CrowdFarming",
+      "region": "유럽",
+      "model": "생산자 수확 예약",
+      "status": "공식 서비스",
+      "fact": "생산자·인증·박스 정보를 보고 시즌 수확을 받는 adoption 모델을 운영한다. 현행 FAQ는 박스별 결제와 일정 변경·건너뛰기를 안내한다.",
+      "lesson": "상품을 특정 농가·시즌의 관계로 바꾼다. 예약 수확과 소식을 참고하되 개체별 수확물 추적을 확인 없이 약속하지 않는다.",
+      "urls": [
+        "https://www.crowdfarming.com/",
+        "https://support.crowdfarming.com/l/en/article/itoh9v24x8-how-to-adopt-everything-you-need-to-know"
+      ]
+    },
+    {
+      "id": "G09",
+      "name": "Good Harvest",
+      "region": "호주",
+      "model": "지역 유기농 박스",
+      "status": "공식 서비스",
+      "fact": "계절 구성 박스·직접 구성·단품을 구분한다. 계절 박스는 최대 두 품목 교체 등 선택 범위를 제한하며 주간·격주 주문을 제공한다.",
+      "lesson": "농가의 공급 조건과 고객 선택권의 균형을 명시한다. 지역·지정 요일 배송 조건이 운영의 중요한 전제다.",
+      "urls": [
+        "https://www.goodharvest.com.au/pages/compare-our-boxes",
+        "https://www.goodharvest.com.au/pages/delivery-schedule"
+      ]
+    },
+    {
+      "id": "G10",
+      "name": "Oishii",
+      "region": "미국",
+      "model": "작물 프리미엄",
+      "status": "공식 제품",
+      "fact": "Omakase·Koyo·Nikko 딸기와 Rubī 토마토에 각각 이름과 감각 설명을 부여한다. 회사 자체 선별 등급과 일부 지역 한정 배송을 운영한다.",
+      "lesson": "제품의 맛 차이와 선별 기준을 이름·선물 경험으로 연결한다. 자체 등급을 공적 인증으로 해석하거나 일반 농가에 그대로 대입하지 않는다.",
+      "urls": [
+        "https://oishii.com/",
+        "https://oishii.com/pages/the-omakase-berry"
+      ]
+    },
+    {
+      "id": "G11",
+      "name": "Gotham Greens",
+      "region": "미국",
+      "model": "온실 잎채소 브랜드",
+      "status": "공식 제품",
+      "fact": "잎채소·허브를 맛·식감·활용 요리로 설명하고 샐러드 키트·드레싱·소스 등으로 제품군을 확장한다.",
+      "lesson": "재배 기반에서 출발해 먹는 방식과 인접 상품으로 확장한다. 우리 농가의 생산·가공 능력에 맞는 범위부터 시작한다.",
+      "urls": [
+        "https://www.gothamgreens.com/our-greens/",
+        "https://www.gothamgreens.com/our-products/"
+      ]
+    },
+    {
+      "id": "G12",
+      "name": "Tenderstem",
+      "region": "영국 중심",
+      "model": "작물 브랜드",
+      "status": "공식 브랜드",
+      "fact": "브로콜리의 줄기까지 먹는 특징, 단맛·견과류 같은 풍미·아삭함과 짧은 조리 시간을 설명한다. 여러 생산자를 소개한다.",
+      "lesson": "작물의 기능적 차이를 바로 이해되는 구매 이유로 만든다. 특정 작물 브랜드이며 단일 농가 구독 서비스는 아니다.",
+      "urls": [
+        "https://www.tenderstem.co.uk/about-tenderstem",
+        "https://www.tenderstem.co.uk/about-tenderstem/our-growers"
+      ]
+    },
+    {
+      "id": "A01",
+      "name": "坂ノ途中 Sakanotochu",
+      "region": "일본",
+      "model": "제철 채소 구독",
+      "status": "공식 서비스",
+      "fact": "S·M·L 제철 채소 세트와 기본 세트를 구분한다. 보관·먹는 방법이 담긴 채소 설명서와 계절 이야기가 있는 작은 추가품을 동봉한다.",
+      "lesson": "낯선 작물의 발견이 소비 부담으로 바뀌지 않게 돕는다. 채소 한 가지에도 적용 가능한 개봉 이후의 BX다.",
+      "urls": [
+        "https://www.on-the-slope.com/shop/products/2042/"
+      ]
+    },
+    {
+      "id": "A02",
+      "name": "Oisix",
+      "region": "일본",
+      "model": "밀키트·식재료",
+      "status": "공식 서비스",
+      "fact": "Kit Oisix는 계량한 채소·가공 식재료와 레시피로 주·부식 두 가지를 약 10~20분에 준비하도록 설명한다.",
+      "lesson": "시간 절약은 줄여주는 일이 명확해야 한다. 원물 서비스는 장보기·선택·보관 판단과 실제 조리 시간을 구분해야 한다.",
+      "urls": [
+        "https://www.oisix.com/shop.kounyuu--oic_intro_shinki_kit__html.htm?mi2=tnpn_bnr"
+      ]
+    },
+    {
+      "id": "A03",
+      "name": "Radish Boya",
+      "region": "일본",
+      "model": "원물·식품 정기배송",
+      "status": "공식 서비스",
+      "fact": "팔레트 박스에 제철 채소·산지와 농약 사용 정보·레시피를 연결한다. 전용 배송 차량과 일반 택배의 상자 회수 조건이 다르다.",
+      "lesson": "정보 공개와 반복 행동이 브랜드를 만든다. 포장 회수 같은 약속은 실제 지역·배송 조건에 맞게 설계해야 한다.",
+      "urls": [
+        "https://www.radishbo-ya.co.jp/item/palette/"
+      ]
+    },
+    {
+      "id": "A04",
+      "name": "Tabechoku Concierge",
+      "region": "일본",
+      "model": "농가 선택 대행",
+      "status": "공식 서비스",
+      "fact": "플랫폼이 생산자를 골라주고 농가가 수확·포장·출고한다. 크기·주기·건너뛰기·기피 채소·선호 생산자 설정을 안내한다.",
+      "lesson": "누구에게 사야 하는지 고르는 수고를 덜어준다. 특정 농가 브랜드에는 생산자·품질 기준의 명료성이 핵심이다.",
+      "urls": [
+        "https://www.tabechoku.com/concierge",
+        "https://www.tabechoku.com/help"
+      ]
+    },
+    {
+      "id": "A05",
+      "name": "OSMIC FIRST",
+      "region": "일본",
+      "model": "고당도 토마토",
+      "status": "공식 제품",
+      "fact": "회사 공표 기준으로 수확 후 개별 당도를 측정하고 11·12·13 등급을 제품명·포장과 연결한다. 가정용·선물·정기배송을 구분한다.",
+      "lesson": "검증 가능한 기준을 가격 구조까지 일관되게 적용한다. 셀러리·치커리에 당도 등급을 그대로 적용할 근거는 없다.",
+      "urls": [
+        "https://osmicfoods.com/first/",
+        "https://osmicfirst.jp/"
+      ]
+    },
+    {
+      "id": "A06",
+      "name": "GREEN & SAFE",
+      "region": "대만",
+      "model": "프리미엄 식재료",
+      "status": "공식 상품",
+      "fact": "제철 수확에 따라 구성이 달라지는 유기농 채소 12종 박스를 예약 판매하고 냉장 배송·수급 변동 대응을 안내한다.",
+      "lesson": "신선함을 수확·선별·배송 과정으로 설명한다. 일부 과거 공지가 남아 있어 현행 결제·출고 조건의 추가 확인이 필요하다.",
+      "urls": [
+        "https://www.green-n-safe.com/Products/Content?id=UAB0007A"
+      ]
+    },
+    {
+      "id": "A07",
+      "name": "Sustenir",
+      "region": "싱가포르",
+      "model": "잎채소 제품 브랜드",
+      "status": "공식 제품",
+      "fact": "Single Origin·Curated Blends·Herbs 체계와 Kinky Kale·Rebel Rocket 등 상품명을 둔다. 맛·페어링·보관·섭취 전 세척을 안내한다.",
+      "lesson": "상위 브랜드 아래 작물과 용도를 확장할 수 있다. 건강 효능보다 감각 언어·사용 정보·상품 구조가 직접적인 참고다.",
+      "urls": [
+        "https://sustenir.com/products/",
+        "https://sustenir.com/products/kinky-kale/"
+      ]
+    },
+    {
+      "id": "P01",
+      "name": "Dandy",
+      "region": "미국",
+      "model": "셀러리 중심 브랜드",
+      "status": "공식 브랜드",
+      "fact": "셀러리의 식감·단맛·섬유질 특성을 브랜드 약속으로 내세우고 통채소·셀러리 하트·절단 스틱과 간식·조리·페어링을 연결한다.",
+      "lesson": "하나의 작물을 여러 사용 상황으로 확장한다. 덜 질기다는 성질과 세척·절단 편의는 우리 제품에서 따로 검증해야 한다.",
+      "urls": [
+        "https://www.dudafresh.com/celery-central",
+        "https://www.dudafresh.com/about"
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Perle du Nord",
+      "region": "프랑스",
+      "model": "엔다이브 생산자 브랜드",
+      "status": "공식 브랜드",
+      "fact": "생산자 협동조합의 지역·재배 지식과 품질 규격·검사·추적을 설명한다. 흰색·붉은색·어린 엔다이브와 먹는 방법을 구분한다.",
+      "lesson": "생산자 이야기와 제품 규격을 함께 보여준다. 포장은 차광·보존 기능이 우선이며 친환경 이미지와 별개로 성능을 확인해야 한다.",
+      "urls": [
+        "https://www.perledunord.com/perle-du-nord/",
+        "https://www.perledunord.com/perle-du-nord/nos-engagements/",
+        "https://www.perledunord.com/endive/"
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "BelOrta",
+      "region": "벨기에",
+      "model": "생산자·품종 포트폴리오",
+      "status": "공식 브랜드",
+      "fact": "치커리·레드치커리·미니치커리·라디치오를 구분하고 생산자 가족·재배 장소·조리 정보를 연결한다.",
+      "lesson": "같은 범주의 채소도 품종과 생산자를 설명하면 선택 기준이 생긴다. 특정 품종의 국내 수요가 증명된 것은 아니다.",
+      "urls": [
+        "https://belorta.be/en/vegetables/chicory"
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "California Endive Farms",
+      "region": "미국",
+      "model": "단일 작물 전문 농장",
+      "status": "공식 브랜드",
+      "fact": "엔다이브의 두 단계 재배, 생·가열 조리의 맛 차이, 보관·레시피·와인 페어링을 설명한다.",
+      "lesson": "낯선 작물을 이해시키는 교육 콘텐츠가 상품의 일부가 된다. 실제 국내 치커리와 동일 상품으로 취급하지 않는다.",
+      "urls": [
+        "https://www.endive.com/",
+        "https://www.endive.com/how-endive-is-grown"
+      ]
+    }
+  ],
+  "prices": [
+    [
+      "어글리어스 [K01]",
+      "박스 1회",
+      "16,000~42,000원",
+      "공식 홈의 제시 범위. 구성·배송비·최종 결제액은 동일 조건으로 비교하지 않음."
+    ],
+    [
+      "언니네텃밭 [K02]",
+      "1인꾸러미 1회",
+      "25,000원",
+      "채소 외 두부·달걀·농가공품 포함. 최초 가입비 20,000원 별도."
+    ],
+    [
+      "팜에이트 [K04]",
+      "양상추 2입 400g",
+      "5,990원",
+      "표시 배송비 3,000원, 15,000원 이상 무료. 재고·결제 완료는 미검증."
+    ],
+    [
+      "坂ノ途中 [A01]",
+      "S 세트 7품목",
+      "2,670엔",
+      "세금 포함 표시. 배송 조건 별도. 첫 구매 할인과 섞지 않은 상품가."
+    ],
+    [
+      "OSMIC FIRST [A05]",
+      "QUEEN 약 250g",
+      "3,240엔",
+      "어소트 박스, 세금 포함. 배송비 별도·예약 상품. 포장·등급별 가격 상이."
+    ],
+    [
+      "GREEN & SAFE [A06]",
+      "채소 12품목 상자",
+      "NT$799",
+      "냉장·예약 상품. 배송비와 실제 공급 일정은 결제 전 확인 필요."
+    ]
+  ],
+  "extraSources": [
+    [
+      "E01",
+      "KAMIS 치커리 식재료 아카이브",
+      "https://www.kamis.or.kr/customer/archive/archive.do?action=detail&archiveNo=111",
+      "치커리 종류와 치콘의 재배·상품 형태를 구분하는 참고 자료. 건강 효능 문구는 본 보고서에 사용하지 않았다."
+    ],
+    [
+      "E02",
+      "Oisix 서비스 브랜드와 운영사 안내",
+      "https://www.oisix.co.jp/news/posts/260401oisix/",
+      "Oisix와 Radish Boya가 같은 운영사 포트폴리오임을 확인. 본 보고서는 독립 기업 수가 아닌 브랜드·서비스 사례 수다."
+    ],
+    [
+      "E03",
+      "The Chef’s Garden 배송 안내",
+      "https://chefs-garden.com/shipping-info/",
+      "상품 가치와 배송 비용·운영 조건을 별도로 검토하는 근거."
+    ]
+  ]
+}
