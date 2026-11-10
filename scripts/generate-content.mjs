@@ -5,6 +5,7 @@ import path from 'node:path';
 import { ASSETS, PAGES, docMarkdownPath, docStoryId, docStoryTitle, markdownFor, pageStoryId, readJson, root } from './lib/content.mjs';
 
 const source = readJson('content/guide-data.json');
+const plusx = readJson('content/plusx-research.json');
 const at = (...parts) => path.join(root, ...parts);
 const write = (file, text) => { fs.mkdirSync(path.dirname(at(file)), { recursive: true }); fs.writeFileSync(at(file), text); };
 
@@ -22,6 +23,7 @@ const storyCount = componentFiles.reduce((sum, file) => sum + (fs.readFileSync(p
 
 fs.copyFileSync(at('content/benchmarks.json'), at('public/downloads/benchmarks.json'));
 fs.copyFileSync(at('content/guide-data.json'), at('public/downloads/guide-data.json'));
+fs.copyFileSync(at('content/plusx-research.json'), at('public/downloads/plusx-research.json'));
 
 fs.rmSync(at('public/downloads/docs'), { recursive: true, force: true });
 for (const doc of documents) write(`public/${docMarkdownPath(doc)}`, markdownFor(doc));
@@ -33,6 +35,9 @@ const stats = {
   sections: documents.reduce((sum, doc) => sum + doc.sections.length, 0),
   components: componentFiles.length,
   stories: storyCount,
+  plusxProjects: plusx.counts.projects,
+  plusxDeepDives: plusx.counts.deepDives,
+  plusxStaticVisuals: plusx.counts.staticVisuals,
 };
 write('src/generated/documents.json', `${JSON.stringify({ documents, routes, assets, stats }, null, 2)}\n`);
 

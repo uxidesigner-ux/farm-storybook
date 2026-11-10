@@ -11,12 +11,21 @@ if (!fs.existsSync(path.join(dist, 'index.json'))) { console.error('dist/index.j
 const { entries } = JSON.parse(fs.readFileSync(path.join(dist, 'index.json'), 'utf8'));
 const { documents } = readJson('content/guide-data.json');
 const generated = readJson('src/generated/documents.json');
+const assetsById = new Map(ASSETS.map((asset) => [asset.id, asset]));
 
 for (const doc of documents) {
   const entry = entries[docStoryId(doc)];
   if (!entry) fail(`문서 ${doc.id}: 빌드에 ${docStoryId(doc)}가 없습니다`);
   else if (entry.type !== 'docs' || entry.title !== `${doc.category}/${doc.code} ${doc.title}`) fail(`문서 ${doc.id}: 빌드된 제목 "${entry.title}"가 원본과 다릅니다`);
+  const downloadIds = doc.downloadAssetIds;
+  if (downloadIds !== undefined) {
+    if (!Array.isArray(downloadIds) || !downloadIds.every((id) => typeof id === 'string' && assetsById.has(id))) fail(`문서 ${doc.id}: downloadAssetIds에 등록되지 않은 자료가 있습니다`);
+    else for (const id of downloadIds) {
+      if (generated.assets?.[id]?.href !== `./${assetsById.get(id).path}`) fail(`문서 ${doc.id}: 다운로드 자료 ${id}의 생성 경로가 원본과 다릅니다`);
+    }
+  }
 }
+if (!PAGES.some((page) => page.key === 'plusx')) fail('Plus X 탐색 화면이 PAGES에 등록되지 않았습니다');
 for (const page of PAGES) {
   const entry = entries[pageStoryId(page)];
   if (!entry || entry.type !== 'docs') fail(`화면 ${page.key}: 빌드에 ${pageStoryId(page)}가 없습니다`);
@@ -38,6 +47,16 @@ const downloads = [...ASSETS.map((asset) => asset.path), ...documents.map(docMar
 for (const file of downloads) {
   const target = path.join(dist, file);
   if (!fs.existsSync(target) || fs.statSync(target).size === 0) fail(`다운로드 dist/${file}이 없거나 비어 있습니다`);
+}
+// 빌드 안의 다운로드가 현재 원본인지 확인한다. 내용이 다른 오래된 복사본도 실패한다.
+for (const [assetId, original] of [['guide-data', 'content/guide-data.json'], ['benchmarks-data', 'content/benchmarks.json'], ['plusx-research-data', 'content/plusx-research.json']]) {
+  const asset = assetsById.get(assetId);
+  if (!asset) { fail(`구조화 자료 ${assetId}가 ASSETS에 없습니다`); continue; }
+  const source = path.join(root, original);
+  const target = path.join(dist, asset.path);
+  if (!fs.existsSync(source)) fail(`구조화 자료의 원본 ${original}이 없습니다`);
+  else if (!fs.existsSync(target) || !fs.readFileSync(target).equals(fs.readFileSync(source))) fail(`다운로드 dist/${asset.path}가 ${original}과 다릅니다. 콘텐츠 생성 후 다시 빌드하세요`);
+  if (generated.assets?.[assetId]?.href !== `./${asset.path}`) fail(`구조화 자료 ${assetId}의 생성 경로가 ASSETS와 다릅니다`);
 }
 for (const file of ['favicon.svg', 'brand-lockup.svg', 'iframe.html', 'index.html']) if (!fs.existsSync(path.join(dist, file))) fail(`dist/${file}이 없습니다`);
 
