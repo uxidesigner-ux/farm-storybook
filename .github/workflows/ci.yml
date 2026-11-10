@@ -1,0 +1,38 @@
+name: CI
+
+# 작업 브랜치와 dev에서 콘텐츠·타입·빌드를 검사한다. 배포는 하지 않는다.
+on:
+  pull_request:
+  push:
+    branches: [dev, 'feat/**']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: 콘텐츠 생성과 Storybook 정적 빌드
+        run: npm run build
+      - name: 생성물이 커밋된 상태와 같은지 확인
+        run: git diff --exit-code -- src/generated src/stories public/downloads
+      - name: 타입 검사와 콘텐츠 무결성 검사
+        run: npm run check
+      - name: 빌드 결과 검사 (문서 ID · 다운로드 · 상대 경로)
+        run: npm run verify:build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: storybook-dist
+          path: dist
+          retention-days: 7

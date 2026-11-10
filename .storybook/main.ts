@@ -5,7 +5,6 @@ const config: StorybookConfig = {
   framework: { name: '@storybook/react-vite', options: {} },
   staticDirs: ['../public'],
   core: { disableTelemetry: true },
-  docs: { defaultName: '가이드' },
   viteFinal: async (config) => ({ ...config, base: './' }),
 };
 export default config;

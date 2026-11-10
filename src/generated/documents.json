@@ -2,6 +2,7 @@
   "documents": [
     {
       "id": "bx-research",
+      "code": "B01",
       "category": "BX",
       "title": "리서치에서 출발하기",
       "eyebrow": "RESEARCH → DECISION",
@@ -102,12 +103,18 @@
           "url": "https://www.kamis.or.kr/customer/archive/archive.do?action=detail&archiveNo=111"
         }
       ],
-      "code": "B01",
+      "related": [
+        "bx-positioning",
+        "ops-validation",
+        "bx-architecture"
+      ],
       "storyTitle": "BX/B01 리서치에서 출발하기",
-      "storyId": "bx-b01-리서치에서-출발하기--docs"
+      "storyId": "doc-bx-research--docs",
+      "markdownHref": "./downloads/docs/bx-research.md"
     },
     {
       "id": "bx-positioning",
+      "code": "B02",
       "category": "BX",
       "title": "세 가지 포지셔닝 가설",
       "eyebrow": "POSITIONING OPTIONS",
@@ -187,12 +194,18 @@
           }
         }
       ],
-      "code": "B02",
+      "related": [
+        "bx-research",
+        "marketing-positioning",
+        "ops-validation"
+      ],
       "storyTitle": "BX/B02 세 가지 포지셔닝 가설",
-      "storyId": "bx-b02-세-가지-포지셔닝-가설--docs"
+      "storyId": "doc-bx-positioning--docs",
+      "markdownHref": "./downloads/docs/bx-positioning.md"
     },
     {
       "id": "bx-architecture",
+      "code": "B03",
       "category": "BX",
       "title": "브랜드와 제품의 구조",
       "eyebrow": "BRAND ARCHITECTURE",
@@ -280,12 +293,18 @@
           "url": "https://sustenir.com/products/"
         }
       ],
-      "code": "B03",
+      "related": [
+        "bx-positioning",
+        "design-packaging",
+        "design-foundations"
+      ],
       "storyTitle": "BX/B03 브랜드와 제품의 구조",
-      "storyId": "bx-b03-브랜드와-제품의-구조--docs"
+      "storyId": "doc-bx-architecture--docs",
+      "markdownHref": "./downloads/docs/bx-architecture.md"
     },
     {
       "id": "bx-experience",
+      "code": "B04",
       "category": "BX",
       "title": "고객 경험 원칙",
       "eyebrow": "EXPERIENCE PRINCIPLES",
@@ -373,12 +392,18 @@
           ]
         }
       ],
-      "code": "B04",
+      "related": [
+        "bx-positioning",
+        "design-packaging",
+        "marketing-measurement"
+      ],
       "storyTitle": "BX/B04 고객 경험 원칙",
-      "storyId": "bx-b04-고객-경험-원칙--docs"
+      "storyId": "doc-bx-experience--docs",
+      "markdownHref": "./downloads/docs/bx-experience.md"
     },
     {
       "id": "design-foundations",
+      "code": "D01",
       "category": "디자인",
       "title": "문서 공간의 시각 원칙",
       "eyebrow": "DESIGN FOUNDATIONS",
@@ -460,12 +485,18 @@
           }
         }
       ],
-      "code": "D01",
+      "related": [
+        "design-components",
+        "design-content",
+        "bx-architecture"
+      ],
       "storyTitle": "디자인/D01 문서 공간의 시각 원칙",
-      "storyId": "디자인-d01-문서-공간의-시각-원칙--docs"
+      "storyId": "doc-design-foundations--docs",
+      "markdownHref": "./downloads/docs/design-foundations.md"
     },
     {
       "id": "design-components",
+      "code": "D02",
       "category": "디자인",
       "title": "토큰과 컴포넌트 사용법",
       "eyebrow": "COMPONENT GUIDELINES",
@@ -553,12 +584,18 @@
           ]
         }
       ],
-      "code": "D02",
+      "related": [
+        "design-foundations",
+        "design-content",
+        "dev-handoff"
+      ],
       "storyTitle": "디자인/D02 토큰과 컴포넌트 사용법",
-      "storyId": "디자인-d02-토큰과-컴포넌트-사용법--docs"
+      "storyId": "doc-design-components--docs",
+      "markdownHref": "./downloads/docs/design-components.md"
     },
     {
       "id": "design-content",
+      "code": "D03",
       "category": "디자인",
       "title": "문서·접근성 작성 기준",
       "eyebrow": "CONTENT & ACCESSIBILITY",
@@ -637,12 +674,18 @@
           ]
         }
       ],
-      "code": "D03",
+      "related": [
+        "design-foundations",
+        "design-components",
+        "ops-governance"
+      ],
       "storyTitle": "디자인/D03 문서·접근성 작성 기준",
-      "storyId": "디자인-d03-문서·접근성-작성-기준--docs"
+      "storyId": "doc-design-content--docs",
+      "markdownHref": "./downloads/docs/design-content.md"
     },
     {
       "id": "design-packaging",
+      "code": "D04",
       "category": "디자인",
       "title": "패키지와 상품 정보 설계",
       "eyebrow": "PACKAGING BRIEF",
@@ -730,12 +773,18 @@
           "url": "https://www.perledunord.com/perle-du-nord/nos-engagements/"
         }
       ],
-      "code": "D04",
+      "related": [
+        "bx-experience",
+        "bx-architecture",
+        "ops-farm"
+      ],
       "storyTitle": "디자인/D04 패키지와 상품 정보 설계",
-      "storyId": "디자인-d04-패키지와-상품-정보-설계--docs"
+      "storyId": "doc-design-packaging--docs",
+      "markdownHref": "./downloads/docs/design-packaging.md"
     },
     {
       "id": "dev-mvp",
+      "code": "DEV01",
       "category": "개발",
       "title": "MVP 범위와 기능 정의",
       "eyebrow": "SERVICE SCOPE",
@@ -819,12 +868,18 @@
           ]
         }
       ],
-      "code": "DEV01",
+      "related": [
+        "dev-channels",
+        "dev-handoff",
+        "ops-farm"
+      ],
       "storyTitle": "개발/DEV01 MVP 범위와 기능 정의",
-      "storyId": "개발-dev01-mvp-범위와-기능-정의--docs"
+      "storyId": "doc-dev-mvp--docs",
+      "markdownHref": "./downloads/docs/dev-mvp.md"
     },
     {
       "id": "dev-channels",
+      "code": "DEV02",
       "category": "개발",
       "title": "주문·재고·채널 연동 검토",
       "eyebrow": "COMMERCE DECISIONS",
@@ -898,12 +953,18 @@
           ]
         }
       ],
-      "code": "DEV02",
+      "related": [
+        "dev-mvp",
+        "ops-farm",
+        "dev-handoff"
+      ],
       "storyTitle": "개발/DEV02 주문·재고·채널 연동 검토",
-      "storyId": "개발-dev02-주문·재고·채널-연동-검토--docs"
+      "storyId": "doc-dev-channels--docs",
+      "markdownHref": "./downloads/docs/dev-channels.md"
     },
     {
       "id": "dev-handoff",
+      "code": "DEV03",
       "category": "개발",
       "title": "개발 인수인계와 완료 기준",
       "eyebrow": "HANDOFF & VERIFICATION",
@@ -984,12 +1045,18 @@
           ]
         }
       ],
-      "code": "DEV03",
+      "related": [
+        "dev-mvp",
+        "design-components",
+        "dev-documentation"
+      ],
       "storyTitle": "개발/DEV03 개발 인수인계와 완료 기준",
-      "storyId": "개발-dev03-개발-인수인계와-완료-기준--docs"
+      "storyId": "doc-dev-handoff--docs",
+      "markdownHref": "./downloads/docs/dev-handoff.md"
     },
     {
       "id": "dev-documentation",
+      "code": "DEV04",
       "category": "개발",
       "title": "문서 추가와 공유 절차",
       "eyebrow": "DOCUMENTATION WORKFLOW",
@@ -1070,12 +1137,18 @@
           }
         }
       ],
-      "code": "DEV04",
+      "related": [
+        "ops-governance",
+        "design-content",
+        "dev-handoff"
+      ],
       "storyTitle": "개발/DEV04 문서 추가와 공유 절차",
-      "storyId": "개발-dev04-문서-추가와-공유-절차--docs"
+      "storyId": "doc-dev-documentation--docs",
+      "markdownHref": "./downloads/docs/dev-documentation.md"
     },
     {
       "id": "marketing-positioning",
+      "code": "M01",
       "category": "마케팅",
       "title": "타깃과 메시지 가설",
       "eyebrow": "AUDIENCE & MESSAGE",
@@ -1152,12 +1225,18 @@
           ]
         }
       ],
-      "code": "M01",
+      "related": [
+        "bx-positioning",
+        "marketing-content",
+        "marketing-measurement"
+      ],
       "storyTitle": "마케팅/M01 타깃과 메시지 가설",
-      "storyId": "마케팅-m01-타깃과-메시지-가설--docs"
+      "storyId": "doc-marketing-positioning--docs",
+      "markdownHref": "./downloads/docs/marketing-positioning.md"
     },
     {
       "id": "marketing-content",
+      "code": "M02",
       "category": "마케팅",
       "title": "콘텐츠와 AI 제작 기준",
       "eyebrow": "CONTENT OPERATIONS",
@@ -1235,12 +1314,18 @@
           ]
         }
       ],
-      "code": "M02",
+      "related": [
+        "marketing-positioning",
+        "marketing-measurement",
+        "design-content"
+      ],
       "storyTitle": "마케팅/M02 콘텐츠와 AI 제작 기준",
-      "storyId": "마케팅-m02-콘텐츠와-ai-제작-기준--docs"
+      "storyId": "doc-marketing-content--docs",
+      "markdownHref": "./downloads/docs/marketing-content.md"
     },
     {
       "id": "marketing-measurement",
+      "code": "M03",
       "category": "마케팅",
       "title": "실험과 성과 측정",
       "eyebrow": "EXPERIMENTS & MEASUREMENT",
@@ -1328,12 +1413,18 @@
           ]
         }
       ],
-      "code": "M03",
+      "related": [
+        "marketing-positioning",
+        "ops-validation",
+        "marketing-content"
+      ],
       "storyTitle": "마케팅/M03 실험과 성과 측정",
-      "storyId": "마케팅-m03-실험과-성과-측정--docs"
+      "storyId": "doc-marketing-measurement--docs",
+      "markdownHref": "./downloads/docs/marketing-measurement.md"
     },
     {
       "id": "ops-farm",
+      "code": "OPS01",
       "category": "운영",
       "title": "농가 확인과 공급 기준",
       "eyebrow": "FARM FACTS",
@@ -1414,12 +1505,18 @@
           }
         }
       ],
-      "code": "OPS01",
+      "related": [
+        "ops-validation",
+        "dev-channels",
+        "design-packaging"
+      ],
       "storyTitle": "운영/OPS01 농가 확인과 공급 기준",
-      "storyId": "운영-ops01-농가-확인과-공급-기준--docs"
+      "storyId": "doc-ops-farm--docs",
+      "markdownHref": "./downloads/docs/ops-farm.md"
     },
     {
       "id": "ops-validation",
+      "code": "OPS02",
       "category": "운영",
       "title": "4주 BX 검증 계획",
       "eyebrow": "VALIDATION PLAN",
@@ -1498,12 +1595,18 @@
           ]
         }
       ],
-      "code": "OPS02",
+      "related": [
+        "bx-positioning",
+        "ops-farm",
+        "marketing-measurement"
+      ],
       "storyTitle": "운영/OPS02 4주 BX 검증 계획",
-      "storyId": "운영-ops02-4주-bx-검증-계획--docs"
+      "storyId": "doc-ops-validation--docs",
+      "markdownHref": "./downloads/docs/ops-validation.md"
     },
     {
       "id": "ops-governance",
+      "code": "OPS03",
       "category": "운영",
       "title": "문서 상태와 결정 기록",
       "eyebrow": "DECISION LOG",
@@ -1613,14 +1716,49 @@
           ]
         }
       ],
-      "code": "OPS03",
+      "related": [
+        "dev-documentation",
+        "design-content",
+        "ops-validation"
+      ],
       "storyTitle": "운영/OPS03 문서 상태와 결정 기록",
-      "storyId": "운영-ops03-문서-상태와-결정-기록--docs"
+      "storyId": "doc-ops-governance--docs",
+      "markdownHref": "./downloads/docs/ops-governance.md"
     }
   ],
   "routes": {
-    "home": "시작하기-h01-프로젝트-홈--docs",
-    "benchmarks": "bx-b00-글로벌-벤치마크--docs",
-    "archive": "자료실-a01-산출물-다운로드--docs"
+    "home": "home--docs",
+    "explore": "explore--docs",
+    "benchmarks": "benchmarks--docs",
+    "tokens": "tokens--docs",
+    "archive": "archive--docs"
+  },
+  "assets": {
+    "research": {
+      "href": "./downloads/premium_vegetables_BX_research_20261110.pdf",
+      "bytes": 176068
+    },
+    "wbs": {
+      "href": "./downloads/premium_vegetables_features_WBS_roles_v1.xlsx",
+      "bytes": 79174
+    },
+    "template": {
+      "href": "./downloads/guide-template.md",
+      "bytes": 441
+    },
+    "guide-data": {
+      "href": "./downloads/guide-data.json",
+      "bytes": 68482
+    },
+    "benchmarks-data": {
+      "href": "./downloads/benchmarks.json",
+      "bytes": 24756
+    }
+  },
+  "stats": {
+    "documents": 18,
+    "sections": 72,
+    "components": 6,
+    "stories": 18
   }
 }

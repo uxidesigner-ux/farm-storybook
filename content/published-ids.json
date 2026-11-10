@@ -1,0 +1,23 @@
+{
+  "note": "한 번 공유된 문서 ID 등록부입니다. 여기에 있는 ID는 삭제하거나 바꾸지 않습니다(공유 링크가 깨집니다). 새 문서를 추가할 때 그 ID를 이 목록 끝에 직접 추가하세요.",
+  "documents": [
+    "bx-research",
+    "bx-positioning",
+    "bx-architecture",
+    "bx-experience",
+    "design-foundations",
+    "design-components",
+    "design-content",
+    "design-packaging",
+    "dev-mvp",
+    "dev-channels",
+    "dev-handoff",
+    "dev-documentation",
+    "marketing-positioning",
+    "marketing-content",
+    "marketing-measurement",
+    "ops-farm",
+    "ops-validation",
+    "ops-governance"
+  ]
+}
