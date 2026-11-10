@@ -14,6 +14,7 @@ export const PAGES = [
   { key: 'home', id: 'home', file: 'home', title: '시작하기/H01 프로젝트 홈', component: 'HomePage' },
   { key: 'explore', id: 'explore', file: 'explore', title: '시작하기/H02 문서 탐색', component: 'ExplorePage' },
   { key: 'benchmarks', id: 'benchmarks', file: 'benchmarks', title: 'BX/B00 글로벌 벤치마크', component: 'BenchmarkPage' },
+  { key: 'plusx', id: 'plusx', file: 'plusx', title: 'BX/B09 Plus X 프로젝트 탐색', component: 'PlusXPage' },
   { key: 'tokens', id: 'tokens', file: 'tokens', title: '디자인/D00 디자인 토큰', component: 'TokensPage' },
   { key: 'archive', id: 'archive', file: 'archive', title: '자료실/A01 산출물 다운로드', component: 'ArchivePage' },
 ];
@@ -25,6 +26,14 @@ export const ASSETS = [
   { id: 'template', path: 'downloads/guide-template.md' },
   { id: 'guide-data', path: 'downloads/guide-data.json' },
   { id: 'benchmarks-data', path: 'downloads/benchmarks.json' },
+  { id: 'plusx-report', path: 'downloads/bx-foundation-v01.pdf' },
+  { id: 'plusx-foundation-md', path: 'downloads/bx-foundation-v01.md' },
+  { id: 'plusx-pack', path: 'downloads/bx-foundation-pack-v01.zip' },
+  { id: 'plusx-cases', path: 'downloads/plusx-146-cases.csv' },
+  { id: 'plusx-deep-dive', path: 'downloads/plusx-18-deep-dive.md' },
+  { id: 'plusx-decisions', path: 'downloads/bx-decisions-v01.csv' },
+  { id: 'plusx-farm-truth', path: 'downloads/farm-truth-interview.md' },
+  { id: 'plusx-research-data', path: 'downloads/plusx-research.json' },
 ];
 
 export const readJson = (file) => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
@@ -48,5 +57,14 @@ export function markdownFor(doc) {
     if (section.callout) out.push(`> **${section.callout.title}**`, `> ${section.callout.body}`, '');
   }
   if (doc.sources?.length) out.push('## 출처', '', ...doc.sources.map((source) => `- [${source.label}](${source.url})`), '');
+  if (doc.downloadAssetIds?.length) {
+    out.push('## 연결된 산출물', '');
+    for (const id of doc.downloadAssetIds) {
+      const asset = ASSETS.find((item) => item.id === id);
+      if (!asset) throw new Error(`문서 ${doc.id}: 알 수 없는 산출물 ${id}`);
+      out.push(`- [${path.basename(asset.path)}](../${path.basename(asset.path)})`);
+    }
+    out.push('');
+  }
   return out.join('\n');
 }
