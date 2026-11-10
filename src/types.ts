@@ -9,6 +9,8 @@ export interface GuideDocument {
   category: Category; title: string; eyebrow: string; summary: string; status: DocStatus; updatedAt: string; readingMinutes: number; tags: string[]; sections: DocSection[];
   sources?: { label: string; url: string }[];
   related?: string[];
+  /** 자료실의 고정 산출물 ID. 해당 문서에서 바로 내려받을 자료를 지정한다. */
+  downloadAssetIds?: string[];
   storyTitle: string; storyId: string; markdownHref: string;
 }
 export interface Brand { id: string; name: string; region: string; model: string; status: string; fact: string; lesson: string; urls: string[]; }
