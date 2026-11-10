@@ -1,0 +1,4272 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-10",
+  "scope": {
+    "title": "Plus X의 공개 디자인 프로젝트 146개",
+    "description": "2026년 11월 10일 공식 Experience 카탈로그의 공개 프로젝트를 기준으로 정리했다. 비공개 의뢰와 삭제된 과거 작업을 포함한 전체 실적 목록은 아니다. 농작물 브랜드의 전략과 접점 설계에 참고하기 위한 자료다.",
+    "baseEvidenceNote": "기본 근거 132·12·2는 상세 페이지의 본문·대체텍스트를 처음 검토한 분류다. 추가 공식 회고와 일부 정적 이미지 확인은 별도 보강 근거로 기록하며, 기본 분류를 덮어쓰지 않는다.",
+    "limits": [
+      "현재 서비스의 실제 동작과 전체 영상 프레임을 검증한 것은 아니다.",
+      "실물 소재와 고객의 실제 사용 경험은 시험하지 않았다.",
+      "매출·재구매·효능·품질의 사업 성과를 독립적으로 입증한 자료가 아니다.",
+      "일부는 제안이나 부분 작업이다. 각 사례의 확인 한계와 담당 범위를 함께 읽는다."
+    ]
+  },
+  "counts": {
+    "projects": 146,
+    "deepDives": 18,
+    "staticVisuals": 9,
+    "categories": {
+      "BX": 82,
+      "UX": 55,
+      "BX+UX": 5,
+      "other": 4
+    },
+    "baseEvidence": {
+      "official_text": 132,
+      "insufficient": 2,
+      "brief_or_image_led": 12
+    }
+  },
+  "deepDive18": [
+    "bts",
+    "yg1",
+    "anormal",
+    "hssystem",
+    "channel_a",
+    "plusx_identity",
+    "archiveat",
+    "simplyjuice",
+    "korcraft",
+    "29cm3",
+    "hyundaicard_purple",
+    "deeponde",
+    "beauty_of_joseon",
+    "cleanlab",
+    "konny",
+    "g9",
+    "plusxobject",
+    "tetrapodbrewing"
+  ],
+  "staticVisual9": [
+    "29cm3",
+    "anormal",
+    "bts",
+    "channel_a",
+    "hssystem",
+    "hyundaicard_purple",
+    "plusx_identity",
+    "simplyjuice",
+    "yg1"
+  ],
+  "projects": [
+    {
+      "index": 1,
+      "slug": "essenherb",
+      "name": "ESSENHERB",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "원료를 중심으로 한 정적인 인상을 넘어 해외 시장에서 기억되는 브랜드를 만들기 위해 자연의 생명력을 하나의 핵심 개념으로 정리했다. 로고의 곡선과 직선, 상단 정렬 구조를 모듈 그리드에 연결하여 제품과 사진, 그래픽을 다양한 온오프라인 판형에 일관되게 적용하는 체계를 제시한다.",
+      "interpretation": "농가의 소재 설명을 고객이 경험할 가치로 번역하고, 그 의미를 상품 정보와 사진 배열에도 연결할 수 있다. 자연 이미지만으로 품질을 주장하는 방식은 피해야 한다.",
+      "relevance": "high",
+      "relevanceReason": "원재료 중심 상품을 브랜드 차원의 경험으로 확장하는 문제와 가깝다.",
+      "limits": "공식 전략 본문 근거. 시각 자산 실물과 이미지 미검증. 원문의 피부 관련 효능 표현은 농작물의 효능 근거가 아니다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/essenherb.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 2,
+      "slug": "worxphere",
+      "name": "Worxphere",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "채용을 넘어 일의 여러 경험을 연결하는 기업으로 확장하기 위해 새 이름과 정체성을 개발했다. 이름에 일, 경험, 생태계의 의미를 담고 반복되는 원형과 곡선으로 연결을 표현한다. 어두운 기본색과 밝은 강조색, 원형 인포그래픽, 영역 안에 배치하는 일러스트로 기업의 확장된 역할을 시각적으로 설명한다.",
+      "interpretation": "브랜드 이름은 첫 작물을 넘어 서비스가 책임질 범위를 담을 수 있어야 한다. 다만 미래의 광범위한 비전보다 실제 제공 가능한 식사 경험부터 명확하게 설명하는 것이 적합하다.",
+      "relevance": "medium",
+      "relevanceReason": "품목 확장에 견디는 상위 브랜드 명명과 역할 정의에 참고 가능하다.",
+      "limits": "원문 meta name이 pledis로 잘못 표기되어 본문에서 Worxphere로 교정했다. 이미지 미검증이며 기업 성과는 평가하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Page meta name/title incorrectly says pledis; actual body repeatedly describes Worxphere.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/worxphere.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 3,
+      "slug": "kt",
+      "name": "KT Visual Identity",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "통신 기업의 기존 자산을 계승하면서 인공지능 사업으로의 전환을 표현할 시각 체계를 개발했다. 기존 깃발의 직선과 곡선을 연결과 변화의 흐름으로 재해석했다. 이 원리를 그래픽, 질감, 색상 단계, 전용 서체와 서비스별 입체 아이콘으로 확장하며 내부에서 같은 스타일의 아이콘을 생성하는 운영 시스템도 설명한다.",
+      "interpretation": "농가의 고유한 사실에서 도출한 규칙이 라벨, 웹, 안내 그림으로 확장되도록 설계할 수 있다. 반복 제작이 필요한 요소는 초기에 템플릿과 검수 기준을 함께 마련하는 것이 유용하다.",
+      "relevance": "medium",
+      "relevanceReason": "다채로운 접점을 일관되게 생성하고 운영하는 시스템에 참고 가능하다.",
+      "limits": "공식 본문에 근거한 메커니즘 요약. 이미지·아이콘 생성 도구의 실제 사용성과 현재 운영 상태는 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kt.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 4,
+      "slug": "unni",
+      "name": "unni",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "해외 확장 과정에서 기존 이름의 발음과 의미에 한계가 있어 브랜드명을 바꾸고 언어와 시각 자산을 재정리했다. 선택을 돕는 안내자라는 역할을 화살표와 기존 하트 형태의 결합으로 표현한다. 입체로 확장 가능한 심볼, 디지털 중심의 색과 서체를 앱부터 광고까지 연결하여 친근함과 전문성을 함께 전달하려 했다.",
+      "interpretation": "고객이 품질을 판단하기 어려운 농작물 선택에서 어떤 안내를 제공할지 명확히 할 수 있다. 친근한 말투와 정확한 정보의 역할을 분리하고, 이름의 이해도와 발음도 검증할 필요가 있다.",
+      "relevance": "medium",
+      "relevanceReason": "선택의 불확실성을 줄이는 브랜드 역할과 전문성의 표현이 관련된다.",
+      "limits": "공식 제작 의도에 근거한다. 의료 서비스 효과나 브랜드 성과를 평가하지 않았다. 시각물과 실제 앱은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/unni.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 5,
+      "slug": "pledis",
+      "name": "PLEDIS",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "아티스트의 높은 인지도와 달리 기업 자체의 정체성이 선명하지 않은 문제를 다뤘다. 콘텐츠의 움직임과 리듬을 기업의 핵심 의미로 정리하고 상반된 서체 형태를 결합했다. 로고 일부를 콘텐츠와 연결하는 방식과 정제된 모듈 배치로 기획 주체와 기준을 드러내며 내부 키트와 디지털 매체까지 확장한다.",
+      "interpretation": "특정 인기 작물이 브랜드 전체를 대신하지 않도록 마스터브랜드의 역할을 정해야 한다. 농가 이름, 선별 주체, 상품 이름이 각기 무엇을 보증하는지 동일한 정보 위계로 보여줄 수 있다.",
+      "relevance": "medium",
+      "relevanceReason": "개별 상품과 상위 브랜드의 관계 및 품질 보증 역할에 참고 가능하다.",
+      "limits": "공식 본문 근거이며 아티스트 판매량을 리브랜딩 효과로 연결하지 않았다. 이미지·모션은 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/pledis.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 6,
+      "slug": "km",
+      "name": "KOLON MALL UX/UI",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "여러 브랜드를 취급하면서도 단일 기업의 전용 몰로 인식되고 콘텐츠와 구매 흐름이 끊기는 문제를 다뤘다. 이용 데이터를 분석해 이탈 지점을 찾고 브랜드 이야기, 상품, 추천을 연결했다. 패널 탐색, 콘텐츠의 상품 연결, 모듈형 매거진, 관심사 기록과 구매 정보 고정 배치로 탐색부터 구매까지 이어지는 구조를 제안한다.",
+      "interpretation": "농가 이야기와 실제 판매 작물을 바로 연결하고, 필요한 보관·조리 정보를 본 뒤 상품을 다시 찾게 만들지 않아야 한다. 처음부터 개인화 기능을 늘리기보다 탐색과 구매 사이의 단절부터 확인하는 것이 적절하다.",
+      "relevance": "high",
+      "relevanceReason": "브랜드 콘텐츠와 쇼핑 기능을 함께 구축하려는 현재 목표에 직접 관련된다.",
+      "limits": "본문의 수치는 당시 진단 데이터이며 개선 후 효과로 취급하지 않았다. 제안 화면과 현재 서비스의 일치 여부는 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/km.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 7,
+      "slug": "lazynight",
+      "name": "Lazynight",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "연령 중심의 서비스 인상을 넘어 취향을 가진 여성에게 새로운 브랜드를 발견하게 하는 경험을 설계했다. 인터뷰에서 신뢰하는 추천과 요약된 정보에 대한 수요를 찾았다. 활동에 따른 추천과 설명 문구, 콘텐츠별 컴포넌트, 썸네일에서 상세로 이어지는 색과 전환, 가로 전시 방식으로 편집된 발견의 흐름을 구성했다.",
+      "interpretation": "낯선 작물을 제안할 때 추천 이유와 먹는 장면을 짧게 보여주면 선택을 도울 수 있다. 사용자 취향을 알고 있다는 표현은 실제 입력이나 행동 근거가 있을 때만 사용하는 것이 적절하다.",
+      "relevance": "high",
+      "relevanceReason": "새로운 식재료에 대한 신뢰 있는 추천과 정보 요약에 직접 참고 가능하다.",
+      "limits": "공식 본문과 화면 내 텍스트 근거. 사용자 조사 결과를 농작물 고객 특성으로 일반화하지 않았다. 시각·인터랙션 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/lazynight.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 8,
+      "slug": "dorco",
+      "name": "DORCO",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "축적된 기술과 제작 태도를 글로벌 기업의 일관된 정체성으로 표현하기 위해 브랜드 핵심과 비전을 재정리했다. 날의 정밀함에서 선이라는 모티프를 도출하고 로고 세부, 그래픽, 패키지 아이콘으로 확장했다. 기존 빨간색을 계승하되 제품별 색상과 서브브랜드 규칙을 구분하여 기업의 보증과 상품별 특징을 함께 드러낸다.",
+      "interpretation": "농가의 품질은 추상적인 최고라는 문구보다 무엇을 정밀하게 관리하는지 보여줄 때 설득력이 생긴다. 마스터브랜드의 고정 규칙과 작물별 선별·보관 정보를 분리하여 품목 확장에도 유지할 수 있다.",
+      "relevance": "high",
+      "relevanceReason": "품질을 만드는 실제 전문성과 다품목 패키지 시스템 연결에 유용하다.",
+      "limits": "공식 전략 본문 근거. 시장 순위나 기술 우위를 독립 검증하지 않았으며 리브랜딩 성과로 주장하지 않았다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/dorco.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 9,
+      "slug": "unix_web",
+      "name": "UNIX Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "소비자의 상품 탐색, 운영 구조, 브랜드 이미지라는 세 관점을 함께 개선하기 위해 웹사이트를 재구성했다. 제품을 나열하는 데서 나아가 사용이 필요한 일상 장면을 편집형 콘텐츠로 제시했다. 페이지 소개와 위치 경로, 제품군 이미지로 탐색을 돕고 정해진 색·서체·그리드와 숨결을 표현하는 이미지 전환으로 정체성을 연결한다.",
+      "interpretation": "작물명 중심의 목록에 식사 상황과 사용 방법을 연결하되, 현재 위치와 상품 정보는 쉽게 파악되어야 한다. 브랜드 이야기의 감각과 구매를 돕는 정보 구조를 함께 설계하는 데 참고할 수 있다.",
+      "relevance": "high",
+      "relevanceReason": "브랜드 사이트의 설명과 실제 상품 탐색을 연결하는 구현 방식에 관련된다.",
+      "limits": "공식 본문 근거. 구매 동기나 몰입 향상은 설계 목표로 취급했다. 웹사이트의 실제 사용성과 모션은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/unix_web.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 10,
+      "slug": "unix",
+      "name": "UNIX Brand Identity",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "축적된 전문 기술과 달리 저가 이미지와 혼재된 인상이 남아 있는 문제를 다뤘다. 기존 역사를 유지하면서 고객의 일상에 스며드는 뷰티케어 브랜드로 의미를 재정리했다. 제품의 바람에서 얻은 숨결을 언어와 그래픽으로 연결하고 브랜드를 대표하는 색과 콘텐츠용 색을 구분하여 다양한 매체의 일관성을 설계했다.",
+      "interpretation": "프리미엄 인식은 농가의 기존 품질 근거와 고객이 체감하는 편익을 함께 정리해야 형성될 수 있다. 자연의 분위기를 표현하는 사진보다 실제 생활의 어떤 불편을 해결하는지 먼저 검증하는 것이 적절하다.",
+      "relevance": "high",
+      "relevanceReason": "품질의 실체와 가격·이미지 인식 사이의 간극을 다룬다.",
+      "limits": "공식 본문 근거. 이미지 개선의 측정 결과는 제시하지 않는다. 제품 효능을 농작물의 건강 효과로 전용하지 않는다. 시각 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/unix.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 11,
+      "slug": "alipay",
+      "name": "Alipay",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "온라인에서 성장한 금융 서비스가 경쟁사와 구별되고 오프라인에도 적용되도록 브랜드 경험을 재정리한 프로젝트다. 사용자의 생활에서 출발하여 어떤 편의를 주는지 정의하고, 더 젊고 활력 있는 인상을 목표로 삼았다. 접근 조건이 다른 이용자에게 생활 속 불편을 줄여준다는 가치와 확장된 서비스 경험을 설명하지만 세부 조형 규칙의 본문 설명은 제한적이다.",
+      "interpretation": "서비스의 고급스러움이 고객의 사용을 어렵게 만들지 않도록 일상에서 줄일 수 있는 불편을 먼저 정의할 수 있다. 다양한 구매 채널에서도 브랜드 약속이 같은 의미로 전달되는지 검토하는 데 참고한다.",
+      "relevance": "medium",
+      "relevanceReason": "온라인과 오프라인 확장을 포괄하는 사용자 편익 정의가 관련된다.",
+      "limits": "전략과 목표는 본문에 있으나 세부 시각 원리는 설명이 부족하다. 사회적 변화에 관한 제작사 표현을 입증된 효과로 취급하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/alipay.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 12,
+      "slug": "musinsa",
+      "name": "MUSINSA 2.0",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "기존 정체성을 유지하면서 기능과 장기 운영에 적합한 디자인 언어를 만들기 위해 컴포넌트 중심의 체계를 제안했다. 회색 바탕과 흰 모듈의 계층으로 상품과 콘텐츠를 구분하고 다양한 언어와 화면에 대응하도록 했다. 후기 정보의 위계, 콘텐츠와 태그 상품의 연결도 설계했으며 초기 제안과 후속 실제 구축의 범위를 구분하여 설명한다.",
+      "interpretation": "스토리북에는 로고 설명뿐 아니라 상품 카드, 선별 정보, 보관 안내처럼 반복 사용하는 컴포넌트의 목적과 규칙을 기록할 수 있다. 화면을 일관되게 만들되 고객 판단에 필요한 정보 위계를 먼저 정해야 한다.",
+      "relevance": "high",
+      "relevanceReason": "스토리북과 브랜드·개발 가이드를 연결하는 구조에 직접 활용 가능하다.",
+      "limits": "문서는 초기 제안을 바탕으로 하며 후속 일부 서비스 구축을 따로 명시한다. 모든 제안의 실제 배포나 성과를 단정하지 않았다. 시각 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/musinsa.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 13,
+      "slug": "kolonmall",
+      "name": "KOLON MALL Brand Experience",
+      "category": "BX+UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "다양한 브랜드를 다루면서도 코오롱 전문 몰로만 인식되는 한계를 해결하려 브랜드의 역할을 고객의 안목을 넓히는 플랫폼으로 재정의했다. 고객과 브랜드의 관계, 핵심 가치, 언어를 정리하고 확장된 원형과 원근감 있는 배치를 도출했다. 고정된 로고·색·서체와 가변적인 콘텐츠 프레임을 앱, 광고, 오프라인 접점에 연결한다.",
+      "interpretation": "좋은 작물을 대신 골라준다는 설명에서 더 나아가 어떤 맛과 식사 경험을 발견하게 하는지 명확히 할 수 있다. 선택 기준과 고객의 새로운 경험이 연결될 때 큐레이션의 차별성이 구체화된다.",
+      "relevance": "high",
+      "relevanceReason": "단순 판매처에서 취향과 안목을 제안하는 서비스로의 포지셔닝에 관련된다.",
+      "limits": "공식 전략 본문 근거. 원근감과 원형의 표현은 설명을 통해 파악했으며 이미지·모션을 직접 검증하지 않았다. UX 사례 km과 별도 항목이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kolonmall.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 14,
+      "slug": "lightroom",
+      "name": "Lightroom Seoul Website",
+      "category": "other",
+      "baseEvidence": "official_text",
+      "sourceFacts": "몰입형 전시 공간의 특징을 방문 전에 전달하면서 전시 정보와 예매를 제공하는 웹사이트를 제작했다. 공간을 큐브와 입자로 표현하고 확장되는 전환, 큰 이미지와 문자를 활용했다. 반면 상세 정보에는 일정한 그리드와 탐색 기능을 적용하고 예매 버튼을 지속적으로 노출하여 감각적 경험과 실제 방문 행동을 연결하도록 설계했다.",
+      "interpretation": "농가의 감각을 전달하는 콘텐츠에도 상품 정보와 구매 경로를 쉽게 찾을 수 있어야 한다. 몰입형 표현은 실제 작물 이해에 도움이 되는 장면으로 제한하고 속도와 접근성을 함께 검토하는 것이 적합하다.",
+      "relevance": "medium",
+      "relevanceReason": "브랜드 체험과 명확한 행동 유도의 균형을 참고할 수 있다.",
+      "limits": "공식 본문과 이미지 alt 근거. 전시 시간·현재 운영 정보는 확인하지 않았다. 실제 입체 화면과 모션은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/lightroom.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 15,
+      "slug": "tuniverse",
+      "name": "T Universe",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "구독 상품의 개념과 사용 방법이 낯설어 서비스 가치를 이해하기 어렵다는 문제를 사용자 조사로 확인했다. 익숙한 쇼핑 탐색을 바탕으로 상품 구성과 혜택을 우선 제시하고 선택 옵션에 따른 가격을 함께 보여주도록 했다. 가입 이후 이용 상태와 혜택을 관리하는 화면, 추천과 콘텐츠 운영까지 연결하는 구독 경험을 제안했다.",
+      "interpretation": "정기배송을 도입한다면 구성, 금액, 변경 가능 범위와 이용 상태를 먼저 이해할 수 있어야 한다. 구독의 고급스러운 이름보다 고객이 다음 배송과 선택 결과를 예측할 수 있는지를 우선 검증할 필요가 있다.",
+      "relevance": "high",
+      "relevanceReason": "농작물 정기배송의 이해·선택·관리 경험과 직접 연결된다.",
+      "limits": "공식 페이지는 최종 제안과 실제 출시 버전에 차이가 있음을 명시한다. 제안 전체가 구현되었다거나 비용 절감이 검증되었다고 단정하지 않았다. 시각 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/tuniverse.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 16,
+      "slug": "channel_a",
+      "name": "Channel A",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "개별 콘텐츠에 비해 채널의 정체성이 선명하지 않은 상황에서 내부 구성원과 시청자가 함께 이해할 방향을 재정리했다. 시청자의 능동적인 선택과 즐김을 핵심 가치로 삼고, 이어지는 선의 입체 A로 확장을 표현했다. 기존 파랑과 콘텐츠 정서별 보조색, 파생 그래픽을 여러 접점에 적용하여 상위 브랜드의 존재감을 강화하려 했다.",
+      "interpretation": "한 작물이 주목받을 때도 선별하는 브랜드가 기억되도록 고정 자산과 작물별 표현의 역할을 나눌 수 있다. 농가와 고객에게 같은 약속이 각각 어떤 행동과 편익을 뜻하는지 정리하는 데 참고한다.",
+      "relevance": "medium",
+      "relevanceReason": "상위 브랜드가 개별 상품을 보증하는 구조와 내부·외부 약속의 연결이 관련된다.",
+      "limits": "공식 본문과 공식 디스플레이 정적 이미지 한 장을 직접 확인했다. 모션·실제 방송·성과는 미검증이며 시각 확인 범위는 한 장이다.",
+      "supplementalEvidence": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+        "observation": "확인한 디스플레이 이미지에는 어두운 화면 위 흰 Channel A 문자와 접히거나 꼬인 리본처럼 보이는 A 심볼이 배치되어 있다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/channel_a.html"
+        },
+        {
+          "label": "공식 심층 사례 원문",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/channel_a.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "개별 콘텐츠의 존재감에 비해 채널 브랜드의 방향이 충분히 전달되지 않는 상황을 다룬다. 시청자를 능동적으로 콘텐츠를 선택하고 해석하는 사람으로 보고, 콘텐츠를 만들고 즐기는 행위에 브랜드 가치를 연결했다. 내부 구성원의 태도와 시청자가 기대할 경험을 하나의 언어로 정리했다. 이어지는 선으로 만든 A를 입체 방향으로 펼치는 조형으로 전진과 확장을 표현했다. 기존 파란색은 유지하고 콘텐츠의 여러 정서를 표현하는 보조색과 그러데이션을 구성했다. 심볼에서 파생한 입체 그래픽을 방송 화면과 홍보물에 연결하며, 마이크·차량·공간 등 다양한 접점의 응용 이미지도 제시한다."
+        ],
+        "touchpoints": [],
+        "analysis": "농가가 지킬 행동과 고객이 받을 이익을 같은 약속으로 묶는 데 참고할 수 있다. 마스터브랜드는 개별 작물이 주목받을 때도 기억되어야 하며, 고정 자산과 계절·작물별 가변 자산의 역할을 분명히 해야 한다.",
+        "validation": "농가의 행동이 고객의 실제 이익으로 이어지는지, 개별 작물과 상위 브랜드를 함께 기억하는지 확인한다.",
+        "avoidCopying": "입체 A, 리본 형태, 그러데이션과 방송용 움직임을 가져오지 않는다.",
+        "limits": "공식 본문과 디스플레이 이미지 한 장을 확인했다. 모션·방송 송출·이용자 반응을 직접 검증하지 않았다. 응용 이미지의 존재와 성과는 다르다.",
+        "evidenceNote": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증."
+      }
+    },
+    {
+      "index": 17,
+      "slug": "pawparazzi",
+      "name": "Pawparazzi",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "반려견을 가족으로 대하는 관계를 바탕으로 하이엔드 용품 브랜드를 기획한 생성형 인공지능 실험이다. 발과 유명인의 주목받는 생활을 이름에 결합하고 신체 특징을 워드마크, 발바닥을 색, 털과 금속을 소재 방향으로 연결했다. 브랜드마크를 제외한 이미지와 영상에 생성 도구를 사용했다고 밝히며 제품과 공간의 경험을 제안한다.",
+      "interpretation": "프리미엄을 높은 가격보다 고객이 소중히 여기는 관계와 순간으로 정의하는 접근은 참고할 수 있다. 농가의 실제 생산물과 가상의 캠페인 이미지는 구분하고 생성 이미지가 품질 증거처럼 보이지 않게 해야 한다.",
+      "relevance": "medium",
+      "relevanceReason": "럭셔리 의미의 정의와 AI 기반 마케팅 초안의 활용 범위를 검토하는 데 유용하다.",
+      "limits": "공식 페이지가 GenAI 브랜딩 프로젝트임을 명시한다. 실물 제품·상업 운영·시장 성공 사례로 취급하지 않았다. 생성 비주얼은 직접 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/pawparazzi.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 18,
+      "slug": "eql",
+      "name": "EQL",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "엄선한 브랜드의 스타일을 일반 쇼핑몰과 다르게 경험하도록 하기 위해 실무자와 사용자 인터뷰를 진행했다. 콘텐츠에서 취향을 발견하고 관련 상품을 탐색하며 추천으로 이어지는 구조를 설계했다. 스타일링 중심의 콘텐츠, 짧은 탐색 흐름, 가로 스크롤과 카드 변형, 상황에 맞는 추천 영역으로 편집숍의 감도를 서비스에 연결했다.",
+      "interpretation": "엄선된 작물의 차이는 추천 이유와 식사 장면을 통해 구체화할 수 있다. 조리 콘텐츠와 해당 상품을 가까이 연결하고 구매를 원할 때 콘텐츠를 강제로 오래 보게 하지 않는 구조를 검토한다.",
+      "relevance": "high",
+      "relevanceReason": "선별 상품과 편집 콘텐츠가 결합한 프리미엄 쇼핑 경험과 직접 관련된다.",
+      "limits": "공식 본문과 alt 근거. 브랜드 수와 사용자 특성은 당시 사례 맥락이며 현재 시장 일반으로 확장하지 않았다. 실제 화면·효과 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/eql.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 19,
+      "slug": "beauty_of_joseon",
+      "name": "Beauty of Joseon",
+      "category": "BX",
+      "baseEvidence": "insufficient",
+      "sourceFacts": "공식 공개 목록에 브랜드 프로젝트가 있으나 제공된 상세 본문에는 공유 메뉴와 닫기 등 인터페이스 문구만 확인된다. 이미지 대체 설명도 전략을 파악할 정보를 제공하지 않는다. 따라서 프로젝트의 문제 정의, 핵심 개념, 조형 원리, 패키지 체계 또는 개선 결과를 이 자료만으로 요약하거나 확정할 수 없다.",
+      "interpretation": "현재 자료만으로 농작물 브랜드에 이전할 전략 원리를 정하지 않는 것이 적절하다. 별도로 이미지를 확인하고 공식 설명을 확보한 뒤 소재의 전통성이나 프리미엄 표현을 평가할 수 있다.",
+      "relevance": "low",
+      "relevanceReason": "본문 근거가 부족하여 이번 전략의 핵심 근거로 사용하기 어렵다.",
+      "limits": "전략 본문 부족. 이미지 미확인. 익숙한 브랜드명이나 일반적인 시장 이미지로 사례 내용을 보충하지 않았다.",
+      "supplementalEvidence": "공식 회고로 브랜드 전략 보강. 기존 상세의 본문 부족 판정은 유지.",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/beauty_of_joseon.html"
+        },
+        {
+          "label": "추가 공식 자료",
+          "url": "https://xs.ulp.plus-ex.com/detail/uppercase-j"
+        },
+        {
+          "label": "공식 상세 존재 확인; 이미지 중심",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/beauty_of_joseon.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "제품 중심의 인지를 브랜드 전체의 가치와 정체성으로 확장하려 했다.",
+          "전통 재료와 돌봄의 관점을 현재의 일상에서 읽을 수 있는 브랜드 의미로 재정리했다.",
+          "시간을 넘어 이어지는 아름다움이라는 의미와 자신을 가꾸는 여정."
+        ],
+        "touchpoints": [
+          {
+            "label": "언어",
+            "text": "공식 설명은 Modern Hanbang Skincare와 Brighten·Journey를 정체성의 주요 언어로 제시한다."
+          },
+          {
+            "label": "로고",
+            "text": "붓글씨의 강약과 곡선을 현대적인 로고타입의 조형으로 재해석했다고 설명한다."
+          },
+          {
+            "label": "확인 범위",
+            "text": "여기서 확인한 내용은 브랜드 전략과 로고 해석이다. 포장 재료·공간·실제 모션의 세부 특성은 단정하지 않는다."
+          }
+        ],
+        "analysis": "농가의 지역성은 옛 분위기의 장식이 아니라 재배·식문화·생산자 태도의 현재적 의미로 설명한다. 낯선 작물도 오늘의 식사에 어떻게 쓰이는지 연결한다.",
+        "validation": "농가와 지역의 실제 역사, 음식 문화의 근거, 명칭의 소유권을 확인한다. 새 고객이 설명을 이해하는지 검증한다.",
+        "avoidCopying": "근거 없는 가문·왕실·오랜 전통 서사를 만들지 않는다. 붓글씨의 표면만 모방하지 않는다.",
+        "limits": "공식 회고문의 전략·디자인 설명을 읽음. 이미지 중심 상세의 전체 시각 검토는 하지 않음.",
+        "evidenceNote": "공식 회고문의 전략·디자인 설명을 읽음. 이미지 중심 상세의 전체 시각 검토는 하지 않음."
+      }
+    },
+    {
+      "index": 20,
+      "slug": "skbp",
+      "name": "SK Biopharmaceuticals ZERO",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "환자와 보호자의 기록·관찰 요구를 조사하고 직접 입력하는 사람과 상태를 확인하는 사람의 역할을 구분하여 서비스를 설계했다. 기록을 이어가기 쉽도록 핵심 입력 동선을 줄이고 하루의 기록, 상태 변화와 알림을 시각화했다. 모바일·웨어러블·의료진 화면·소개 웹을 연결한 경험을 설명하며 일상에서 필요한 정보를 적시에 전달하는 것을 목표로 한다.",
+      "interpretation": "다양한 사용자 역할과 필요한 시점을 구분하는 조사 방식은 참고할 수 있다. 농가의 출고 기록과 소비자의 보관 안내는 입력 책임과 확인 목적을 나누어 설계하고 의료 기능을 농산물 서비스에 전용하지 않는다.",
+      "relevance": "low",
+      "relevanceReason": "행동 기록과 역할별 정보 설계 원리는 유용하지만 의료 맥락은 이번 서비스와 거리가 있다.",
+      "limits": "공식 설계 설명이며 임상적 효과, 발작 감지·예측 정확성, 안전성을 검증하지 않았다. 건강 효능 근거로 사용하지 않는다. 시각 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/skbp.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 21,
+      "slug": "iskra",
+      "name": "Iskra",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "블록체인 게임 허브의 고유성과 확장성을 강화하기 위해 색상과 시각 자산의 사용 규칙을 정리했다. 불꽃의 온도에서 색의 관계를 설명하고 심볼용 그러데이션과 토큰 아이콘의 사용 맥락을 제한했다. 심볼의 열린 공간을 포털로 해석한 그래픽, 주제별 색 구분, 서체와 인포그래픽으로 식별성과 정보 전달을 함께 설계한다.",
+      "interpretation": "브랜드 가이드에는 사용하는 방법과 적용 범위를 함께 기록할 수 있다. 대표 마크, 품질 정보, 품목 구분이 서로 혼동되지 않도록 역할을 정하고 스토리북에서 좋은 사용 예를 보여주는 데 참고한다.",
+      "relevance": "medium",
+      "relevanceReason": "시각 자산의 적용 범위와 기능별 구분 규칙이 디자인 가이드에 유용하다.",
+      "limits": "공식 본문 근거. 블록체인 사업의 지속 가능성이나 투자 가치를 평가하지 않았다. 그래픽·아이콘·인터랙션은 직접 보지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/iskra.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 22,
+      "slug": "sphere",
+      "name": "Sphere",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "거점 오피스의 출입과 예약을 넘어 일하는 과정의 물리적·정서적 문제를 함께 다루는 서비스를 설계했다. 사용자 상황에 따라 필요한 알림을 제공하고 공간, 일정, 구성원 정보를 연결한다. 좌석·회의실 예약과 예상 혼잡도, 월패드, 커뮤니티를 하나의 경험으로 묶고 간결한 언어와 정보 우선순위로 일상적 사용을 지원하도록 했다.",
+      "interpretation": "구매 완료 이후에도 배송, 보관, 사용 시점에 맞는 정보가 필요하다. 고객이 언제 무엇을 해야 하는지 중심으로 안내를 설계하면 알림의 양을 늘리지 않고 서비스의 세심함을 체감하게 할 수 있다.",
+      "relevance": "medium",
+      "relevanceReason": "고객의 시간과 상황에 맞는 정보 제공이라는 서비스 경험 원리가 관련된다.",
+      "limits": "공식 본문 근거이며 효율·시간 절감은 목표로 취급한다. 앱·월패드와 실제 운영 데이터는 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/sphere.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 23,
+      "slug": "case1",
+      "name": "CASE1",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "유사한 편의 시설과 화려함으로 구별되기 어려워진 고급 주거 시장에서 생활의 기본과 지역의 문화적 가치를 중심으로 브랜드를 개발했다. 중심이 되는 존재라는 개념을 이름과 기준축으로 연결했다. 축은 로고의 세부, 세로선과 문자 배열, 사인과 지류에 적용하고 매체별 크기와 표현 규칙도 마련했다.",
+      "interpretation": "프리미엄 농작물도 보기 좋은 장식에 앞서 맛, 상태, 사용 편의처럼 기본이 무엇인지 정해야 한다. 품격은 그 기본을 정확하게 제공하는 기준과 고객이 체감하는 식사 경험에서 정의할 수 있다.",
+      "relevance": "high",
+      "relevanceReason": "하이엔드의 차별성을 본질적인 사용 가치에서 재정의한 사례다.",
+      "limits": "공식 전략 본문 근거. 주거 자산 가치의 상승이나 고객 선호에 관한 표현을 검증된 결과로 취급하지 않았다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/case1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 24,
+      "slug": "rawrow",
+      "name": "RAWROW Website",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "제품의 보이지 않는 기능과 반복 연구, 축적된 이력을 명확하게 알리기 위한 웹 표현을 설명한다. 설계도의 선과 손으로 쓴 표현을 모티프로 사용하고 기능은 설명서 같은 편집으로 전달한다. 제품 색을 활용한 후기 목록, 기록을 모아 보는 표 형식으로 연구·사용·역사를 서로 다른 정보 구조에 담는다.",
+      "interpretation": "농가의 선별과 재배 과정처럼 소비자에게 보이지 않는 노력을 실제 기록으로 보여줄 수 있다. 스토리북과 상품 페이지에 과정, 사용법, 검증 자료를 각각 읽기 좋은 형식으로 쌓는 접근이 적합하다.",
+      "relevance": "high",
+      "relevanceReason": "보이지 않는 품질 노력과 히스토리를 구체적인 증거로 표현하는 구조가 적합하다.",
+      "limits": "짧지만 문제와 표현 방식이 대응된 공식 본문을 확인했다. 이미지·실제 웹은 미검증이며 연구 과정 자체의 성능을 입증하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/rawrow.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 25,
+      "slug": "hfashion",
+      "name": "H FASHION",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "입점 브랜드가 플랫폼 자체의 이미지가 되는 한계를 해결하기 위해 해외 패션을 엄선하는 큐레이터로 역할을 재정의했다. 공식 수입의 신뢰, 빠르고 쉬운 구매, 새로운 발견을 함께 가치로 정리했다. 브랜드의 선택을 보증하는 H 프레임을 개발하고 제품과 콘텐츠, 앱 요소와 오프라인 인쇄물에 같은 기준을 적용하도록 했다.",
+      "interpretation": "선택받은이라는 키워드는 선별 주체, 선별 기준, 구매 후 책임으로 구체화할 수 있다. 농가와 서비스가 무엇을 확인하고 보증하는지 명확히 제시하면 엄선이 단순한 분위기보다 실질적인 선택 이유가 된다.",
+      "relevance": "high",
+      "relevanceReason": "엄선의 의미를 유통 신뢰와 편리한 구매까지 연결해 이번 목표와 매우 가깝다.",
+      "limits": "공식 본문 근거. 공식 수입과 A/S는 이 패션 서비스의 가치로 제시된 것이며 농작물에 동일하게 적용되는 사실이 아니다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hfashion.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 26,
+      "slug": "airpremia",
+      "name": "Airpremia Digital Experience",
+      "category": "other",
+      "baseEvidence": "official_text",
+      "sourceFacts": "합리적인 프리미엄이라는 철학을 항공권 예매와 여행 전후의 디지털 경험에 반영하기 위해 구성원 인터뷰와 고객 여정을 검토했다. 쉬운 언어, 실수 해결, 명확한 과업 진행을 원칙으로 세웠다. 예약과 여정 관리의 기기별 역할을 구분하고 정보 입력, 비용 분담, 준비 안내를 연결하며 같은 요소를 기내 화면에도 적용했다.",
+      "interpretation": "품격 있는 서비스는 주문하기 쉽고 실수가 해결되며 필요한 순간에 안내받는 경험에서도 형성된다. 구매 화면부터 수령·보관까지 고객 여정을 그린 뒤 각 단계에서 줄일 불확실성을 정하는 데 참고할 수 있다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄을 서비스 편안함과 여정의 세심한 지원으로 번역한다.",
+      "limits": "공식 제작 당시의 설계 설명이며 현재 제공 기능을 확인한 결과가 아니다. 실제 예약·기내 화면·사용성은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/airpremia.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 27,
+      "slug": "sll",
+      "name": "SLL",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "제작사를 넘어 글로벌 크리에이티브 스튜디오로 확장하는 방향을 일관되게 전달하기 위해 브랜드를 재정리했다. 이야기가 삶을 이끈다는 의미를 내부 제작 태도와 외부 고객 가치로 나눠 설명한다. 상승하는 로고와 배열, 다국어 서체 규칙, 레이블을 동등하게 병기하는 구조를 마련하고 반복·중첩 그래픽으로 여러 접점을 연결한다.",
+      "interpretation": "농가와 서비스가 함께 드러나는 경우 두 이름의 역할과 위계를 먼저 정할 수 있다. 제작자의 태도와 고객의 식사 경험을 같은 이야기로 연결하되, 어느 주체가 어떤 책임을 지는지 명확히 보여주는 것이 중요하다.",
+      "relevance": "medium",
+      "relevanceReason": "생산자와 서비스 브랜드의 공동 표기 및 내부·외부 언어의 연결에 참고 가능하다.",
+      "limits": "meta name이 Cashnote로 잘못 표기되어 본문에서 SLL로 교정했다. 공식 본문 근거이며 비주얼·모션·사업 성과는 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Page meta name/title incorrectly says Cashnote; actual body describes SLL and Stories Lead Life.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/sll.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 28,
+      "slug": "niceholdings",
+      "name": "NICE Holdings Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "그룹의 사업과 투자 정보를 찾기 어렵고 자산이 충분히 전달되지 않는 문제를 구성원 인터뷰로 확인했다. 기존 심볼의 빛과 건축의 선을 연결해 웹의 시각 원리를 만들었다. 정돈된 그리드, 수치와 시간순 기록, 문장형 설명, 연관 페이지 연결로 전문성과 정보 탐색을 함께 전달하는 반응형 구조를 설계했다.",
+      "interpretation": "농가의 역사와 품질을 보여주는 정보도 고객이 이해할 문장과 비교 가능한 단위로 구성해야 한다. 수확 기록이나 운영 기준을 장식용 숫자로 쓰기보다 무엇을 의미하는지 설명하는 체계에 참고할 수 있다.",
+      "relevance": "medium",
+      "relevanceReason": "실제 자산을 읽기 쉬운 증거와 정보 구조로 제시하는 방법이 유용하다.",
+      "limits": "공식 본문 근거. 시장 점유율 주장은 독립 검증하지 않았으며 디자인 효과로 연결하지 않았다. 현재 웹·모션은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/niceholdings.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 29,
+      "slug": "cashnote",
+      "name": "Cashnote",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "서비스가 확장되었지만 고객 인식은 초기 매출 알림에 머물러 있고 자산도 혼재된 문제를 다뤘다. 사용자의 하루와 업무를 살펴 사업의 본질에 집중하도록 돕는 동반자 역할을 정리했다. 이니셜 주변을 도는 점으로 곁에서 살피는 태도를 표현하고 아이콘, 사람 그림, 정보 그래픽과 앱 요소를 같은 원칙으로 연결했다.",
+      "interpretation": "농작물 서비스도 고객이 식사 자체에 집중하도록 어떤 번거로움을 덜어주는지 하루의 흐름에서 정의할 수 있다. 좋은 고객 응대와 보관 안내처럼 실제로 곁에서 돕는 행동을 브랜드 약속에 포함하는 데 참고한다.",
+      "relevance": "high",
+      "relevanceReason": "시간과 편리함을 중시하는 고객을 돕는 서비스 태도와 직접 연결된다.",
+      "limits": "공식 본문 근거. 원문의 연혁·사용자 규모를 재검증하지 않았으며 브랜드 개선 결과로 해석하지 않았다. 이미지·애니메이션은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cashnote.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 30,
+      "slug": "leferi",
+      "name": "Leferi Marketing Company Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "매니지먼트 회사로 인식되는 상황에서 데이터 기반 마케팅 컨설팅 역량을 이해시키기 위한 웹사이트를 만들었다. 서비스 상품별 페이지와 바로 접근하는 문의 경로를 마련했다. 연결과 순환을 원의 형태로 해석하고 입체 행성, 이어지는 공간과 전환, 점·선의 데이터 표현으로 전문성과 확장된 역할을 전달하도록 설계했다.",
+      "interpretation": "새로운 서비스 방식을 소개할 때 고객이 구매하는 내용을 상품 단위로 이해할 수 있게 설명해야 한다. 고유한 비주얼을 사용하더라도 가격·구성·운영 방식의 설명과 문의 경로를 명확히 두는 원리가 유용하다.",
+      "relevance": "medium",
+      "relevanceReason": "브랜드 이미지 전환과 새로운 서비스의 이해를 동시에 다루는 구조가 관련된다.",
+      "limits": "공식 본문 근거. 데이터 기반 마케팅의 효과를 검증하지 않았다. 입체 화면과 실제 인터랙션은 직접 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/leferi.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 31,
+      "slug": "sfmi_brandgoods",
+      "name": "Samsung Fire & Marine Insurance Branded Items",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "기존 판촉물의 품질·사용성에 대한 불만과 브랜드 이미지 강화 요구를 조사하여 일상 습관을 돕는 물건으로 재기획했다. 작은 반복을 브랜드 가치와 연결하고 제품 선택과 색, 세트 구성을 정리했다. 개봉 순서와 안내서, 시간대별 차 구성, 교체 시점을 표시한 칫솔 세트로 메시지를 사용 행동에 연결했다.",
+      "interpretation": "패키지는 받는 순간부터 보관과 사용까지 안내하는 도구가 될 수 있다. 농작물의 개봉 순서, 먼저 확인할 정보, 실제로 필요한 소분과 안내를 설계하여 고객의 반복적인 수고를 줄이는 데 참고한다.",
+      "relevance": "high",
+      "relevanceReason": "개봉과 일상 사용의 작은 디테일을 브랜드 경험으로 만든다.",
+      "limits": "공식 본문 근거. 건강 개선이나 매출 증진은 입증된 결과로 보지 않았다. 실물·촉감·개봉 동작은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/sfmi_brandgoods.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 32,
+      "slug": "konny",
+      "name": "Konny",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "아기띠에서 육아 전반의 상품으로 확장하는 상황에서 기존에 사랑받던 디자인을 이어가면서 더 유연한 브랜드 체계를 만들었다. 부모 펭귄의 돌봄을 브랜드 이야기로 삼고 응원의 언어를 개발했다. 기존 심볼의 일부 잘린 형태와 표현상 제약을 개선하여 패키지와 인쇄물, 온라인 상품 상세에서 일관되게 활용하도록 했다.",
+      "interpretation": "첫 대표 작물이 바뀌어도 유지할 수 있는 고객 약속과 시각 규칙을 정하는 데 참고할 수 있다. 농가와 소비자의 애착이 생긴 자산은 활용상의 문제를 고치면서 이어가는 방식도 검토할 가치가 있다.",
+      "relevance": "high",
+      "relevanceReason": "단일 대표 상품에서 생활 서비스로 확장하는 브랜드 구조와 관련된다.",
+      "limits": "공식 본문과 alt 근거. 창업 이야기와 제품 반응은 제작사 설명이며 리뉴얼의 정량 성과는 확인하지 않았다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/konny.html"
+        },
+        {
+          "label": "공식 프로젝트 본문",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/konny.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "아기띠에서 육아 전반으로 사업이 확대되며 기존 정체성을 계승하는 유연한 체계가 필요했다.",
+          "부모와 아이를 돌본다는 기존 펭귄 모티프의 의미를 유지하고 사용 가능한 형태와 매체 범위를 넓혔다.",
+          "육아의 여러 순간을 함께하는 돌봄의 태도."
+        ],
+        "touchpoints": [
+          {
+            "label": "상징",
+            "text": "공식 설명은 잘린 상반신과 선·면 혼용 형태의 제약을 개선해 전신 심벌로 정리하고 움직임 확장을 고려했다고 밝힌다."
+          },
+          {
+            "label": "언어",
+            "text": "슬로건을 패키지와 브로슈어 등 고객이 실제로 만나는 접점에 적용한다."
+          },
+          {
+            "label": "운영 체계",
+            "text": "오프라인 지류와 온라인 상세페이지를 같은 아이덴티티 아래 연결한다."
+          }
+        ],
+        "analysis": "농가를 대표하는 상징은 예쁜 모양을 넘어 작은 라벨·흑백 인쇄·상자·모바일에서도 작동해야 한다. 사업이 확장되어도 농가의 핵심 태도를 유지한다.",
+        "validation": "최소 크기, 단색 인쇄, 저품질 프린터, 습기 있는 포장 표면, 모바일 축소에서 식별성을 확인한다. 움직임 사용 시 정적 대체도 정한다.",
+        "avoidCopying": "캐릭터 자체를 차별화의 근거로 삼지 않는다. 농가의 실제 이야기와 무관한 동물 상징을 먼저 고르지 않는다.",
+        "limits": "공식 상세 본문을 읽음. 모션의 실제 동작·성과는 미검증.",
+        "evidenceNote": "공식 상세 본문을 읽음. 모션의 실제 동작·성과는 미검증."
+      }
+    },
+    {
+      "index": 33,
+      "slug": "archiveat",
+      "name": "Archiveat",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "쿠킹클래스 중심 플랫폼이 변화한 식생활과 온라인 환경에 맞춰 사업을 확장하기 위해 이름과 정체성을 새로 만들었다. 요리 지식의 축적과 연결, 쉬운 활용을 핵심 가치로 정리했다. 요리의 소리를 그래픽으로 표현하고 식재료의 색을 활용하며 영상·상황별 레시피·관련 상품과 정기배송·커뮤니티를 하나의 경험으로 연결해 설명한다.",
+      "interpretation": "농작물을 받은 후 무엇을 해 먹을지까지 도와야 편리함이 완성된다. 실제 판매 작물과 상황별 조리법을 연결하고 고객의 성공적인 사용 경험을 기록하는 구조는 브랜드와 마케팅 양쪽에 활용할 수 있다.",
+      "relevance": "high",
+      "relevanceReason": "식재료·요리 콘텐츠·배송을 연결하여 이번 서비스와 직접적인 접점이 많다.",
+      "limits": "공식 본문과 이미지 alt 근거. 세대별 소비 성향은 사례 당시의 해석이며 현재 시장의 보편적 사실로 전용하지 않았다. 이미지·앱 미검증이다.",
+      "supplementalEvidence": "공식 회고의 요리 동작·소리·색 설명을 보강.",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/archiveat.html"
+        },
+        {
+          "label": "추가 공식 자료",
+          "url": "https://xs.ulp.plus-ex.com/detail/uppercase-a"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "공공의주방이 쿠킹클래스 중심의 사업에서 온라인 요리 경험으로 확장하며 새 이름과 정체성을 필요로 했다.",
+          "연결·간편·편의라는 사용자 가치를 요리를 함께 즐기는 다감각 경험으로 묶었다.",
+          "Archive와 Eat을 결합해 요리 지식이 축적되는 서비스라는 의미를 부여했다."
+        ],
+        "touchpoints": [
+          {
+            "label": "언어",
+            "text": "이름과 슬로건이 서비스 용도를 설명한다."
+          },
+          {
+            "label": "시각 표현",
+            "text": "공식 설명은 채소를 써는 듯한 로고 비례, 조리 의성어를 시각화한 키비주얼, 식재료에서 얻은 색을 제시한다."
+          },
+          {
+            "label": "서비스",
+            "text": "영상 레시피, 테마·상황별 탐색, 레시피 연계 쿠킹박스, 질문·리뷰가 같은 경험 안에 제안된다."
+          }
+        ],
+        "analysis": "농작물을 판매한 뒤 먹는 방법까지 안내한다. 식감·자르는 소리·손질 동작에서 브랜드 고유의 표현 원리를 찾고 실제 조리 안내에 사용한다.",
+        "validation": "품목별 실제 맛·식감 관찰, 제공 가능한 레시피 범위, 손질 소요시간의 사용자 확인. 레시피 제작·질문 응대 운영자 필요.",
+        "avoidCopying": "의성어 그래픽이나 로고 모양을 복제하지 않는다. 설명 속 구독·커뮤니티를 출시 필수 기능으로 간주하지 않는다.",
+        "limits": "공식 상세 본문 및 공식 회고문을 읽음. 실제 인터랙션은 미검증.",
+        "evidenceNote": "공식 상세 본문 및 공식 회고문을 읽음. 실제 인터랙션은 미검증."
+      }
+    },
+    {
+      "index": 34,
+      "slug": "urg",
+      "name": "URG Corporation",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "피부 미용에 국한된 기업 이미지를 삶의 아름다움을 다루는 방향으로 확장하기 위해 정체성을 재정리했다. 고객과 구성원의 고유성, 서로의 조화를 브랜드 가치로 연결했다. 로고의 세부에서 아이콘을 만들고 여러 형태로 변하는 심볼과 그래픽, 색·서체·인쇄 가공 규칙으로 다양한 매체의 일관된 경험을 제시한다.",
+      "interpretation": "개인의 취향을 존중하는 브랜드는 하나의 이상적인 소비자 모습만 제시할 필요가 없다. 여러 작물과 식사 방식이 같은 원리 안에서 공존하도록 가변 요소를 설계하고, 상품 사실의 표기는 일관되게 유지할 수 있다.",
+      "relevance": "medium",
+      "relevanceReason": "유연한 표현과 고정된 정체성의 조합, 개인 취향 존중이라는 방향이 관련된다.",
+      "limits": "공식 본문과 alt 근거. 소재의 실제 촉감과 인쇄 가공은 미검증이며 미용·건강 효과를 농작물 가치로 전용하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/urg.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 35,
+      "slug": "com2us",
+      "name": "Com2uS Integrated Brand",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "서로 다른 역량과 기존 브랜드를 유지하던 두 기업을 통합된 정체성으로 묶어 콘텐츠 사업 확장에 대응하려 했다. 상호 진화를 핵심 의미로 정하고 브랜드 구조와 운영 전략을 마련했다. 웃는 표정의 문자 형태로 즐거움과 연결을 표현하며 기존 게임 콘텐츠, 입체 표정과 아이콘을 여러 접점에 활용하도록 했다.",
+      "interpretation": "여러 농가가 함께 참여하게 되면 각 생산자의 개성과 서비스 전체의 약속을 연결하는 브랜드 구조가 필요하다. 지금은 가능한 확장 방향을 기록하되 실제 참여 농가가 정해졌을 때 책임과 표시 규칙을 구체화하는 것이 적합하다.",
+      "relevance": "low",
+      "relevanceReason": "다수 조직을 통합하는 브랜드 구조는 향후 확장에만 간접적으로 관련된다.",
+      "limits": "공식 본문 근거. 기업 통합과 성장에 관한 설명을 디자인의 성공 효과로 주장하지 않았다. 로고·입체 요소는 직접 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/com2us.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 36,
+      "slug": "styleshare",
+      "name": "StyleShare",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "특정 연령의 이미지와 산발적인 콘텐츠 때문에 폭넓은 이용자에게 고유성이 전달되지 않는 문제를 다뤘다. 연령보다 취향과 공유 태도를 중심으로 고객을 정의하고 커뮤니티 가치를 정리했다. 사용자 사진의 두 색을 추출해 그러데이션을 만드는 규칙과 생성 도구를 마련하여 다양한 콘텐츠가 브랜드 표현에 참여하도록 했다.",
+      "interpretation": "고객의 실제 식탁과 사용 경험을 브랜드 기록에 포함하면 참여가 표현의 일부가 될 수 있다. 단, 초기에는 복잡한 커뮤니티보다 후기의 맥락과 사진 사용 동의, 운영 가능한 콘텐츠 규칙부터 정하는 것이 적절하다.",
+      "relevance": "medium",
+      "relevanceReason": "고객 참여 콘텐츠와 일관된 브랜드 표현을 연결하는 방식이 마케팅에 유용하다.",
+      "limits": "공식 본문과 alt 근거. 생성 도구의 실제 화면과 성과는 미검증이며 특정 연령층의 태도를 이번 고객의 사실로 일반화하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/styleshare.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 37,
+      "slug": "plusxshowroom",
+      "name": "Plus X Virtual Showroom",
+      "category": "other",
+      "baseEvidence": "official_text",
+      "sourceFacts": "축적된 브랜드·디지털 프로젝트를 새로운 형식으로 보여주고 기술과 창의성을 결합한 방향을 전달하기 위해 가상 전시 공간을 제작했다. 사용자가 자유롭게 이동하는 방식과 안내 경로를 따르는 방식을 함께 제공한다. 콘텐츠 편집 도구, 관리 시스템과 데이터 구조를 마련하여 작품을 지속적으로 추가하고 사용 행태를 살펴볼 수 있도록 했다.",
+      "interpretation": "스토리북도 문서를 보기 좋게 게시하는 것과 지속적으로 관리하는 일을 함께 설계해야 한다. 분류, 검색, 수정 이력, 출처와 담당자를 우선 마련하고 입체 전시는 자료 이해에 도움이 되는 경우에 검토하는 것이 적절하다.",
+      "relevance": "high",
+      "relevanceReason": "BX·디자인·개발·마케팅 기록을 게시하고 축적하려는 스토리북 목표에 직접 관련된다.",
+      "limits": "공식 본문 근거. 가상 공간과 이동·편집 기능을 직접 조작하지 않았다. 수상·프로젝트 수는 당시 설명이며 현재 전체 작업 수로 사용하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusxshowroom.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 38,
+      "slug": "minus5kgjeans",
+      "name": "Minus 5KG Jeans",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "쇼핑몰의 하위 청바지 브랜드를 독립시키면서 상품 범위와 품질·가격을 재정비하는 과제를 다뤘다. 착용 기능을 넘어 고객의 자신감을 돕는 역할을 브랜드 핵심으로 정리했다. 이름의 수학적 표현을 로고와 그래픽으로 확장하고 기존 분홍색을 조정하여 의류와 관련 접점에서 지속되는 정체성을 제안한다.",
+      "interpretation": "기능상의 장점이 고객에게 어떤 정서적 이익을 주는지 연결하되 실제 상품의 성능과 가격 근거를 함께 확인할 수 있다. 농작물의 편리함을 식사 준비에 대한 자신감으로 번역하는 가설도 사용 경험으로 검증할 필요가 있다.",
+      "relevance": "medium",
+      "relevanceReason": "품질·가격 재정비와 기능에서 고객의 정서적 가치로 확장하는 과정이 관련된다.",
+      "limits": "공식 본문 근거. 브랜드명은 제품 이름이며 체중 감량 효과를 의미하는 사실로 취급하지 않았다. 판매량과 리뉴얼 효과도 구분한다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/minus5kgjeans.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 39,
+      "slug": "girlsplanet999",
+      "name": "Girls Planet 999 Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "프로그램의 첫인상을 전달하고 팬을 투표 플랫폼으로 연결하기 위해 팬 활동 경험을 조사했다. 기다림, 반복 시청, 응원 등 행동을 정리하여 스크롤과 시선, 클릭을 유도하는 웹 흐름을 제안했다. 참가자 소개와 순위, 영상과 이동 버튼을 연결했으며 실제 구축 과정에서 방송의 가이드 변화에 따라 전략과 디자인을 수정했다고 설명한다.",
+      "interpretation": "콘텐츠를 보러 온 고객의 동기를 조사하고 구매 또는 정보 탐색으로 이어지는 흐름을 설계하는 원리는 참고할 수 있다. 식재료 구매에서는 경쟁 심리보다 정확한 선택과 원활한 완료를 기준으로 삼는 것이 적합하다.",
+      "relevance": "low",
+      "relevanceReason": "행동 조사 방법은 참고 가능하지만 팬덤의 체류·경쟁 동기는 현재 서비스와 다르다.",
+      "limits": "공식 본문과 alt 근거. 초기 아이디어와 구축 결과의 차이를 명시했다. 실제 사이트·인터랙션·전환율은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/girlsplanet999.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 40,
+      "slug": "kineff2",
+      "name": "Kineff Brand Experience",
+      "category": "other",
+      "baseEvidence": "official_text",
+      "sourceFacts": "전문적인 연구와 배합을 내세우는 스킨케어 브랜드의 정체성을 제품과 접점 전반에 일관되게 전달하려 했다. 피부와 효과를 결합한 이름을 만들고 간결하고 직관적인 표현을 원칙으로 정했다. 기하학적 로고와 읽기 쉬운 서체, 정보 위계를 가진 그리드, 색과 금속성 소재를 연결하여 전문성을 표현한다.",
+      "interpretation": "품질에 관한 믿음은 알아보기 쉬운 정보 체계와 실제 근거가 함께 있을 때 검토할 수 있다. 농작물 라벨도 필요한 사실을 우선 배치하되 전문적으로 보이는 그래픽을 성능의 증거로 삼지 않아야 한다.",
+      "relevance": "medium",
+      "relevanceReason": "품질 정보의 위계와 전문적인 인상의 표현을 분리해 검토하는 데 유용하다.",
+      "limits": "공식 페이지의 효능·임상 관련 표현은 독립적으로 검증하지 않았다. 이를 농작물의 건강 효과나 과학적 우위 근거로 사용하지 않는다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kineff2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 41,
+      "slug": "ut",
+      "name": "UT",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "두 모빌리티 기업이 함께 새 택시 호출 브랜드를 만들며 운전자와 승객 모두의 편안한 이동을 핵심 가치로 제안했다. 기존 기업 자산을 연결한 이름과 로고를 개발하고 도로·플랫폼·이동을 형태에 담았다. 콘텐츠에 따라 두께와 방향이 바뀌는 프레임, 색과 서체를 앱과 차량·광고·가이드에 일관되게 적용한다.",
+      "interpretation": "농가와 소비자 중 한쪽의 이야기만으로 브랜드를 설명하지 않고 양쪽이 얻을 가치를 함께 정할 수 있다. 생산자의 합당한 역할과 소비자의 편리한 식사를 연결하되 구체적인 운영 조건이 그 약속을 뒷받침해야 한다.",
+      "relevance": "medium",
+      "relevanceReason": "서로 다른 참여자를 연결하는 서비스의 가치와 공동 자산 활용에 참고 가능하다.",
+      "limits": "공식 본문과 alt 근거. 현재 서비스명·운영 여부를 확인한 자료가 아니다. 이미지와 실제 앱은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/ut.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 42,
+      "slug": "cleanlab",
+      "name": "Cleanlab",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "제품 이름의 인지도에 비해 기업 브랜드의 정체성이 약하고 식품 포장 분야에 이미지가 한정된 문제를 다뤘다. 생활의 작은 불편을 연구하는 기업으로 역할과 이름의 의미를 재정리했다. 고객의 삶을 돌본다는 메시지와 가족 브랜드·카테고리 브랜드의 구조를 마련하여 여러 상품으로 확장해도 일관된 가치가 이어지도록 했다.",
+      "interpretation": "작물이 미확정인 지금은 특정 품목의 속성보다 서비스가 해결할 식생활의 문제를 중심에 둘 수 있다. 마스터브랜드와 작물별 상품명의 관계를 미리 정하면 새로운 품목이 생겨도 약속과 정보 체계를 유지하기 쉽다.",
+      "relevance": "high",
+      "relevanceReason": "한 품목에 고정된 인상을 넘어 확장하는 브랜드 구조와 직접 관련된다.",
+      "limits": "공식 본문과 브랜드 구조 alt를 근거로 했다. ESG 가치의 실제 성과나 환경 우위를 검증하지 않았다. 이미지 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cleanlab.html"
+        },
+        {
+          "label": "공식 프로젝트 본문",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/cleanlab.html"
+        },
+        {
+          "label": "공식 회고문",
+          "url": "https://xs.ulp.plus-ex.com/detail/uppercase-c"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "특정 식품 포장용품과 강하게 연결된 이름을 종합 생활용품 사업으로 확장할 상위 정체성이 필요했다.",
+          "개별 제품명보다 고객의 생활을 연구하고 돌본다는 역할을 중심으로 브랜드 구조를 정립했다.",
+          "Long-life Laboratory / Caring for Life."
+        ],
+        "touchpoints": [
+          {
+            "label": "브랜드 구조",
+            "text": "제품 영역 확대를 공통 가치의 확장으로 정의한다."
+          },
+          {
+            "label": "패키지",
+            "text": "색·카테고리 명칭·서체·기능 아이콘을 통해 여러 제품이 같은 기업에서 나왔음을 알 수 있게 한다."
+          },
+          {
+            "label": "확인 범위",
+            "text": "포장용품부터 위생·생활용품까지 일관된 응용물을 제시한다."
+          }
+        ],
+        "analysis": "치커리나 셀러리 한 품목의 모양보다 여러 농작물에서 반복되는 선별·취급 기준을 브랜드의 중심에 둔다. 브랜드, 품목, 시즌 정보를 계층으로 분리한다.",
+        "validation": "출시 가능한 품목과 향후 확장 범위 확인. 상품명이 바뀌어도 고객이 상위 브랜드와 용도를 구분하는지 점검한다.",
+        "avoidCopying": "친환경 인상을 실제 인증이나 환경 성과로 대체하지 않는다. 프로젝트 전후의 매출 개선을 근거 없이 추정하지 않는다.",
+        "limits": "공식 상세 본문·이미지 대체텍스트를 읽음. 원문 속 시장 지위·환경 효과 주장은 독립 검증하지 않음.",
+        "evidenceNote": "공식 상세 본문·이미지 대체텍스트를 읽음. 원문 속 시장 지위·환경 효과 주장은 독립 검증하지 않음."
+      }
+    },
+    {
+      "index": 43,
+      "slug": "apartmentary",
+      "name": "Apartmentary Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "가격과 과정이 불투명해 결과를 예상하기 어려운 인테리어 구매 경험을 개선하기 위해 웹을 재구성했다. 시공 내용과 가격·기간·자재를 공개하고 원하는 구성을 고르면 결과와 비용을 예상하는 기능을 제안했다. 감각적인 이미지는 유지하면서 정보의 위계, 포트폴리오 탐색과 질문 경로를 정리하여 전문성과 구매 편의를 함께 전달했다.",
+      "interpretation": "프리미엄 농작물도 가격의 이유, 실제 구성, 배송 조건과 사용 방법을 쉽게 확인할 수 있어야 한다. 좋은 사진과 함께 구매 전 판단에 필요한 사실을 공개하는 것이 품격과 신뢰를 함께 만드는 가설이 될 수 있다.",
+      "relevance": "high",
+      "relevanceReason": "높은 감도의 표현과 투명한 구매 정보를 함께 설계한 사례다.",
+      "limits": "공식 본문과 alt 근거. 실제 견적 정확성·전환율·현재 기능을 확인하지 않았다. 인테리어 시장의 문제를 농산물 시장 사실로 일반화하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/apartmentary.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 44,
+      "slug": "fossula",
+      "name": "Fossula Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "신생 브랜드의 인지도와 향후 캠페인 전달을 위해 운영하기 쉽고 정보 위계가 명확한 웹사이트를 구축했다. 홈은 새 상품과 캠페인을 교체하기 쉽게 설계하고 큰 문자와 이미지로 핵심을 전달한다. 브랜드 웹에서는 주요 정보를 함축하고 상세 구매 정보는 커머스로 연결하여 각 채널의 역할을 구분하며 다양한 기기에 대응한다.",
+      "interpretation": "브랜드 사이트와 스마트스토어를 함께 운영한다면 각각의 목적과 이어지는 경로를 먼저 정할 수 있다. 브랜드 이야기에서 실제 상품의 구성·가격·구매로 자연스럽게 이동하도록 링크와 정보의 일치 여부를 관리하는 것이 중요하다.",
+      "relevance": "high",
+      "relevanceReason": "자체 브랜드 사이트와 외부 쇼핑 채널을 병행하려는 계획에 직접 관련된다.",
+      "limits": "공식 웹 구축 설명과 alt 근거. 브랜드 효능 표현은 검증하지 않았고 실제 구매 연계·사이트 운영은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/fossula.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 45,
+      "slug": "deeponde2",
+      "name": "Deepondé Website",
+      "category": "BX+UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "새로운 스킨케어 브랜드의 철학과 제품을 이해시키기 위해 웹사이트를 제작했다. 홈, 제품군, 상세 페이지를 연결하고 이미지로 라인별 특징과 제형을 전달하려 했다. 신제품과 이벤트 추가를 고려해 메뉴와 컴포넌트를 구성하고 가로 이동과 부드러운 전환, 절제된 색과 서체로 브랜드의 차분한 성격을 표현한다.",
+      "interpretation": "수확 품목이 바뀌는 브랜드 사이트도 새로운 상품과 안내를 쉽게 추가할 수 있어야 한다. 감각적인 사진은 작물의 실제 형태와 사용감을 이해시키는 데 활용하고, 이동 방식은 고객이 익숙하게 찾을 수 있는지 검증해야 한다.",
+      "relevance": "high",
+      "relevanceReason": "차분한 브랜드 표현과 지속적인 상품 업데이트를 함께 설계하는 데 유용하다.",
+      "limits": "공식 본문과 alt 근거. 제품 제형의 실제 체감이나 가로 탐색의 사용성을 확인하지 않았다. 이미지·모션 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/deeponde2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 46,
+      "slug": "neker2",
+      "name": "Neker Website",
+      "category": "BX+UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "신생 메이크업 브랜드의 개성과 상품을 온라인에서도 전달하기 위해 브랜드·디지털 팀이 웹 구축을 협업했다. 고객이 사용하는 부위별로 탐색을 구성하고 상품 특징을 카드에 담았다. 제형 표현과 모션을 브랜드 언어에 연결하며 상세 정보는 블록화해 신제품에 대응하고 실제 판매 스토어로 이어지는 버튼을 제공한다.",
+      "interpretation": "고객이 작물을 고르는 상황에 맞게 탐색 체계를 설계하고 브랜드 사이트에서 구매 채널로 이어지는 경로를 분명히 할 수 있다. 실제 상품 특징과 관리 정보를 블록으로 만들면 품목 추가에도 일관성을 유지하기 쉽다.",
+      "relevance": "high",
+      "relevanceReason": "사용 맥락별 상품 분류, 외부 판매 연결, 모듈 운영이 현재 계획과 직접 연결된다.",
+      "limits": "공식 본문과 alt 근거. 브랜드 사이트에서 직접 판매하지 않는다는 당시 설명을 확인했다. 현재 판매 구조·실제 화면·질감 표현은 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/neker2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 47,
+      "slug": "dualframe",
+      "name": "Dual Frame",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "출퇴근과 일상에서 여러 카드를 따로 챙기는 번거로움을 줄이기 위해 양면 카드홀더를 만들었다. 측면을 누르고 미는 카드 분리 방식과 늘어나고 분리되는 스트랩을 설명한다. 조립 후 유지되는 부품, 힘의 분산, 손에 닿는 마감까지 검토하고 기업별 색과 로고를 적용할 수 있도록 설계했다.",
+      "interpretation": "패키지의 품격도 손으로 열고 꺼내고 다시 보관하는 작은 동작에서 평가할 수 있다. 보기 좋은 형태를 정한 뒤 검수하기보다 농가의 포장과 고객의 개봉 동작을 함께 시제품으로 확인하는 방식이 유용하다.",
+      "relevance": "high",
+      "relevanceReason": "보이지 않는 사용 디테일과 제작 완성도를 프리미엄 경험으로 연결한다.",
+      "limits": "공식 본문과 상세 구조 alt 근거. 실제 제품을 사용하거나 내구성·소재 안전성을 시험하지 않았다. 시각 이미지도 직접 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/dualframe.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 48,
+      "slug": "itoo",
+      "name": "i TOO",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "개인화된 패션 큐레이션 시장에서 정보 과잉과 선택 부담을 줄이는 플랫폼을 기획했다. 비슷하거나 다른 사람과의 교류로 취향을 발견하는 가치를 정리하고 다양한 신체의 형태를 로고와 그래픽으로 연결했다. 체형·취향 입력을 추천과 연결하며 사용자 콘텐츠와 정보 위계, 접점별 시각 규칙으로 경험을 확장한다.",
+      "interpretation": "농작물을 고를 때 고객이 부담을 느끼는 기준을 먼저 조사할 수 있다. 적은 수의 취향·용도 질문으로 도움이 되는 제안을 만들고, 추천 이유를 설명하면서 고객이 자유롭게 선택을 바꿀 수 있게 하는 방향이 적합하다.",
+      "relevance": "high",
+      "relevanceReason": "선택 부담을 줄이는 큐레이션과 사용자 취향 존중이 서비스 목표에 가깝다.",
+      "limits": "공식 본문과 alt 근거. 당시 인구·세대 통계는 검증하지 않았으며 추천 정확성이나 상업 성과를 주장하지 않았다. 시각·실제 앱 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/itoo.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 49,
+      "slug": "wyd",
+      "name": "WYD",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "모바일 영상과 커머스가 결합하는 시장에서 일상을 기록하고 공유하는 판매자와 소비자의 관계를 중심으로 새 브랜드를 개발했다. 즐거움·신뢰·유용함을 표현 원칙으로 바꾸고 영상 제어 기호를 로고와 분류 그래픽에 연결했다. 브랜드명과 언어, 색, 서체를 정리하며 초기 관심사 입력으로 관련 콘텐츠를 제시하는 흐름도 설명한다.",
+      "interpretation": "농가와 고객의 실제 사용 경험을 영상으로 전달하면 상품을 이해하는 데 도움이 될 수 있다. 진솔함은 영상 형식 자체로 생기지 않으므로 촬영 내용의 사실성과 판매 주체, 추천 이유를 함께 명확하게 보여주는 것이 적절하다.",
+      "relevance": "medium",
+      "relevanceReason": "생산과 사용의 실제 이야기를 판매 콘텐츠로 연결하는 마케팅에 참고 가능하다.",
+      "limits": "공식 본문과 alt 근거. 영상이 필수라는 제작사 해석이나 당시 시장 규모를 현재의 사실로 일반화하지 않았다. 실제 앱·성공 효과·시각물 미검증이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/wyd.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 50,
+      "slug": "hssystem",
+      "name": "System",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "시스템은 제품 품질에 비해 고유한 연상 이미지가 약하고 고객 세대 변화에 대응할 정체성이 필요했다. 내부 인터뷰에서 확인한 스타일의 세련됨을 제품을 만드는 태도와 세부 완성도로 확장했다. 일상의 다양한 순간을 아우르는 가치와 기록의 개념을 연결하고, 성별에 치우치지 않는 로고와 매체별 디자인 규칙으로 일관된 인상을 설계했다.",
+      "interpretation": "농산물의 품질을 만드는 농가의 판단과 손질 과정을 기록해 브랜드의 태도로 보여준다. 특정 채소에 고정되지 않는 마스터브랜드 아래 계절별 품목이 같은 선별 원칙을 공유하도록 설계한다.",
+      "relevance": "high",
+      "relevanceReason": "품목보다 생산 태도를 중심에 두는 확장 가능한 프리미엄 정체성의 참고 사례다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+        "observation": "확인한 캠페인 정적 이미지에는 선명한 노란 바탕, 검은 구두 사진, 가는 격자선, 정렬된 큰 산세리프 문자가 결합되어 있다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hssystem.html"
+        },
+        {
+          "label": "공식 심층 사례 원문",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/hssystem.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "제품에 대한 평판에 비해 브랜드를 설명하는 인상이 선명하지 않다는 문제에서 출발했다. 내부 인터뷰에서 발견한 시크함을 외양뿐 아니라 만드는 사람과 사용하는 사람의 태도로 해석했다. 일상의 태도를 쌓는 아카이브 개념을 정리하고, 그 개념의 이니셜로 심볼을 설계했다. 로고는 다양한 매체에서 사용할 수 있도록 다듬고 기본 무채색과 캠페인별 색을 구분했다. 하나의 순간을 담는 모듈이 모여 기록을 구성하는 그래픽 원리를 제시한다. 타이포그래피, 모노그램, 재료와 인쇄 가공을 정리하고 태그·라벨·가방·상자·매장·디지털 매체로 확장했다. 사진은 일상 장면과 캠페인 성격에 따라 달리 사용한다."
+        ],
+        "touchpoints": [],
+        "analysis": "품질을 만드는 반복적인 판단과 태도가 브랜드의 재료가 될 수 있다. 농가의 수확·선별 기록을 축적하는 구조와 계절별 표현을 분리하면 작물이 바뀌어도 정체성이 이어진다. 공개할 기록은 실제로 꾸준히 수집 가능한 범위에서 정해야 한다.",
+        "validation": "농가가 수확·선별 기록을 꾸준히 수집할 수 있는 범위와 계절별 정보 갱신 책임을 정한다.",
+        "avoidCopying": "이니셜 모노그램, 격자, 무채색과 형광색을 독창성의 대용으로 채택하지 않는다.",
+        "limits": "공식 설명과 캠페인 이미지 한 장을 확인했다. 자료에 나온 고객 연령이나 제품 평판을 농작물 서비스의 고객 근거로 전용하지 않는다.",
+        "evidenceNote": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증."
+      }
+    },
+    {
+      "index": 51,
+      "slug": "new_avon",
+      "name": "New Avon UI / UX DESIGN",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "New AVON은 방문 판매원이 쓰는 종이 카탈로그의 탐색, 주문 전달, 고객 소통 문제를 디지털로 개선하고자 했다. 익숙한 페이지 넘기기와 세로 피드 방식을 함께 제안하고, 상품 콘텐츠에서 구매와 판매원 상담으로 연결했다. 개인화 카탈로그와 영업 관리 도구를 통해 고객 편의와 판매원의 업무 흐름을 함께 설계했다.",
+      "interpretation": "농가와 고객이 나누는 추천과 주문 상담을 하나의 정보 흐름으로 묶는다. 주간 수확 카탈로그에서 품목 설명, 선택, 주문 확인까지 이어지게 하고 운영자의 작업량도 함께 줄인다.",
+      "relevance": "medium",
+      "relevanceReason": "디지털 판매의 고객 경험과 생산자 운영 효율을 동시에 다루는 방식이 유용하다.",
+      "limits": "공식 페이지는 출시본이 최종 제안과 일부 다르다고 명시한다. 유입 증가 수치는 제작사 자체 보고이므로 독립 검증한 성과로 사용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/new_avon.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 52,
+      "slug": "neker",
+      "name": "neker",
+      "category": "BX+UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "네케르는 획일적인 아름다움의 기준에서 벗어나 개인의 다양한 아름다움을 존중하는 브랜드로 개발되었다. 관찰 관점에 따라 다르게 보이는 정육면체에서 이름을 도출하고, 개성과 개방성을 언어적 가치로 정리했다. 서로 다른 서체가 점진적으로 변화하는 로고와 유연하게 확장되는 색 표현을 공통 규칙 안에서 운영하도록 설계했다.",
+      "interpretation": "유니크함을 고객의 다양한 취향을 존중하는 선택 방식으로 번역한다. 품종과 풍미의 차이는 넓게 표현하되 정보 위계와 검증 기준을 일정하게 유지해 다양성과 신뢰를 함께 제공한다.",
+      "relevance": "medium",
+      "relevanceReason": "차이를 존중하는 브랜드 태도와 가변적인 표현 체계의 연결을 보여준다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/neker.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 53,
+      "slug": "deeponde",
+      "name": "deeponde",
+      "category": "BX+UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "디폰데는 깊은 고찰과 연구를 통해 내면과 피부의 질서를 돌본다는 스킨케어 철학을 이름과 브랜드 체계로 연결했다. 고찰, 기반, 응축의 개념을 깊이와 층위라는 시각 원리로 바꾸고, 자연에서 찾은 색과 질감, 점진적인 패턴을 제품과 접점에 적용했다. 제품군을 구분하는 서체와 그리드도 함께 정했다.",
+      "interpretation": "농가의 연구와 계절의 시간이 축적된다는 이야기를 실제 생산 기록과 연결한다. 패키지의 질감과 정보의 층위를 통해 품질을 설명하되 화려한 효과보다 손에 닿는 완성도를 우선한다.",
+      "relevance": "high",
+      "relevanceReason": "사용자 키워드인 품격과 최상의 퀄리티를 재료·타이포그래피·제품 체계로 변환하는 사례다.",
+      "limits": "스킨케어 효능 관련 표현은 브랜드가 제시한 철학과 주장이다. 효과를 검증한 근거로 해석하지 않았고 시각물은 직접 열람하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/deeponde.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "새 스킨케어 브랜드의 철학이 이름부터 제품과 시각 접점까지 일관되게 드러날 필요가 있었다.",
+          "깊이 생각한다는 태도를 이름과 깊이·층이라는 디자인 원리로 연결했다.",
+          "Deep과 Ponder에서 이름을 만들고 깊이 있는 고찰이라는 브랜드 태도를 정의했다."
+        ],
+        "touchpoints": [
+          {
+            "label": "시각 표현",
+            "text": "공식 설명은 겹치는 패턴·분할 이미지·자연물 색과 소재를 같은 원리의 변주로 제시한다."
+          },
+          {
+            "label": "서체",
+            "text": "세리프 로고의 연결성과 서로 다른 서체 역할로 브랜드 인상과 제품 라인 구분을 함께 다룬다."
+          },
+          {
+            "label": "접점 적용",
+            "text": "패키지와 다양한 브랜드 응용물에 깊이·층의 원리를 반복한다."
+          }
+        ],
+        "analysis": "프리미엄 형용사를 늘리기보다 농가의 관찰·선별·기록 같은 실제 태도 하나에서 이름·정보·사진·패키지의 공통 원리를 만든다.",
+        "validation": "농가가 지속적으로 실천하고 증명할 수 있는 태도를 먼저 확인한다. 글꼴 가독성과 촬영 재현성, 품목 확장 시 원리의 적합성을 검토한다.",
+        "avoidCopying": "세리프·베이지·자연 텍스처를 품격의 유일한 조건으로 삼지 않는다. 원문에 있는 피부 효능 주장을 농산물 효능으로 전이하지 않는다.",
+        "limits": "공식 상세 본문·이미지 대체텍스트를 읽음. 제품 효능·판매 성과는 미검증.",
+        "evidenceNote": "공식 상세 본문·이미지 대체텍스트를 읽음. 제품 효능·판매 성과는 미검증."
+      }
+    },
+    {
+      "index": 54,
+      "slug": "andmarq",
+      "name": "ANDMARQ Brand Experience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "ANDMARQ는 소속 배우의 인기에 의존하던 에이전시 이미지에서 벗어나 체계적이고 상호 존중하는 파트너로 자리매김하고자 했다. 잠재력을 발굴하고 지속적인 창작을 지원한다는 역할을 정의했다. 회사와 아티스트의 균형을 로고의 배치와 사이 여백에 담고, 정제된 디자인과 일관된 접점 운영으로 에이전시 자체의 신뢰를 표현했다.",
+      "interpretation": "선택받은 농산물의 의미를 생산자를 존중하는 전문 선별과 지원으로 정의한다. 농가와 브랜드를 함께 표기하고 품질 기준과 거래 관계가 브랜드의 신뢰를 뒷받침하도록 만든다.",
+      "relevance": "high",
+      "relevanceReason": "선별자의 안목과 생산자와의 균형 있는 관계를 브랜드 자산으로 만드는 데 직접적이다.",
+      "limits": "전략과 로고 설명의 상당 부분은 공식 이미지 alt에 담겨 있다. 실제 파트너십 운영 효과와 시각물은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/andmarq.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 55,
+      "slug": "spoon",
+      "name": "Spoon",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "Spoon은 매출과 이용량 중심의 성장 과정에서 일관된 브랜드 기준과 차별적 이미지가 부족하다고 진단했다. 임직원과 이용자를 조사해 자기표현과 연결의 가치를 도출하고, 평범한 이야기가 특별해지는 오디오 공간으로 존재 이유를 정리했다. 이를 슬로건과 디자인 원칙, 기존 색의 조정으로 연결해 서비스의 태도를 명료하게 전달하려 했다.",
+      "interpretation": "최고급이라는 주장에 앞서 고객이 일상에서 얻고 싶은 감정을 조사한다. 좋은 채소를 고르는 경험이 자기 돌봄과 만족으로 이어지는지 확인하고 그 결과를 표현 원칙의 기준으로 삼는다.",
+      "relevance": "medium",
+      "relevanceReason": "추상적인 선호 키워드에 고객 조사와 존재 이유를 결합하는 전략 과정이 유용하다.",
+      "limits": "공식 크레딧은 브랜드 전략을 Plus X, 브랜드 디자인을 NAMED로 구분한다. 공동 프로젝트 결과이며 성과나 시각 구현을 독립 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/spoon.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 56,
+      "slug": "29tv",
+      "name": "29TV UI / UX DESIGN",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "29TV는 가격과 물류 경쟁이 치열한 환경에서 29CM의 콘텐츠 강점을 활용하는 미디어 커머스 방향을 제안한 프로젝트다. 브랜드에 관심 있는 이용자가 영상을 만들고 상품을 태그하며 취향에 맞는 제작자를 팔로우하도록 구성했다. 콘텐츠 제작 도구, 사용자 기록, 브랜드 소통을 연결해 콘텐츠 소비가 상품 발견으로 이어지는 구조를 설계했다.",
+      "interpretation": "고객이 실제로 만든 한 끼와 농가의 작업 기록을 품목 정보에 연결한다. 초기에는 작은 편집 콘텐츠로 반응을 확인한 뒤 참여 도구와 커뮤니티 기능의 필요성을 판단한다.",
+      "relevance": "high",
+      "relevanceReason": "먹는 장면과 구매를 연결하는 콘텐츠 커머스 원리를 제공한다.",
+      "limits": "공식 페이지는 컨설팅 제안이며 실제 서비스되는 29TV와 상이할 수 있다고 명시한다. 기능 출시나 상업 성과를 확인한 사례로 쓰지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29tv.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 57,
+      "slug": "plusxobject",
+      "name": "PlusX Object",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "PlusX Object의 Object by 3는 일하는 책상 위의 사용성과 공간 효율을 고민한 자체 제품 프로젝트다. 제작사는 사람의 신체에서 유래한 치수에 주목해 3의 배수를 공통 설계 기준으로 삼았다. 노트, 주간 패드, 월간 플래너, 메모 패드를 연관된 규격으로 구성하며 절제된 세부 완성과 실용적 경험을 강조했다.",
+      "interpretation": "패키지 규격을 농작물 보호와 품목에 맞는 보관 공간, 한 번에 쓰는 분량에 맞춰 설계한다. 품목이 달라도 박스와 라벨 규칙을 공유해 아름다움이 사용 편의와 운영 효율을 함께 만든다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄을 장식보다 규격·비례·사용성의 정밀함으로 정의하는 데 적합하다.",
+      "limits": "3의 배수가 인간에게 보편적으로 최적이라는 과학적 사실은 확인하지 않았다. 해당 프로젝트가 제시한 설계 논리로만 요약했다.",
+      "supplementalEvidence": "공식 자사몰 리뉴얼 글로 채널 역할과 콘텐츠 설명 보강.",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusxobject.html"
+        },
+        {
+          "label": "추가 공식 자료",
+          "url": "https://object.plus-ex.com/20/?bmode=view&idx=15331597"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "제품 사용성의 구체적 디테일을 설계하고, 외부 판매 플랫폼과 별개로 자사 사이트의 존재 이유를 명확히 할 필요가 있었다.",
+          "제품은 비례와 사용 맥락을, 자사몰은 충분한 정보와 고유 콘텐츠를 중심에 둔다.",
+          "제품의 본질과 쓰임을 다루는 절제된 디테일."
+        ],
+        "touchpoints": [
+          {
+            "label": "제품",
+            "text": "Object by 3는 일정한 모듈 원리로 책상 위 제품의 크기와 사용성을 연결한다."
+          },
+          {
+            "label": "콘텐츠",
+            "text": "웹 리뉴얼은 흩어진 브랜드 콘텐츠를 모으고 비교 정보·스타일 콘텐츠·기업 구매 안내를 제공한다."
+          },
+          {
+            "label": "채널",
+            "text": "공식 글은 고객이 다른 플랫폼에서 구매하더라도 자사 사이트가 가장 충실한 정보와 브랜드 경험을 제공해야 한다고 설명한다."
+          }
+        ],
+        "analysis": "브랜드 사이트에는 농가·선별 기준·보관·요리의 신뢰할 수 있는 원본 정보를 둔다. 스마트스토어 등 거래 채널과 내용·재고·안내를 일치시키면서 각 채널의 역할을 정한다.",
+        "validation": "실제 구매 채널과 관리 주체 확인. 비교표에 쓸 규격, 생산 일정, 판매 옵션, 정보 변경 책임자를 정한다.",
+        "avoidCopying": "농산물에 3의 배수 모듈을 무조건 적용하지 않는다. 자사몰이 플랫폼보다 편리하거나 싸다는 주장을 근거 없이 만들지 않는다.",
+        "limits": "공식 제품 프로젝트와 2023년 공식 웹 리뉴얼 글을 읽음. 글에 나온 향후 계획은 완료된 기능으로 보지 않음.",
+        "evidenceNote": "공식 제품 프로젝트와 2023년 공식 웹 리뉴얼 글을 읽음. 글에 나온 향후 계획은 완료된 기능으로 보지 않음."
+      }
+    },
+    {
+      "index": 58,
+      "slug": "delaluz",
+      "name": "CAFE DELALUZ",
+      "category": "BX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "카페 델라루즈는 판매 중심의 카페 경험에서 고유한 인상을 만들기 위해 로고와 다양한 접점 디자인을 개발했다. 브랜드 이름의 빛이라는 의미에서 출발해 확장하기 쉬운 다각형 모티프를 만들었다. 공식 설명과 이미지 목록은 이 요소가 사이니지, 메뉴, 포장, 컵과 직원 용품까지 이어지도록 전개되었음을 보여준다.",
+      "interpretation": "브랜드의 중심 의미를 하나 정한 뒤 라벨, 수확 카드, 배송 안내, 웹 화면에 같은 표현 원리가 작동하게 한다. 각 접점의 기능에 맞는 변형 규칙도 함께 기록한다.",
+      "relevance": "medium",
+      "relevanceReason": "작은 식음료 브랜드도 하나의 의미를 전체 접점으로 확장할 수 있음을 보여준다.",
+      "limits": "공식 본문은 짧고 나머지는 적용물의 이미지 alt 목록이다. 구체적인 조형 품질과 고객 반응은 직접 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/delaluz.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 59,
+      "slug": "tvc",
+      "name": "Tencent Video Project Casting",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "Tencent Video의 Project Casting은 배우의 화려함보다 영화업을 대하는 태도와 숨겨진 가능성에 주목하는 오디션 프로그램이다. 집중하고 발견해 드러낸다는 가치를 정리하고, 보이지 않던 층이 나타나는 개념으로 아이덴티티를 구성했다. 영화 화면의 비율과 빛의 대비를 활용해 프로그램의 관점을 로고, 자막과 다양한 응용물에 연결했다.",
+      "interpretation": "선택의 기준을 결과물 사진만으로 제시하지 않고 보이지 않던 재배 판단과 수확 과정을 보여준다. 고객이 품질의 근거를 단계적으로 발견하도록 콘텐츠와 개봉 순서를 설계한다.",
+      "relevance": "medium",
+      "relevanceReason": "숨겨진 가치를 드러내는 편집 관점이 농가의 전문성을 설명하는 데 유용하다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Page metadata misspells Tencent as Tancent; page body identifies Tencent Video.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/tvc.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 60,
+      "slug": "blackyak",
+      "name": "BLACKYAK Brand Experience Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "블랙야크는 아웃도어 시장의 변화 속에서 기존 자산을 강화하면서 새로운 활력을 더하고자 했다. 야크의 형태와 기존 심벌의 인지 자산을 분석해 강인한 이미지를 계승하고 매체 사용성을 개선하도록 다듬었다. 산에서 출발한 모티프와 아이콘, 대비가 큰 사진, 정보 전달 원칙을 통해 전문성과 도전의 태도를 일관되게 표현했다.",
+      "interpretation": "농가에 이미 신뢰받는 재배 방식과 이야기가 있다면 먼저 그 자산을 정리한다. 새 브랜드는 이를 알아보기 쉽게 다듬고 품질 설명과 사진 촬영 원칙으로 지속해서 증명한다.",
+      "relevance": "medium",
+      "relevanceReason": "새로운 외형을 만드는 과정에서 기존 생산자 신뢰를 보존하는 기준을 제공한다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/blackyak.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 61,
+      "slug": "skdnd",
+      "name": "episode Brand Experience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "에피소드는 보안과 위생 같은 주거 기본 기능에 더해 개인의 취향과 이웃 관계가 성장하는 주거 문화를 제안했다. 브랜드를 입주자의 다양한 이야기를 담는 바탕으로 정의하고, 축약 문자와 확장하는 사각형으로 로고를 구성했다. 중성적인 기본색과 유연한 모티프를 통해 개인과 지점의 차이를 수용하는 체계를 설계했다.",
+      "interpretation": "브랜드는 고객이 자신에게 맞는 식생활을 만들도록 돕는 바탕이 된다. 공통 품질 기준은 고정하고 가족 구성, 조리 시간, 취향에 따라 선택과 사용 경험을 유연하게 조정한다.",
+      "relevance": "medium",
+      "relevanceReason": "고정된 생활방식을 강요하지 않으면서 일관성을 유지하는 서비스 태도의 참고점이다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/skdnd.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 62,
+      "slug": "acemaker",
+      "name": "ACEMAKER BRAND EXPERIENCE DESIGN",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "에이스메이커는 획일적인 영화 투자 환경에서 창작자를 이해하고 지원하는 배급사의 정체성을 구축하고자 했다. 안정적인 시스템, 편견 없는 역량, 존중과 지원을 핵심 가치로 정리했다. 제작의 과정을 계단 모티프로 표현하고, 창작의 안팎을 아우르는 의미를 로고와 웹, 리더필름, 오프라인 접점에 일관되게 적용했다.",
+      "interpretation": "농가의 결과물을 선별하는 역할에 생산 과정의 지원을 포함한다. 안정적인 주문과 적정한 포장 지침 같은 실제 운영을 마련하고 그 관계가 품질을 만드는 과정을 고객에게 설명한다.",
+      "relevance": "medium",
+      "relevanceReason": "생산자의 역량을 존중하고 지원하는 유통 브랜드의 역할 정의에 도움이 된다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/acemaker.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 63,
+      "slug": "ygselect",
+      "name": "YG SELECT PC WEB.MOBILE APP. MOBILE WEB. RENEWAL PROJECT",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "YG SELECT는 아티스트 굿즈 중심 쇼핑몰을 선택한 브랜드 상품까지 판매하는 플랫폼으로 확장하려 했다. 기존 커머스 솔루션과 개발 제약을 고려하면서 아티스트 스토리와 상품을 함께 보여주고 개인화된 탐색을 제안했다. 관심 상품 저장과 패키지 구매를 연결해 굿즈 출시 시점 외에도 방문할 이유를 만들고자 했다.",
+      "interpretation": "농가의 이야기와 실제 품목을 한 화면에서 연결하고 계절마다 새로운 방문 이유를 만든다. 초반에는 기존 결제 채널의 제약 안에서 콘텐츠, 상품 묶음, 재구매 동선을 정교하게 다듬는다.",
+      "relevance": "high",
+      "relevanceReason": "브랜드 사이트와 외부 쇼핑 채널을 함께 운영하는 초기 사업 조건과 맞닿아 있다.",
+      "limits": "자료의 구매율·방문 증가 표현은 설계 목표다. 결과 수치를 검증한 것이 아니며 당시 플랫폼 조건을 현재 서비스 사양으로 해석하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/ygselect.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 64,
+      "slug": "krafton",
+      "name": "KRAFTON BRAND/UI/UX eXperience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "크래프톤 프로젝트는 독립적으로 운영되는 게임 개발사들을 묶으면서 각 회사의 개성을 유지해야 하는 과제를 다뤘다. 장인정신을 지속한다는 이름과 철학을 정하고 길드 문장에서 착안한 공통 프레임을 만들었다. 그룹은 중성적인 색으로, 연합사는 개별 색으로 표현하고 웹에서도 공통 비전과 각 제작사의 메시지가 함께 드러나도록 구성했다.",
+      "interpretation": "마스터브랜드는 선별 기준과 서비스 책임을 보증하고 각 농가는 산지와 재배자의 고유한 이야기를 가진다. 공통 라벨 구조 안에서 농가와 품목별 차이를 드러내는 브랜드 구조를 설계한다.",
+      "relevance": "high",
+      "relevanceReason": "작물이 확정되지 않은 상태에서 여러 농가와 품목으로 확장할 구조를 제시한다.",
+      "limits": "공식 페이지의 브랜드 생애주기 이론 및 학자 관련 서술은 별도로 검증하지 않아 인용하지 않았다. 당시 프로젝트의 설계 논리만 사용했다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/krafton.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 65,
+      "slug": "kakaopage2",
+      "name": "KAKAOPAGE",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "카카오페이지 기업 웹사이트는 사명 변경과 글로벌 확장에 맞춰 기업의 비전과 사업을 설명하는 과제를 다뤘다. 임직원 인터뷰를 통해 채용 대상자와 투자자에게 전달할 이야기를 정리하고 첫 화면 영상에 반영했다. 페이지 사이 흐름과 콘텐츠 쇼룸을 설계해 이야기, 보유 콘텐츠, 서비스 가치가 끊김 없이 탐색되도록 구성했다.",
+      "interpretation": "브랜드 소개와 농가 소개, 선별 기준, 상품 상세가 하나의 설명 흐름을 이루도록 연결한다. 처음 방문한 사람에게 무엇을 제공하고 왜 믿을 수 있는지 순서대로 이해시키는 사이트를 만든다.",
+      "relevance": "medium",
+      "relevanceReason": "초기 브랜드 사이트의 서사와 정보 구조를 설계하는 데 참고할 수 있다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kakaopage2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 66,
+      "slug": "byn",
+      "name": "Group BYN Brand eXperience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "BYN은 블랙야크의 강한 아웃도어 이미지가 그룹의 다양한 사업을 충분히 포괄하지 못한다는 문제에서 출발했다. 생활 전반을 지원하는 베이스캠프로 그룹 역할을 재정의하고 새로운 이름을 개발했다. 프레임과 삼각형, 중성적인 색과 차분한 사진을 통해 개별 사업의 다양성을 담으면서 그룹의 대표성을 유지하도록 설계했다.",
+      "interpretation": "이름과 브랜드 정의를 특정 잎채소나 조리 방식에 고정하지 않는다. 농가가 생산한 먹거리를 선별해 일상을 돕는 역할을 중심에 두고 품목 확장 때도 유지할 약속을 정한다.",
+      "relevance": "high",
+      "relevanceReason": "아직 품목이 정해지지 않은 사업의 네이밍 범위와 상위 정체성을 정하는 데 직접적이다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/byn.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 67,
+      "slug": "emart",
+      "name": "Emart Mobile App&Web Renewal Project",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "이마트 앱 프로젝트는 제한된 구축 기간 안에서 장보기 전 준비를 돕는 습관적인 서비스를 만들고자 했다. 사용자 행동과 실제 데이터를 바탕으로 앱과 웹의 핵심 과업을 구분했다. 한눈에 훑는 쇼핑 정보, 장보기 메모, 쉬운 메뉴와 쿠폰 정리를 통해 매장 방문 전후에 필요한 정보를 빠르게 얻도록 설계했다.",
+      "interpretation": "고객이 다음 식사를 준비하는 실제 순서를 기준으로 정보를 배치한다. 이번 주 구성, 보관 방법, 남은 재료와 맞는 조리법을 짧게 제공해 구매 이후의 시간도 절약하도록 돕는다.",
+      "relevance": "high",
+      "relevanceReason": "건강·시간·편리함이라는 서비스 목표를 장보기 행동과 과업으로 구체화할 수 있다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/emart.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 68,
+      "slug": "anormal",
+      "name": "A NORMAL Brand eXperience Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "에이노멀은 기능이 좋은 개별 상품으로만 소비되고 향 중심의 브랜드 정체성이 약하다는 문제를 다뤘다. 일상을 향으로 새롭게 바라본다는 철학을 세우고 제품명과 무드 분류를 함께 개발했다. 향이 퍼지는 모습을 로고의 폭 변화와 이미지 확장으로 표현하며 제품 기획부터 포장과 콘텐츠까지 같은 관점을 적용했다.",
+      "interpretation": "농작물을 단순한 품목 목록으로 제시하지 않고 풍미와 먹는 상황을 기준으로 설명한다. 감각적인 이름을 쓰더라도 실제 품종, 양, 보관 정보가 명료하게 연결되도록 설계한다.",
+      "relevance": "high",
+      "relevanceReason": "제품 기능과 브랜드를 선택하는 이유 사이의 간격을 메우는 체계적 사례다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+        "observation": "직접 본 쇼핑백 이미지에서는 흰 손잡이, 검정·흰 글자, 수평으로 길게 늘어난 다색 이미지 띠가 여러 배색으로 반복된다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/anormal.html"
+        },
+        {
+          "label": "공식 심층 사례 원문",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/anormal.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "기능 중심의 개별 상품 선택을 브랜드 차원의 경험으로 바꾸기 위해 향과 일상생활을 연결했다. 친숙한 장면에 예상 밖의 표현을 결합하는 제품명, 기분의 성격을 구분하는 숫자 체계, 품목과 기분이라는 두 탐색 경로를 구성했다. 향이 퍼지는 성격을 글자 폭의 변화와 사진 일부를 늘린 그래픽으로 표현했다. 전체는 무채색을 사용하면서 제품의 기분에 따라 색을 달리한다. 용기와 캡, 앞뒤 라벨, 쇼핑백과 상자도 체계에 포함한다. 웹의 탐색과 상세 화면, 사운드 등 여러 감각의 접점을 제안하며, 일부 내용은 구현 가능성이나 활용 방향으로 설명되어 있다."
+        ],
+        "touchpoints": [],
+        "analysis": "고객이 고르는 방식도 BX가 된다. 농작물은 작물명과 식사 용도·식감이라는 두 탐색 축을 시험할 수 있다. 맛이나 향의 언어는 실제 시식과 고객 이해도 검증을 거쳐야 하며, 정확한 상품 정보와 감각적 이야기를 함께 제공해야 한다.",
+        "validation": "맛과 향은 실제 시식과 고객 이해도 검증을 거친다. 품목과 식사 용도의 두 탐색 방식이 선택을 돕는지 확인한다.",
+        "avoidCopying": "숫자 등급, 늘어난 사진, 향수의 기분 분류를 농산물에 그대로 적용하지 않는다.",
+        "limits": "본문과 패키징 이미지 한 장을 확인했다. 사운드·영상·실제 쇼핑 동작은 검증하지 않았다. 임의의 수치는 품질 증거가 될 수 없다.",
+        "evidenceNote": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증."
+      }
+    },
+    {
+      "index": 69,
+      "slug": "etiqa",
+      "name": "에티카, ETIQA",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "에티카는 필터 기술을 편안한 호흡과 서로를 배려하는 생활 태도로 연결한 마스크 브랜드 프로젝트다. 이름과 핵심 가치뿐 아니라 착용 구조, 원단, 제품군, 패키지를 함께 다뤘다. 접어서 보관하는 불편을 고려한 케이스와 직관적인 웹 정보까지 설계해 기술적 제품 특성이 일상에서 쓰기 편한 경험으로 이어지도록 했다.",
+      "interpretation": "품질 설명은 배송받고 보관하고 먹는 실제 상황에서 검증되어야 한다. 포장 구조와 개봉 안내, 냉장 보관 정보, 문의 응대까지 한 약속으로 묶어 편리함을 제품 수준에서 구현한다.",
+      "relevance": "high",
+      "relevanceReason": "브랜드 전략과 실제 제품·포장·디지털 경험을 함께 설계한 참고 사례다.",
+      "limits": "마스크 안전성·효능·인증에 관한 문구는 당시 공식 사례의 주장이다. 현재 인증과 효능, 친환경성을 검증한 자료로 사용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/etiqa.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 70,
+      "slug": "g9",
+      "name": "G9 UI / UX DESIGN",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "G9는 상품뿐 아니라 콘텐츠를 선별해 더 나은 쇼핑을 돕는 큐레이션 커머스를 목표로 했다. 구매 목적에 따라 이용자를 구분하고 개인화 피드와 빠른 상품 탐색의 여러 안을 제안했다. 실제 구축 과정에서는 운영 효율을 고려한 모듈형 홈과 화면별 탐색 구조로 조정해 다양한 콘텐츠를 정돈되게 제공하고자 했다.",
+      "interpretation": "정해진 품목을 사려는 고객과 새로운 제철 먹거리를 발견하려는 고객의 경로를 구분한다. 큐레이션에는 선택 이유를 붙이고 운영자가 일정한 품질로 갱신할 수 있는 콘텐츠 모듈을 만든다.",
+      "relevance": "high",
+      "relevanceReason": "큐레이션 가치와 쇼핑 편의, 콘텐츠 운영 현실을 함께 다루는 방식이 유용하다.",
+      "limits": "초기 제안과 최종 구축 방향이 구분되어 있다. 과감한 제안안을 실제 출시된 전체 기능으로 간주하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/g9.html"
+        },
+        {
+          "label": "공식 프로젝트 본문",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/g9.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "유사한 쇼핑 경험 안에서 상품과 콘텐츠의 선별 가치를 드러낼 필요가 있었다.",
+          "쇼핑 목적의 유무와 명확성으로 사용자 행동을 나누고 탐색·발견·브랜드 신뢰를 함께 고려했다.",
+          "상품뿐 아니라 콘텐츠를 통해 더 나은 선택을 돕는 큐레이션."
+        ],
+        "touchpoints": [
+          {
+            "label": "정보",
+            "text": "사용자 유형에 따라 정보 구조와 콘텐츠를 재정의한다."
+          },
+          {
+            "label": "운영",
+            "text": "운영자가 콘텐츠에 맞는 모듈을 고르면서도 일관된 화면을 유지하도록 홈을 구성한다."
+          },
+          {
+            "label": "탐색",
+            "text": "각 화면에 맞는 상품 찾기 경로와 브랜드 콘텐츠를 제공한다."
+          }
+        ],
+        "analysis": "첫 구매자는 추천 이유와 농가 이야기를, 재구매자는 익숙한 품목과 주문 경로를 빠르게 찾게 한다. 콘텐츠를 늘려도 주문 정보가 묻히지 않도록 모듈을 분리한다.",
+        "validation": "초기 품목 수·재구매 빈도에 적합한 탐색 방식인지 확인한다. 작은 상품군에 대형 커머스 구조를 그대로 적용하지 않는다.",
+        "avoidCopying": "원문의 개인화 시안을 모두 최종 구현으로 서술하지 않는다. 검색·추천·무한 피드를 필수 기능으로 자동 지정하지 않는다.",
+        "limits": "공식 상세 본문을 읽음. 제안안과 최종 방향의 구분을 유지함. 실서비스 성과는 미검증.",
+        "evidenceNote": "공식 상세 본문을 읽음. 제안안과 최종 방향의 구분을 유지함. 실서비스 성과는 미검증."
+      }
+    },
+    {
+      "index": 71,
+      "slug": "tco",
+      "name": "THE COMING ONE Brand Experience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "명일지자 프로젝트는 차별적인 프로그램 구성에 비해 접점 간 정체성이 약한 문제를 다뤘다. 참가자의 숨겨진 재능과 각자의 성장 여정을 존중한다는 가치를 정리하고 프로그램 단계와 연결했다. 원형을 공통 모티프로 사용하되 단계와 참가자에 따라 패턴과 색이 달라지도록 설계해 성장과 다양성을 동시에 표현했다.",
+      "interpretation": "농작물이 자라고 수확되어 식탁에 오르는 과정에 맞춰 정보와 표현이 발전하도록 설계한다. 공통 형식 안에서 농가와 계절의 차이를 보여주되 성장 단계의 의미를 쉽게 이해하게 한다.",
+      "relevance": "medium",
+      "relevanceReason": "하나의 브랜드 체계로 과정과 개체별 차이를 동시에 표현하는 원리를 제공한다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/tco.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 72,
+      "slug": "kaola",
+      "name": "NetEase Kaola Brand eXperience Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "Kaola는 접점마다 브랜드다움이 약하고 이름과 가치가 충분히 연결되지 않는 문제를 다뤘다. 가치 있는 생활을 선별해 고객의 시간과 거리를 줄이는 역할을 정리하고 코알라의 습성과 연관된 이야기로 이름에 의미를 부여했다. 이유 있는 선택이라는 관점을 심벌, 색, 패턴과 응용 규칙에 연결했다.",
+      "interpretation": "선택받았다는 표현에는 누가 어떤 기준으로 골랐는지를 반드시 붙인다. 농가의 품질 정보와 고객의 사용 상황을 함께 제시해 비싼 제품을 사는 경험을 납득 가능한 선택으로 바꾼다.",
+      "relevance": "high",
+      "relevanceReason": "사용자의 선택받은·차별화 키워드를 큐레이션의 책임과 선택 이유로 구체화하는 핵심 사례다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kaola.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 73,
+      "slug": "sf_annualreport",
+      "name": "Samsung Fire & Marine Insurance Annual Report Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "삼성화재 연차보고서는 눈에 보이지 않지만 생활에 필요한 보험의 가치를 공기에 비유했다. 이 개념을 종이의 제작 방식과 투명해지는 특성, 색의 변화, 향기까지 연결했다. 브랜드 가치와 연간 운영 정보를 두 부분으로 나누면서도 일러스트와 정보 표현의 공통 기준으로 책 전체의 인상을 통일했다.",
+      "interpretation": "브랜드가 말하는 자연과 배려를 포장 재료와 정보의 구성에서 실제로 느끼게 한다. 농산물에서는 향을 추가하기보다 본래의 향과 상태를 해치지 않는 재료 선택으로 감각적 완성도를 만든다.",
+      "relevance": "high",
+      "relevanceReason": "품격이 콘셉트와 제작 재료의 정합성에서 발생한다는 점을 보여준다.",
+      "limits": "종이와 향기에 관한 설명은 공식 제작 사례에 근거한다. 해당 재료의 성능이나 환경 영향을 검증하지 않았으며 식품 포장 적합성을 뜻하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/sf_annualreport.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 74,
+      "slug": "prorenata",
+      "name": "PRO RE NATA Brand eXperience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "프로레나타는 기술과 원료를 비슷하게 강조하는 스킨케어 시장에서 품질에 타협하지 않는 태도로 차별화하고자 했다. 내부 인터뷰로 진정성을 핵심 가치로 정하고 브랜드 이름의 처방 의미를 디자인에 연결했다. 제품 라벨에 고객의 고민, 솔루션, 성분과 브랜드 보증을 순서대로 배치해 전문성과 정보 명료성을 함께 표현했다.",
+      "interpretation": "품질 자신감을 수사로 말하기보다 고객이 비교할 수 있는 정보 순서로 만든다. 산지와 품종, 수확 기준, 보관과 조리 안내를 라벨에 일관되게 제시하고 확인되지 않은 효능은 덧붙이지 않는다.",
+      "relevance": "high",
+      "relevanceReason": "사용자가 원하는 최상의 퀄리티를 증거와 정보 구조로 표현하는 직접적인 참고 사례다.",
+      "limits": "전략 근거는 공식 이미지 alt에 주로 수록되어 있다. 성분·효능·무공해 관련 표현은 검증하지 않았고 농작물의 건강 효능 근거로 전용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/prorenata.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 75,
+      "slug": "coway",
+      "name": "Coway BX Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "코웨이는 고객이 인식하는 친근하고 깨끗한 이미지와 기대하는 정직하고 믿을 만한 전문성 사이의 차이를 진단했다. 고객 여정과 임직원 인터뷰를 바탕으로 브랜드 가치를 재정리하고 제품군의 구조를 개편했다. 사려 깊은 세부 설계, 명료한 사용성, 생활과의 조화를 디자인 원칙으로 삼아 제품과 서비스 직원의 접점까지 연결했다.",
+      "interpretation": "프리미엄을 신뢰할 수 있는 관리 능력으로 정의한다. 농가의 선별, 포장, 배송, 보관 안내와 문제 해결까지 같은 기준으로 운영하고 고객이 기대하는 신뢰를 인터뷰로 확인한다.",
+      "relevance": "high",
+      "relevanceReason": "고품질 농작물 서비스에서 신뢰와 편리함을 전 접점의 운영 기준으로 바꾸는 핵심 사례다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/coway.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 76,
+      "slug": "lpoint1",
+      "name": "L.POINT",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "L.POINT는 회원 규모에 비해 낮은 모바일 이용과 약한 브랜드 인상을 개선하고자 했다. 조사 결과를 바탕으로 고객을 잘 아는 친근한 서비스 방향을 정하고 간결함과 즐거움을 디자인 기준으로 삼았다. 개인화 메시지, 생활 속 미션과 보상, 쉬운 바코드 접근을 통해 반복 방문의 이유와 실용성을 함께 설계했다.",
+      "interpretation": "고객에게 도움이 되는 식생활 습관을 중심으로 재방문 이유를 만든다. 받은 농산물의 사용 시점과 남은 수량에 맞는 안내를 제공하고 필요한 때 쉽게 재주문하도록 연결한다.",
+      "relevance": "medium",
+      "relevanceReason": "일회성 구매를 일상의 유용한 습관으로 연결하는 서비스 설계가 참고된다.",
+      "limits": "공식 페이지의 재방문·이용 시간 증가 수치는 제작사 자체 보고다. 독립 검증하거나 농작물 서비스의 예상 효과로 사용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/lpoint1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 77,
+      "slug": "cu1",
+      "name": "CU Brand Experience Design Renewal",
+      "category": "BX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "CU 리뉴얼의 공식 소개는 쉼을 상징하던 쉼표가 말풍선처럼 혼용되면서 브랜드 정체성이 불명확해졌다는 문제를 제시한다. 새로운 모티프가 필요했다는 목표와 브랜드 경험 리뉴얼이라는 범위는 확인된다. 다만 상세 설명이 대부분 이미지에 담겨 있어 이번 텍스트 자료만으로 새 모티프의 정확한 조형과 적용 원리까지 확정하기는 어렵다.",
+      "interpretation": "브랜드의 핵심 기호가 고객에게 의도대로 읽히는지 먼저 점검한다. 선별 표시와 품질 등급처럼 중요한 표시는 의미와 사용 규칙을 명료하게 정하고 이해도 검증 후 확장한다.",
+      "relevance": "medium",
+      "relevanceReason": "동일한 그래픽이 다른 의미로 읽히는 위험과 기호의 명확성에 대한 교훈을 준다.",
+      "limits": "실질적 본문과 설명형 alt가 거의 없으며 공식 메타 설명에 의존한다. 새 모티프나 시각적 개선의 구체적인 결론은 내리지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cu1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 78,
+      "slug": "allwin2",
+      "name": "Allwin Mobile Application",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "ALLWIN 앱은 여러 소비자가 원하는 상품이나 공연 티켓을 경매 방식으로 구매하는 플랫폼의 모바일 경험을 다룬다. 공식 소개와 이미지 대체 텍스트는 단순한 앱 구조와 브랜드 식별성을 목표로 했음을 밝힌다. 오렌지와 짙은 네이비의 조합 및 디자인 검토 과정은 확인되지만 구체적인 경매 흐름의 개선 논리는 충분히 설명되지 않는다.",
+      "interpretation": "익숙하지 않은 거래 방식일수록 사용자가 이해해야 할 규칙을 먼저 줄이고 명료하게 설명한다. 초기 농산물 판매에서는 가격과 수량, 주문 마감, 배송 조건을 쉽게 파악할 수 있게 한다.",
+      "relevance": "low",
+      "relevanceReason": "핵심 구조를 단순화하는 일반 원리는 유용하지만 경매 모델과 자료 범위는 직접적 관련성이 낮다.",
+      "limits": "본문은 제목과 크레딧 중심이며 짧은 alt만 보조 근거로 사용했다. 특허·최저가·전환율은 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/allwin2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 79,
+      "slug": "si_village_ui",
+      "name": "S.I.VILLAGE",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "S.I.VILLAGE UI는 오프라인의 패션과 생활 제안을 온라인에서도 경험하도록 하는 커머스 설계 프로젝트다. 이용자를 쇼핑 성향으로 나누고 풍부한 상품 정보와 편집 콘텐츠가 취향을 성장시키도록 방향을 정했다. 이미지 중심 탐색, 브랜드별 이야기, 콘텐츠에서 관련 상품으로 이어지는 경로를 PC와 모바일의 핵심 화면에 적용했다.",
+      "interpretation": "농작물과 농가의 이야기를 생활 제안으로 편집하고 관련 상품으로 바로 연결한다. 사진과 짧은 설명은 감각을 전달하고 품종, 분량, 수확 정보는 구매 판단에 필요한 깊이로 제공한다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄 상품의 이야기와 구매 흐름을 자연스럽게 결합하는 구체적인 커머스 사례다.",
+      "limits": "공식 설명상 Plus X는 전체 구조와 핵심 화면을 담당했으며 이후 작업은 타사가 진행했다. 전체 최종 구축을 단독 수행한 사례로 해석하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/si_village_ui.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 80,
+      "slug": "bts",
+      "name": "BTS Brand eXperience Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "BTS 리뉴얼은 활동과 앨범이 변화해도 유지되는 정체성, 기존 로고의 확장성, 팬덤과의 연결을 함께 다뤘다. 성장하는 청춘이라는 공통 서사에서 현실을 넘어 앞으로 나아가는 의미를 도출했다. 문을 여는 모습과 맞은편 팬의 시점을 연결한 심벌을 만들고 열림과 빛을 소재, 구조와 인터랙션으로 확장했다.",
+      "interpretation": "고객과 농가가 같은 식탁의 경험을 서로 다른 위치에서 완성한다는 관계를 설계한다. 포장을 여는 행위와 생산 기록을 확인하는 과정에 일관된 의미를 담아 반복 가능한 기억을 만든다.",
+      "relevance": "medium",
+      "relevanceReason": "관계의 의미를 상징에서 물리적 행동까지 연결하는 방법이 참고된다.",
+      "limits": "공식 페이지는 패키지와 응용물 일부를 브랜드 아이덴티티의 예시로 명시한다. 실제 생산·판매된 모든 제품으로 간주하지 않았다.",
+      "supplementalEvidence": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+        "observation": "직접 본 정적 모티프 이미지에는 검은 바탕, 가느다란 수직의 밝은 틈, 위아래로 퍼지는 선이 있다. 문과 빛의 공간감을 기하학으로 표현한다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bts.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "성장한 그룹의 이야기와 팬과의 관계를 기존 로고의 확장 한계 안에서 충분히 표현하기 어려웠다는 문제에서 출발한다. 여러 앨범의 서사를 청춘의 성장으로 연결하고, 진정성·전진·대담함을 디자인 판단에 연결했다. 새로운 세계로 나아가는 문을 핵심 모티프로 삼아 BTS와 ARMY의 서로 마주 보는 관계를 표현했다. 문을 여는 행위는 인쇄물의 양쪽 펼침과 디지털의 핀치 동작으로, 문 너머의 빛은 반사 소재와 그래픽으로 확장한다. 타이포그래피와 소재도 같은 경험을 전달하도록 설계했다. 공개된 브랜드 응용물에는 아이덴티티 활용 예시라는 설명이 있으므로 모두 실제 판매·운영된 결과물로 단정할 수 없다."
+        ],
+        "touchpoints": [],
+        "analysis": "한 의미를 모양과 행동으로 함께 번역한 사례다. 농작물 서비스에서는 실제 선별·수확·개봉·식사 중 브랜드가 책임질 행위 하나를 찾고, 패키지 구조와 디지털 선택 흐름까지 연결하는 원리를 적용할 수 있다.",
+        "validation": "농가가 실제로 책임질 선별·수확·개봉·식사 행동을 확인하고, 포장과 디지털에서 같은 의미를 전달하는지 검증한다.",
+        "avoidCopying": "문 모양, 빛의 방사선, BTS·ARMY의 대칭 구조를 차용하지 않는다.",
+        "limits": "공식 설명과 정적 이미지 한 장을 확인했다. 영상·핀치 인터랙션·시제품 실물은 검증하지 않았다. 농작물 적용은 미확정 제안이다.",
+        "evidenceNote": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증."
+      }
+    },
+    {
+      "index": 81,
+      "slug": "shinsegae",
+      "name": "SHINSEGAE DEPARTMENT STORE",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "신세계백화점 앱은 일괄적인 쇼핑 정보를 개인에게 맞는 콘텐츠와 서비스로 바꾸고자 했다. 백화점의 문화적 경험을 갤러리라는 디자인 관점에 연결하고 정제된 색면과 배치를 사용했다. 개인화 메시지와 카드형 정보, 등급별 혜택, 주차와 매장 이용 기능을 함께 설계해 감성적인 인상과 방문 편의를 결합했다.",
+      "interpretation": "선택받은 고객이라는 느낌은 개인의 상황을 기억하는 세심한 안내로 만든다. 선호 품목과 배송 일정, 사용량을 반영하되 화면은 절제하고 핵심 서비스는 즉시 찾을 수 있게 한다.",
+      "relevance": "high",
+      "relevanceReason": "품격 있는 외형과 개인화된 실용 서비스를 결합해 특별함을 체감하게 하는 사례다.",
+      "limits": "서비스와 기능은 당시 공식 프로젝트 설명이다. 현재 운영 여부나 개인화 효과를 검증하지 않았고 색면의 실제 시각 품질은 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/shinsegae.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 82,
+      "slug": "si_village_bx",
+      "name": "S.I.VILLAGE",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "S.I.VILLAGE BX는 다양한 브랜드와 생활 콘텐츠를 하나의 커머스 경험으로 묶기 위한 정체성 구축이다. 상품과 가격뿐 아니라 이용 과정과 콘텐츠를 함께 비교해 차별화 방향을 정했다. 입점 브랜드와 상품이 돋보이도록 플랫폼의 표현을 절제하고, 직관적인 정보 질서와 일관된 포장·디지털 규칙으로 세련된 신뢰를 전달하려 했다.",
+      "interpretation": "브랜드가 주목해야 할 대상은 농작물과 생산자의 실제 가치다. 절제된 공통 틀 안에 품목의 색과 질감을 살리고 탐색부터 배송과 문의까지 같은 품질 기준으로 경험을 맞춘다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄 편집 브랜드가 자신의 표현 강도와 상품의 개성을 조율하는 기준을 제공한다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/si_village_bx.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 83,
+      "slug": "kakaopage",
+      "name": "Kakaopage",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "카카오페이지 BX는 다양한 이야기를 발견하고 각자에게 맞는 콘텐츠를 찾는 플랫폼의 가치를 일관되게 표현하고자 했다. 심벌에서 파생한 모티프를 넓은 공간용과 정보 중심 공간용으로 구분했다. 색, 아이콘과 타이포그래피의 위계를 함께 정하고, 모션에도 공통 조형 규칙을 적용해 여러 접점의 정체성을 유지하도록 했다.",
+      "interpretation": "라벨과 모바일 화면처럼 정보 밀도가 다른 접점에 같은 장식을 억지로 넣지 않는다. 큰 면적용 표현과 작은 면적용 표현을 구분하고 품질 정보의 읽기 쉬움을 공통 기준으로 삼는다.",
+      "relevance": "medium",
+      "relevanceReason": "매체별 정보 밀도에 대응하는 디자인 시스템 운영 규칙이 유용하다.",
+      "limits": "이미지 alt 한 곳에 신영 지웰의 부동산 설명이 잘못 섞여 있어 배제했다. 반복된 본문을 중복 근거로 세지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "One image alt incorrectly contains SHINYOUNG GWELL real estate text; use corroborating KakaoPage body and other image alts instead.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kakaopage.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 84,
+      "slug": "hanwhalife",
+      "name": "Hanwha Life",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "한화생명은 그룹과의 연결을 유지하면서 접점마다 달랐던 디자인 인상을 정비하고자 했다. 삶에 함께하는 따뜻한 동반자라는 방향에서 원형의 라이프볼 모티프를 도출했다. 그룹 색과 고유한 그래픽을 함께 사용하고, 사진과 정보 표현, 종이의 촉감, 공간과 모션까지 같은 원칙으로 연결해 현장 직원의 활용성을 고려했다.",
+      "interpretation": "농가와 판매 채널이 달라도 브랜드의 친절한 태도가 이어지게 한다. 라벨, 안내문과 문의 답변에 사용할 간단한 템플릿을 만들고 담당자가 쉽게 적용할 수 있는 운영 규칙을 제공한다.",
+      "relevance": "medium",
+      "relevanceReason": "디자인 결과물을 현장 운영자가 반복해서 쓰게 만드는 기준과 도구가 중요하다는 사례다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hanwhalife.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 85,
+      "slug": "shinyoung_gwell",
+      "name": "SHINYOUNG GWELL",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "지웰은 오래된 이미지와 불명확한 시각 요소를 정비하고 전문 개발사가 만드는 주거 공간의 차이를 드러내고자 했다. 공간의 기본 품질과 생활의 배려를 핵심 가치로 정리했다. 기존 심벌과 색을 계승하면서 로고를 다듬고, 시설별 브랜드 구조와 정보·사진·공간의 표현 규칙을 통합해 여러 접점에 적용했다.",
+      "interpretation": "좋은 먹거리의 기본 조건과 사용 중 느끼는 배려를 구분해 정의한다. 품질 등급뿐 아니라 손질의 편함, 분량의 적절함, 문의의 명료함처럼 생활에서 확인되는 차이를 디자인 기준으로 만든다.",
+      "relevance": "medium",
+      "relevanceReason": "생활의 기본 품질과 세심한 배려를 프리미엄 근거로 삼는 방식이 참고된다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/shinyoung_gwell.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 86,
+      "slug": "tetrapodbrewing",
+      "name": "TETRAPOD BREWING CO.",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "테트라포드 브루잉은 부산의 항구 도시라는 장소성과 일상의 거친 흐름을 쉬게 하는 편안한 펍 경험을 연결했다. 파도를 막는 구조물의 기능을 브랜드 이야기로 삼고, 그 형태와 맥주잔이 건배하는 모습을 결합했다. 회색과 에일의 색, 스텐실 사용을 고려한 서체를 통해 공간과 제품에 지역적 성격을 일관되게 담았다.",
+      "interpretation": "로컬을 지역 이름만으로 표현하지 않고 그곳의 환경이 먹거리와 생활에 주는 실제 역할에서 찾는다. 농가의 토양과 재배 관행, 수확 장면을 고유한 이야기와 촬영 원칙으로 연결한다.",
+      "relevance": "high",
+      "relevanceReason": "산지의 장소성을 기능과 감정으로 해석해 차별적인 브랜드 자산으로 만드는 직접적인 사례다.",
+      "limits": "공식 카탈로그가 연결한 별도 브랜드 사이트의 설명을 사용했다. 현재 영업 상태나 제품 판매 여부는 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://tetrapodbrewing.plus-ex.com/index.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "부산이라는 지역성과 편안한 펍 경험을 일관된 정체성으로 연결하려 했다.",
+          "항구의 테트라포드가 파도를 완화하는 역할을 일상의 긴장을 풀어 주는 장소의 의미로 연결했다.",
+          "지역의 물성과 사람에게 제공하는 정서적 효용을 함께 표현한다."
+        ],
+        "touchpoints": [
+          {
+            "label": "상징",
+            "text": "공식 설명은 테트라포드와 건배하는 잔의 형태를 결합했다고 밝힌다."
+          },
+          {
+            "label": "운영 체계",
+            "text": "심벌의 형태 원리를 서체·아이콘·라벨·색·소재로 확장하고 실제 제작 환경에 맞춰 스텐실을 고려한다."
+          },
+          {
+            "label": "고객 경험",
+            "text": "샘플러 트레이와 코스터·메뉴·공간으로 동일한 개념을 이어 간다. 사진 촬영과 공유는 설계 의도로 설명된다."
+          }
+        ],
+        "analysis": "농가의 지역성에서 실제로 관찰할 수 있는 물성·도구·동작을 찾아 의미 있는 접점으로 만든다. 포장을 넘어 재사용되는 보관 안내나 식탁의 도구도 검토한다.",
+        "validation": "실제 지역·농가와 모티프의 연관성, 제작비, 세척·보관 편의, 고객이 느끼는 효용을 확인한다. 촬영·공유 효과는 관찰 후 평가한다.",
+        "avoidCopying": "항구·잔 심벌을 차용하지 않는다. 지역 이미지에 대한 성별 고정관념을 농가 브랜드 언어로 가져오지 않는다.",
+        "limits": "Plus X 하위 도메인에 공개된 공식 브랜드 설명을 읽음. 현재 매장 운영·판매 정보는 별도 검증하지 않음.",
+        "evidenceNote": "Plus X 하위 도메인에 공개된 공식 브랜드 설명을 읽음. 현재 매장 운영·판매 정보는 별도 검증하지 않음."
+      }
+    },
+    {
+      "index": 87,
+      "slug": "11st",
+      "name": "11STREET",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "11번가는 다양한 생활 서비스로 사업이 확대되면서 쇼핑 공간을 넘어 고객의 선택을 돕는 플랫폼 이미지를 표현하고자 했다. 내부에서 재정리한 브랜드 가치에 맞춰 기존 표지판 형태의 로고를 조정했다. 색의 변화와 여러 모티프 유형을 통해 추천의 다양성을 나타내고 매체별로 이미지와 정보를 담는 규칙을 정했다.",
+      "interpretation": "상품 수를 늘리기 전에 선택을 돕는 역할과 기준을 명확히 한다. 공통 디자인 체계 안에서 추천 이유, 품목 정보, 생활 제안이 각자 제 역할을 하도록 구성한다.",
+      "relevance": "medium",
+      "relevanceReason": "품목과 채널 확장에도 큐레이션의 역할이 흐려지지 않게 하는 체계가 참고된다.",
+      "limits": "브랜드 핵심 가치의 선행 재정리는 11번가 내부 작업으로 설명되어 있다. Plus X의 역할과 기업 자체 전략을 구분했다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/11st.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 88,
+      "slug": "plusx_homepage",
+      "name": "PLUS-X Web Site",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "Plus X 홈페이지 리뉴얼 사례는 오래 사용할 수 있고 모바일에서도 적합한 웹사이트를 목표로 했다고 이미지 대체 텍스트에서 설명한다. 기본적인 사각 프레임과 응축된 이미지에 집중해 불필요한 요소를 덜어내는 방향은 확인된다. 다만 본문은 주로 크레딧과 이미지 자리표시자로 구성되어 상세한 탐색 구조와 구현 효과까지 판단하기는 어렵다.",
+      "interpretation": "브랜드 기록 사이트는 사례의 핵심 판단과 결과물을 쉽게 찾을 수 있게 구성한다. 표지 이미지의 인상과 함께 배경, 근거, 결정과 적용 상태를 일정한 형식으로 축적한다.",
+      "relevance": "medium",
+      "relevanceReason": "스토리북과 브랜드 아카이브의 표현을 절제하고 기록에 집중하는 방향에 연결된다.",
+      "limits": "의미 있는 근거는 짧은 공식 alt에 한정된다. 상세 인터랙션과 모바일 사용성을 직접 확인하지 않았으므로 웹사이트 성능 평가로 쓰지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusx_homepage.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 89,
+      "slug": "29cm3",
+      "name": "29CM Brand Experience Design",
+      "category": "BX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "29CM BX의 공식 소개는 더 나은 선택을 돕는 브랜드 미션과 기존 활동에서 형성된 고유한 분위기를 출발점으로 제시한다. 프로젝트 목표는 그 자산을 유지하면서 로고, 색, 서체, 모티프, 사진과 어투를 명확히 규정하는 것이었다. 상세 페이지는 이미지 중심이므로 실제 개별 규칙이나 구체적인 변화까지 텍스트만으로 확정할 수 없다.",
+      "interpretation": "브랜드가 말하는 안목을 사진, 상품 설명, 추천 어투와 선택 기준에 일관되게 반영한다. 잘 반응하는 표현을 기록하고 품목이 늘어나도 누구나 같은 기준으로 콘텐츠를 만들도록 문서화한다.",
+      "relevance": "high",
+      "relevanceReason": "선택을 돕는 편집 브랜드의 언어와 시각 체계를 함께 정리하는 목표가 직접적이다.",
+      "limits": "상세한 제작 논리와 전후 비교를 설명하는 본문·alt가 거의 없다. 공식 메타 설명에 근거한 범위와 목표만 정리했다.",
+      "supplementalEvidence": "공식 이미지 2~13, 15~17을 직접 확인. 그 외 이미지·영상 미검토.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 이미지 2~13, 15~17을 직접 확인. 그 외 이미지·영상 미검토.",
+        "observation": "확인한 공식 보드에서는 사각형과 수평·수직선, 그리드와 조합 규칙으로 텍스트·그래픽 모티프가 전개된다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm3.html"
+        },
+        {
+          "label": "직접 시각 확인: 미션과 디자인 원칙 연결",
+          "url": "https://storage.plus-ex.com/pr/img/experience/detail/29cm3/img_29cm3_9.jpg"
+        },
+        {
+          "label": "직접 시각 확인: 텍스트 모티프 생성 원리",
+          "url": "https://storage.plus-ex.com/pr/img/experience/detail/29cm3/img_29cm3_16.jpg"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "기존 브랜드 자산을 계승하면서 확장된 온라인·오프라인 접점의 표현 규칙을 명확히 정립하려 했다.",
+          "선별·발견·고유성이라는 서비스 역할을 더 나은 선택을 돕는 미션으로 연결했다.",
+          "Guide to Better Choice."
+        ],
+        "touchpoints": [
+          {
+            "label": "디자인 원칙",
+            "text": "미션에서 직관성·확장성·독자성·카테고리 중립성을 디자인 원칙으로 도출한다."
+          },
+          {
+            "label": "시각 표현",
+            "text": "직접 확인한 보드에는 플랫폼을 나타내는 사각형과 선을 조합한 텍스트·그래픽 모티프가 있다. 그리드와 조합 규칙으로 변주를 통제한다."
+          },
+          {
+            "label": "접점 적용",
+            "text": "서체·아이콘·심벌·그래픽을 개별 결과물이 아니라 함께 운영할 체계로 제시한다."
+          }
+        ],
+        "analysis": "‘선택받은’은 고객의 지위를 과시하기보다 대신 검토해 주는 선별 서비스로 구체화한다. 품목이 바뀌어도 선별 기준·정보 구조·톤의 공통 원칙을 유지한다.",
+        "validation": "누가 어떤 기준으로 선별하는지, 일반 상품과 실제로 무엇이 다른지 확인한다. 추천 이유를 읽은 사용자가 선택을 더 쉽게 하는지 검증한다.",
+        "avoidCopying": "검정 사각형·분절 선·편집 스타일을 그대로 가져오지 않는다. 경쟁 브랜드의 슬로건은 우리 슬로건 후보로 사용하지 않는다.",
+        "limits": "공식 프로젝트 이미지 2–13, 15–17을 직접 열어 전략 문구와 시각 체계를 확인함. 나머지 이미지·동영상은 미검토.",
+        "evidenceNote": "공식 이미지 2~13, 15~17을 직접 확인. 그 외 이미지·영상 미검토."
+      }
+    },
+    {
+      "index": 90,
+      "slug": "doota_mall",
+      "name": "DOOTA MALL",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "DOOTA Mall은 면세점 등으로 사업이 확장된 DOOTA의 공통 브랜드 체계 안에서 젊고 역동적인 쇼핑몰의 성격을 표현했다. 대표 브랜드와 같은 로고 기준선과 그리드를 사용하되 굵고 채워진 형태, 다양한 색으로 차이를 만들었다. 유동적인 프레임과 상품 중심 사진을 통해 공통성과 개별 성격을 함께 유지했다.",
+      "interpretation": "향후 일상용 구성과 선물 구성이 나뉘더라도 같은 브랜드 구조를 사용한다. 정보 위치와 기본 비례는 통일하고 사진, 여백과 재료의 차이로 용도별 경험을 명확하게 구분한다.",
+      "relevance": "medium",
+      "relevanceReason": "여러 라인업의 성격을 구분하면서 하나의 브랜드로 인식되게 하는 구조가 유용하다.",
+      "limits": "DOOTA Duty Free와 공통 전략을 공유하지만 공식 카탈로그의 별도 사례로 유지했다. 두 건을 서로 독립적인 전략 발명으로 중복 평가하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/doota_mall.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 91,
+      "slug": "doota_dutyfree",
+      "name": "DOOTA Dutyfree",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "DOOTA Duty Free는 공통 플랫폼 브랜드 아래에서 면세점의 세련된 프리미엄 성격을 표현하는 프로젝트다. 쇼핑몰과 같은 로고와 그리드 체계를 유지하면서 가는 선과 간결한 형태를 사용했다. 여러 선을 혼합한 모티프와 마젠타, 검정, 은색의 체계로 경쟁 환경에서 구분되는 럭셔리 인상을 만들고자 했다.",
+      "interpretation": "품격을 나타내는 표현은 상품군과 고객 상황에 맞춰 조절한다. 선물용 경험에서는 여백과 재료의 정밀함을 강조하되 기본 품질 정보와 사용 편의는 일상용 상품과 동일하게 유지한다.",
+      "relevance": "medium",
+      "relevanceReason": "일률적인 고급 색상에 의존하지 않고 체계 안에서 품격의 표현 강도를 조절한 사례다.",
+      "limits": "DOOTA Mall과 공통 전략과 구조를 공유한다. 특정 색이나 가는 서체가 프리미엄을 보장한다는 보편적 효과로 해석하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/doota_dutyfree.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 92,
+      "slug": "29cm2",
+      "name": "29CM Mobile Appliction Ver.2",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "29CM 앱 2.0은 커머스가 포함되지 않았던 초기 시험 버전에서 실제 쇼핑과 더 풍부한 콘텐츠 경험으로 확장했다. 색과 선, 면을 줄여 콘텐츠에 집중하게 하는 기존 방향은 유지했다. 홈에서 소비할 수 있는 이슈 콘텐츠를 늘리고 새 메뉴에 맞는 구조를 추가하면서 고유한 제스처와 텍스트 움직임을 계승했다.",
+      "interpretation": "처음부터 모든 기능을 만들기보다 콘텐츠와 구매의 핵심 흐름을 먼저 완성한다. 이후 서비스가 확장돼도 사용자가 기억하는 사진 방식과 정보 위계, 편집 태도는 안정적으로 유지한다.",
+      "relevance": "high",
+      "relevanceReason": "단계적으로 구축하며 브랜드 경험의 일관성을 보존하는 사업 진행 방식과 맞닿아 있다.",
+      "limits": "당시 두 버전의 범위와 변경점만 확인했다. 수상 경력은 사용성이나 매출 효과를 입증하는 근거로 사용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 93,
+      "slug": "beatuypoint",
+      "name": "Amorepacific Beautypoint",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "뷰티포인트는 여러 브랜드에서 적립하고 사용하는 통합 멤버십의 자유로움과 고객의 자부심을 표현하고자 했다. 모기업의 절제된 아름다움에 유연함, 조화와 세련됨을 연결했다. 동백 꽃잎이 모여 심벌을 이루는 방식으로 축적과 다양성을 나타내고, 등급별 색과 모듈형 패턴을 통해 카드부터 디지털 접점까지 일관된 경험을 설계했다.",
+      "interpretation": "멤버십의 특별함은 반복 이용으로 쌓이는 실질적인 배려와 연결한다. 선호 품목 기억, 먼저 받는 수확 소식, 용도에 맞는 제안처럼 명확한 혜택을 정한 뒤 그 가치를 표현한다.",
+      "relevance": "high",
+      "relevanceReason": "선택받은 느낌과 회원의 자부심을 서비스 혜택 및 브랜드 구조로 연결하는 사례다.",
+      "limits": "회원 등급과 혜택은 당시 포트폴리오의 설계 맥락이다. 현재 제도나 고객 유지 효과를 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/beatuypoint.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 94,
+      "slug": "vaunce",
+      "name": "VAUNCE Trampoline Park",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "VAUNCE는 트램펄린 시설을 운동과 놀이, 일상의 활력을 주는 문화 공간으로 정의했다. 건강, 즐거움, 자유와 성취의 가치를 디자인 키워드로 연결했다. 뛰어오르는 운동감을 사선 모티프와 기울어진 서체에 반영하고 각도와 조합 규칙을 정해 프로그램과 공간, 안내물에서도 같은 인상이 이어지도록 설계했다.",
+      "interpretation": "서비스에서 느끼게 할 감정을 먼저 정한 뒤 움직임과 표현의 강도를 선택한다. 농작물 브랜드에서는 신선함과 활력을 보여주면서 구매 정보와 보관 안내의 차분한 가독성을 유지한다.",
+      "relevance": "low",
+      "relevanceReason": "행동과 그래픽의 연결 원리는 유용하지만 활동적인 놀이 공간의 표현을 그대로 가져올 필요는 낮다.",
+      "limits": "원 메타 이름의 Vance 오타를 공식 본문과 alt의 VAUNCE로 정정했다. 건강 효과나 실제 체험의 만족도는 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Page meta name misspells VAUNCE as Vance; image alts and page body identify VAUNCE.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/vaunce.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 95,
+      "slug": "cjkx",
+      "name": "CJ KOREA EXPRESS BX Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "CJ대한통운은 사명과 로고 변경 뒤에도 고객 접점의 디자인이 제각각인 문제를 정비하고자 했다. 전문적인 통합 물류와 신뢰할 수 있는 전달이라는 역할을 스마트한 흐름의 개념으로 연결했다. 그리드와 정보 표현뿐 아니라 야간 시인성을 고려한 차량 소재, 계절별 기능성 유니폼과 박스까지 설계 범위에 포함했다.",
+      "interpretation": "농산물 브랜드의 품질 약속을 배송과 문제 해결까지 확장한다. 선별 이력, 포장 지침, 도착 안내와 상태 이상 접수를 하나의 운영 흐름으로 만들어 보이지 않는 서비스 품질도 확인하게 한다.",
+      "relevance": "high",
+      "relevanceReason": "물류와 현장 작업의 실제 기능을 BX 범위에 포함해야 한다는 중요한 사례다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cjkx.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 96,
+      "slug": "idframe",
+      "name": "ID FRAME",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "ID FRAME은 필요한 기능을 간결하게 담은 신분증 케이스를 목표로 한 자체 제품이다. 카드를 넣고 빼는 방식, 두 장 수납, 길이 조절과 분리되는 목줄, 숨겨진 릴을 설명한다. 무광 마감과 기업별 표기 가능성도 함께 제시하며 반복적인 시제품 검토와 제작 정밀도가 실제 사용 경험의 완성도로 이어지도록 했다.",
+      "interpretation": "프리미엄 포장은 열기, 꺼내기, 보관과 재사용의 작은 불편을 해결해야 한다. 실제 농작물을 담아 반복적으로 확인하고 손에 닿는 마감과 라벨의 읽기 쉬움까지 품질 기준에 포함한다.",
+      "relevance": "high",
+      "relevanceReason": "최상의 퀄리티를 반복 제작 검토와 사용 중 느끼는 세부 완성도로 정의할 수 있다.",
+      "limits": "정밀도와 안전성은 공식 제품 설명이며 별도 성능 시험을 확인하지 않았다. 가격과 주문 조건은 시점에 따라 달라질 수 있어 분석에 사용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/idframe/index.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 97,
+      "slug": "5duck",
+      "name": "5DUCKS Mobile Application",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "5DUCKS는 여러 채널에 흩어지고 중복된 아이돌 콘텐츠를 한곳에서 효율적으로 소비하도록 기획했다. 이벤트 기준 묶음과 관련 콘텐츠 연결로 흐름을 설계했지만 실제 자료로 개발하는 과정에서 타임라인과 피드의 관계, 표지 사진의 품질 문제가 드러났다. 이에 구조를 분리하고 표지를 제거하는 등 초기 디자인을 수정했다고 설명한다.",
+      "interpretation": "아름다운 시안은 실제 농가 사진과 품목 데이터로 검증한다. 사진이 부족하거나 수확 정보가 달라지는 상황에서도 정보 품질과 화면 완성도가 유지되는 콘텐츠 규격과 대체 표시를 마련한다.",
+      "relevance": "high",
+      "relevanceReason": "실제 콘텐츠 품질이 디자인과 구조를 바꿀 수 있다는 실무적인 교훈이 초기 농가 서비스에 중요하다.",
+      "limits": "공식 페이지는 초기 제안과 실제 적용된 수정안의 차이를 명시한다. 전시된 모든 화면을 최종 출시 상태로 간주하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/5duck.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 98,
+      "slug": "beat",
+      "name": "BEAT BX Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "BEAT는 음악 서비스의 특성이 충분히 드러나지 않고 매체마다 톤이 달랐던 정체성을 정비했다. 랜덤 추천이 주는 기대감과 개인의 취향, 친근한 연결을 핵심 가치로 정리했다. 두근거림의 하트와 재생 기호를 결합하고 외곽 형태를 유지하면서 장르별 그래픽을 바꾸어 다양한 음악과 일관된 브랜드 이미지를 함께 표현했다.",
+      "interpretation": "예상하지 못한 제철 품목을 발견하는 즐거움은 공통 품질 기준 안에서 제공한다. 계절마다 사진과 이야기는 달라져도 표기와 주문 방식은 일정하게 유지해 새로움과 신뢰를 함께 만든다.",
+      "relevance": "medium",
+      "relevanceReason": "반복 구매에서 계절의 변화를 즐기면서 브랜드를 안정적으로 기억하게 하는 방식이 참고된다.",
+      "limits": "공식 제작 의도와 설계 설명을 확인했으며, 실제 운영 성과와 이미지의 시각 구현은 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/beat.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 99,
+      "slug": "yg1",
+      "name": "YG ENTERTAINMENT Brand Identity Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "아티스트와 콘텐츠 중심에서 다양한 사업으로 확장하려는 YG에 체계적인 브랜드 운용 기준이 필요했다. 기존 정체성에 대한 긍정적 인식을 보존하면서 심벌을 서체와 픽토그램으로 확장하고 서브브랜드의 조합 원칙을 정했다. 브랜드북과 직원용 키트, 공식 블로그와 영상까지 연결해 내부 실무자와 외부 고객이 같은 방향을 경험하게 했다.",
+      "interpretation": "농가의 핵심 태도를 먼저 정하고 품목별 라벨과 상세페이지, 출고 안내가 이를 같은 방식으로 표현하게 한다. 실무자가 재사용할 수 있는 문서와 템플릿도 브랜드 자산으로 만든다.",
+      "relevance": "high",
+      "relevanceReason": "상품 확장과 실무 가이드 체계에 직접 적용 가능하다.",
+      "limits": "당시 공식 프로젝트 설명이며 실제 매출과 브랜드 인지도 변화는 독립 검증하지 않았다.",
+      "supplementalEvidence": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+        "observation": "소재 참조 이미지에는 검은 입체 표면, 픽토그램 패턴 천, 짙은 금속성 반지, 무광 문구류가 함께 제시된다. 실제 촉감은 확인할 수 없다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/yg1.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "문화와 생활 영역으로 사업이 넓어지는 상황에서 기존 아이덴티티의 인지 자산을 유지하며 브랜드를 체계화했다. 인터뷰와 조사에서 브랜드 정신·가치·미션을 정리하고 창의성, 변화, 품질, 독창성 등의 가치를 중립적이면서 강한 디자인 원칙으로 연결했다. 기존 심볼을 다듬고 그 조형을 전용 서체와 픽토그램으로 확장했다. 서브브랜드의 서명 체계와 무채색 중심의 색, 소재 원칙도 구성했다. 문구류와 제품 등 외부 접점뿐 아니라 브랜드북·명함·사원증을 묶은 내부 전달물도 제시한다. 브랜드북은 브랜드의 이유와 디자인 사용법을 나누어 설명하며, 웹 채널과 영상까지 같은 정체성을 전달하도록 연결한다."
+        ],
+        "touchpoints": [],
+        "analysis": "다섯 키워드를 각각의 장식으로 표현하기보다 가치의 우선순위와 운영 기준으로 정리해야 한다. 마스터브랜드·작물·수확 배치를 같은 명명 및 정보 규칙으로 묶고 농가 포장 담당자와 고객 응대 담당자의 사용 지침까지 설계하는 데 참고할 수 있다.",
+        "validation": "농가·포장·콘텐츠·고객 응대 담당자가 공통 지침을 이해하고 적용하는지 확인한다.",
+        "avoidCopying": "모노그램, 전용 서체, 검은 소재를 프리미엄의 정답으로 옮기지 않는다.",
+        "limits": "공식 본문과 소재 이미지 한 장을 확인했다. 브랜드 가치와 응용물 설명은 제작사의 진술이며 매출·선호 성과의 증거가 아니다.",
+        "evidenceNote": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증."
+      }
+    },
+    {
+      "index": 100,
+      "slug": "29cm",
+      "name": "29CM Mobile Appliction Ver.1",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "브랜드와 상품 이야기를 모바일에서 고객 가까이 전달하려는 편집숍 앱 프로젝트다. 복잡한 색과 선을 줄여 콘텐츠 집중도를 높이고 매거진형 이슈와 브랜드 프레젠테이션을 구성했다. 이미지·갤러리·영상 템플릿으로 운영 가능성을 확보했으며 공유 제스처와 시차를 둔 텍스트 움직임을 차별화 수단으로 제시했다. 방문과 소비 증가는 프로젝트의 목표로 설명된다.",
+      "interpretation": "브랜드 이야기와 상품 구매 정보를 서로 연결하되 콘텐츠 유형마다 작성 틀을 정한다. 모바일에서는 실제 농작물 사진과 핵심 선택 이유에 집중하고 숨겨진 제스처 의존은 사용성 검증 후 결정한다.",
+      "relevance": "high",
+      "relevanceReason": "큐레이션 콘텐츠와 모바일 구매 전 경험의 연결에 유용하다.",
+      "limits": "초기 앱 사례이며 당시 제스처·자동 전환을 현재 접근성 기준이나 최적 해법으로 간주할 수 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/29cm.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 101,
+      "slug": "allwin1",
+      "name": "ALLWIN",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "판매자가 정한 하한 가격 위에서 구매자가 입찰하는 그룹 경매 서비스를 팬덤 커머스로 정의한 프로젝트다. 상품·가격·과정·플랫폼이라는 네 요소를 브랜드 가치로 정리하고 판매자와 구매자의 공동 이익을 승리의 깃발로 상징화했다. 깃발의 변주를 다양한 팬덤과 연결하며 웹 화면과 판매자용 접점, 인쇄물에 일관된 체계를 적용했다.",
+      "interpretation": "생산자와 구매자에게 어떤 가치가 남는지 구체적으로 설명하는 거래 원칙을 정한다. 희소성이나 경쟁 심리를 먼저 자극하기보다 농가의 지속 가능성과 소비자의 납득 가능한 선택 이유를 함께 제시한다.",
+      "relevance": "medium",
+      "relevanceReason": "생산자·고객의 양면 가치 정의에 유용하지만 경매 방식의 직접 도입 근거는 약하다.",
+      "limits": "모두의 이익은 공식 기획 의도이며 실제 가격·수익 성과가 검증된 것은 아니다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/allwin1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 102,
+      "slug": "korcraft",
+      "name": "Korean Craft Liquor Brand & Packaging Design Renewal",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "전통주의 생산 방식과 문화적 가치가 소비자에게 전달되도록 브랜드와 포장을 재정비한 프로젝트다. 문헌과 박물관 조사, 설문과 전문가 인터뷰를 거쳐 소통과 화합을 핵심으로 정리했다. 술의 종류를 병 형태로 구별하고 재료와 주조 과정을 라벨의 문양 규칙으로 표현했다. 우리술방이라는 공간의 상징까지 같은 가치와 연결했다.",
+      "interpretation": "농가와 품종의 실제 차이를 조사하고 생산·수확·취급 정보를 읽을 수 있는 라벨 체계로 만든다. 공통 브랜드 안에 생산자 고유 정보가 남도록 하고 확인된 지역 이야기만 사용한다.",
+      "relevance": "high",
+      "relevanceReason": "지역 생산자·식문화·품질 정보·패키지의 연결이 농산물과 직접 맞닿는다.",
+      "limits": "공식 이미지 대체텍스트를 근거로 읽었다. 과거 시장 수치와 매출 활성화 목표는 현재 성과가 아니다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/korcraft.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "개별 양조장의 술을 넘어 전통주의 문화와 생산 방식이 고객에게 전달되는 공통 체계가 필요했다.",
+          "문헌·박물관·설문·전문가 인터뷰에서 가치를 찾고 이를 병·라벨·패키지·경험 공간으로 연결했다.",
+          "술을 매개로 한 소통과 재료·사람의 화합."
+        ],
+        "touchpoints": [
+          {
+            "label": "패키지",
+            "text": "술 분류의 차이를 병 형태로 구분한다."
+          },
+          {
+            "label": "정보",
+            "text": "원료와 주조 과정을 라벨 문양의 규칙으로 삼는다."
+          },
+          {
+            "label": "공간",
+            "text": "우리술방 마크는 전통 문살에서 안팎을 연결하는 의미를 가져와 식문화 경험 공간에 적용한다."
+          }
+        ],
+        "analysis": "품종·농가·수확·취급 정보를 장식 이전의 설계 재료로 삼는다. 고객이 차이를 읽을 수 있는 공통 라벨 규칙과 생산자별 고유 정보를 함께 둔다.",
+        "validation": "농가 기록과 역사 자료, 품종 명칭, 생산 과정의 실제 차이를 확인한다. 사진·문서·생산자 인터뷰가 없는 전통 서사는 만들지 않는다.",
+        "avoidCopying": "검정·금색이나 전통 문양만 차용하지 않는다. 당시 조사 수치와 시장 비중을 현재 사실로 인용하지 않는다.",
+        "limits": "공식 상세 페이지의 설명형 이미지 대체텍스트를 읽음. 모든 이미지의 직접 시각 검토는 하지 않음.",
+        "evidenceNote": "공식 상세 페이지의 설명형 이미지 대체텍스트를 읽음. 모든 이미지의 직접 시각 검토는 하지 않음."
+      }
+    },
+    {
+      "index": 103,
+      "slug": "mbc1",
+      "name": "MBC Brand Store BX Project",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "방송 콘텐츠만으로는 전달하기 어려운 MBC의 가치를 제품과 공간으로 확장하려는 프로젝트다. 내부 인터뷰를 통해 즐거움·감동·신뢰를 정리하고 로고의 사각 요소를 모티프로 발전시켰다. 제품 선정 기준을 세운 뒤 문구·가방·컵·포장에 동일한 원리를 적용했으며 브랜드 스토어 공간도 고객과 소통하는 장소로 계획했다. 직원과 일반 방문자의 사용을 모두 고려했다.",
+      "interpretation": "농산물 외 굿즈를 만들 경우 고객이 실제로 사용할 목적부터 확인한다. 보관 안내나 식탁 도구처럼 먹는 경험을 돕는 접점에 브랜드 의미를 담고 장식용 상품 확대는 수요 검증 후 판단한다.",
+      "relevance": "medium",
+      "relevanceReason": "브랜드의 무형 가치가 물리적 제품·공간으로 번역되는 과정이 참고된다.",
+      "limits": "로열티와 매출 기여는 목표로 제시되며 측정된 결과 자료는 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/mbc1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 104,
+      "slug": "sbs",
+      "name": "SBS CHANNEL NETWORK REBRANDING",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "SBS의 새 슬로건을 채널 전반의 일관된 이미지로 전달하기 위한 리브랜딩이다. 인터뷰에서 젊음·신뢰·즐거움이라는 방향을 정하고 기존 심벌에서 구 형태를 가져와 영상의 공통 모티프로 사용했다. 다음 프로그램 안내, 종료 화면, 짧은 채널 영상의 역할을 나누면서 색과 소리, 움직임이 같은 정체성을 드러내도록 구성했다.",
+      "interpretation": "농가 영상과 광고의 시작·정보 전달·종료 화면에 공통 규칙을 만든다. 생산 장면과 상품 안내가 달라져도 같은 브랜드임을 알 수 있게 하고 모션은 정보를 읽는 시간을 방해하지 않게 한다.",
+      "relevance": "medium",
+      "relevanceReason": "여러 짧은 영상 형식에서 일관성을 유지하는 방법에 유용하다.",
+      "limits": "영상 원문은 재생하지 않았고 모션의 내용은 공식 서술에 근거한다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Catalog label incorrectly says MBC BRAND STORE; preserve SBS slug and verify page evidence.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/sbs.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 105,
+      "slug": "simplyjuice",
+      "name": "SHINSEGAE Simply Juice Brand eXperience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "신세계 식품관의 새 주스 브랜드를 위해 재료의 신선함과 절제된 인상, 직관적인 정보 전달을 함께 정의했다. 이를 디자인 원칙으로 번역하여 과일 상자에서 심벌을 도출하고 재료의 색이 돋보이도록 브랜드 색을 제한했다. 제품명과 재료 일러스트, 서체와 다양한 응용물까지 같은 방향으로 연결하는 방식이 공식 설명의 중심이다.",
+      "interpretation": "브랜드 장식보다 실제 농작물의 색과 형태, 선별 이유를 먼저 보이게 한다. 고객이 품목과 쓰임을 바로 이해하도록 이름과 사진과 정보의 위계를 함께 정하고 모든 채널에서 재현한다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄 식재료의 시각 표현과 정보 전달을 직접 다룬다.",
+      "limits": "신선함·유기적 인상은 디자인 설명이며 농산물의 실제 인증이나 효능을 입증하지 않는다.",
+      "supplementalEvidence": "공식 상세의 커버·브랜드 가치와 디자인 원칙 보드를 정적 화면으로 확인.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 상세의 커버·브랜드 가치와 디자인 원칙 보드를 정적 화면으로 확인.",
+        "observation": "디자인 원칙 보드는 Fresh / Organic, Modern / Minimal, Intuitive를 세 열로 나누고, 각 제목 아래 구분선과 설명을 배치한다. 이 관찰은 공식 정적 보드의 정보 구성에 한정한다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/simplyjuice.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "신세계 식품관의 새 주스 브랜드에 원재료의 신선함과 간결한 정보 전달, 백화점과 어울리는 정체성이 필요했다.",
+          "브랜드의 성격을 자연스러움·절제·직관성이라는 디자인 원칙으로 번역하고 고객 접점에 일관되게 적용했다.",
+          "재료가 중심이 되는 명료한 프리미엄 음료 경험."
+        ],
+        "touchpoints": [
+          {
+            "label": "상징",
+            "text": "공식 설명은 과일 상자에서 상징을 도출하고 상황에 맞춰 높이가 달라지는 형태를 정의한다."
+          },
+          {
+            "label": "색",
+            "text": "재료 자체의 색이 드러나도록 주된 브랜드 색을 단색으로 제한한다."
+          },
+          {
+            "label": "정보",
+            "text": "이름·제품명·재료 일러스트를 고객이 쉽게 이해하도록 연결하고 서체·소재·응용물까지 같은 원칙을 적용한다."
+          }
+        ],
+        "analysis": "농산물의 실제 색과 형태가 주인공이 되게 하고 브랜드는 선별 이유를 또렷하게 설명한다. 브랜드 장식량을 줄여도 상품 정보는 줄이지 않는다.",
+        "validation": "재배·원재료·가공 관련 표현의 사실 확인. 유기농처럼 인증이 필요한 표현을 시각 분위기와 혼동하지 않는다. 품목별 인쇄 색과 사진 색의 일치 여부 확인.",
+        "avoidCopying": "상자 로고·스텐실 서체·단색 조합을 프리미엄 공식으로 복사하지 않는다.",
+        "limits": "공식 상세 본문과 이미지 대체텍스트를 읽음. 실물 품질·현재 판매 상태는 미검증.",
+        "evidenceNote": "공식 상세의 커버·브랜드 가치와 디자인 원칙 보드를 정적 화면으로 확인."
+      }
+    },
+    {
+      "index": 106,
+      "slug": "daishin",
+      "name": "Daishin Securities Brand Experience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "오랜 전문성을 가진 대신증권이 낡은 인상과 일관되지 않은 문서 표현을 개선하려는 프로젝트다. 신뢰와 경험을 명료하게 제안하는 태도로 재해석하고 그래픽 모티브·서체·색·사진·소재 규칙을 정했다. 직원이 자주 작성하는 상품 제안서와 보고서의 템플릿까지 설계해 제작 편의와 고객의 정보 이해를 함께 높이는 방향을 택했다.",
+      "interpretation": "농가의 전문성을 어려운 용어나 장식으로 표현하기보다 선택 근거를 쉽게 설명하는 문서로 보여준다. 상품 소개·출고 안내·문제 대응 문장을 템플릿화하여 담당자가 바뀌어도 품질을 유지하게 한다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄의 신뢰를 명료한 정보와 운영 템플릿으로 만드는 사례다.",
+      "limits": "시각 원칙은 공식 설명이며 고객 인식 개선의 정량 결과는 제공되지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/daishin.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 107,
+      "slug": "freestyle2",
+      "name": "freestyle promotion movie",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "중국 시장의 게임 홍보를 위해 농구 기술과 스트리트 문화, 현지 상징을 하나의 영상으로 구성했다. 목표와 메시지에서 시나리오와 시각 방향을 정한 뒤 로고·의상·소품·캐릭터·세트를 개발했다. 실사 퍼포먼스와 삼차원 캐릭터를 연결하고 음악과 편집의 속도를 맞춰 게임 특성을 드러내는 것이 공식 제작 설명의 핵심이다.",
+      "interpretation": "농작물 홍보 영상도 전달할 한 가지 특징을 정한 뒤 촬영·소품·자막·사운드를 같은 방향으로 맞춘다. 현지 문화 표현은 실제 고객 이해를 확인하고 식품 자체의 모습이 연출에 묻히지 않게 한다.",
+      "relevance": "low",
+      "relevanceReason": "영상 제작의 메시지 정합성은 참고되지만 게임의 과장된 연출은 농산물 신뢰와 거리가 있다.",
+      "limits": "실제 영상을 보지 않았다. 문화 해석과 흥행 주장은 공식 제작자의 당시 설명이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/freestyle2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 108,
+      "slug": "onsure",
+      "name": "Onsure Website Renewal",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "보험의 어려운 이미지를 줄이고 고객이 온라인에서 정보를 이해한 뒤 스스로 가입하도록 만든 웹 리뉴얼이다. 가입 통계를 바탕으로 필요한 보장과 혜택을 우선 노출하고 가입 흐름을 간소화했다. 스스로 찾기·이해하기·신뢰하기·끝까지 안내받기라는 경험 원칙을 세워 설명과 신청 과정을 연결하는 방식으로 공식 프로젝트가 소개된다.",
+      "interpretation": "농작물 구매에서도 품목·수량·배송·보관·문제 대응 정보를 고객의 질문 순서에 맞춰 보여준다. 구매 전에 필요한 판단을 끝낼 수 있게 하고 주문 단계의 반복 입력과 되돌아가기를 줄인다.",
+      "relevance": "high",
+      "relevanceReason": "정보 이해와 신뢰, 거래 완료를 함께 설계하는 원리가 직접 적용 가능하다.",
+      "limits": "보험 분야의 당시 추세를 현재 시장 사실로 사용하지 않았다. 가입 전환 개선 수치는 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/onsure.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 109,
+      "slug": "bbox",
+      "name": "SK Telecom B box Intergrated BX Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "셋톱박스를 집 안의 소통 경험으로 확장하며 브랜드·제품·화면을 함께 설계한 사례다. 가족의 소통, 사용자를 배려한 탐색, 주변과 어울리는 제품이라는 가치를 공통 원리로 묶었다. 기기와 리모컨의 곡선·소재감을 화면에도 연결하고 깊은 메뉴를 줄여 콘텐츠를 미리 확인하게 했다. 가족 공유와 통화 같은 서비스도 같은 브랜드 방향에 배치했다.",
+      "interpretation": "브랜드 사이트·포장·안내 카드가 각각 다른 약속을 하지 않도록 공통 경험 기준을 만든다. 제품을 받기 전과 후에 필요한 정보를 자연스럽게 연결하고 품목 탐색 단계는 실제 상품 수에 맞게 줄인다.",
+      "relevance": "high",
+      "relevanceReason": "제품·포장·디지털을 같은 가치 아래 통합하는 구조가 적합하다.",
+      "limits": "현재 제품 기능이나 시장 상황을 검증하지 않았으며 설명된 기능은 당시 프로젝트 범위이다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bbox.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 110,
+      "slug": "labc",
+      "name": "LAB.C Brand Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "LAB.C는 사용자의 작은 행동과 습관을 연구한다는 방향 아래 모바일 액세서리의 제품과 포장을 함께 제시한다. 공식 설명은 수납에 다시 쓰는 포장 트레이, 휴대 기능을 결합한 케이스, 잡는 느낌과 사용 상황을 고려한 제품을 소개한다. 여러 제품의 공통점은 외형만이 아니라 고객의 일상에서 반복되는 불편을 설계 과제로 삼았다는 점이다.",
+      "interpretation": "농산물을 꺼낸 뒤 포장이 어떻게 남고 쓰이는지도 관찰한다. 재사용 기능은 보관·위생·분리배출의 실제 편의를 검증한 뒤 채택하고 고급스러운 재료 자체를 품질의 대리 지표로 삼지 않는다.",
+      "relevance": "high",
+      "relevanceReason": "포장의 수령 이후 사용성과 작은 제품 디테일이 농산물 배송 경험에 전이된다.",
+      "limits": "소재 성능·재활용 효과·기부 결과는 공식 주장으로만 남기고 독립 검증된 성과로 요약하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/labc.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 111,
+      "slug": "samsungh",
+      "name": "SAMSUNG Healthcare",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "삼성의 중동 의료 서비스 제안을 고객이 이해하도록 네 가지 사용 상황의 이야기로 구성한 프로젝트다. 공공·가정·학교·개인이라는 맥락에 맞춰 서비스 흐름을 영상으로 설명하고 현지 문화와 생활상을 시각 요소에 반영했다. 같은 이야기와 그래픽을 전시 벽면과 지원 차량에도 적용하여 복잡한 솔루션을 여러 접점에서 일관되게 전달하도록 기획했다.",
+      "interpretation": "농작물 서비스도 직장인의 저녁·가족 식사·선물처럼 실제 사용 상황을 구체적으로 설명한다. 건강 효과를 약속하기보다 주문부터 보관과 조리까지 어떤 도움을 주는지 검증 가능한 행동으로 보여준다.",
+      "relevance": "medium",
+      "relevanceReason": "사용 상황을 기반으로 복잡한 서비스를 설명하는 방법이 유용하다.",
+      "limits": "의료 효능·지역의 건강 통계·서비스 운영 성과는 검증하지 않았으며 농산물 건강 주장으로 전이하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/samsungh.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 112,
+      "slug": "poketroket",
+      "name": "POKETROKET WEBSITE",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "공식 메타 설명에 따르면 포켓로켓의 마케팅 사이트는 이동 기록과 추억 공유라는 앱의 감성적 특징을 전달하기 위해 제작됐다. 한강·남산·도심에서 배경을 직접 촬영하고 일상의 따뜻한 풍경으로 구성했다고 설명한다. 상세 본문은 거의 없으며 이미지 대체텍스트에서 기록·도전·소셜 등의 주제만 추가로 확인할 수 있어 세부 정보 구조는 판단하지 않았다.",
+      "interpretation": "농가의 실제 장소와 작업을 직접 기록해 브랜드의 일상성을 축적한다. 연출 이미지가 필요한 경우 실제 생산 현장을 대신하는 사실 자료로 쓰지 않고 촬영 맥락과 출처를 분명히 관리한다.",
+      "relevance": "medium",
+      "relevanceReason": "진짜 장소의 촬영을 브랜드 정서와 연결하는 방법이 관련된다.",
+      "limits": "공식 메타 설명과 제한된 alt만 확인했다. 화면·상호작용은 직접 보지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/poketroket.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 113,
+      "slug": "prudential_brand",
+      "name": "Prudential Brand Slogan Experience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "푸르덴셜의 기존 기업 정체성을 유지하면서 새로운 고객 중심 슬로건을 신선하게 전달하는 프로젝트다. 여러 사람의 이야기를 담는다는 개념을 심벌로 만들고 색·서체·일러스트·사진·소재의 사용 원칙을 정했다. 따뜻한 인상과 명료한 정보 전달을 함께 강조하며 다양한 접점에 적용할 수 있는 시각 체계를 제시했다. 슬로건 자체의 개발과 디자인 역할은 구분된다.",
+      "interpretation": "농가의 이야기만 길게 설명하지 말고 고객이 식생활에서 원하는 순간과 질문을 함께 담는다. 따뜻한 말투와 명료한 규격 정보를 병행하고 감성 서사가 구매 판단을 대신하지 않도록 한다.",
+      "relevance": "medium",
+      "relevanceReason": "헤리티지를 유지하며 고객 중심 의미로 확장하는 원리가 관련된다.",
+      "limits": "당시 보험 시장 설명을 현재 사실로 인용하지 않는다. 슬로건 저작 역할은 원문 크레딧을 따른다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/prudential_brand.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 114,
+      "slug": "samsung_developer_day",
+      "name": "Samsung Developers BX Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "삼성의 기기와 콘텐츠가 결합하며 진화하는 플랫폼을 개발자 브랜드의 개념으로 정한 프로젝트다. 기기를 뜻하는 사각형과 콘텐츠를 뜻하는 패턴의 유연한 조합으로 변화 가능한 아이덴티티를 만들었다. 개발자 행사와 앱 공모전의 하위 브랜드, 마이크로사이트, 영상에 같은 원리를 확장해 서로 다른 프로그램이 공통 플랫폼에 속한다는 인상을 전달했다.",
+      "interpretation": "농가 브랜드의 공통 요소와 품목·계절에 따라 바뀌는 요소를 구분한다. 로고를 매번 새로 만들기보다 정보와 색·사진의 변주 규칙을 정해 향후 다른 작물도 같은 브랜드로 인식되게 한다.",
+      "relevance": "medium",
+      "relevanceReason": "사업 확장을 위한 유연한 아이덴티티 구조가 참고된다.",
+      "limits": "브랜드 규칙과 제작 의도는 확인했으나 영상 재생과 현재 행사 운용은 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/samsung_developer_day.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 115,
+      "slug": "naver_greenfactory",
+      "name": "NAVER Green Factory 2.0 Signage Design Project",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "네이버 사옥의 용도가 혼재된 공간을 역할에 따라 정리하고 각 구역에 맞는 사이니지를 설계했다. 동선과 사용 맥락을 고려해 회의·휴식·업무 영역을 구분하고 공간 개념을 이름·표지·소재로 연결했다. 운동 공간과 카페에도 별도 맥락을 부여해 전체 브랜드와 각 공간의 기능을 함께 읽을 수 있게 하는 접근을 취했다.",
+      "interpretation": "농가 포장 작업과 향후 픽업 공간에서도 고객과 작업자의 동선을 먼저 정한다. 확인·선별·포장·수령의 단계가 혼동되지 않게 이름과 표지를 만들고 브랜드 표현이 실제 작업의 명료함을 돕도록 한다.",
+      "relevance": "medium",
+      "relevanceReason": "공간의 역할과 안내 체계를 맞추는 원리가 운영 접점에 유용하다.",
+      "limits": "제목의 Never 오타를 NAVER로 수정했다. 원문 내 층수 불일치가 있어 구체 층수는 요약하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Page meta name misspells NAVER as Never; catalog and page heading identify NAVER.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/naver_greenfactory.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 116,
+      "slug": "golfzon",
+      "name": "Golfzon Global Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "골프존의 브랜드·제품·서비스를 해외에 알리고 잠재 파트너를 연결하는 글로벌 사이트 프로젝트다. 일반 방문자와 제품 관심자, 사업 파트너의 목적을 나누어 콘텐츠를 구성했다. 숫자를 공통 설명 수단으로 활용하고 제품의 간접 체험과 사업 활용 사례를 연결했다. 공식 본문은 여러 언어의 웹과 별도 모바일 페이지를 제작했다고 설명한다.",
+      "interpretation": "개인 구매자와 식당·기업 구매자가 필요한 정보를 구분한다. 생산·규격·일정의 실제 수치를 이해하기 쉽게 설명하되 근거 없는 숫자로 권위를 만들지 않고 각 방문 목적에 맞는 다음 행동을 제공한다.",
+      "relevance": "medium",
+      "relevanceReason": "대상별 정보 구조와 근거를 이용한 신뢰 형성에 유용하다.",
+      "limits": "당시 글로벌 사업 실적과 사례의 성공 여부는 별도로 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/golfzon.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 117,
+      "slug": "bns",
+      "name": "BLADE & SOUL brandsite",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "게임에 익숙하지 않은 방문자도 브랜드를 경험하고 공식 서비스로 이동하도록 만든 쇼룸 사이트다. 세계관·사용 방법·영상 감상이라는 정보를 인물과 이야기 속 체험으로 나누었다. 사용자가 선택하며 내용을 알아가는 구조와 일관된 화면 전환을 통해 단순 소개 이상의 학습 경험을 제공하려 했다. 웹과 모바일의 경험 차이를 줄이는 것도 제작 방향에 포함됐다.",
+      "interpretation": "낯선 농작물은 긴 소개보다 맛·손질·조리 선택을 단계적으로 알아볼 수 있게 설명한다. 체험형 콘텐츠는 주문을 방해하지 않는 범위로 두고 새로운 기능보다 고객의 이해에 기여하는지 먼저 확인한다.",
+      "relevance": "medium",
+      "relevanceReason": "생소한 상품을 경험하며 이해시키는 원리가 관련된다.",
+      "limits": "사용자 유입과 바이럴은 목표이며 실제 성과 자료는 없다. 게임의 과장된 몰입 연출을 직접 전이하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bns.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 118,
+      "slug": "hyundaicard_purple",
+      "name": "Hyundaicard Purple",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "다양한 카드와 안내물이 들어가는 프리미엄 패키지의 수령·개봉·정보 탐색 경험을 설계했다. 구성물의 배열과 쉽게 꺼내는 방식, 카드 수가 달라도 대응되는 내부 구조를 함께 검토했다. 홀더에서 내용을 한눈에 보고 가이드북에서 중요한 혜택을 빨리 찾도록 정리함으로써 품격이라는 인상을 실제 사용 편의와 연결한 것이 공식 설명의 중심이다.",
+      "interpretation": "농산물 상자를 열자마자 내용과 보관법을 이해하고 손상 없이 꺼낼 수 있게 한다. 품격의 기준을 장식보다 순서·보호·읽기 쉬움에 두고 품목과 수량이 달라질 때도 실제 포장으로 검증한다.",
+      "relevance": "high",
+      "relevanceReason": "프리미엄을 사용 편의와 정보 위계로 구현한 직접 참고 사례다.",
+      "limits": "본문 상단의 Samsung bada 제목은 오염으로 제외했다. 카드 포장의 구조를 신선식품 조건에 그대로 적용할 수 없다.",
+      "supplementalEvidence": "공식 상세의 전략·꺼내기 구조를 정적 화면으로 확인. 실물 미검증.",
+      "metadataNote": "H1 incorrectly says Samsung bada; catalog and product image alt identify Hyundai Card the Purple.",
+      "visual": {
+        "verified": true,
+        "note": "공식 상세의 전략·꺼내기 구조를 정적 화면으로 확인. 실물 미검증.",
+        "observation": "공식 Opening method / Lift 도해는 열린 상자 안의 보라색 구성물을 손으로 들어 꺼내는 장면을 보여준다. 꺼내기 동작을 설계 요소로 설명한 정적 도해이며, 실물의 사용성이나 재질은 확인하지 않았다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_purple.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "여러 종류의 카드와 많은 정보를 고객이 질서 있게 받고 쉽게 꺼내 쓰게 하는 것이 과제였다.",
+          "기대에서 품격, 정돈된 정보, 혜택 발견으로 이어지는 수령 경험을 설계했다.",
+          "프리미엄 인상을 구체적인 사용 편의로 뒷받침하는 패키지."
+        ],
+        "touchpoints": [
+          {
+            "label": "사용 순서",
+            "text": "구성물의 논리적 배열과 쉽게 꺼내는 장치를 함께 설계한다."
+          },
+          {
+            "label": "구조",
+            "text": "3~9장의 카드 수 변화에 대응하는 내부 구조와 내용이 보이는 파일형 홀더를 제안한다."
+          },
+          {
+            "label": "정보",
+            "text": "가이드북은 중요한 혜택을 빠르게 찾도록 정보 위계를 조정한다."
+          }
+        ],
+        "analysis": "농산물 상자를 여는 순서에서 확인·꺼내기·보관·먹기까지의 수고를 줄인다. 품격의 기준을 장식 비용보다 손상 방지와 안내의 명료함에 둔다.",
+        "validation": "농작물별 통기·수분·압박·온도 조건을 우선 검토한다. 품목 수 변화, 개봉 시간, 보관 안내 이해, 폐기 편의, 포장 단가를 실물로 확인한다.",
+        "avoidCopying": "카드의 중량감이나 과도한 박스 구조를 신선식품에 그대로 옮기지 않는다. 카드 회원의 지위를 농산물 고객 차별 규칙으로 오해하지 않는다.",
+        "limits": "공식 상세 본문·이미지 대체텍스트를 읽음. 실제 패키지 사용성은 미검증.",
+        "evidenceNote": "공식 상세의 전략·꺼내기 구조를 정적 화면으로 확인. 실물 미검증."
+      }
+    },
+    {
+      "index": 119,
+      "slug": "hyundaicard_red",
+      "name": "Hyundaicard Red",
+      "category": "BX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "공식 이미지 대체텍스트는 독특함에 앞서 고객에게 필요한 패키지 경험을 검토한 프로젝트라고 설명한다. 카드를 처음 받는 순간, 정보를 찾는 순간, 나중에 다시 꺼내는 순간의 질문을 정리했다. 여러 구성물로 흩어진 정보를 용도와 성격에 따라 분류하고 보관과 접근을 돕는 패키지와 가이드북을 제안했다. 공개 본문은 짧고 설명은 주로 대체텍스트에 있다.",
+      "interpretation": "구매 직후의 감탄뿐 아니라 며칠 뒤 보관법과 주문 정보를 다시 찾는 순간까지 설계한다. 안내 카드와 디지털 정보의 위치를 일정하게 유지하고 고객의 질문을 기준으로 내용물을 분류한다.",
+      "relevance": "high",
+      "relevanceReason": "품격·선택받은 경험을 재사용과 정보 접근으로 해석할 수 있다.",
+      "limits": "공식 alt 기반 분석이며 최종 실물과 사용성 결과는 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/hyundaicard_red.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 120,
+      "slug": "cgv",
+      "name": "CGV Website Renewal Project",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "예매 중심 사이트를 영화 콘텐츠를 지속적으로 소비할 수 있는 공간으로 확장한 리뉴얼이다. 분산된 정보와 리뷰를 재구성하고 전문 콘텐츠와 예매, 모바일·오프라인 접점을 연결하는 방향을 정했다. 여러 디자인 제안과 수정 후 주요 페이지 가이드를 제작했고 협력사와 역할을 나누어 구현했다. 공식 설명은 출시 이후에도 사용성 개선이 필요하다는 점을 명시한다.",
+      "interpretation": "농산물 브랜드 사이트도 농가와 조리 콘텐츠가 구매 정보로 자연스럽게 이어지도록 구성한다. 콘텐츠 수를 늘리는 목표보다 찾는 정보와 주문에 도달하는 흐름을 먼저 정하고 출시 뒤 문의에서 개선점을 찾는다.",
+      "relevance": "medium",
+      "relevanceReason": "콘텐츠와 거래를 연결하고 운영 중 개선하는 방법이 관련된다.",
+      "limits": "당시 시장점유율·방문 규모·증대 목표는 현재 사실이나 검증된 성과로 사용하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cgv.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 121,
+      "slug": "coupang",
+      "name": "Coupang Mobile App",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "상품과 기능의 증가에 대응하는 모바일 구조와 탐색부터 구매까지의 효율적 흐름을 제안한 프로젝트다. 방문 성향이 다른 고객을 나누고 추천·카테고리·검색·반복 과업 감소를 설계 방향으로 정했다. 다만 공식 본문은 완성된 2.0 제안이 내부 사정으로 기존 버전 개선 방향으로 바뀌었다고 밝힌다. 공개된 혁신안을 실제 출시 결과로 해석할 수 없다.",
+      "interpretation": "농가의 신규 고객과 재구매 고객을 구분해 각각 필요한 정보와 주문 경로를 제공한다. 제안된 화면과 실제 구현된 화면, 운영 중인 기능을 스토리북에서 명확히 표시해 의사결정의 혼동을 줄인다.",
+      "relevance": "medium",
+      "relevanceReason": "구매 흐름 분석과 제안·출시 범위의 구분이 유용하다.",
+      "limits": "2.0 제안은 실제 출시와 다르다는 공식 주의가 있다. 5분 구매는 목표이며 측정 성과가 아니다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/coupang.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 122,
+      "slug": "beanpole_website",
+      "name": "Beanpole Outdoor Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "새 아웃도어 브랜드의 첫인상을 전달하면서 기존 쇼핑몰의 구매로 연결한 브랜드 사이트다. 스타일북은 시즌의 분위기를, 제품 메뉴는 라인과 개별 상품을 설명하도록 역할을 나눴다. 자료 전달과 출시 일정의 제약 때문에 공개 단계를 나누었으며 기기 환경에 맞춰 콘텐츠도 조절했다. 시각적 경험과 구매 연결을 서로 다른 기능으로 설계한 사례다.",
+      "interpretation": "브랜드 사이트에서는 농가와 계절의 맥락을 설명하고 상품 상세에서는 규격·구성·배송을 명료하게 보여준다. 스마트스토어 등 실제 거래 채널로의 이동을 자연스럽게 연결하며 준비된 콘텐츠에 맞춰 단계적으로 공개한다.",
+      "relevance": "high",
+      "relevanceReason": "브랜드 사이트와 판매 채널의 역할 분리에 직접 적용할 수 있다.",
+      "limits": "당시 HTML5·패럴랙스 선택을 현재 최적 기술로 추천하지 않는다. 출시 성과는 별도 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/beanpole_website.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 123,
+      "slug": "prudential_website",
+      "name": "Prudential Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "웹 접근성을 개선하고 다양한 보험 상품과 상담 정보를 쉽게 찾도록 만든 푸르덴셜 사이트 리뉴얼이다. 보험군과 라이프플래너를 명확한 메뉴로 배치하고 입력 단계와 찾기 기능을 정리했다. 별도 창구와도 일관된 화면 체계를 유지했으며 모호한 이미지보다 인포그래픽과 규칙적인 픽토그램으로 정보를 전달하려 했다. 디자인 가이드를 협력사와 공유하는 방식으로 제작 범위를 연결했다.",
+      "interpretation": "농산물의 품질과 서비스 정보를 이미지 분위기에만 맡기지 않고 읽을 수 있는 사실로 제공한다. 접근성과 가독성을 초기에 확인하며 브랜드 사이트와 외부 주문 창구에서 용어와 안내의 일관성을 유지한다.",
+      "relevance": "high",
+      "relevanceReason": "신뢰를 정보의 명료함과 접근성으로 만드는 원리가 직접 적용된다.",
+      "limits": "원문 속 과거 법제와 인증 의무 주장은 현재 법률 안내로 사용하지 않았다. 실제 인증 범위와 사업 성과는 별도 미검증.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/prudential_website.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 124,
+      "slug": "kakaogame",
+      "name": "KAKAO Game Partners Forum Brand eXperience Design",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "게임 파트너에게 정보와 지원을 제공하고 협력을 유지하는 포럼의 브랜드 경험을 설계했다. 카카오의 기존 색과 그래픽을 유지하면서 게임을 나타내는 아이콘의 조합으로 행사 성격을 확장했다. 서체와 슬로건의 조형을 정돈하고 여러 행사 매체에 같은 원리를 적용했다. 공식 설명은 정보 나눔·지원·공생·기회를 행사의 핵심 가치로 제시한다.",
+      "interpretation": "농가와 운영자에게도 브랜드 기준과 판매 정보를 공유하는 접점을 마련한다. 생산자 소개와 고객 안내를 별도로 단절시키지 않고 협업자 모두가 같은 기준을 이해하도록 자료와 교육의 표현을 통일한다.",
+      "relevance": "medium",
+      "relevanceReason": "내부·파트너 대상 경험이 고객 경험을 지탱한다는 원리가 관련된다.",
+      "limits": "행사의 협력 성과나 판매 증대는 제공된 설명에서 입증되지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/kakaogame.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 125,
+      "slug": "jeju_air",
+      "name": "JEJU air Brand Renewal PR Film",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "제주항공의 새 정체성을 알리는 온라인 홍보 영상을 제작한 프로젝트다. 새 브랜드 패턴에 담긴 돌·바람·섬을 타이포그래피의 움직임으로 표현하고 새 정체성을 적용한 항공기를 삼차원 영상으로 소개했다. 공식 설명은 브랜드가 새롭게 출발한다는 메시지와 지역 상징을 연결하는 데 초점을 둔다. 이 프로젝트의 담당 범위는 브랜드 리뉴얼 자체보다 이를 알리는 영상 제작이다.",
+      "interpretation": "브랜드를 공개할 때 이름과 로고의 등장만 보여주기보다 어떤 농가와 기준에서 나왔는지 짧게 설명한다. 실제 작물과 생산 장면에서 얻은 요소를 사용하고 영상 제작과 브랜드 전략의 역할을 구분한다.",
+      "relevance": "medium",
+      "relevanceReason": "지역성을 신규 브랜드 공개 영상의 메시지로 연결하는 방식이 참고된다.",
+      "limits": "실제 영상은 재생하지 않았다. 항공사 성장과 지역 시장 지위는 당시 소개이며 독립 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/jeju_air.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 126,
+      "slug": "max",
+      "name": "MAX",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "MAX 생맥주의 이름 표기와 메시지가 혼재하고 다른 브랜드를 연상시킨다는 과제에서 출발했다. 이름을 통일하고 보리라는 핵심 메시지를 정한 뒤 패키지가 없는 생맥주의 접점으로 전용잔을 설계했다. 잔의 사용 구조와 따르는 기구, 매장 홍보물과 웹까지 연결하며 고객이 주문하고 마시는 순간에 브랜드를 경험하도록 만든 사례다. 기능을 형태에 앞세운다는 원칙이 명시된다.",
+      "interpretation": "포장과 웹만이 아니라 식탁에서 실제로 먹는 순간의 접점을 찾는다. 품목명과 선별 메시지를 통일하고 보관·손질·섭취 안내가 고객에게 도움이 되는지 실물과 실제 조리 과정에서 검증한다.",
+      "relevance": "high",
+      "relevanceReason": "식품의 품질 메시지와 소비 순간의 도구·서비스를 통합한 직접 참고 사례다.",
+      "limits": "잔의 성능과 맛 향상은 공식 설계 설명이며 독립 실험 결과로 보지 않았다. 브랜드 성공 수치는 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/max.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 127,
+      "slug": "freestyle1",
+      "name": "freestyle 1 promotion movie",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "길거리 농구 게임의 글로벌 진출을 위한 프로모션 영상으로 대상 고객의 농구와 힙합 취향을 반영했다. 공식 설명은 농구 기술·그래피티·패션·음악을 함께 묶어 게임의 문화를 표현했다고 밝힌다. 캐릭터를 피규어처럼 구성하고 역동적인 편집과 페인터 효과로 스포츠의 활동성을 드러냈다. 티저와 출시 영상의 목적에 맞춰 같은 문화적 방향을 유지했다.",
+      "interpretation": "광고의 시각 표현은 유행하는 스타일보다 고객이 농작물을 선택하고 먹는 맥락에서 정한다. 촬영·음악·문장이 같은 경험을 설명하도록 하되 식품의 실물과 다른 과장은 피한다.",
+      "relevance": "low",
+      "relevanceReason": "고객 문화에 맞춘 영상 일관성은 참고되지만 농작물의 품질 검증과는 직접 연관이 낮다.",
+      "limits": "영상 재생과 시장 반응은 확인하지 않았으며 게임 캐릭터 연출을 농산물에 그대로 적용할 근거는 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/freestyle1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 128,
+      "slug": "icarus",
+      "name": "Icarus game trailer",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "일본에서 게임을 알리기 위해 음악 아티스트와 협업한 트레일러 프로젝트다. 게임의 비행과 판타지 요소를 곡의 희망·도전이라는 정서와 연결해 일러스트 영상의 이야기를 만들었다. 연출된 장면에서 실제 게임 영상으로 자연스럽게 이어지도록 전환을 설계했으며 온라인과 오프라인의 공개 접점에 활용했다. 공식 설명은 협업의 이유와 영상 구성 과정을 중심으로 제공한다.",
+      "interpretation": "농가 브랜드가 창작자나 요리사와 협업할 때 인지도보다 제품과 연결되는 구체적인 관점을 선정 이유로 삼는다. 연출 콘텐츠에서 실제 상품 정보로 자연스럽게 이동하고 협업자의 역할을 명확히 표시한다.",
+      "relevance": "low",
+      "relevanceReason": "협업의 의미와 상품으로의 연결 원리는 참고되지만 판타지 영상은 직접 벤치마크 우선순위가 낮다.",
+      "limits": "프로모션 노출은 설명되어 있으나 유입·매출 효과는 입증되지 않았다. 영상은 직접 보지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/icarus.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 129,
+      "slug": "mnet",
+      "name": "Mnet Website",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "엠넷 사이트의 다양한 서비스에 공통된 시각 방향을 적용하는 디자인 프로젝트다. 콘텐츠 가독성을 중심으로 그리드·색·아이콘·서체를 테스트하고 카테고리별 주요 페이지에서 전체 톤을 정리했다. 공식 본문은 플러스엑스가 디자인만 담당했으며 기획과 개발은 엠넷이 수행했다고 명시한다. 여러 제안 중 메인 화면도 내부에서 제작되어 공개된 만큼 기여 범위를 구분해야 한다.",
+      "interpretation": "농산물 사이트의 화면 장식보다 콘텐츠의 읽기 순서와 정보의 강약을 먼저 정한다. 스토리북에서는 전략·디자인·개발의 담당 범위와 최종 채택 여부를 기록하여 사례의 기여를 과장하지 않는다.",
+      "relevance": "medium",
+      "relevanceReason": "정보 중심 그리드와 운영 가능한 규칙, 제작 범위 구분에 유용하다.",
+      "limits": "공식적으로 디자인 한정 프로젝트이다. UX 전반이나 최종 메인 화면을 플러스엑스의 단독 성과로 귀속하지 않는다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/mnet.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 130,
+      "slug": "bandlte1",
+      "name": "band LTE Booting Animation",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "통신 서비스의 특징을 단말기 부팅 애니메이션으로 전달한 프로젝트다. 여러 주파수의 결합과 통신망 확장이라는 설명을 선·패턴·색의 움직임으로 번역하고 기존 징글도 새 방향에 맞게 발전시켰다. 기기 색에 따른 밝고 어두운 버전을 함께 제공했다. 공식 페이지는 과거 여러 서비스의 부팅 영상을 함께 소개하며 기능의 성격을 짧은 반복 접점에서 인식시키려 했다.",
+      "interpretation": "브랜드의 작은 모션도 농산물의 선별·준비·완료 같은 의미와 연결한다. 로딩을 과장하거나 실제 속도를 보장하지 않는 움직임을 넣기보다 상태를 이해시키는 짧고 일관된 표현을 우선한다.",
+      "relevance": "low",
+      "relevanceReason": "작은 반복 접점의 정체성은 참고되지만 통신 속도 시각화는 농작물과 직접 관련이 낮다.",
+      "limits": "과거 속도·가입자 수치는 현재 사실로 사용하지 않았다. 실제 모션을 보지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/bandlte1.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 131,
+      "slug": "momilo",
+      "name": "momilo",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "복잡한 기존 홈페이지가 작은 화면과 모바일 통신 환경에서 잘 작동하지 않는 문제를 해결하려는 서비스다. 이미지와 데이터 전달을 최적화하고 업종별 메뉴와 버튼 구성을 연구했다고 설명한다. 몇 가지 질문에 답하면 모바일 홈페이지를 만들 수 있는 위저드를 제공하여 제작 진입 장벽을 줄이는 방향을 제시했다. 당시 예정된 결제와 홍보 기능은 별도 계획으로 구분된다.",
+      "interpretation": "농가와 운영자가 정보를 쉽게 갱신하도록 작성 항목과 흐름을 간단히 만든다. 방문 고객에게는 빠른 모바일 화면을 제공하고 운영 화면에서는 사진·규격·수확일 등 반드시 필요한 정보부터 받는다.",
+      "relevance": "medium",
+      "relevanceReason": "작은 조직의 제작·운영 부담을 줄이는 원리가 관련된다.",
+      "limits": "당시 기술 환경과 무료 제공 상태를 현재 서비스 조건으로 간주하지 않는다. 예정 기능은 구현 성과가 아니다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/momilo.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 132,
+      "slug": "oraksil",
+      "name": "SOCIAL NETWORK GAME ORAKSIL",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "공식 메타 설명은 과거 오락실 게임을 친구와 함께 즐기는 소셜 게임 플랫폼이라고 소개한다. 본문에는 게임 종류와 단일·다중 플레이, 소셜 플랫폼 연결 정보가 나열되어 있다. 다만 도입 배경이나 사용자 조사, 시각 요소의 도출 과정은 충분히 설명되지 않는다. 따라서 추억과 공동 플레이라는 서비스 범위까지 확인하고 구체적인 브랜드 전략이나 인터랙션은 단정하지 않았다.",
+      "interpretation": "공동 경험을 제안하려면 가족이나 친구가 농작물을 함께 고르고 요리하는 실제 장면을 먼저 관찰한다. 복고적 분위기만으로 친근함을 주장하지 말고 제공할 수 있는 공동 활동을 확인한다.",
+      "relevance": "low",
+      "relevanceReason": "함께 즐기는 맥락은 관련되지만 근거가 짧아 구체 설계의 전이 가능성은 낮다.",
+      "limits": "짧은 메타·본문과 일반 이미지 alt만 있다. 세부 디자인 전략과 현재 서비스 상태는 확인할 수 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/oraksil.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 133,
+      "slug": "speedquiz",
+      "name": "Speedquiz App",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "사내 모임에서 퀴즈 준비와 진행이 번거로웠던 경험에서 출발한 앱이다. 문제 준비·카드·시간 측정·점수 기록을 하나의 도구로 묶고 시간 기준과 문제 수 기준의 두 진행 방식을 제공했다. 주제 선택과 사용자 편집을 지원하면서 조작을 단순하게 유지했다. 공식 설명은 새로운 기능을 늘리기보다 즐기기 전후의 반복 작업을 줄이는 문제 해결을 보여준다.",
+      "interpretation": "농산물 구매에서도 주문만 보지 말고 식단 선택·보관·손질·남은 재료 사용까지 이어지는 일을 관찰한다. 고객이 반복해서 하는 준비 작업을 줄여 주는 안내나 구성을 작은 범위부터 실험한다.",
+      "relevance": "medium",
+      "relevanceReason": "준비 과정 전체의 번거로움을 제품 기회로 보는 관점이 유용하다.",
+      "limits": "등록 단어 수와 앱 제공 상태는 당시 정보이다. 사용 편의의 정량 평가 자료는 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/speedquiz.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 134,
+      "slug": "british",
+      "name": "British Council Words",
+      "category": "UX",
+      "baseEvidence": "insufficient",
+      "sourceFacts": "공식 메타 설명은 영국문화원의 교육 경험을 바탕으로 공동 제작한 단어 학습 앱이라고 소개한다. 본문에서는 참여자의 역할과 기관 정보, 앱 다운로드 안내를 확인할 수 있다. 그러나 학습 방식이나 사용자의 문제, 화면 구조를 선택한 이유는 설명되어 있지 않다. 따라서 프로젝트의 성격과 협업 범위만 확인하고 구체적인 교육 효과나 브랜드 작동 원리는 판단하지 않았다.",
+      "interpretation": "농가가 전문가와 지식을 제공할 경우 협업자의 역할과 검증 범위를 명확히 기록한다. 이 사례만으로 레시피 교육 방식이나 효과를 결정하지 않고 실제 학습 자료와 사용자 이해를 추가 확인한다.",
+      "relevance": "low",
+      "relevanceReason": "전문 지식 협업이라는 범위만 참고할 수 있어 구체적 전이 근거가 부족하다.",
+      "limits": "설명 부족. 메타 키워드에 다른 프로젝트 내용도 있어 관련 없는 부분을 제외했다. 학습 메커니즘과 성과는 확인 불가.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/british.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 135,
+      "slug": "ahnlab",
+      "name": "AhnLab Brand eXperience Desgin",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "안랩이 백신을 넘어 통합 보안 기업으로 확장하면서 대외 행사와 매체의 표현을 일관되게 정리한 프로젝트다. 여러 조각이 조합되는 탱그램을 유연한 대응의 상징으로 삼고 아이콘과 그래픽 모듈로 확장했다. 행사·웹·전시물과 함께 고객용 달력·다이어리의 수납과 사용 구조까지 설계하여 브랜드 표현과 실용성을 함께 다루었다. 반복 가능한 모듈이 접점의 공통 언어로 사용된다.",
+      "interpretation": "반복 가능한 그래픽 규칙을 만들되 안내와 포장의 실제 쓰임이 우선하게 한다. 작물별 정보가 달라져도 같은 원칙으로 정리하고 재사용할 종이 물품은 고객의 보관과 기록에 도움이 되는지 확인한다.",
+      "relevance": "medium",
+      "relevanceReason": "확장 가능한 시스템과 실제 사용성의 결합이 참고된다.",
+      "limits": "고객의 반응과 브랜드 전환 성과는 별도로 검증되지 않았다. 시각 자료는 직접 보지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/ahnlab.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 136,
+      "slug": "smartplanner",
+      "name": "Smart Planner",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "통신 매장의 상담과 신청을 태블릿에서 진행하도록 영업 자료를 디지털화한 프로젝트다. 고객별로 필요한 정보를 찾기 쉽게 하고 실제 상담 환경을 고려해 화면을 돌리지 않고 고객에게 보여주는 전환 기능을 넣었다. 가격과 요금의 표는 가독성을 우선하며 가벼운 화면을 지향했다. 공식 설명은 직원과 고객이 같은 기기를 마주하는 상황을 구체적인 설계 조건으로 다룬다.",
+      "interpretation": "농가 담당자의 포장·출고 화면과 고객의 주문 확인 화면에서 필요한 정보가 무엇인지 각각 관찰한다. 같은 데이터라도 역할과 현장 조건에 맞춰 보여주고 작업자의 편의가 고객 오류를 줄이도록 설계한다.",
+      "relevance": "medium",
+      "relevanceReason": "직원과 고객의 경험을 함께 고려하는 운영 도구의 관점이 유용하다.",
+      "limits": "태블릿 화면과 실제 상담 현장을 확인하지 않았고 업무 효율 향상 수치도 없다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/smartplanner.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 137,
+      "slug": "soundbest",
+      "name": "Sound Best",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "공식 메타 설명은 개인의 상태와 상황에 맞춘 소리를 제공하는 음악 플레이어의 전문성을 강조했다고 밝힌다. 무게감 있는 색과 음향 기기의 메쉬·금속 질감으로 해당 인상을 표현했다는 설명이 있다. 상세 본문은 화면 요소와 크레딧 중심이라 추천이나 음향 조정의 실제 작동 방식은 확인하기 어렵다. 따라서 디자인 방향의 소개와 기능 효과의 검증을 구분했다.",
+      "interpretation": "전문성을 표현할 때 장비 같은 외형을 빌리는 것보다 선별 기준과 사용 도움을 실제로 제공한다. 고객별 추천을 제안한다면 취향과 사용 상황에 대한 입력과 추천 근거를 먼저 정의한다.",
+      "relevance": "low",
+      "relevanceReason": "전문성의 시각 표현은 참고되지만 기능 근거가 짧아 농산물 적용 우선순위가 낮다.",
+      "limits": "공식 메타 설명 위주이며 개인화 알고리즘·음향 성능·화면 조작은 미검증.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/soundbest.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 138,
+      "slug": "cjkitchen",
+      "name": "CJ The Kitchen",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "CJ가 요청한 재미있는 레시피 앱의 방향을 사용자가 조리 전·중·후에 필요로 하는 도움 중심으로 재검토했다. 부가 기능과 레시피의 영역을 분리하고 준비법과 계량법 같은 안내를 제공하도록 구성했다. 플러스엑스는 화면 설계뿐 아니라 레시피 콘텐츠 기획과 사진·동영상 촬영 가이드까지 맡았다. 브랜드 가치가 실제 요리 과정에서 도움이 되는 경험으로 연결된 사례다.",
+      "interpretation": "프리미엄 농작물의 가치를 배송 완료로 끝내지 말고 보관·손질·조리 안내까지 이어 간다. 낯선 품목도 자신 있게 사용할 수 있도록 사진과 설명의 제작 기준을 세우고 실제 조리에서 검증한다.",
+      "relevance": "high",
+      "relevanceReason": "식재료를 잘 사용하는 경험과 콘텐츠 제작 체계를 직접 다룬다.",
+      "limits": "앱 이용 대상과 기기 환경은 당시 설명이다. 조리 성공률과 사용자 만족도는 독립 검증하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cjkitchen.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 139,
+      "slug": "baseball_planet",
+      "name": "Baseball Planet",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "실시간 중계 데이터를 확보하기 어려운 제약에서 TV 시청을 보완하는 야구 앱이라는 방향을 도출했다. 경기 전·중·후의 다른 필요에 따라 예상과 응원, 선수 정보와 결과 비교의 화면을 나누었다. 대칭 구성과 정보 대비를 유지하면서 사용자가 상세 정보를 직접 탐색하도록 했다. 공식 설명은 기존 매체를 복제하기보다 이용 상황에서 추가 가치를 찾는 접근을 보여준다.",
+      "interpretation": "이미 거래 플랫폼이 제공하는 기능을 중복 구축하기보다 농가가 더 잘 제공할 수 있는 정보를 찾는다. 주문 전·배송 중·수령 후마다 필요한 안내를 달리해 고객 상황에 맞는 경험을 만든다.",
+      "relevance": "medium",
+      "relevanceReason": "제약을 인정하고 기존 채널을 보완하는 서비스 역할을 찾는 원리가 유용하다.",
+      "limits": "본문의 초기 데이터 제약과 이후 하이라이트 설명 사이에 범위 차이가 있어 실시간 제공 범위를 단정하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/baseball_planet.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 140,
+      "slug": "mcountdown",
+      "name": "Mnet M Countdown Program Title Design Packages",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "엠넷의 채널 개편에 맞춰 음악 프로그램의 타이틀과 안내 화면을 일관된 패키지로 제작했다. 음악 네트워크·세계적 연결·순위라는 메시지를 화면 요소에 반영하고 로고의 조형을 여러 유형에 반복했다. 공식 설명은 스타일 프레임을 먼저 정한 뒤 움직임과 장면 연결, 후반 효과를 개발했다고 밝힌다. 개별 영상의 화려함보다 공통 시각 기준을 제작의 출발점으로 삼았다.",
+      "interpretation": "농가 영상도 완성 동영상을 바로 만들기보다 주요 장면의 사진·자막·색 기준을 먼저 정한다. 상품과 생산자 콘텐츠가 달라져도 같은 프레임 규칙을 사용하여 적은 제작 자원으로 일관성을 유지한다.",
+      "relevance": "medium",
+      "relevanceReason": "반복 제작할 영상의 스타일 가이드와 제작 순서에 관련된다.",
+      "limits": "영상 재생 없이 공식 제작 설명을 분석했다. 시청률과 성과는 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/mcountdown.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 141,
+      "slug": "pansamgukji",
+      "name": "pansamgukji game promotion movie",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "삼국지 소재의 모바일 보드게임을 알리는 프로모션 영상으로 게임의 장대한 배경과 캐릭터의 익살을 결합했다. 목적과 메시지에서 시나리오와 스타일 프레임을 정하고 캐릭터의 움직임과 소리까지 연결했다. 전투처럼 보이는 장면을 주사위와 보드판으로 전환하여 실제 게임 형식을 드러내는 구조를 택했다. 공식 설명은 대상 상품의 특징을 하나의 반전 이야기로 전달한 제작 과정이다.",
+      "interpretation": "브랜드 영상의 이야기 마지막에는 실제 판매하는 품목과 제공 경험이 명확하게 드러나게 한다. 흥미로운 연출을 하더라도 농가가 제공하지 않는 기능이나 결과를 고객이 기대하게 만들지 않는다.",
+      "relevance": "low",
+      "relevanceReason": "영상 이야기와 실제 상품의 연결은 참고되지만 게임 연출의 직접 전이성은 낮다.",
+      "limits": "실제 영상·전환 효과·시장 반응을 직접 확인하지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/pansamgukji.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 142,
+      "slug": "samsung_bada",
+      "name": "Samsung BADA",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "기존 바다 브랜드의 심벌과 그래픽을 다양한 매체에 적용하기 어렵고 표현이 혼재한 문제를 다뤘다. 이미 알려진 로고는 유지하면서 사용성이 낮은 자산을 조정하는 방향을 정했다. 사람과 아이디어·문화·경험이 소통한다는 의미를 파도의 모티프로 설명하고 여러 표현 버전으로 확장했다. 웹·발표 자료·행사 물품·영상에 적용해 실무 사용 범위를 넓히려 했다.",
+      "interpretation": "작물 변경과 새로운 채널에도 적용할 수 있는 그래픽과 문서 규칙을 처음부터 확인한다. 이미 쌓인 농가의 이름과 신뢰를 무조건 버리지 말고 유지할 자산과 개선할 사용 문제를 구분한다.",
+      "relevance": "medium",
+      "relevanceReason": "브랜드 자산의 실제 사용성과 유지·개선 범위 판단이 관련된다.",
+      "limits": "당시 플랫폼의 기능 설명은 현재 기술 사실로 사용하지 않는다. 시각 자료와 영상은 직접 보지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/samsung_bada.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 143,
+      "slug": "cjpoker",
+      "name": "CJ Internet Netmarble Limited Poker Set",
+      "category": "BX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "공식 메타 설명은 CJ인터넷 넷마블의 VVIP를 위한 한정 포커 세트를 패션 디자이너와 공동 제작한 프로젝트라고 소개한다. 수량을 정한 수작업 제작이라는 범위까지 확인할 수 있다. 다만 본문 제목과 크레딧에 다른 프로젝트로 보이는 내용이 섞여 있고 설계 과정의 설명은 부족하다. 따라서 제한 수량과 협업 사실 외에 소재·사용 경험·고객 반응을 추정하지 않았다.",
+      "interpretation": "선물용 한정 상품은 실제 수확량이나 제작 가능 수량이 있을 때만 근거와 함께 제안한다. 한정이라는 말 자체보다 구성의 이유와 받는 사람의 사용 편의를 설명하고 인위적 희소성은 만들지 않는다.",
+      "relevance": "medium",
+      "relevanceReason": "선택받은 경험과 한정판의 참고 범위가 있지만 공개 근거가 짧다.",
+      "limits": "공식 메타의 100개·핸드메이드 설명만 확인했다. 본문의 British Council 제목과 무관한 크레딧은 오염으로 제외했다.",
+      "supplementalEvidence": "",
+      "metadataNote": "Visible heading incorrectly says British Counceil; metadata and product image alt identify CJ Poker Set.",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cjpoker.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 144,
+      "slug": "plusx_identity",
+      "name": "PlusX Identity",
+      "category": "BX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "플러스엑스의 초기 정체성은 온라인과 오프라인의 일관된 경험을 더한다는 회사의 역할을 기호로 표현했다. 더하기와 곱하기의 단순한 표식을 중심에 두고 고객 브랜드의 가치를 앞세운다는 철학을 중립적 색 사용과 연결했다. 같은 원리를 서체·픽토그램·공간 안내에 확장하고 구성원 일러스트를 명함과 사원증에 적용했다. 회사의 태도와 직원의 실제 접점을 함께 설계한 사례다.",
+      "interpretation": "농가 브랜드의 표현도 농작물과 생산자의 가치가 주인공이 되게 한다. 하나의 핵심 태도에서 언어와 그래픽의 규칙을 만들고 내부 담당자가 실제로 사용하는 문서와 물품에까지 적용한다.",
+      "relevance": "high",
+      "relevanceReason": "브랜드의 이유와 일관된 접점 시스템을 연결하는 기본 원리에 적합하다.",
+      "limits": "본문의 소속감과 수신자 반응은 제작자의 설명이며 조사 결과가 아니다. 초기 사례를 현재 CI 전체와 동일시하지 않는다.",
+      "supplementalEvidence": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+      "metadataNote": "",
+      "visual": {
+        "verified": true,
+        "note": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증.",
+        "observation": "직접 본 문구류 이미지에는 흰 종이 위 가는 선의 더하기·곱하기 기호와 작은 검은 정보 문자가 반복된다. 넓은 여백과 일정한 배치 규칙이 보인다."
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/plusx_identity.html"
+        }
+      ],
+      "deepDive": {
+        "officialFacts": [
+          "온라인과 오프라인의 경험을 일관된 브랜드 전략으로 통합하는 회사의 지향을 자체 아이덴티티에 담았다. 기본적인 기호인 더하기와 곱하기를 이름과 목적을 나타내는 요소로 사용한다. 특정 색으로 고객을 덮기보다 각 브랜드의 근본적인 가치를 중심에 두겠다는 태도를 검정의 선택으로 설명한다. 전용 픽토그램과 글자 체계를 구성하고 구성원의 얼굴을 그린 이미지를 명함과 사원증에 적용했다. 픽토그램은 사인으로, 타이포그래피는 사무실의 그래픽으로도 확장했다. 외부에 보이는 표시와 구성원이 일상에서 사용하는 물건에 같은 정체성이 이어지도록 구성한 사례다. 소속감과 즐거움에 관한 설명은 제작사의 의도와 해석이다."
+        ],
+        "touchpoints": [],
+        "analysis": "Plus X를 참조하는 핵심은 에이전시의 외양을 가져오는 데 있지 않다. 이 농가만의 사실에서 원리를 찾고, 수확 카드·포장 지침·웹 정보·고객 응대에 같은 판단 기준을 적용하는 접근을 배울 수 있다.",
+        "validation": "농가의 근거에서 도출한 판단 기준이 수확 카드·포장 지침·웹 정보·고객 응대에 일관되게 적용되는지 확인한다.",
+        "avoidCopying": "더하기·곱하기 기호나 검정 중심의 미감을 Plus X식 정답으로 복제하지 않는다.",
+        "limits": "공식 본문과 문구류 이미지 한 장을 확인했다. 현재 회사의 전체 디자인 철학이나 모든 프로젝트의 공식 방법론으로 일반화하지 않는다.",
+        "evidenceNote": "공식 정적 이미지 1장 확인. 전체 영상·실물·동작 미검증."
+      }
+    },
+    {
+      "index": 145,
+      "slug": "beat2",
+      "name": "beat promotion movie",
+      "category": "UX",
+      "baseEvidence": "official_text",
+      "sourceFacts": "음악 서비스 출시를 알리기 위해 아티스트 협업 영상과 실제 서비스 화면을 결합했다. 무작위 라디오 채널이라는 기능을 주파수 신호의 모티프로 번역하고 여러 협업 영상에 공통 종료 화면을 적용했다. 메시지·화면·음악·움직임을 같은 정서에 맞추면서 마지막에 앱을 명확히 노출했다. 공식 설명은 브랜드의 인상과 서비스 사용 장면을 함께 보여주는 제작 구조를 제시한다.",
+      "interpretation": "농작물 콘텐츠도 생산자나 요리사의 말에 실제 품목과 이용 과정을 연결한다. 다양한 협업 게시물이 쌓여도 동일한 상품 정보와 구매 경로를 제공하고 공통 마무리 형식으로 브랜드를 인식하게 한다.",
+      "relevance": "medium",
+      "relevanceReason": "서비스 사용을 보여주는 광고와 반복 가능한 협업 콘텐츠 형식에 유용하다.",
+      "limits": "무료·최초 등의 당시 서비스 주장은 현재 조건으로 사용하지 않는다. 다운로드 효과는 입증되지 않았다.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/beat2.html"
+        }
+      ],
+      "deepDive": null
+    },
+    {
+      "index": 146,
+      "slug": "cgv_ipad",
+      "name": "CGV iPad Application",
+      "category": "UX",
+      "baseEvidence": "brief_or_image_led",
+      "sourceFacts": "공식 상세는 CGV의 태블릿 앱을 빠른 접근과 그리드라는 방향으로 소개한다. 정보의 깊이를 줄여 상위 화면에 주요 콘텐츠를 배치하고 그리드로 전체 화면의 질서를 유지하려 했다고 설명한다. 프로토타입과 아이콘 관련 자료가 제시되지만 본문은 짧다. 따라서 정보 구조의 기본 방향만 확인하며 예매 흐름이나 개별 화면의 효과를 추가로 추정하지 않았다.",
+      "interpretation": "농산물 사이트의 첫 화면에는 고객이 가장 자주 확인하는 품목과 주문 정보를 우선 배치한다. 정보량이 적은 초기 서비스에서 불필요한 메뉴 단계를 늘리지 말고 실제 찾기 과제로 구조를 확인한다.",
+      "relevance": "medium",
+      "relevanceReason": "작은 상품군의 빠른 정보 접근 설계에 참고할 수 있다.",
+      "limits": "짧은 공식 설명에 기반하며 화면을 직접 보지 않았다. 개별 인터랙션과 실사용 성과는 확인 불가.",
+      "supplementalEvidence": "",
+      "metadataNote": "",
+      "visual": {
+        "verified": false,
+        "note": "정적 이미지를 직접 확인하지 않았다. 공식 설명·대체텍스트의 분석과 시각 검수는 구분한다.",
+        "observation": ""
+      },
+      "sources": [
+        {
+          "label": "공식 프로젝트 원문",
+          "url": "https://www.plus-ex.com/source/iframe/portfolio/cgv_ipad.html"
+        }
+      ],
+      "deepDive": null
+    }
+  ]
+}
