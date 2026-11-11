@@ -1,0 +1,153 @@
+{
+  "journal": {
+    "home": "home--docs",
+    "worklog": "journal-worklog--docs",
+    "decisions": "journal-decisions--docs",
+    "portfolios": [
+      {
+        "slug": "gounbat",
+        "id": "portfolio-gounbat--docs",
+        "title": "최종 포트폴리오/고운밭"
+      },
+      {
+        "slug": "onari",
+        "id": "portfolio-onari--docs",
+        "title": "최종 포트폴리오/오나리"
+      },
+      {
+        "slug": "hecale",
+        "id": "portfolio-hecale--docs",
+        "title": "최종 포트폴리오/헤칼레"
+      },
+      {
+        "slug": "ersa",
+        "id": "portfolio-ersa--docs",
+        "title": "최종 포트폴리오/에르사"
+      }
+    ]
+  },
+  "operations": {
+    "home": "ops-home--docs",
+    "guides": [
+      {
+        "id": "brand-system",
+        "storyId": "ops-brand-system--docs",
+        "title": "브랜드/BR01 브랜드 후보와 적용 범위"
+      },
+      {
+        "id": "brand-narrative",
+        "storyId": "ops-brand-narrative--docs",
+        "title": "브랜드/BR02 이름과 브랜드 이야기"
+      },
+      {
+        "id": "identity-masters",
+        "storyId": "ops-identity-masters--docs",
+        "title": "디자인/DS01 로고와 심볼 마스터"
+      },
+      {
+        "id": "visual-language",
+        "storyId": "ops-visual-language--docs",
+        "title": "디자인/DS02 색·사진·보조 그래픽"
+      },
+      {
+        "id": "packaging-production",
+        "storyId": "ops-packaging-production--docs",
+        "title": "디자인/DS03 포장 제작과 인쇄 승인"
+      },
+      {
+        "id": "product-copy",
+        "storyId": "ops-product-copy--docs",
+        "title": "콘텐츠/CT01 상품 정보와 표현 근거"
+      },
+      {
+        "id": "asset-publication",
+        "storyId": "ops-asset-publication--docs",
+        "title": "콘텐츠/CT02 이미지 자산과 게시 범위"
+      },
+      {
+        "id": "catalog-channels",
+        "storyId": "ops-catalog-channels--docs",
+        "title": "개발/DV01 상품·주문·채널 데이터"
+      },
+      {
+        "id": "release-handoff",
+        "storyId": "ops-release-handoff--docs",
+        "title": "개발/DV02 개발 인수인계와 배포"
+      },
+      {
+        "id": "showcase-voting",
+        "storyId": "ops-showcase-voting--docs",
+        "title": "개발/DV03 프로젝트 공개와 추천 투표"
+      },
+      {
+        "id": "marketing-message",
+        "storyId": "ops-marketing-message--docs",
+        "title": "마케팅/MK01 타깃·메시지·채널"
+      },
+      {
+        "id": "marketing-measurement",
+        "storyId": "ops-marketing-measurement--docs",
+        "title": "마케팅/MK02 실험과 성과 측정"
+      },
+      {
+        "id": "farm-supply",
+        "storyId": "ops-farm-supply--docs",
+        "title": "운영/OP01 농가 확인과 공급 승인"
+      },
+      {
+        "id": "assortment-pricing",
+        "storyId": "ops-assortment-pricing--docs",
+        "title": "운영/OP02 상품 구성·가격·판매 승인"
+      },
+      {
+        "id": "order-fulfillment",
+        "storyId": "ops-order-fulfillment--docs",
+        "title": "운영/OP03 주문·선별·포장·출하"
+      },
+      {
+        "id": "delivery-storage",
+        "storyId": "ops-delivery-storage--docs",
+        "title": "운영/OP04 배송·수령·보관 안내"
+      },
+      {
+        "id": "customer-care",
+        "storyId": "ops-customer-care--docs",
+        "title": "운영/OP05 문의·변경·취소·품질 이슈"
+      },
+      {
+        "id": "governance-gates",
+        "storyId": "ops-governance-gates--docs",
+        "title": "운영/OP06 문서 상태·변경·출시 판단"
+      }
+    ],
+    "portfolios": [
+      {
+        "slug": "gounbat",
+        "id": "portfolio-gounbat--docs",
+        "title": "브랜드 포트폴리오/고운밭"
+      },
+      {
+        "slug": "onari",
+        "id": "portfolio-onari--docs",
+        "title": "브랜드 포트폴리오/오나리"
+      },
+      {
+        "slug": "hecale",
+        "id": "portfolio-hecale--docs",
+        "title": "브랜드 포트폴리오/헤칼레"
+      },
+      {
+        "slug": "ersa",
+        "id": "portfolio-ersa--docs",
+        "title": "브랜드 포트폴리오/에르사"
+      }
+    ]
+  },
+  "counts": {
+    "milestones": 39,
+    "decisions": 28,
+    "guides": 18,
+    "brands": 4,
+    "boards": 81
+  }
+}

@@ -1,0 +1,740 @@
+{
+  "version": "V15",
+  "updatedAt": "2026-11-11",
+  "note": "실사 응용 이미지는 AI 연출 목업입니다. 상품·가격·운영 조건은 출시 전 확인이 필요합니다.",
+  "showcaseUrl": "https://farm-bx-showcase.james8101.chatgpt.site",
+  "brands": [
+    {
+      "slug": "gounbat",
+      "name": "고운밭",
+      "englishName": "GOUNBAT",
+      "color": "#203B31",
+      "paper": "#F3F0E7",
+      "theme": "정성이 보이는 먹거리의 기준",
+      "keywords": [
+        "정성",
+        "선별",
+        "밭의 질서"
+      ],
+      "title": "고운밭 — 정성이 보이는 먹거리의 기준",
+      "oneLine": "고이 기른 것을, 고르게 골라 전한다.",
+      "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181",
+      "hero": "./portfolio-v15/gounbat/hero.webp",
+      "boards": [
+        {
+          "index": 1,
+          "name": "01 / Cover · 밭의 질서",
+          "src": "./portfolio-v15/gounbat/board-01.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-182"
+        },
+        {
+          "index": 2,
+          "name": "02 / Project Overview",
+          "src": "./portfolio-v15/gounbat/board-02.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-183"
+        },
+        {
+          "index": 3,
+          "name": "03 / Naming · 고운 + 밭",
+          "src": "./portfolio-v15/gounbat/board-03.webp",
+          "width": 1600,
+          "height": 880,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-184"
+        },
+        {
+          "index": 4,
+          "name": "04 / Care · 고르게 고르는 손",
+          "src": "./portfolio-v15/gounbat/board-04.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-185"
+        },
+        {
+          "index": 5,
+          "name": "05 / Brand Point of View",
+          "src": "./portfolio-v15/gounbat/board-05.webp",
+          "width": 1600,
+          "height": 840,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-186"
+        },
+        {
+          "index": 6,
+          "name": "06 / Brand Slogan",
+          "src": "./portfolio-v15/gounbat/board-06.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-187"
+        },
+        {
+          "index": 7,
+          "name": "07 / Name to Identity",
+          "src": "./portfolio-v15/gounbat/board-07.webp",
+          "width": 1600,
+          "height": 960,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-188"
+        },
+        {
+          "index": 8,
+          "name": "08 / Signature",
+          "src": "./portfolio-v15/gounbat/board-08.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-189"
+        },
+        {
+          "index": 9,
+          "name": "09 / Visual Voice",
+          "src": "./portfolio-v15/gounbat/board-09.webp",
+          "width": 1600,
+          "height": 960,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-190"
+        },
+        {
+          "index": 10,
+          "name": "10 / Tactile Identity",
+          "src": "./portfolio-v15/gounbat/board-10.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-191"
+        },
+        {
+          "index": 11,
+          "name": "11 / Design System",
+          "src": "./portfolio-v15/gounbat/board-11.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-192"
+        },
+        {
+          "index": 12,
+          "name": "12 / Produce Band",
+          "src": "./portfolio-v15/gounbat/board-12.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-193"
+        },
+        {
+          "index": 13,
+          "name": "13 / Form Follows Produce",
+          "src": "./portfolio-v15/gounbat/board-13.webp",
+          "width": 1600,
+          "height": 1100,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-194"
+        },
+        {
+          "index": 14,
+          "name": "14 / The Field Record",
+          "src": "./portfolio-v15/gounbat/board-14.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-195"
+        },
+        {
+          "index": 15,
+          "name": "15 / Everyday and Gifting",
+          "src": "./portfolio-v15/gounbat/board-15.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-196"
+        },
+        {
+          "index": 16,
+          "name": "16 / A Coherent Family",
+          "src": "./portfolio-v15/gounbat/board-16.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-197"
+        },
+        {
+          "index": 17,
+          "name": "17 / Digital · Desktop",
+          "src": "./portfolio-v15/gounbat/board-17.webp",
+          "width": 1600,
+          "height": 2120,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-198"
+        },
+        {
+          "index": 18,
+          "name": "18 / Digital · Mobile",
+          "src": "./portfolio-v15/gounbat/board-18.webp",
+          "width": 1600,
+          "height": 1340,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-199"
+        },
+        {
+          "index": 19,
+          "name": "19 / At the Table",
+          "src": "./portfolio-v15/gounbat/board-19.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-200"
+        },
+        {
+          "index": 20,
+          "name": "20 / Closing & Credits",
+          "src": "./portfolio-v15/gounbat/board-20.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-201"
+        }
+      ],
+      "boardCount": 20,
+      "photoCount": 11
+    },
+    {
+      "slug": "onari",
+      "name": "오나리",
+      "englishName": "ONARI",
+      "color": "#40383D",
+      "paper": "#F5F1EA",
+      "theme": "좋은 재료가 만드는 매일",
+      "keywords": [
+        "일상",
+        "온기",
+        "좋은 한 끼"
+      ],
+      "title": "ONARI — Good ingredients, everyday.",
+      "oneLine": "고이 기른 재료를, 일상으로.",
+      "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-87",
+      "hero": "./portfolio-v15/onari/hero.webp",
+      "boards": [
+        {
+          "index": 1,
+          "name": "01 / A good everyday meal",
+          "src": "./portfolio-v15/onari/board-01.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-88"
+        },
+        {
+          "index": 2,
+          "name": "02 / Project overview",
+          "src": "./portfolio-v15/onari/board-02.webp",
+          "width": 1600,
+          "height": 700,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-89"
+        },
+        {
+          "index": 3,
+          "name": "03 / The name",
+          "src": "./portfolio-v15/onari/board-03.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-90"
+        },
+        {
+          "index": 4,
+          "name": "04 / The care before the table",
+          "src": "./portfolio-v15/onari/board-04.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-91"
+        },
+        {
+          "index": 5,
+          "name": "05 / An answer for everyday life",
+          "src": "./portfolio-v15/onari/board-05.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-92"
+        },
+        {
+          "index": 6,
+          "name": "06 / Brand slogan",
+          "src": "./portfolio-v15/onari/board-06.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-93"
+        },
+        {
+          "index": 7,
+          "name": "07 / Name into identity",
+          "src": "./portfolio-v15/onari/board-07.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-94"
+        },
+        {
+          "index": 8,
+          "name": "08 / The selected signature",
+          "src": "./portfolio-v15/onari/board-08.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-95"
+        },
+        {
+          "index": 9,
+          "name": "09 / Visual voice",
+          "src": "./portfolio-v15/onari/board-09.webp",
+          "width": 1600,
+          "height": 1050,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-96"
+        },
+        {
+          "index": 10,
+          "name": "10 / A system for ingredients",
+          "src": "./portfolio-v15/onari/board-10.webp",
+          "width": 1600,
+          "height": 1100,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-97"
+        },
+        {
+          "index": 11,
+          "name": "11 / The single ingredient",
+          "src": "./portfolio-v15/onari/board-11.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-98"
+        },
+        {
+          "index": 12,
+          "name": "12 / Forms of freshness",
+          "src": "./portfolio-v15/onari/board-12.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-99"
+        },
+        {
+          "index": 13,
+          "name": "13 / A week arrives",
+          "src": "./portfolio-v15/onari/board-13.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-100"
+        },
+        {
+          "index": 14,
+          "name": "14 / Small gestures",
+          "src": "./portfolio-v15/onari/board-14.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-101"
+        },
+        {
+          "index": 15,
+          "name": "15 / Printed with restraint",
+          "src": "./portfolio-v15/onari/board-15.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-102"
+        },
+        {
+          "index": 16,
+          "name": "16 / Take today with you",
+          "src": "./portfolio-v15/onari/board-16.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-103"
+        },
+        {
+          "index": 17,
+          "name": "17 / Digital selection",
+          "src": "./portfolio-v15/onari/board-17.webp",
+          "width": 1600,
+          "height": 1900,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-104"
+        },
+        {
+          "index": 18,
+          "name": "18 / A clear mobile journey",
+          "src": "./portfolio-v15/onari/board-18.webp",
+          "width": 1600,
+          "height": 1440,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-105"
+        },
+        {
+          "index": 19,
+          "name": "19 / On the everyday table",
+          "src": "./portfolio-v15/onari/board-19.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-106"
+        },
+        {
+          "index": 20,
+          "name": "20 / Closing and credits",
+          "src": "./portfolio-v15/onari/board-20.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-107"
+        }
+      ],
+      "boardCount": 20,
+      "photoCount": 11
+    },
+    {
+      "slug": "hecale",
+      "name": "헤칼레",
+      "englishName": "HECALE",
+      "color": "#542E34",
+      "paper": "#F4EFE5",
+      "theme": "좋은 재료에서 시작되는 환대",
+      "keywords": [
+        "환대",
+        "배려",
+        "함께하는 식탁"
+      ],
+      "title": "HECALE — A considered table",
+      "oneLine": "좋은 재료가, 좋은 대접이 되는 곳.",
+      "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168",
+      "hero": "./portfolio-v15/hecale/hero.webp",
+      "boards": [
+        {
+          "index": 1,
+          "name": "01 / A place prepared",
+          "src": "./portfolio-v15/hecale/board-01.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-169"
+        },
+        {
+          "index": 2,
+          "name": "02 / Project overview",
+          "src": "./portfolio-v15/hecale/board-02.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-171"
+        },
+        {
+          "index": 3,
+          "name": "03 / The name Hecale",
+          "src": "./portfolio-v15/hecale/board-03.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-179"
+        },
+        {
+          "index": 4,
+          "name": "04 / Care begins with attention",
+          "src": "./portfolio-v15/hecale/board-04.webp",
+          "width": 1600,
+          "height": 1200,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-194"
+        },
+        {
+          "index": 5,
+          "name": "05 / A considered experience",
+          "src": "./portfolio-v15/hecale/board-05.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-203"
+        },
+        {
+          "index": 6,
+          "name": "06 / A decisive promise",
+          "src": "./portfolio-v15/hecale/board-06.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-211"
+        },
+        {
+          "index": 7,
+          "name": "07 / The gesture of H",
+          "src": "./portfolio-v15/hecale/board-07.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-224"
+        },
+        {
+          "index": 8,
+          "name": "08 / Signature in balance",
+          "src": "./portfolio-v15/hecale/board-08.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-233"
+        },
+        {
+          "index": 9,
+          "name": "09 / A quiet visual voice",
+          "src": "./portfolio-v15/hecale/board-09.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-254"
+        },
+        {
+          "index": 10,
+          "name": "10 / An information system",
+          "src": "./portfolio-v15/hecale/board-10.webp",
+          "width": 1600,
+          "height": 1040,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-275"
+        },
+        {
+          "index": 11,
+          "name": "11 / The everyday range",
+          "src": "./portfolio-v15/hecale/board-11.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-392"
+        },
+        {
+          "index": 12,
+          "name": "12 / Preparing one parcel",
+          "src": "./portfolio-v15/hecale/board-12.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-394"
+        },
+        {
+          "index": 13,
+          "name": "13 / A personal gift",
+          "src": "./portfolio-v15/hecale/board-13.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-396"
+        },
+        {
+          "index": 14,
+          "name": "14 / Paper and linen",
+          "src": "./portfolio-v15/hecale/board-14.webp",
+          "width": 1600,
+          "height": 1200,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-398"
+        },
+        {
+          "index": 15,
+          "name": "15 / Care after opening",
+          "src": "./portfolio-v15/hecale/board-15.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-407"
+        },
+        {
+          "index": 16,
+          "name": "16 / A thoughtful handover",
+          "src": "./portfolio-v15/hecale/board-16.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-409"
+        },
+        {
+          "index": 17,
+          "name": "17 / Digital home",
+          "src": "./portfolio-v15/hecale/board-17.webp",
+          "width": 1600,
+          "height": 2280,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-411"
+        },
+        {
+          "index": 18,
+          "name": "18 / Digital gift product",
+          "src": "./portfolio-v15/hecale/board-18.webp",
+          "width": 1600,
+          "height": 2000,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-505"
+        },
+        {
+          "index": 19,
+          "name": "19 / Mobile choice to message",
+          "src": "./portfolio-v15/hecale/board-19.webp",
+          "width": 1600,
+          "height": 1400,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-634"
+        },
+        {
+          "index": 20,
+          "name": "20 / A table to share",
+          "src": "./portfolio-v15/hecale/board-20.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-756"
+        },
+        {
+          "index": 21,
+          "name": "21 / To your table with care",
+          "src": "./portfolio-v15/hecale/board-21.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-758"
+        }
+      ],
+      "boardCount": 21,
+      "photoCount": 11
+    },
+    {
+      "slug": "ersa",
+      "name": "에르사",
+      "englishName": "ERSA",
+      "color": "#202D42",
+      "paper": "#F4F7FA",
+      "theme": "가까이 들여다보는 식재료",
+      "keywords": [
+        "관찰",
+        "선명함",
+        "신선함"
+      ],
+      "title": "ERSA — A Closer Look at Food",
+      "oneLine": "자세히 볼수록, 좋은 식재료.",
+      "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84",
+      "hero": "./portfolio-v15/ersa/hero.webp",
+      "boards": [
+        {
+          "index": 1,
+          "name": "01 / ERSA — Hero",
+          "src": "./portfolio-v15/ersa/board-01.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-85"
+        },
+        {
+          "index": 2,
+          "name": "02 / Project Overview",
+          "src": "./portfolio-v15/ersa/board-02.webp",
+          "width": 1600,
+          "height": 760,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-86"
+        },
+        {
+          "index": 3,
+          "name": "03 / The Name ERSA",
+          "src": "./portfolio-v15/ersa/board-03.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-87"
+        },
+        {
+          "index": 4,
+          "name": "04 / Brand Motif — Dew",
+          "src": "./portfolio-v15/ersa/board-04.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-88"
+        },
+        {
+          "index": 5,
+          "name": "05 / Observe · Understand · Choose",
+          "src": "./portfolio-v15/ersa/board-05.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-89"
+        },
+        {
+          "index": 6,
+          "name": "06 / Brand Slogan",
+          "src": "./portfolio-v15/ersa/board-06.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-90"
+        },
+        {
+          "index": 7,
+          "name": "07 / From Name to Identity",
+          "src": "./portfolio-v15/ersa/board-07.webp",
+          "width": 1600,
+          "height": 800,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-91"
+        },
+        {
+          "index": 8,
+          "name": "08 / Symbol & Wordmark",
+          "src": "./portfolio-v15/ersa/board-08.webp",
+          "width": 1600,
+          "height": 900,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-92"
+        },
+        {
+          "index": 9,
+          "name": "09 / Visual Voice",
+          "src": "./portfolio-v15/ersa/board-09.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-93"
+        },
+        {
+          "index": 10,
+          "name": "10 / Design System",
+          "src": "./portfolio-v15/ersa/board-10.webp",
+          "width": 1600,
+          "height": 1060,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-94"
+        },
+        {
+          "index": 11,
+          "name": "11 / The Collection",
+          "src": "./portfolio-v15/ersa/board-11.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-95"
+        },
+        {
+          "index": 12,
+          "name": "12 / Produce in Focus",
+          "src": "./portfolio-v15/ersa/board-12.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-96"
+        },
+        {
+          "index": 13,
+          "name": "13 / The Material Detail",
+          "src": "./portfolio-v15/ersa/board-13.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-97"
+        },
+        {
+          "index": 14,
+          "name": "14 / Observation Kit",
+          "src": "./portfolio-v15/ersa/board-14.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-98"
+        },
+        {
+          "index": 15,
+          "name": "15 / From Shelf to Home",
+          "src": "./portfolio-v15/ersa/board-15.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-99"
+        },
+        {
+          "index": 16,
+          "name": "16 / Keep the Observation",
+          "src": "./portfolio-v15/ersa/board-16.webp",
+          "width": 1600,
+          "height": 960,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-100"
+        },
+        {
+          "index": 17,
+          "name": "17 / Digital Experience — Web",
+          "src": "./portfolio-v15/ersa/board-17.webp",
+          "width": 1600,
+          "height": 1480,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-101"
+        },
+        {
+          "index": 18,
+          "name": "18 / Digital Experience — Mobile",
+          "src": "./portfolio-v15/ersa/board-18.webp",
+          "width": 1600,
+          "height": 1300,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-102"
+        },
+        {
+          "index": 19,
+          "name": "19 / Everyday ERSA",
+          "src": "./portfolio-v15/ersa/board-19.webp",
+          "width": 1600,
+          "height": 1067,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-103"
+        },
+        {
+          "index": 20,
+          "name": "20 / Look Closer — Closing",
+          "src": "./portfolio-v15/ersa/board-20.webp",
+          "width": 1600,
+          "height": 1000,
+          "figmaUrl": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-104"
+        }
+      ],
+      "boardCount": 20,
+      "photoCount": 10
+    }
+  ]
+}

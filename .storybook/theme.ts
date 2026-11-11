@@ -1,8 +1,8 @@
 import { create } from 'storybook/theming';
-// manager(사이드바·툴바)와 docs 화면이 같은 임시 테마를 쓴다. 상품 브랜드의 확정 시각 체계가 아니다.
-export const fieldnotesTheme = create({
-  base: 'light', brandTitle: 'FIELDNOTES · 프로젝트 스토리북',
-  brandImage: './brand-lockup.svg', brandUrl: './?path=/docs/home--docs', brandTarget: '_self',
+// 문서 공간의 공통 테마. 서비스 브랜드의 최종 디자인 토큰과 구분한다.
+export const makeFieldnotesTheme = (title: string, home: string) => create({
+  base: 'light', brandTitle: title,
+  brandImage: './brand-lockup.svg', brandUrl: `./?path=/docs/${home}--docs`, brandTarget: '_self',
   colorPrimary: '#265340', colorSecondary: '#265340',
   appBg: '#f7f8f4', appContentBg: '#ffffff', appPreviewBg: '#f7f8f4',
   appBorderColor: '#e1e5dc', appBorderRadius: 8,
@@ -12,3 +12,4 @@ export const fieldnotesTheme = create({
   fontBase: '"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif',
   fontCode: '"SFMono-Regular", ui-monospace, Menlo, Consolas, monospace',
 });
+export const fieldnotesTheme = makeFieldnotesTheme('FIELDNOTES · 작업 기록', 'home');

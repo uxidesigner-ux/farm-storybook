@@ -5,12 +5,17 @@
   "type": "module",
   "description": "프리미엄 농작물 프로젝트의 BX, 디자인, 개발, 마케팅을 함께 기록하는 Storybook",
   "scripts": {
-    "dev": "node scripts/dev.mjs",
+    "dev": "npm run content && node scripts/dev.mjs",
+    "dev:operations": "npm run content && node scripts/dev.mjs --edition=operations",
+    "dev:showcase": "npm run content && vite --config vite.showcase.config.ts --host 0.0.0.0",
     "storybook": "storybook dev -p 6006 --host 0.0.0.0 --no-open",
-    "content": "node scripts/generate-content.mjs",
+    "content": "node scripts/generate-content.mjs && node scripts/generate-portals.mjs",
     "typecheck": "tsc --noEmit",
-    "build": "npm run content && storybook build -o dist --disable-telemetry",
-    "check": "npm run typecheck && node scripts/validate-content.mjs",
+    "build": "node scripts/build-portals.mjs",
+    "build:journal": "npm run content && storybook build -c .storybook -o dist/journal --disable-telemetry",
+    "build:operations": "npm run content && storybook build -c .storybook-operations -o dist/operations --disable-telemetry",
+    "build:showcase": "vite build --config vite.showcase.config.ts",
+    "check": "npm run typecheck && node scripts/validate-content.mjs && node scripts/validate-portals.mjs",
     "verify:build": "node scripts/verify-build.mjs"
   },
   "dependencies": {
