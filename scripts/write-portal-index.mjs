@@ -33,7 +33,7 @@ const html = `<!doctype html>
     <p class="lead">고운밭, 오나리, 헤칼레, 에르사.<br />완성된 브랜드를 살펴보고, 만들어진 과정과 운영에 필요한 기준을 목적에 맞게 확인하세요.</p>
   </section>
   <nav class="portals" aria-label="세 가지 공간">
-    <a class="portal" href="./showcase/"><span class="number">01 / BRAND PORTFOLIOS</span><h2>브랜드 포트폴리오</h2><p>네 프로젝트의 FINAL을 로그인 없이 감상하세요. 추천할 때 계정을 확인하며, 프로젝트마다 한 번씩 마음에 드는 프로젝트를 모두 추천할 수 있습니다.</p><span class="action">포트폴리오와 추천 보기 <span class="arrow" aria-hidden="true">↗</span></span></a>
+    <a class="portal" href="./showcase/"><span class="number">01 / BRAND PORTFOLIOS</span><h2>브랜드 포트폴리오</h2><p>네 프로젝트의 FINAL을 로그인 없이 감상하고 마음에 드는 프로젝트를 추천하세요. 한 번 더 누르면 추천을 취소할 수 있습니다.</p><span class="action">포트폴리오와 추천 보기 <span class="arrow" aria-hidden="true">↗</span></span></a>
     <a class="portal" href="./journal/?path=/docs/home--docs"><span class="number">02 / WORK JOURNAL</span><h2>전체 작업 기록</h2><p>리서치, 후보안, 시도와 수정, 승인된 결정까지. 왜 지금의 결과에 도달했는지 작업의 흐름을 확인합니다.</p><span class="action">작업 스토리북 열기 <span class="arrow" aria-hidden="true">↗</span></span></a>
     <a class="portal" href="./operations/?path=/docs/ops-home--docs"><span class="number">03 / OPERATING STANDARDS</span><h2>서비스 운영 기준</h2><p>브랜드·디자인·콘텐츠·개발·마케팅·운영 담당자가 함께 사용하는 기준과 출시 전에 정할 사항을 확인합니다.</p><span class="action">운영 스토리북 열기 <span class="arrow" aria-hidden="true">↗</span></span></a>
   </nav>
