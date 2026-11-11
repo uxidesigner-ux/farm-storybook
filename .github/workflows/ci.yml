@@ -23,10 +23,10 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: 콘텐츠 생성과 Storybook 정적 빌드
+      - name: 작업 기록 · 운영 기준 · 포트폴리오 정적 빌드
         run: npm run build
       - name: 생성물이 커밋된 상태와 같은지 확인
-        run: git diff --exit-code -- src/generated src/stories public/downloads
+        run: git diff --exit-code -- src/generated src/stories src/portal-stories public/downloads
       - name: 타입 검사와 콘텐츠 무결성 검사
         run: npm run check
       - name: 빌드 결과 검사 (문서 ID · 다운로드 · 상대 경로)
