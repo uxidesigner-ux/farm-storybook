@@ -11,6 +11,9 @@ type Counts = Record<string, number>;
 type VoteState = 'idle' | 'sending' | 'success' | 'error';
 type SessionState = 'loading' | 'ready' | 'unavailable';
 type VoteSnapshot = { counts: Counts; authenticated: boolean; votedBrands: string[] };
+type LikeParticle = { id: number; wave: number; hero: boolean; tone: 'blue' | 'ice' | 'brand'; style: CSSProperties };
+type VoteCelebration = { id: number; brand: string; x: number; y: number; particles: LikeParticle[] };
+const celebrationLifetime = 4900;
 const formatCount = (n: number) => new Intl.NumberFormat('ko-KR').format(n);
 const slugs = portfolio.brands.map(brand => brand.slug);
 const defaultApi = 'https://farm-bx-showcase.james8101.chatgpt.site/api/votes';
@@ -45,6 +48,42 @@ function currentSlug() {
   return slugs.includes(hash) ? hash : null;
 }
 
+function celebrationParticles(width: number, x: number, y: number, mobile: boolean): LikeParticle[] {
+  const perWave = mobile ? 10 : 18;
+  const random = (min: number, max: number) => min + Math.random() * (max - min);
+  const px = (value: number) => `${Math.round(value)}px`;
+  const deg = (value: number) => `${Math.round(value)}deg`;
+  return Array.from({ length: perWave * 3 }, (_, id) => {
+    const wave = Math.floor(id / perWave);
+    const slot = id % perWave;
+    const hero = slot === 0 || slot === Math.floor(perWave / 2);
+    const size = hero ? random(mobile ? 62 : 86, mobile ? 78 : 112) : random(mobile ? 24 : 28, mobile ? 44 : 57);
+    // Interleaved lanes open the first wave into a wide fan instead of a narrow column.
+    const lane = ((slot * 7) % perWave + random(0.1, 0.8)) / perWave;
+    const endX = width * (0.04 + lane * 0.92);
+    const dx = endX - x;
+    const dy = -(y + size + 64);
+    const drift = random(-28, 28);
+    const tilt = random(-22, 22);
+    const tone = id % 7 === 5 ? 'brand' : id % 4 === 2 ? 'ice' : 'blue';
+    return {
+      id, wave, hero, tone,
+      style: {
+        '--like-size': px(size),
+        '--like-delay': `${Math.round(wave * 380 + slot * 12 + random(0, 75))}ms`,
+        '--like-duration': `${Math.round(random(2900, 3650))}ms`,
+        '--like-x1': px(dx * 0.10), '--like-y1': px(dy * 0.08),
+        '--like-x2': px(dx * 0.43 + drift), '--like-y2': px(dy * 0.25),
+        '--like-x3': px(dx * 0.80 - drift * 0.5), '--like-y3': px(dy * 0.55),
+        '--like-x4': px(dx * 0.98 + drift * 0.3), '--like-y4': px(dy * 0.83),
+        '--like-x5': px(dx), '--like-y5': px(dy),
+        '--like-r1': deg(tilt - 12), '--like-r2': deg(tilt + 9),
+        '--like-r3': deg(tilt - 7), '--like-r4': deg(tilt + 5), '--like-r5': deg(tilt - 3),
+      } as CSSProperties,
+    };
+  });
+}
+
 export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   const [slug, setSlug] = useState<string | null>(null);
   const [counts, setCounts] = useState<Counts | null>(null);
@@ -59,7 +98,11 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   const [fullscreen, setFullscreen] = useState(false);
   const [canFullscreen, setCanFullscreen] = useState(false);
   const [lightbox, setLightbox] = useState<Brand['boards'][number] | null>(null);
+  const [celebration, setCelebration] = useState<VoteCelebration | null>(null);
   const rootRef = useRef<HTMLDivElement>(null);
+  const voteButtonRef = useRef<HTMLButtonElement>(null);
+  const celebrationTimer = useRef<number | null>(null);
+  const celebrationId = useRef(0);
   const inFlight = useRef(false);
   const requestVersion = useRef(0);
   const requestController = useRef<AbortController | null>(null);
@@ -68,6 +111,47 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   const brand = portfolio.brands.find(item => item.slug === slug);
   const nextBrand = brand ? portfolio.brands[(portfolio.brands.indexOf(brand) + 1) % portfolio.brands.length] : null;
   const hasVoted = Boolean(brand && authenticated && votedBrands.includes(brand.slug));
+
+  const clearCelebration = useCallback(() => {
+    if (celebrationTimer.current !== null) window.clearTimeout(celebrationTimer.current);
+    celebrationTimer.current = null;
+    setCelebration(null);
+  }, []);
+
+  const celebrateVote = useCallback((target: string) => {
+    clearCelebration();
+    // A late response, a background tab, or reduced motion must not launch particles.
+    if (activeSlug.current !== target || currentSlug() !== target || document.hidden ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const button = voteButtonRef.current?.getBoundingClientRect();
+    if (!button || button.width === 0 || button.height === 0) return;
+    const x = button.left + button.width / 2;
+    const y = button.top + button.height / 2;
+    setCelebration({
+      id: ++celebrationId.current, brand: target, x, y,
+      particles: celebrationParticles(window.innerWidth, x, y, window.matchMedia('(max-width: 600px)').matches),
+    });
+    celebrationTimer.current = window.setTimeout(() => {
+      celebrationTimer.current = null;
+      setCelebration(null);
+    }, celebrationLifetime);
+  }, [clearCelebration]);
+
+  useEffect(() => {
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const onVisibility = () => { if (document.hidden) clearCelebration(); };
+    const onMotionChange = () => { if (motionPreference.matches) clearCelebration(); };
+    document.addEventListener('visibilitychange', onVisibility);
+    window.addEventListener('pagehide', clearCelebration);
+    motionPreference.addEventListener('change', onMotionChange);
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibility);
+      window.removeEventListener('pagehide', clearCelebration);
+      motionPreference.removeEventListener('change', onMotionChange);
+      if (celebrationTimer.current !== null) window.clearTimeout(celebrationTimer.current);
+      celebrationTimer.current = null;
+    };
+  }, [clearCelebration]);
 
   const applySnapshot = useCallback((next: VoteSnapshot, viewerAllowed: boolean) => {
     setCounts(next.counts);
@@ -109,6 +193,7 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
     function route() {
       const next = currentSlug();
       activeSlug.current = next;
+      clearCelebration();
       setSlug(next);
       setVoteState('idle');
       setMessage('');
@@ -125,7 +210,7 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
       window.removeEventListener('hashchange', route);
       document.removeEventListener('fullscreenchange', onFullscreen);
     };
-  }, []);
+  }, [clearCelebration]);
 
   useEffect(() => {
     setAuthenticated(false);
@@ -199,6 +284,7 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
       if (activeSlug.current === target) {
         setVoteState('success');
         setMessage(data.counted ? '추천했어요. 다른 프로젝트에도 추천할 수 있습니다.' : '이미 추천한 프로젝트입니다. 다른 프로젝트에도 추천할 수 있습니다.');
+        if (data.counted === true) celebrateVote(target);
       }
     } catch {
       if (version !== requestVersion.current) return;
@@ -280,14 +366,20 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
       <aside className="sc-vote-float" aria-label={`${brand.name} 추천 투표`}>
         <div className={`sc-vote-message ${voteState === 'error' || countError ? 'sc-vote-message-error' : ''}`} role="status" aria-live="polite">{voteMessage}</div>
         {sameOrigin === false ? <a className="sc-fab" href={canonicalProjectUrl} target="_top" aria-label={`${brand.name} 투표 페이지로 이동. ChatGPT 계정으로 로그인한 뒤 프로젝트별 한 번 추천할 수 있습니다.`}><ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" /><span>투표하기</span><span className="sc-fab-count">{voteCountLabel}</span></a>
-          : hasVoted ? <button type="button" className="sc-fab sc-fab-completed" disabled aria-label={`${brand.name} 추천 완료. 현재 추천 ${voteCountLabel}건`}><Check size={23} strokeWidth={1.8} aria-hidden="true" /><span>추천 완료</span><span className="sc-fab-count">{voteCountLabel}</span></button>
+          : hasVoted ? <button ref={voteButtonRef} type="button" className={`sc-fab sc-fab-completed${celebration?.brand === brand.slug ? ' sc-fab-celebrate' : ''}`} disabled aria-label={`${brand.name} 추천 완료. 현재 추천 ${voteCountLabel}건`}><Check size={23} strokeWidth={1.8} aria-hidden="true" /><span>추천 완료</span><span className="sc-fab-count">{voteCountLabel}</span></button>
           : sessionState === 'ready' && !authenticated ? <a className="sc-fab" href={signInUrl} target="_top" aria-label={`${brand.name} 추천을 위해 ChatGPT 계정으로 로그인하기. 로그인 후 투표 버튼을 눌러 주세요.`}><ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" /><span>로그인하고 투표</span><span className="sc-fab-count">{voteCountLabel}</span></a>
-          : <button type="button" className="sc-fab" onClick={() => { if (sessionState === 'unavailable') { setMessage(''); setSessionState('loading'); void refreshCounts(); } else void vote(); }} disabled={checkingVote || sameOrigin === null} aria-busy={checkingVote} aria-label={`${brand.name} ${sessionState === 'unavailable' ? '추천 상태 다시 확인' : checkingVote ? '추천 상태 확인 중' : '투표하기. 프로젝트별 한 번 추천할 수 있습니다.'} 현재 추천 ${voteCountLabel}`}>
+          : <button ref={voteButtonRef} type="button" className="sc-fab" onClick={() => { if (sessionState === 'unavailable') { setMessage(''); setSessionState('loading'); void refreshCounts(); } else void vote(); }} disabled={checkingVote || sameOrigin === null} aria-busy={checkingVote} aria-label={`${brand.name} ${sessionState === 'unavailable' ? '추천 상태 다시 확인' : checkingVote ? '추천 상태 확인 중' : '투표하기. 프로젝트별 한 번 추천할 수 있습니다.'} 현재 추천 ${voteCountLabel}`}>
             <ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" /><span>{pendingBrand ? '반영 중' : sessionState === 'loading' ? '확인 중' : sessionState === 'unavailable' ? '다시 확인' : '투표하기'}</span><span className="sc-fab-count">{voteCountLabel}</span>
           </button>}
         <span className="sc-vote-policy">프로젝트별 1회 · 다른 프로젝트도 추천 가능{(sameOrigin === false || (sessionState === 'ready' && !authenticated)) && <span className="sc-vote-login">{sameOrigin === false ? '투표 페이지에서 ChatGPT 계정으로 로그인해 주세요.' : 'ChatGPT 로그인 후 투표 버튼을 눌러 주세요.'}</span>}</span>
       </aside>
     </>}
+    {celebration && celebration.brand === slug && <div key={celebration.id} className="sc-celebration" aria-hidden="true" style={{ '--like-origin-x': `${celebration.x}px`, '--like-origin-y': `${celebration.y}px` } as CSSProperties}>
+      {[0, 1, 2].map(wave => <span key={wave} className="sc-like-ring" style={{ animationDelay: `${wave * 380}ms` }} />)}
+      {celebration.particles.map(particle => <span key={particle.id} data-wave={particle.wave} className={`sc-like-particle sc-like-${particle.tone}${particle.hero ? ' sc-like-hero' : ''}`} style={particle.style}>
+        <span className="sc-like-bubble"><ThumbsUp strokeWidth={1.65} fill="currentColor" aria-hidden="true" /></span>
+      </span>)}
+    </div>}
     <dialog ref={dialogRef} className="sc-lightbox" onClose={() => setLightbox(null)} onClick={event => { if (event.target === event.currentTarget) setLightbox(null); }}>
       <div className="sc-lightbox-bar"><span>{brand?.englishName} · {lightbox?.name}</span><button type="button" className="sc-icon-button" aria-label="장표 확대 닫기" onClick={() => setLightbox(null)}><X size={24} /></button></div>
       {lightbox && <div className="sc-lightbox-scroll"><img src={lightbox.src} alt={lightbox.name} width={lightbox.width} height={lightbox.height} /></div>}
