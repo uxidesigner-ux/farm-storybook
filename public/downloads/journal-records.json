@@ -1,0 +1,1250 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-11-11",
+  "summary": "농산물 서비스의 초기 구상에서 네이밍 네 후보, 심볼의 반복 수정, 응용 디자인, FINAL V15까지의 요청·판단·수정 이유를 정리한 작업 기록입니다. 대화에서 확인되는 결정과 실제 Figma·산출물 기록을 연결했습니다. 날짜가 확인되지 않는 단계는 발생 순서로만 정렬하며, 과거 연구안과 현재 승인 기준, 공식 자료와 브랜드 해석을 구분합니다.",
+  "milestones": [
+    {
+      "id": "service-intent",
+      "sequence": 1,
+      "title": "건강·시간·편리함을 위한 농산물 서비스의 출발",
+      "phase": "사업 정의",
+      "brand": "all",
+      "status": "completed",
+      "request": "로컬 농가의 생산물을 프리미엄 먹거리 서비스로 연결하고, 농가 컨택·패키징·브랜드 사이트·판매 채널·마케팅을 함께 설계한다.",
+      "decision": "건강과 시간, 편리함을 고려하는 고객에게 좋은 식재료를 전달한다는 목표를 기준으로 삼았다. 농가 대표의 공급 협의와 태훈의 패키징·사이트·채널·마케팅 역할을 초기 업무 가설로 기록했다.",
+      "reason": "품목이 치커리 또는 셀러리 등으로 바뀔 수 있으므로, 특정 작물의 효능이나 단일 제품에 브랜드 전체를 종속시키지 않기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고객 경험 원칙",
+          "href": "?path=/docs/doc-bx-experience--docs"
+        },
+        {
+          "label": "농가 확인과 공급 기준",
+          "href": "?path=/docs/doc-ops-farm--docs"
+        }
+      ],
+      "outcome": "서비스 목적은 정리됐다. 실제 공급 농가, 작물, 수량, 가격, 인증, 배송 조건은 별도 확인이 필요한 상태로 남겼다."
+    },
+    {
+      "id": "functional-scope",
+      "sequence": 2,
+      "title": "기능·WBS·역할을 검토 가능한 범위로 정리",
+      "phase": "사업 정의",
+      "brand": "all",
+      "status": "completed",
+      "request": "초기 계획을 기능 정의와 WBS로 풀고 필요한 직군을 산출한 뒤, 개발 에이전트에 전달할 수 있도록 정리한다.",
+      "decision": "브랜드 소개와 구매 경험, 판매 채널, 주문·재고 검토, 콘텐츠 운영, 개발 인수인계를 문서로 나누었다. 자동 연동은 가능 여부를 확인하는 항목으로 취급했다.",
+      "reason": "사업 의도와 실제 구현 범위를 구분하고, 디자인·개발·운영 담당자가 서로 다른 가정을 확정 사항으로 오해하지 않도록 하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "MVP 범위와 기능 정의",
+          "href": "?path=/docs/doc-dev-mvp--docs"
+        },
+        {
+          "label": "주문·재고·채널 연동 검토",
+          "href": "?path=/docs/doc-dev-channels--docs"
+        },
+        {
+          "label": "개발 인수인계와 완료 기준",
+          "href": "?path=/docs/doc-dev-handoff--docs"
+        }
+      ],
+      "outcome": "개발 검토용 문서 구조를 마련했다. 네이버·쿠팡 등의 실제 API 권한, 주문 처리 방식, 운영 인력과 일정은 확인 전이다."
+    },
+    {
+      "id": "market-research",
+      "sequence": 3,
+      "title": "국내 12·해외 23개 목적 표본 조사",
+      "phase": "리서치",
+      "brand": "all",
+      "status": "completed",
+      "request": "구축과 병행하되, 먼저 국내외 유사 서비스 조사로 BX의 출발점을 찾는다.",
+      "decision": "농산물 서비스와 관련 사례 35개를 조사하고, 사업 모델·신뢰 정보·구매 경험·콘텐츠 표현을 비교했다. 기록된 가격 사례는 조사 시점과 조건이 있는 참고값으로 분리했다.",
+      "reason": "시장 전체를 조사했다는 과장 없이 비교 가능한 사례를 통해 브랜드가 해결할 고객 문제와 차별화 가설을 찾기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "국내외 벤치마크 35개",
+          "href": "?path=/docs/benchmarks--docs"
+        },
+        {
+          "label": "리서치에서 출발하기",
+          "href": "?path=/docs/doc-bx-research--docs"
+        }
+      ],
+      "outcome": "전 세계 사업자 전수조사나 사업 성과 검증이 아닌 목적 표본 리서치를 완료했다. 가격·판매 조건은 운영에 사용하기 전에 다시 확인해야 한다."
+    },
+    {
+      "id": "storybook-first-publication",
+      "sequence": 4,
+      "title": "BX·디자인·개발·마케팅을 연결한 첫 문서 공간",
+      "phase": "문서 운영",
+      "brand": "all",
+      "status": "completed",
+      "request": "산출물을 사용자와 공유할 수 있도록 Storybook에 BX부터 디자인, 개발, 마케팅 가이드를 기록한다.",
+      "decision": "FIELDNOTES라는 문서 공간 아래 문서·벤치마크·디자인 토큰·산출물 아카이브를 연결하고, 기존 GitHub Pages에 공개했다.",
+      "reason": "채팅과 개별 디자인 파일에 흩어진 근거를 한곳에서 확인하고, 후속 작업자가 문서 상태와 원본 링크를 따라갈 수 있게 하기 위해서다.",
+      "evidence": [
+        {
+          "label": "기존 공개 Storybook",
+          "url": "https://uxidesigner-ux.github.io/farm-storybook/"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "기존 산출물 아카이브",
+          "href": "?path=/docs/archive--docs"
+        },
+        {
+          "label": "문서 추가와 공유 절차",
+          "href": "?path=/docs/doc-dev-documentation--docs"
+        }
+      ],
+      "outcome": "기존 배포본과 24개 가이드 문서가 후속 기록의 기반이 됐다. FIELDNOTES는 문서 공간의 이름이며 최종 농산물 브랜드명은 아니다."
+    },
+    {
+      "id": "plusx-research",
+      "sequence": 5,
+      "title": "Plus X 공개 프로젝트의 표현 방식 연구",
+      "phase": "리서치",
+      "brand": "all",
+      "status": "completed",
+      "request": "Plus X 작업을 세세히 분석하고 브랜드 경험의 구성과 표현 원리를 참고한다.",
+      "decision": "공식 Experience 카탈로그의 공개 프로젝트 146개를 정리하고, 18개 심층 사례와 9개 정적 시각 자료를 별도 검토했다. 브랜드 서사와 접점의 일관성, 정보 위계, 적용 장면의 비중을 연구했다.",
+      "reason": "고급스러운 표면 장식만 흉내 내지 않고 이름·전략·아이덴티티·응용 사이의 설명 구조를 이해하기 위해서다.",
+      "evidence": [
+        {
+          "label": "Plus X 공식 Experience",
+          "url": "https://www.plus-ex.com/experience"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "Plus X 공개 작업 연구",
+          "href": "?path=/docs/plusx--docs"
+        },
+        {
+          "label": "BX 설계 원리",
+          "href": "?path=/docs/doc-bx-plusx-research--docs"
+        }
+      ],
+      "outcome": "2026년 11월 10일 공개 카탈로그 기준 연구를 보존했다. 비공개·삭제 작업을 포함한 전체 실적 조사나 모든 영상·실물 경험의 검증을 뜻하지 않는다."
+    },
+    {
+      "id": "five-keywords",
+      "sequence": 6,
+      "title": "다섯 키워드를 고객 경험 가설로 전환",
+      "phase": "브랜드 전략",
+      "brand": "all",
+      "status": "completed",
+      "request": "최상의 퀄리티, 품격, 유니크, 차별화, 선택받은이라는 키워드로 BX를 만든다.",
+      "decision": "선별의 이유를 설명하고, 생산과 재료의 정보를 정돈하며, 수령 이후까지 배려하는 방향으로 키워드를 구체화했다. 브랜드 정의와 표현 방향은 검토 중인 가설로 기록했다.",
+      "reason": "프리미엄이라는 주장만 반복하면 차이를 확인할 수 없으므로, 고객이 선택할 수 있는 근거와 실제 접점의 행동으로 옮기기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "브랜드 정의와 다섯 키워드",
+          "href": "?path=/docs/doc-bx-foundation--docs"
+        },
+        {
+          "label": "경험과 선별 노트",
+          "href": "?path=/docs/doc-bx-experience-principles--docs"
+        },
+        {
+          "label": "표현 방향과 언어·시각 원칙",
+          "href": "?path=/docs/doc-bx-creative-territories--docs"
+        }
+      ],
+      "outcome": "선별·기록·배려를 공통 방향으로 삼았다. 실제 농가 품질이나 효능을 입증한 것으로 표현하지 않았다."
+    },
+    {
+      "id": "warm-korean-naming",
+      "sequence": 7,
+      "title": "고운·담은에서 시작한 한국어 네이밍 탐색",
+      "phase": "네이밍",
+      "brand": "all",
+      "status": "completed",
+      "request": "네이밍 브리프에 맞는 후보를 만들고, 고운·담은처럼 따뜻하고 정갈한 어감의 이름을 찾는다.",
+      "decision": "부르기 쉬운 한국어, 기르는 정성과 담아 전하는 행위, 농산물에 맞는 친숙함을 탐색 기준으로 삼았다. 고운채와 여러 조합은 후보 탐색 과정으로 남겼다.",
+      "reason": "프리미엄을 거리감 있는 어휘로만 표현하지 않고, 생활 속 식재료 서비스에 어울리는 온도와 기억성을 함께 확보하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "브랜드 정의와 언어 방향",
+          "href": "?path=/docs/doc-bx-foundation--docs"
+        },
+        {
+          "label": "네이밍을 포함한 BX 결정 기록",
+          "href": "?path=/docs/doc-bx-decisions--docs"
+        }
+      ],
+      "outcome": "언어 방향을 좁혔다. 대화에서 요청한 미사용 브랜드명 여부나 상표 등록 가능성은 검증 완료로 처리하지 않았다."
+    },
+    {
+      "id": "gounbat-name-shortlist",
+      "sequence": 8,
+      "title": "고운밭을 첫 후보로 유지",
+      "phase": "네이밍",
+      "brand": "gounbat",
+      "status": "approved",
+      "request": "고운밭을 하나의 후보로 정하고, 고운에 다른 단어를 붙이거나 다른 방식으로 조합한 이름도 더 찾는다.",
+      "decision": "고운밭을 보존하며 추가 후보를 탐색했다. 고운은 정갈함·부드러운 결·기르는 정성, 밭은 재료의 출발점과 생산자의 일을 담는 브랜드 해석으로 정리했다.",
+      "reason": "이름만으로 친숙한 한국어의 온기와 농작물이라는 범주를 함께 전달할 수 있기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 최종 네이밍 서사",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        }
+      ],
+      "outcome": "고운밭은 네 후보 중 하나로 발전했다. 네 후보 전체에서 단일 상업 브랜드가 최종 선택된 것은 아니다."
+    },
+    {
+      "id": "mythological-naming",
+      "sequence": 9,
+      "title": "이솝과 같은 상징적 이름의 선택 관점으로 확장",
+      "phase": "네이밍",
+      "brand": "all",
+      "status": "completed",
+      "request": "설명적인 합성어 외에 이솝과 같은 네이밍 관점으로 접근하고, 여러 지역 신화의 인물을 후보로 찾는다.",
+      "decision": "단어가 제품을 직접 설명하는 정도보다, 이름에 담긴 이야기를 서비스의 태도와 경험으로 옮길 수 있는지를 검토했다. 원전의 내용과 현대 브랜드의 해석을 분리했다.",
+      "reason": "품목 변경에도 유지되는 의미와 장기적인 이야기 자산을 확보하기 위해서다.",
+      "evidence": [
+        {
+          "label": "원천강본풀이",
+          "url": "https://encykorea.aks.ac.kr/Article/E0040867"
+        },
+        {
+          "label": "Plutarch, Life of Theseus",
+          "url": "https://classics.mit.edu/Plutarch/theseus.html"
+        },
+        {
+          "label": "Alcman 단편을 수록한 Theoi / Herse",
+          "url": "https://www.theoi.com/Titan/Herse.html"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "브랜드와 제품의 구조",
+          "href": "?path=/docs/doc-bx-architecture--docs"
+        }
+      ],
+      "outcome": "오나리·헤칼레·에르사의 서사 방향을 비교할 근거를 마련했다. 모든 지역 신화를 망라하거나 명칭의 독점성을 확인했다는 의미는 아니다."
+    },
+    {
+      "id": "four-name-shortlist",
+      "sequence": 10,
+      "title": "고운밭·오나리·헤칼레·에르사 네 후보 선정",
+      "phase": "네이밍",
+      "brand": "all",
+      "status": "approved",
+      "request": "고운밭, 오날이에서 변형한 오나리, 헤칼레, 에르사로 후보군을 좁히고 각각의 매력·스토리·색·모티프·마케팅 개념을 발전시킨다.",
+      "decision": "네 이름을 독립적인 BX 프로젝트로 전개했다. 고운밭은 정성과 선별, 오나리는 여정과 일상, 헤칼레는 환대, 에르사는 이슬과 가까이 관찰하는 감각을 중심으로 해석했다.",
+      "reason": "동일한 프리미엄 농산물 서비스를 서로 다른 언어와 경험으로 구현해 비교할 수 있도록 하기 위해서다.",
+      "evidence": [
+        {
+          "label": "오나리 서사 근거",
+          "url": "https://encykorea.aks.ac.kr/Article/E0040867"
+        },
+        {
+          "label": "헤칼레 서사 근거",
+          "url": "https://classics.mit.edu/Plutarch/theseus.html"
+        },
+        {
+          "label": "에르사 서사 참고 문헌",
+          "url": "https://www.theoi.com/Titan/Herse.html"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "고운밭",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        },
+        {
+          "label": "ONARI",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-87"
+        },
+        {
+          "label": "HECALE",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168"
+        },
+        {
+          "label": "ERSA",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "네 후보의 디자인을 병행하는 범위가 확정됐다. 서사에 덧붙인 식재료·선별·일상의 의미는 이 프로젝트의 해석이다."
+    },
+    {
+      "id": "four-figma-stories",
+      "sequence": 11,
+      "title": "기존 BX 기록을 보존하고 네 개의 시각 스토리로 전개",
+      "phase": "브랜드 전략",
+      "brand": "all",
+      "status": "completed",
+      "request": "기존 Figma BX는 그대로 두고, 편집 가능한 5ivechain 팀 공간에 각 프로젝트의 시각 장표를 이야기 흐름으로 구성한다.",
+      "decision": "네 후보별 별도 Figma 파일과 시각 스토리를 구성하고, 이후 연구·제작 과정을 별도 페이지로 쌓았다. 기존 자료와 새 제안을 구분해 보존했다.",
+      "reason": "과거 결정을 지우지 않으면서 각 브랜드를 독립적으로 검토하고, 최종 포트폴리오와 제작 과정을 구분하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 원본 스토리",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=4-9"
+        },
+        {
+          "label": "오나리 원본 스토리",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=4-2"
+        },
+        {
+          "label": "헤칼레 원본 스토리",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=4-37"
+        },
+        {
+          "label": "에르사 프로젝트",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "Figma가 편집 원본, Storybook이 기록과 공유를 위한 진입점이 되는 연결 구조를 만들었다."
+    },
+    {
+      "id": "geometry-and-process",
+      "sequence": 12,
+      "title": "심볼을 독립된 제작 과제로 분리",
+      "phase": "아이덴티티",
+      "brand": "all",
+      "status": "completed",
+      "request": "심볼과 로고의 조형 완성도를 높이고, 아이콘 작도 체계·피보나치·황금비를 검토하며 제작 과정은 별도 페이지에 정리한다.",
+      "decision": "구조적 비례와 실제 윤곽을 분리해서 검토하고, 정역상·작은 크기·워드마크와의 조합을 함께 다뤘다. 제작 페이지에는 시안 비교와 수정 근거를 남겼다.",
+      "reason": "그리드가 정돈되어 있다는 이유만으로 심볼이 안정적이거나 차별적이라고 단정할 수 없으므로, 조형 인상과 사용 상황을 함께 확인하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 V5 제작",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=24-196"
+        },
+        {
+          "label": "오나리 V6 작도 연구",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=36-130"
+        },
+        {
+          "label": "헤칼레 밀도 보정",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=35-536"
+        }
+      ],
+      "outcome": "수학은 작도의 도구로 사용했다. Apple이 피보나치나 황금비를 특정 방식으로 적용했다는 공식 사실이나 수학적 비례가 미적 우수성을 보장한다는 주장으로 확대하지 않았다."
+    },
+    {
+      "id": "v3-selective-refinement",
+      "sequence": 13,
+      "title": "에르사를 유지하고 세 브랜드의 완성도 재검토",
+      "phase": "아이덴티티",
+      "brand": "all",
+      "status": "completed",
+      "request": "오나리·헤칼레·고운밭은 완성도가 부족하므로 개선하고, 에르사는 현재 방향을 사용할 수 있을 것으로 본다.",
+      "decision": "에르사 아이덴티티는 유지하면서 나머지 세 브랜드의 실루엣·자간·심볼과 로고의 관계를 반복 개선했다.",
+      "reason": "모든 브랜드를 동일한 수정 강도로 다루기보다 실제 피드백이 나온 부분에 집중하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "오나리 V3",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=22-166"
+        },
+        {
+          "label": "헤칼레 V3",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=26-463"
+        },
+        {
+          "label": "에르사 최종 유지 아이덴티티",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "에르사의 형태를 불필요하게 재설계하지 않는 원칙이 후속 응용과 최종 편집에도 이어졌다."
+    },
+    {
+      "id": "v4-gounbat-onari",
+      "sequence": 14,
+      "title": "고운밭·오나리 추가 수정과 한글 워드마크 정리",
+      "phase": "아이덴티티",
+      "brand": "all",
+      "status": "completed",
+      "request": "고운밭과 오나리를 한 번 더 업데이트하고 심볼의 의미와 조형 완성도를 높인다.",
+      "decision": "고운밭은 정갈한 밭의 질서와 맞춤 한글을 다듬고, 오나리는 이후 비교를 위한 형태와 워드마크 기반을 정리했다.",
+      "reason": "초기 방향만으로는 이름의 의미와 조형 인상이 충분히 결합되지 않았기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 V4",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=20-367"
+        },
+        {
+          "label": "오나리 후속 제작 과정",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=32-124"
+        }
+      ],
+      "outcome": "고운밭 V4의 맞춤 한글은 후속 V5 심볼과 최종 포트폴리오에 이어졌다. 오나리의 이 단계 아이덴티티는 이후 영어 A안으로 교체됐다."
+    },
+    {
+      "id": "gounbat-v5-field",
+      "sequence": 15,
+      "title": "고운밭 V5 — 고운 결과 밭의 구조를 결합",
+      "phase": "아이덴티티",
+      "brand": "gounbat",
+      "status": "completed",
+      "request": "고운밭은 곱다와 밭이라는 두 키워드가 시각적으로 느껴져야 한다.",
+      "decision": "네 개의 부드러운 밭면과 중앙의 길, 내부 고랑을 결합했다. 정갈한 분할과 유연한 면의 균형을 맞추고 V4 한글 워드마크를 유지했다.",
+      "reason": "작물 아이콘 하나에 의존하지 않고 경작의 질서와 기르는 정성을 이름의 구조와 연결하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 V5 제작 원본",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=24-196"
+        },
+        {
+          "label": "고운밭 최종 적용",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        }
+      ],
+      "outcome": "V5 심볼과 V4 맞춤 한글이 최종 고운밭의 기준으로 사용됐다. 생산자의 실제 작업 방식이나 특정 작물의 모습을 입증하는 도상은 아니다."
+    },
+    {
+      "id": "hecale-v5-density",
+      "sequence": 16,
+      "title": "헤칼레 V5 — 시그니처에서 약했던 심볼 밀도 보정",
+      "phase": "아이덴티티",
+      "brand": "hecale",
+      "status": "completed",
+      "request": "헤칼레 심볼은 괜찮지만 로고와 함께 쓰일 때 밀도감이 약해 보이는 문제를 해결한다.",
+      "decision": "H의 기본 실루엣과 워드마크를 보존하면서 시그니처용 몸체와 연결부를 보강했다. 심볼과 글자의 높이·간격을 조정하고 실제 벡터 바운드에 맞게 배치를 정리했다.",
+      "reason": "심볼 단독의 형상 문제보다 조합 안에서의 시각적 무게 차이가 핵심이었기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "헤칼레 V5 밀도 보정",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=35-536"
+        },
+        {
+          "label": "헤칼레 최종 시그니처",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168"
+        }
+      ],
+      "outcome": "연결부 5u→8u, 몸체 18u→20.5u 조정과 배치 보정을 기록했다. 단독 Display·Micro 형태와 시그니처용 형태의 사용 맥락을 구분했다."
+    },
+    {
+      "id": "onari-v5-apple-association",
+      "sequence": 17,
+      "title": "오나리 V5 — 대칭·긴장감 실험에서 드러난 유사 인상",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "superseded",
+      "request": "정확한 대칭 안의 긴장감을 참고하되, 애플 로고가 너무 연상되지 않도록 한다.",
+      "decision": "대칭의 그릇 몸체에 한쪽 절개와 분리된 잎을 더한 시안을 검토했으나, 이 세 요소의 결합이 강한 유사 인상을 만든다는 피드백을 수용해 교체했다.",
+      "reason": "기하학적 비례가 다르더라도 둥근 몸체·측면의 베어문 영역·우상단 잎이 함께 나타나면 브랜드 고유성이 약해질 수 있기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "오나리 V5 비교 기록",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=32-124"
+        }
+      ],
+      "outcome": "V5는 과정 기록으로 남겼다. 대칭은 절개 전 몸체의 구조를 뜻하며, 완성 심볼 전체가 좌우 대칭이라는 설명은 사용하지 않는다."
+    },
+    {
+      "id": "onari-v6-returning-rim",
+      "sequence": 18,
+      "title": "오나리 V6 — 수학적 작도와 시각적 안정감의 간극",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "superseded",
+      "request": "개념과 작도 원리는 유지하되 피보나치·황금비에 기반한 독자적인 형태로 개선한다.",
+      "decision": "외부의 베어문 부분과 분리된 잎을 제거하고, 내부로 돌아오는 림을 하나의 연속 형태로 설계했다. 정확한 황금비와 피보나치 비율의 근사, 접선 연속과 광학 보정을 구분해 기록했다.",
+      "reason": "유사 인상을 줄이고 구조의 일관성을 높이려 했으나, 사용자는 위장을 연상하고 그릇이 위태롭게 보인다고 평가했다.",
+      "evidence": [
+        {
+          "label": "GoldenRatio 정의",
+          "url": "https://reference.wolfram.com/language/ref/GoldenRatio.html"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "오나리 V6 작도와 비교",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=36-130"
+        }
+      ],
+      "outcome": "수학적 설명이 충분해도 형태가 안정적으로 읽히지 않을 수 있음을 확인했다. V6는 후속 안정화 시안으로 대체했다."
+    },
+    {
+      "id": "onari-v7-rounded-line",
+      "sequence": 19,
+      "title": "오나리 V7 — 안정화 후에도 남은 두꺼운 선 아이콘 인상",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "superseded",
+      "request": "위장이나 불안한 그릇처럼 보이지 않도록 안정적이고 심리스한 심볼로 개선한다.",
+      "decision": "받침과 열린 공간의 균형을 다시 잡았으나, 여러 둥근 접점과 일정한 두께가 반복되는 형태가 두꺼운 라인 아이콘처럼 읽힌다는 피드백을 받았다.",
+      "reason": "개별 라운드가 눈에 띄면서 하나의 심볼로 통합된 인상보다 부품을 이어 붙인 인상이 강해졌기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "오나리 V7 제작 기록",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=40-118"
+        }
+      ],
+      "outcome": "선의 끝과 코너를 계속 보정하는 접근에서, 큰 면과 여백의 관계를 다시 설계하는 접근으로 전환했다."
+    },
+    {
+      "id": "onari-v8-mass-space",
+      "sequence": 20,
+      "title": "오나리 V8 — 선에서 면과 여백으로 전환",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "superseded",
+      "request": "두꺼운 선 아이콘과 산만한 라운드 인상을 피하고 다른 방식으로 완성도를 높인다.",
+      "decision": "접힌 자리라는 방향으로 큰 덩어리와 열린 내부 공간을 설계했다. 반복되는 둥근 끝 대신 면의 실루엣을 중심으로 정역상과 작은 크기를 비교했다.",
+      "reason": "분절된 디테일보다 전체 윤곽을 먼저 인지하게 해 심볼의 응집력을 높이기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "오나리 V8 Mass & Space",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=48-203"
+        }
+      ],
+      "outcome": "사용자가 직접 편집한 V8 출발형이 후속 V9에 별도 보존됐다. 숟가락과 그릇으로 읽힌다면 숟가락의 특징을 더 명확히 해야 한다는 다음 피드백으로 이어졌다."
+    },
+    {
+      "id": "onari-v9-spoon-bowl",
+      "sequence": 21,
+      "title": "오나리 V9 — 숟가락과 그릇의 도상 명료화",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "superseded",
+      "request": "숟가락을 그릇에 담는 형태라면 숟가락의 특징이 더 드러나야 하고, 그릇도 더 전문적으로 다듬어야 한다.",
+      "decision": "사용자 편집 형태를 보존한 채 새로운 마스터를 만들고, 대칭의 그릇과 숟가락의 음각이 구분되는 Spoon in a Bowl 방향을 적용했다.",
+      "reason": "의도한 식사 도상이 드러나지 않으면 큰 면으로 단순화한 효과만으로 브랜드 의미를 전달하기 어렵기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "오나리 V9 Spoon & Bowl",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=57-118"
+        }
+      ],
+      "outcome": "식기 도상의 인지성을 개선한 연구안으로 남겼다. 이후 사용자가 제공한 한국 음식점 엠블럼 참고와 문양 연구, 최종 선택 심볼로 방향이 이동했다."
+    },
+    {
+      "id": "onari-v10-emblem",
+      "sequence": 22,
+      "title": "오나리 V10 — 압축된 문양과 한글의 관계 연구",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "superseded",
+      "request": "사용자가 제공한 음식점 로고 사례들을 참고해 오나리를 다시 작업한다.",
+      "decision": "장식 자체보다 엠블럼의 응집력, 명확한 축, 글자와 심볼의 먹 면적을 연구했다. 돌아오는 길·열린 흐름의 C1 문양과 수정한 T1 한글 조합을 적용했다.",
+      "reason": "금박·벽면 질감 등의 연출 없이도 단색 형태가 성립해야 한다는 기준으로 조형과 타이포그래피를 함께 평가하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "오나리 V10 문양·한글 비교",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=63-117"
+        },
+        {
+          "label": "오나리 당시 웹·모바일·패키지",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=43-293"
+        }
+      ],
+      "outcome": "한글은 기존 서체 윤곽을 수정한 레터링이며 완전한 독자 서체로 주장하지 않는다. 문양에 검증되지 않은 전통적 계보를 부여하지 않았고, 이 안은 최종 ONARI A안으로 대체됐다."
+    },
+    {
+      "id": "applications-v11",
+      "sequence": 23,
+      "title": "네 브랜드의 응용 애플리케이션 확장",
+      "phase": "응용 디자인",
+      "brand": "all",
+      "status": "completed",
+      "request": "시니어 BX 디자이너 에이전트들을 병행해 첨부한 패키지 사례처럼 다양한 적용 예시를 프로젝트별로 더 만든다.",
+      "decision": "브랜드별로 패키지·라벨·태그·카드·운반 및 전달 접점 등을 개별 적용 장면과 편집 가능한 원본으로 확장했다. 기존 아이덴티티를 각 매체에 연결했다.",
+      "reason": "로고 한 장의 완성도뿐 아니라 서로 다른 크기와 재질, 정보량 속에서 브랜드가 일관되게 작동하는지 비교하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 Applications V11",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=40-186"
+        },
+        {
+          "label": "오나리 Applications V11",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=70-94"
+        },
+        {
+          "label": "헤칼레 Applications V11",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=53-770"
+        },
+        {
+          "label": "에르사 Applications V11",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=38-560"
+        }
+      ],
+      "outcome": "응용 범위를 넓혔다. 실사처럼 보이는 적용 장면은 AI 연출 목업이며 실제 생산·인쇄·촬영 결과로 취급하지 않는다."
+    },
+    {
+      "id": "community-cards-and-small-guides",
+      "sequence": 24,
+      "title": "과채 카드 활용과 작은 선형 가이드",
+      "phase": "응용 디자인",
+      "brand": "all",
+      "status": "completed",
+      "request": "Fruits And Vegetables Cards 자료를 활용하고, 제작 도해는 컬러 면 대신 선 벡터로 작게 모아 둔다. 개별 적용 모습의 비중을 높인다.",
+      "decision": "제공된 과채 사진을 품목 카드·태그·라벨의 소재로 연결하고, 도해는 작은 안내 영역으로 정리했다. 대표 장면과 적용물의 크기를 키우는 편집 원칙을 채택했다.",
+      "reason": "자료를 설명하는 장표가 포트폴리오의 주인공이 되지 않고, 사용자가 실제로 보게 될 모습이 중심에 오도록 하기 위해서다.",
+      "evidence": [
+        {
+          "label": "Fruits And Vegetables Cards 원본",
+          "url": "https://www.figma.com/design/l6ZdUA57rQV9gw5jdruwXs?node-id=0-1"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "오나리 V12 개별 적용과 가이드",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=76-87"
+        }
+      ],
+      "outcome": "커뮤니티 사진을 사용한 부분과 새로 생성한 적용 장면을 구분했다. 원본 사진을 새로 제작한 벡터나 자체 촬영 자산으로 표기하지 않았다."
+    },
+    {
+      "id": "applications-v12-four-brands",
+      "sequence": 25,
+      "title": "선형 도해와 실사형 적용 예시를 네 프로젝트로 확대",
+      "phase": "응용 디자인",
+      "brand": "all",
+      "status": "completed",
+      "request": "선으로만 표현하는 도해를 모든 프로젝트에 적용하고, 실사 버전의 응용 장면도 모두 추가한다.",
+      "decision": "V12에서 브랜드별 개별 장면과 응용 원본을 확장해 총 24개 장표, 신규 실사형 목업 16장, 선형 응용 48개를 정리했다.",
+      "reason": "특정 브랜드만 풍부해 보이는 비교 불균형을 줄이고, 도해와 실제 적용 장면의 역할을 분리하기 위해서다.",
+      "evidence": [
+        {
+          "label": "공통 과채 사진 소재",
+          "url": "https://www.figma.com/design/l6ZdUA57rQV9gw5jdruwXs?node-id=0-1"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "고운밭 V12",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=50-175"
+        },
+        {
+          "label": "오나리 V12",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=76-87"
+        },
+        {
+          "label": "헤칼레 V12",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=60-182"
+        },
+        {
+          "label": "에르사 V12",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=47-246"
+        }
+      ],
+      "outcome": "각 브랜드의 적용 가능성을 비교할 시각 자료를 확장했다. 장면 수는 사업 운영 품목 수나 제작 완료 수량을 의미하지 않는다."
+    },
+    {
+      "id": "outline-v13-exploration",
+      "sequence": 26,
+      "title": "자연 선화와 캐릭터 자료를 검토한 V13 탐색",
+      "phase": "응용 디자인",
+      "brand": "all",
+      "status": "superseded",
+      "request": "자연 과채 doodle과 Retro Foodie Characters 자료의 아웃라인을 브랜드별 개념에 맞게 편집해 활용한다.",
+      "decision": "자연 선화의 품목 선택·색·여백을 편집하고 캐릭터 자료도 보조 응용 가능성을 검토했다. 두 출처를 구분해 기록했다.",
+      "reason": "같은 농산물 범주 안에서도 자연스러운 관찰 이미지와 의인화 캐릭터는 서로 다른 브랜드 인상을 만들기 때문이다.",
+      "evidence": [
+        {
+          "label": "자연 과채 아웃라인 원본",
+          "url": "https://www.figma.com/design/hYY8EgyKUpJtOwb6Yfw1bh?node-id=2-2"
+        },
+        {
+          "label": "검토 후 최종 제외된 캐릭터 자료",
+          "url": "https://www.figma.com/design/2u10b8WitH3pRSU11hOajF?node-id=2002-3"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "수정 후 고운밭 V13",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=57-175"
+        },
+        {
+          "label": "수정 후 오나리 V13",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=83-87"
+        }
+      ],
+      "outcome": "캐릭터를 적용한 초기 방향은 이후 사용자 요청으로 폐기했다. 공개 링크는 캐릭터 제거 후의 현재 페이지를 가리키며, 당시 화면이 보존된 링크라는 의미는 아니다."
+    },
+    {
+      "id": "remove-character-illustrations",
+      "sequence": 27,
+      "title": "캐릭터를 네 브랜드의 최종 응용에서 제거",
+      "phase": "응용 디자인",
+      "brand": "all",
+      "status": "approved",
+      "request": "캐릭터 같은 일러스트는 제거한다.",
+      "decision": "네 프로젝트의 캐릭터 벡터·인스턴스·관련 가이드·적용 목업 속 캐릭터를 제거하고, 공유 묶음에서도 제외했다. 고운밭·오나리·헤칼레에는 자연 과채 선화만 작은 보조 요소로 남겼다.",
+      "reason": "캐릭터의 표정과 인격화가 프리미엄 식재료의 절제된 인상과 충돌한다는 사용자 방향을 반영하기 위해서다.",
+      "evidence": [
+        {
+          "label": "남긴 자연 선화의 출처",
+          "url": "https://www.figma.com/design/hYY8EgyKUpJtOwb6Yfw1bh?node-id=2-2"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "고운밭 캐릭터 제거 반영",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=57-175"
+        },
+        {
+          "label": "오나리 캐릭터 제거 반영",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=83-87"
+        },
+        {
+          "label": "헤칼레 캐릭터 제거 반영",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=66-187"
+        }
+      ],
+      "outcome": "V13 최종 구성의 캐릭터 수는 0으로 기록됐다. 자연 선화 일부는 선을 면 경로로 확장한 벡터이므로 SVG fill을 일괄 삭제하는 방식으로 편집하지 않는다."
+    },
+    {
+      "id": "ersa-photography-restored",
+      "sequence": 28,
+      "title": "에르사는 기존 과채 실사 이미지를 그대로 유지",
+      "phase": "응용 디자인",
+      "brand": "ersa",
+      "status": "approved",
+      "request": "에르사는 기존처럼 실사 이미지를 그대로 적용한다.",
+      "decision": "에르사의 선화·캐릭터 방향을 철회하고 기존 V12 과채 사진과 적용 목업을 그대로 재사용했다. V13에서 루콜라·아스파라거스·딸기 사진과 기존 인쇄 마스터를 연결했다.",
+      "reason": "재료를 가까이 관찰하는 에르사의 방향에는 실사 사진이 직접적이며, 승인된 자산의 불필요한 변형을 피할 수 있기 때문이다.",
+      "evidence": [
+        {
+          "label": "에르사 과채 사진의 원본",
+          "url": "https://www.figma.com/design/l6ZdUA57rQV9gw5jdruwXs?node-id=0-1"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "에르사 V13 사진 유지본",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=51-270"
+        }
+      ],
+      "outcome": "V13 전체 실사형 목업 8장 중 에르사 2장은 기존 이미지 재사용으로 구분했다. 에르사 최종 포트폴리오에도 자연 선화와 캐릭터를 넣지 않았다."
+    },
+    {
+      "id": "onari-user-symbol-selection",
+      "sequence": 29,
+      "title": "오나리 심볼의 사용자 선택본 지정",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "approved",
+      "request": "Figma의 50:3185 심볼을 기준으로 하고 로고를 영문으로 쓰는 방향을 검토한다.",
+      "decision": "사용자가 지정한 캡슐형 심볼을 변경하지 않고 영어 워드마크와의 조합을 비교하는 기준 원본으로 삼았다.",
+      "reason": "다수의 조형 연구를 마친 시점에서 선택된 심볼을 고정해야 워드마크의 무게·폭·간격을 공정하게 비교할 수 있기 때문이다.",
+      "evidence": [
+        {
+          "label": "사용자가 지정한 오나리 심볼",
+          "url": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=50-3185"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "오나리 영어 워드마크 비교",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=93-212"
+        }
+      ],
+      "outcome": "이전 V5–V10 심볼은 연구 이력으로 남기고, 선택된 원본을 현재 아이덴티티의 출발점으로 사용했다."
+    },
+    {
+      "id": "onari-v14-a-approved",
+      "sequence": 30,
+      "title": "ONARI V14 — 첫 번째 권고안 A 확정",
+      "phase": "아이덴티티",
+      "brand": "onari",
+      "status": "approved",
+      "request": "첫 번째 권고안의 오나리 로고와 심볼로 고정한다.",
+      "decision": "사용자가 선택한 심볼과 DM Sans Medium 대문자 ONARI의 A 조합을 확정했다. 정역상 마스터를 기준으로 이후 포트폴리오와 적용물에 전개했다.",
+      "reason": "선택 심볼의 면 밀도와 영문 워드마크의 절제된 인상을 조율하면서, 다른 후보와의 혼용을 끝내기 위해서다.",
+      "evidence": [
+        {
+          "label": "선택 심볼 원본",
+          "url": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=50-3185"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "V14 A 비교·선정 기록",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=93-212"
+        },
+        {
+          "label": "V14 A Ink 마스터",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=93-107"
+        },
+        {
+          "label": "V14 A Paper 마스터",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=93-108"
+        }
+      ],
+      "outcome": "ONARI의 현재 승인 아이덴티티는 A안이다. 브랜드명 전체 후보 네 개 중 오나리를 상업 브랜드로 최종 선정했다는 뜻과는 구분한다."
+    },
+    {
+      "id": "v15-editorial-structure",
+      "sequence": 31,
+      "title": "최종 포트폴리오의 공통 이야기 구조 설계",
+      "phase": "최종 포트폴리오",
+      "brand": "all",
+      "status": "completed",
+      "request": "축적된 자료로 각 이름의 선정과 소개를 완성된 BX 포트폴리오로 정리하고, Konny 사례의 구성과 스토리 흐름을 적극 참고한다.",
+      "decision": "Hero → 프로젝트 목표 → 이름과 개념 → 슬로건 → 심볼·워드마크 → 시각 체계 → 큰 응용 장면 → 웹·모바일 → 마무리의 흐름으로 네 프로젝트를 정리했다. 신규 브랜드이므로 OLD/NEW 비교 대신 이름에서 아이덴티티로 이어지는 논리를 사용했다.",
+      "reason": "각 시안의 수를 나열하는 자료집에서 벗어나, 이름의 의미가 실제 경험에 어떻게 이어지는지 한 번에 읽히도록 하기 위해서다.",
+      "evidence": [
+        {
+          "label": "참고한 Plus X / Konny 공식 프로젝트",
+          "url": "https://www.plus-ex.com/source/iframe/m/portfolio/konny.html"
+        },
+        {
+          "label": "사용자가 지정한 Experience 링크",
+          "url": "https://www.plus-ex.com/experience#konny"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "고운밭 FINAL",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        },
+        {
+          "label": "ONARI FINAL",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-87"
+        },
+        {
+          "label": "HECALE FINAL",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168"
+        },
+        {
+          "label": "ERSA FINAL",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "레퍼런스의 편집 흐름은 작업 기록에 명시했다. 개별 문장·아이덴티티·적용 장면은 네 브랜드의 선택된 자산으로 구성했다."
+    },
+    {
+      "id": "gounbat-v15-final",
+      "sequence": 32,
+      "title": "고운밭 FINAL — 정성이 보이는 먹거리의 기준",
+      "phase": "최종 포트폴리오",
+      "brand": "gounbat",
+      "status": "completed",
+      "request": "고운밭의 이름과 승인된 아이덴티티가 실제 서비스 경험으로 이어지는 최종 소개를 만든다.",
+      "decision": "고이 기른 것을, 고르게 골라 전한다는 문장 아래 밭·선별·기록·수령·식탁의 흐름을 구성했다. 네 밭면 심볼과 맞춤 한글, 작은 자연 선화, 종이와 재료의 사진을 연결했다.",
+      "reason": "친숙한 이름의 온기를 유지하면서도 정성이 어떻게 보이고 확인되는지 구체적인 장면으로 설명하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 FINAL 20개 장표",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        }
+      ],
+      "outcome": "20개 장표, 구분되는 사진 장면 11개(신규 4·재사용 7), 편집 가능한 데스크톱 1개·모바일 3개로 정리했다. 상품·가격·생산 기록은 디자인 예시다."
+    },
+    {
+      "id": "onari-v15-final",
+      "sequence": 33,
+      "title": "ONARI FINAL — Good ingredients, everyday.",
+      "phase": "최종 포트폴리오",
+      "brand": "onari",
+      "status": "completed",
+      "request": "확정한 A 아이덴티티로 오나리의 이름·일상·응용을 일관되게 보여준다.",
+      "decision": "고이 기른 재료를, 일상으로라는 문장과 함께 선택된 심볼·영어 ONARI를 전개했다. 이전 사진 응용 중 6개를 수정해 현재 아이덴티티와 맞추고 디지털 화면 및 인쇄 원본을 연결했다.",
+      "reason": "과거 시안의 로고가 사진에 남아 있을 경우 최종 방향을 오해할 수 있으므로, 편집 가능한 원본과 사진 속 적용을 함께 정렬하기 위해서다.",
+      "evidence": [
+        {
+          "label": "이름의 서사 자료",
+          "url": "https://encykorea.aks.ac.kr/Article/E0040867"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "ONARI FINAL 20개 장표",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-87"
+        },
+        {
+          "label": "승인 A 마스터",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=93-107"
+        }
+      ],
+      "outcome": "20개 장표, 구분되는 사진 장면 11개(신규 4·수정 6·재사용 1), 데스크톱 1개·모바일 3개, 인쇄 마스터 8개를 연결했다. 원전의 여정과 귀환을 일상 식재료로 해석한 것이며 신화 자체가 식재료 브랜드를 뜻하지 않는다."
+    },
+    {
+      "id": "hecale-v15-final",
+      "sequence": 34,
+      "title": "HECALE FINAL — A considered table",
+      "phase": "최종 포트폴리오",
+      "brand": "hecale",
+      "status": "completed",
+      "request": "헤칼레의 환대라는 이름의 매력을 선택·전달·받은 뒤의 경험으로 확장한다.",
+      "decision": "좋은 재료가, 좋은 대접이 되는 곳이라는 문장 아래 H 시그니처와 세리프, 선물과 식탁의 사진, 선택과 전달 과정의 정보 구조를 연결했다.",
+      "reason": "환대를 막연한 감성 문구로 끝내지 않고 포장·안내·보관·선물과 같은 접점의 배려로 설명하기 위해서다.",
+      "evidence": [
+        {
+          "label": "Plutarch, Life of Theseus의 환대 서사",
+          "url": "https://classics.mit.edu/Plutarch/theseus.html"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "HECALE FINAL 21개 장표",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168"
+        }
+      ],
+      "outcome": "21개 장표, 구분되는 사진 장면 11개(신규 4·재사용 7), 데스크톱 2개·모바일 3개로 정리했다. 환대의 기록과 현대 식탁 경험의 해석을 구분했다."
+    },
+    {
+      "id": "ersa-v15-final",
+      "sequence": 35,
+      "title": "ERSA FINAL — A Closer Look at Food",
+      "phase": "최종 포트폴리오",
+      "brand": "ersa",
+      "status": "completed",
+      "request": "에르사의 기존 아이덴티티와 실사 사진 방향을 유지해 최종 포트폴리오를 완성한다.",
+      "decision": "자세히 볼수록, 좋은 식재료라는 문장 아래 Observe → Understand → Choose의 흐름을 만들고, 가까운 재료 사진·선별 정보·구매 화면을 연결했다.",
+      "reason": "재료의 표면과 정보에 주의를 기울이는 태도를 통해 조용하고 선명한 프리미엄 인상을 만들기 위해서다.",
+      "evidence": [
+        {
+          "label": "Alcman 단편의 이슬 관련 참고 자료",
+          "url": "https://www.theoi.com/Titan/Herse.html"
+        }
+      ],
+      "artifacts": [
+        {
+          "label": "ERSA FINAL 20개 장표",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "20개 장표, 구분되는 사진 장면 10개(신규 4·재사용 6), 데스크톱 1개·모바일 3개로 정리했다. 캐릭터·자연 선화를 사용하지 않았으며, 품목 번호 중복은 검토 후 수정했다."
+    },
+    {
+      "id": "v15-cross-project-review",
+      "sequence": 36,
+      "title": "81개 장표와 43개 사진 장면의 최종 검토",
+      "phase": "최종 포트폴리오",
+      "brand": "all",
+      "status": "completed",
+      "request": "최상의 품질을 목표로 네 프로젝트를 정리하고 편집 가능한 결과로 완성한다.",
+      "decision": "기존 마스터 보존, 미승인 아이덴티티 혼용, 텍스트 넘침, 빈 이미지, 임시 문구, 캐릭터 잔존, 웹·모바일 편집 가능 여부를 점검했다. 실제 Figma 장표 이미지로 결과를 검토했다.",
+      "reason": "한 장의 연출 컷만으로 전체 품질을 판단하지 않고, 긴 포트폴리오와 작은 적용물에서 일관성을 확인하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 검토 대상",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        },
+        {
+          "label": "ONARI 검토 대상",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-87"
+        },
+        {
+          "label": "HECALE 검토 대상",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168"
+        },
+        {
+          "label": "ERSA 검토 대상",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "총 81개 장표와 구분되는 사진 장면 43개(신규 16·수정 6·재사용 21), 데스크톱 5개·모바일 12개를 정리했다. 사진의 재배치·크롭·UI 속 반복 사용을 새 장면으로 중복 집계하지 않았다. 실물 인쇄·상표·소비자 검증 완료를 뜻하지 않는다."
+    },
+    {
+      "id": "final-reference-removal",
+      "sequence": 37,
+      "title": "FINAL 페이지에서 레퍼런스 이름 제거",
+      "phase": "최종 포트폴리오",
+      "brand": "all",
+      "status": "approved",
+      "request": "FINAL에는 Konny나 Plus X 언급 없이 순수한 포트폴리오 내용만 보이게 한다.",
+      "decision": "네 FINAL 페이지의 본문·레이어 이름·컴포넌트 설명에서 해당 레퍼런스 언급을 제거하고 관련 PDF·공유 묶음을 갱신했다. 신화 자료와 실제 사용한 외부 자산의 출처, AI 목업 안내는 유지했다.",
+      "reason": "최종 포트폴리오는 각 브랜드의 이야기로 읽혀야 하며, 편집 참고 자료와 수정 과정은 작업 기록에서 다루는 것이 적절하기 때문이다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "고운밭 FINAL",
+          "href": "https://www.figma.com/design/3JEaeYuda4UHEdmmWZ4Yz7?node-id=68-181"
+        },
+        {
+          "label": "ONARI FINAL",
+          "href": "https://www.figma.com/design/tL8e6q4a3PfFu5QPu3kMNO?node-id=99-87"
+        },
+        {
+          "label": "HECALE FINAL",
+          "href": "https://www.figma.com/design/bVEsMFiVL6iCkqtlERkYZF?node-id=77-168"
+        },
+        {
+          "label": "ERSA FINAL",
+          "href": "https://www.figma.com/design/F5zUdVh3BkWK1xkuWkyICM?node-id=63-84"
+        }
+      ],
+      "outcome": "FINAL의 레퍼런스 언급 제거를 반영했다. 이 작업 기록은 리서치와 제작 경위를 투명하게 남기는 역할이므로 실제 참고 관계를 삭제하지 않는다."
+    },
+    {
+      "id": "two-storybooks",
+      "sequence": 38,
+      "title": "작업 기록과 운영 기준을 두 Storybook으로 분리",
+      "phase": "문서 운영",
+      "brand": "all",
+      "status": "open",
+      "request": "작업 후 Storybook을 업데이트한다. 모든 개발 과정의 기록과 실제 서비스 운영자에게 공유할 기준을 두 개로 나누고 배포 URL을 제공한다.",
+      "decision": "작업 기록은 조사·후보·시안·변경 이유·결정 이력을 보존하고, 운영 기준은 현재 승인된 자산과 사용 규칙·담당자 확인이 필요한 항목을 중심으로 제공한다.",
+      "reason": "과정의 투명성과 실무자가 바로 사용할 기준은 읽는 목적이 다르므로, 과거 시안을 현재 규칙으로 오해하지 않게 분리하기 위해서다.",
+      "evidence": [],
+      "artifacts": [
+        {
+          "label": "기존 문서 상태와 결정 기록",
+          "href": "?path=/docs/doc-ops-governance--docs"
+        },
+        {
+          "label": "기존 BX 결정 기록",
+          "href": "?path=/docs/doc-bx-decisions--docs"
+        }
+      ],
+      "outcome": "두 사이트의 구조와 기록 범위를 승인된 요청으로 정리했다. 이 항목의 작성 시점에는 배포 및 실제 URL 검증을 별도로 진행 중이며, 구현 완료 여부는 배포 확인 후 갱신한다."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "business-facts-open",
+      "title": "사업 조건은 검증 전 상태로 유지",
+      "status": "open",
+      "scope": "사업·운영",
+      "decision": "작물·농가·원산지·인증·공급량·가격·배송·교환·환불·채널 연동·인력 배치는 실제 확인 전까지 확정 정책으로 기재하지 않는다.",
+      "rationale": "초기 구상과 디자인 예시에 등장한 수치나 서비스 조건은 실제 운영 계약·검증 자료를 대체할 수 없다."
+    },
+    {
+      "id": "four-candidates",
+      "title": "네 이름을 비교 가능한 후보 프로젝트로 유지",
+      "status": "approved",
+      "scope": "네이밍",
+      "decision": "고운밭·오나리·헤칼레·에르사를 각각의 BX 프로젝트로 발전시킨다. 하나의 최종 상업 브랜드 선택과는 구분한다.",
+      "rationale": "사용자가 네 후보로 좁힌 뒤 프로젝트별 디자인과 최종 소개를 요청했다."
+    },
+    {
+      "id": "naming-clearance-open",
+      "title": "미사용 이름·상표 가능성은 별도 검증",
+      "status": "open",
+      "scope": "네이밍",
+      "decision": "검색 결과나 어감 평가만으로 미사용 브랜드 또는 상표 등록 가능 이름으로 보증하지 않는다.",
+      "rationale": "대화에서 미사용 이름을 요청했지만 명칭의 권리 검증이 완료된 근거는 이 기록에 없다."
+    },
+    {
+      "id": "research-scope",
+      "title": "조사 범위를 목적 표본과 공개 카탈로그로 제한해 표기",
+      "status": "approved",
+      "scope": "리서치 문서",
+      "decision": "국내외 35개 사례와 Plus X 공개 프로젝트 146개를 조사 범위로 명시하고, 전수조사·사업 성과 검증으로 확장하지 않는다.",
+      "rationale": "실제 수집 범위와 검토 깊이가 다른 자료를 동일한 수준의 증거로 취급하지 않기 위한 문서 기준이다."
+    },
+    {
+      "id": "myth-and-interpretation",
+      "title": "신화 기록과 브랜드 해석을 구분",
+      "status": "approved",
+      "scope": "네이밍·스토리",
+      "decision": "오나리의 원천강본풀이, 헤칼레의 환대, 에르사의 이슬 관련 자료는 출처와 함께 제시한다. 현대 식재료 서비스로 연결한 의미는 브랜드의 해석이라고 밝힌다.",
+      "rationale": "역사 자료에 없는 효능·상징·전통을 창작한 뒤 원래 의미인 것처럼 설명하지 않기 위해서다."
+    },
+    {
+      "id": "preserve-history",
+      "title": "기존 BX와 제작 이력을 보존",
+      "status": "approved",
+      "scope": "Figma·작업 기록",
+      "decision": "기존 자료를 지우고 최신안만 남기지 않는다. 최종 원본과 과거 시안은 버전·상태·링크로 구분한다.",
+      "rationale": "사용자가 기존 BX를 유지한 채 새 시각 스토리와 별도 제작 과정 페이지를 요청했다."
+    },
+    {
+      "id": "ersa-identity-preserved",
+      "title": "에르사 승인 아이덴티티 유지",
+      "status": "approved",
+      "scope": "ERSA",
+      "decision": "기존 심볼·워드마크를 최종 응용과 포트폴리오의 기준으로 유지한다.",
+      "rationale": "사용자가 에르사는 현재 방향을 사용할 수 있다고 판단했고 이후에도 사진 중심 응용을 요청했다."
+    },
+    {
+      "id": "geometry-is-tool",
+      "title": "수학적 규칙은 작도 도구로 사용",
+      "status": "approved",
+      "scope": "아이덴티티 제작",
+      "decision": "정확한 비율과 근사, 기하학적 대칭과 광학 보정, 접선 연속과 곡률 연속을 구분한다. 황금비 사용을 미적 우수성이나 특정 기업의 공식 제작 방식에 대한 증거로 주장하지 않는다.",
+      "rationale": "사용자는 수학적 작도를 요청했지만 이후 형태의 불안정함을 지적했다. 작도 논리와 실제 시각 인상은 함께 검토해야 한다."
+    },
+    {
+      "id": "gounbat-current-identity",
+      "title": "고운밭은 V5 심볼과 V4 맞춤 한글 사용",
+      "status": "approved",
+      "scope": "고운밭",
+      "decision": "네 개의 밭면·길·고랑으로 구성한 V5 심볼과 V4의 맞춤 한글을 후속 적용의 기준으로 삼는다.",
+      "rationale": "곱다와 밭이 함께 느껴지는 조형 방향을 반영했고 최종 포트폴리오도 이 조합을 보존했다."
+    },
+    {
+      "id": "hecale-signature-density",
+      "title": "헤칼레는 조합 상황에 맞는 심볼 밀도 적용",
+      "status": "approved",
+      "scope": "HECALE",
+      "decision": "기존 H의 개념을 유지하고 시그니처용 몸체·연결부·크기·간격을 조정한 V5를 사용한다. 단독 형태와 조합 형태의 용도를 구분한다.",
+      "rationale": "문제는 심볼의 개념보다 워드마크와 함께 있을 때의 시각적 무게 차이였다."
+    },
+    {
+      "id": "onari-v5-direction",
+      "title": "오나리의 잎·측면 절개·대칭 몸체 조합",
+      "status": "superseded",
+      "scope": "ONARI V5",
+      "decision": "대칭 몸체에 잎과 절개로 긴장감을 만드는 방향을 연구했으나 현재 기준에서는 사용하지 않는다.",
+      "rationale": "Apple 연상이 강하다는 사용자 피드백으로 독자적인 실루엣을 다시 연구했다."
+    },
+    {
+      "id": "onari-v6-direction",
+      "title": "오나리의 내부로 돌아오는 림 구조",
+      "status": "superseded",
+      "scope": "ONARI V6",
+      "decision": "외부 절개와 분리된 잎을 제거한 수학적 림 구조는 과정 기록으로 남긴다.",
+      "rationale": "위장 연상과 위태로운 그릇이라는 피드백으로 안정적인 형태의 재설계가 필요했다.",
+      "supersedes": "onari-v5-direction"
+    },
+    {
+      "id": "onari-solid-form",
+      "title": "오나리의 반복 라운드에서 면과 여백으로 전환",
+      "status": "superseded",
+      "scope": "ONARI V7–V9",
+      "decision": "두꺼운 라인 아이콘 인상을 피하기 위해 면과 여백, 숟가락·그릇의 관계를 연구한 시안은 현재 승인안과 구분한다.",
+      "rationale": "형태의 응집력과 식기 도상의 인지성을 개선했지만 이후 문양·선택 심볼 연구로 방향이 이동했다.",
+      "supersedes": "onari-v6-direction"
+    },
+    {
+      "id": "onari-v10-direction",
+      "title": "오나리의 문양·한글 C1 + T1 조합",
+      "status": "superseded",
+      "scope": "ONARI V10",
+      "decision": "열린 흐름의 문양과 한글 레터링 조합은 과거 연구안으로 보존한다.",
+      "rationale": "사용자가 별도 심볼을 지정하고 영어 워드마크 조합을 검토하도록 요청했다.",
+      "supersedes": "onari-solid-form"
+    },
+    {
+      "id": "onari-a-fixed",
+      "title": "ONARI A안을 현재 아이덴티티로 고정",
+      "status": "approved",
+      "scope": "ONARI V14 이후",
+      "decision": "사용자 지정 심볼 50:3185와 DM Sans Medium 대문자 ONARI의 A 조합을 사용한다. V14 A Ink 93:107·Paper 93:108을 기준으로 삼는다.",
+      "rationale": "사용자가 첫 번째 권고안을 명시적으로 확정했다. 이후 시안과 이전 심볼을 혼용하지 않는다.",
+      "supersedes": "onari-v10-direction"
+    },
+    {
+      "id": "line-guides-small",
+      "title": "제작 도해는 작은 선형 가이드로 배치",
+      "status": "approved",
+      "scope": "네 브랜드 공통 편집",
+      "decision": "제작 도해는 선형 벡터로 표현하고 한 구역에 모으거나 작게 배치한다. 개별 적용 장면에 더 큰 비중을 준다.",
+      "rationale": "사용자가 컬러 도해의 비중을 낮추고 실제 적용 모습의 다양성을 높이도록 요청했다."
+    },
+    {
+      "id": "character-experiment",
+      "title": "캐릭터 자료의 보조 활용 검토",
+      "status": "superseded",
+      "scope": "응용 V13 초기",
+      "decision": "Retro Foodie Characters의 캐릭터 활용 방향은 탐색 이력으로만 보존한다.",
+      "rationale": "사용자가 이후 캐릭터형 일러스트 제거를 명시했다."
+    },
+    {
+      "id": "no-characters",
+      "title": "캐릭터형 일러스트를 최종 결과에서 제외",
+      "status": "approved",
+      "scope": "네 브랜드 공통",
+      "decision": "캐릭터 벡터·스티커·카드·가이드 및 사진 목업 속 캐릭터를 최종 응용과 공유 묶음에 넣지 않는다.",
+      "rationale": "최신 사용자 요청을 모든 프로젝트에 동일하게 적용하기 위한 기준이다.",
+      "supersedes": "character-experiment"
+    },
+    {
+      "id": "natural-outlines-secondary",
+      "title": "자연 과채 선화는 세 브랜드의 작은 보조 요소",
+      "status": "approved",
+      "scope": "고운밭·ONARI·HECALE",
+      "decision": "자연 과채 아웃라인은 각 브랜드에 맞는 품목·잉크색·크기로 편집해 제한적으로 사용한다. 실제 확장 벡터 경로를 유지한다.",
+      "rationale": "선화가 브랜드 심볼을 대체하거나 화면을 지배하지 않도록 하고, 원본의 경로 구조를 훼손하지 않기 위해서다."
+    },
+    {
+      "id": "ersa-photo-only",
+      "title": "에르사는 기존 사진 중심으로 유지",
+      "status": "approved",
+      "scope": "ERSA",
+      "decision": "과채 사진과 실사형 적용 장면을 사용하고 자연 선화·캐릭터를 넣지 않는다. V13에서는 기존 V12 사진 자산을 그대로 유지했다.",
+      "rationale": "사용자가 에르사는 기존처럼 실사 이미지를 그대로 적용하도록 지정했다."
+    },
+    {
+      "id": "editable-master-authority",
+      "title": "편집 가능한 마스터를 로고·인쇄·UI 기준으로 사용",
+      "status": "approved",
+      "scope": "디자인 원본",
+      "decision": "정확한 로고 윤곽과 문구·인쇄 구성·화면의 기준은 Figma의 네이티브 마스터로 삼는다. 사진 속 로고를 추출해 새 원본으로 사용하지 않는다.",
+      "rationale": "생성 이미지에는 문자·윤곽의 차이가 생길 수 있고, 적용 장면 자체는 제작용 원본이 아니기 때문이다."
+    },
+    {
+      "id": "ai-scenes-labeling",
+      "title": "실사형 이미지는 AI 연출 적용 예시로 표기",
+      "status": "approved",
+      "scope": "포트폴리오·마케팅 자료",
+      "decision": "AI 장면을 실제 계약 농가, 고객, 생산 기록, 인증, 인쇄 완료품의 촬영 결과로 설명하지 않는다.",
+      "rationale": "사용자가 적극적인 이미지 생성을 요청한 목적은 브랜드 적용의 시각화이며 실재 사업 증빙의 제작이 아니다."
+    },
+    {
+      "id": "production-validation-open",
+      "title": "생산·인쇄·사용성 검증은 별도 단계",
+      "status": "open",
+      "scope": "패키지·서비스",
+      "decision": "재질·칼선·공정·최소 인쇄 크기·보관 성능·실물 색·소비자 인지·구매 전환 검증은 확정된 것으로 표기하지 않는다.",
+      "rationale": "현재 자료는 편집 가능한 디자인 제안과 화면 예시이며 양산·실험 결과는 확인되지 않았다."
+    },
+    {
+      "id": "final-pure-portfolio",
+      "title": "FINAL은 브랜드 자체의 포트폴리오로 표현",
+      "status": "approved",
+      "scope": "네 브랜드 FINAL",
+      "decision": "FINAL 본문·레이어 이름·컴포넌트 설명에는 Konny·Plus X를 언급하지 않는다. 실제 사용 자산과 네이밍 자료의 출처 및 AI 안내는 유지한다.",
+      "rationale": "사용자가 최종 페이지에서 레퍼런스 언급을 제거하도록 명시했고, 작업 과정은 별도 기록 공간에서 설명할 수 있다."
+    },
+    {
+      "id": "journal-reference-history",
+      "title": "작업 기록은 실제 참고 관계와 실패·수정을 보존",
+      "status": "approved",
+      "scope": "작업 기록 Storybook",
+      "decision": "Plus X 연구와 Konny 편집 흐름 참고, 폐기된 심볼·캐릭터 방향, 사용자 피드백과 수정 이유를 기록한다.",
+      "rationale": "FINAL에서 참고 이름을 제거하는 것과 개발 과정을 투명하게 기록하는 것은 서로 다른 문서 목적이다."
+    },
+    {
+      "id": "dual-portals",
+      "title": "작업 기록과 운영 기준을 별도 사이트로 분리",
+      "status": "approved",
+      "scope": "Storybook 구조",
+      "decision": "작업 기록 사이트는 전체 과정과 근거를, 운영 기준 사이트는 현재 승인 기준·자산·운영 확인 항목을 전달한다.",
+      "rationale": "사용자가 두 종류의 Storybook을 명시적으로 요청했다. 과거 탐색안이 운영 지침으로 읽히는 혼선을 줄인다."
+    },
+    {
+      "id": "single-commercial-brand-open",
+      "title": "실제 서비스의 단일 브랜드 선택은 미확정",
+      "status": "open",
+      "scope": "사업 의사결정",
+      "decision": "네 프로젝트의 디자인 완성과 ONARI 로고 확정을 전체 서비스의 단일 브랜드 선정으로 해석하지 않는다.",
+      "rationale": "현재 대화는 네 후보의 BX 프로젝트를 모두 완성하는 범위이며, 사업 차원의 최종 한 개 선택은 별도로 확인해야 한다."
+    }
+  ],
+  "limitations": [
+    "updatedAt은 이 기록의 정리일이다. 모든 단계가 이날 수행됐다는 뜻은 아니며, 원래 날짜가 확인되지 않는 과정에는 임의의 날짜를 붙이지 않았다.",
+    "이 기록은 확인 가능한 대화와 남아 있는 산출물을 바탕으로 한 핵심 단계의 재구성이다. 모든 채팅 메시지·내부 작업·미보존 시안을 빠짐없이 복원한 원문 로그는 아니다.",
+    "일부 Figma 페이지는 후속 버전으로 수정됐다. 기록에 연결한 현재 링크가 당시 시안의 고정 스냅샷을 의미하지 않는 경우에는 해당 항목에 명시했다. 열람·편집은 Figma 계정 권한에 따른다.",
+    "completed는 해당 문서·디자인 작업의 수행 상태이며 사업 승인, 양산 승인, 시장 검증 또는 서비스 출시를 뜻하지 않는다. approved는 이 대화에서 확정된 방향과 현재 사용 기준을 가리킨다.",
+    "네 후보가 모두 포트폴리오로 완성됐지만 서비스의 단일 최종 브랜드 선택, 명칭의 미사용 여부, 상표 등록 가능성은 확정되지 않았다.",
+    "국내외 35개 서비스는 목적 표본이며 Plus X 146개는 공식 공개 카탈로그 범위다. 전수조사, 모든 상세 영상·실물 확인, 매출·재구매 등 사업 성과의 독립 검증은 아니다.",
+    "원천강본풀이와 Plutarch의 서사, Alcman 단편을 소개한 Theoi 자료는 성격이 다른 출처다. 기록된 이야기와 현대 식재료 브랜드의 의미 해석을 같은 종류의 사실로 취급하지 않는다.",
+    "가격·생산지·인증·재고·수량·배송·환불·판매 채널 연동과 패키지의 생산 조건은 실제 자료로 확인하기 전까지 운영 확정값이 아니다.",
+    "실사형 적용 장면은 AI로 연출한 목업이다. 실제 농가·고객·생산 기록이나 완성품 촬영으로 사용하지 않으며 정확한 로고와 인쇄 구성은 편집 가능한 마스터를 따른다.",
+    "커뮤니티 자산의 출처를 기록하고 실제 사용·제외 범위를 구분했다. 별도의 상업 사용·재배포 권리 검토가 완료됐다는 의미는 아니다.",
+    "전체 생성 이미지 호출 횟수와 최종 포트폴리오의 구분되는 사진 장면 수는 다르다. FINAL V15의 43개는 신규 16·수정 6·재사용 21의 장면 수이며 UI 반복 이미지와 크롭을 추가 장면으로 세지 않았다.",
+    "이번 기록 파일은 배포 결과를 증명하는 로그가 아니다. 두 Storybook의 배포 완료와 실제 URL 응답은 별도 배포 검증 후 확정한다."
+  ]
+}
