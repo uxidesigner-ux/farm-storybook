@@ -76,10 +76,10 @@ body { margin: 0; }
 .sc-fab:hover:not(:disabled) { transform:translateY(-2px); box-shadow:0 12px 32px #00000030; }
 .sc-fab:active:not(:disabled) { transform:scale(.96); }
 .sc-fab:disabled { opacity:.8; }
-.sc-app .sc-fab-completed:disabled { opacity:1; cursor:default; box-shadow:0 3px 15px #00000016; }
+.sc-fab-completed { box-shadow:0 3px 15px #00000016; }
 .sc-fab-count { font-variant-numeric:tabular-nums; padding-left:13px; border-left:1px solid #ffffff44; min-width:25px; }
 .sc-vote-policy { background:var(--sc-paper); color:var(--sc-ink); border-radius:10px; padding:4px 9px; font-size:10px; line-height:1.5; align-self:center; box-shadow:0 1px 3px #0000000d; text-align:center; }
-.sc-vote-login { display:block; margin-top:2px; font-size:10px; }
+.sc-vote-storage { display:block; margin-top:2px; font-size:10px; }
 .sc-vote-message { background:var(--sc-paper); color:var(--sc-ink); max-width:320px; padding:0; font-size:12px; line-height:1.7; border-radius:12px; box-shadow:0 4px 24px #00000012; }
 .sc-vote-message:not(:empty) { padding:12px 17px; }
 .sc-vote-message-error { border:1px solid #c9aaa0; }
