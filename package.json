@@ -15,7 +15,7 @@
     "build:journal": "npm run content && storybook build -c .storybook -o dist/journal --disable-telemetry",
     "build:operations": "npm run content && storybook build -c .storybook-operations -o dist/operations --disable-telemetry",
     "build:showcase": "vite build --config vite.showcase.config.ts",
-    "check": "npm run typecheck && node scripts/validate-content.mjs && node scripts/validate-portals.mjs",
+    "check": "npm run typecheck && node scripts/validate-content.mjs && node scripts/validate-portals.mjs && node services/voting/verify.mjs",
     "verify:build": "node scripts/verify-build.mjs"
   },
   "dependencies": {
@@ -35,5 +35,7 @@
     "typescript": "7.0.2",
     "vite": "8.3.7"
   },
-  "engines": {"node": ">=22.12.0"}
+  "engines": {
+    "node": ">=22.12.0"
+  }
 }
