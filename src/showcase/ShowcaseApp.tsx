@@ -10,13 +10,63 @@ type Brand = (typeof portfolio.brands)[number];
 type Counts = Record<string, number>;
 type VoteState = 'idle' | 'sending' | 'success' | 'error';
 type SessionState = 'loading' | 'ready' | 'unavailable';
-type VoteSnapshot = { counts: Counts; authenticated: boolean; votedBrands: string[] };
+type VoteSnapshot = { counts: Counts; votedBrands: string[] };
+type BrowserVoteRecord = { version: 1; id: string; votedBrands: string[] };
+type BrowserVoteSnapshot = VoteSnapshot & { browserId: string };
 type LikeParticle = { id: number; wave: number; hero: boolean; tone: 'blue' | 'ice' | 'brand'; style: CSSProperties };
 type VoteCelebration = { id: number; brand: string; x: number; y: number; particles: LikeParticle[] };
 const celebrationLifetime = 4900;
 const formatCount = (n: number) => new Intl.NumberFormat('ko-KR').format(n);
 const slugs = portfolio.brands.map(brand => brand.slug);
 const defaultApi = 'https://farm-bx-showcase.james8101.chatgpt.site/api/votes';
+const browserVoteStorageKey = 'farm-bx-showcase:browser-votes:v1';
+const browserIdPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const storageFailureMessage = '이 브라우저에 추천 기록을 저장할 수 없습니다. 사이트 데이터 저장을 허용한 뒤 다시 확인해 주세요.';
+
+class BrowserStorageError extends Error {}
+class BrowserIdentityChangedError extends Error {}
+
+function parsedBrowserRecord(value: string): BrowserVoteRecord {
+  let raw: Record<string, unknown>;
+  try { raw = JSON.parse(value) as Record<string, unknown>; }
+  catch { throw new BrowserStorageError('저장된 추천 기록을 읽지 못했습니다. 이 사이트의 브라우저 데이터를 확인한 뒤 다시 시도해 주세요.'); }
+  if (!raw || raw.version !== 1 || typeof raw.id !== 'string' || !browserIdPattern.test(raw.id) ||
+    !Array.isArray(raw.votedBrands) || !raw.votedBrands.every(brand => typeof brand === 'string' && slugs.includes(brand))) {
+    throw new BrowserStorageError('저장된 추천 기록을 읽지 못했습니다. 이 사이트의 브라우저 데이터를 확인한 뒤 다시 시도해 주세요.');
+  }
+  return { version: 1, id: raw.id.toLowerCase(), votedBrands: slugs.filter(brand => (raw.votedBrands as string[]).includes(brand)) };
+}
+
+function readBrowserRecord(create = true): BrowserVoteRecord {
+  try {
+    const storage = window.localStorage;
+    const saved = storage.getItem(browserVoteStorageKey);
+    if (saved !== null) return parsedBrowserRecord(saved);
+    if (!create) throw new BrowserIdentityChangedError();
+    const initial: BrowserVoteRecord = { version: 1, id: window.crypto.randomUUID(), votedBrands: [] };
+    storage.setItem(browserVoteStorageKey, JSON.stringify(initial));
+    // Re-read the shared value: another tab may have initialized this browser at the same time.
+    const confirmed = storage.getItem(browserVoteStorageKey);
+    if (confirmed === null) throw new BrowserStorageError(storageFailureMessage);
+    return parsedBrowserRecord(confirmed);
+  } catch (error) {
+    if (error instanceof BrowserStorageError || error instanceof BrowserIdentityChangedError) throw error;
+    throw new BrowserStorageError(storageFailureMessage);
+  }
+}
+
+function persistBrowserSnapshot(id: string, votedBrands: string[]) {
+  const current = readBrowserRecord(false);
+  if (current.id !== id) throw new BrowserIdentityChangedError();
+  try {
+    // Only server-confirmed markers are persisted; counts always come from the server.
+    window.localStorage.setItem(browserVoteStorageKey, JSON.stringify({ version: 1, id, votedBrands: slugs.filter(brand => votedBrands.includes(brand)) }));
+    if (readBrowserRecord(false).id !== id) throw new BrowserIdentityChangedError();
+  } catch (error) {
+    if (error instanceof BrowserStorageError || error instanceof BrowserIdentityChangedError) throw error;
+    throw new BrowserStorageError(storageFailureMessage);
+  }
+}
 
 function validatedCounts(value: unknown): Counts {
   if (!value || typeof value !== 'object') throw new Error('추천 수를 확인하지 못했습니다.');
@@ -31,10 +81,9 @@ function validatedCounts(value: unknown): Counts {
 function validatedSnapshot(value: unknown): VoteSnapshot {
   if (!value || typeof value !== 'object') throw new Error('추천 상태를 확인하지 못했습니다.');
   const raw = value as Record<string, unknown>;
-  if (typeof raw.authenticated !== 'boolean' || raw.duplicateVotesAllowed !== false || raw.multipleProjectsAllowed !== true ||
-    !Array.isArray(raw.votedBrands) || !raw.votedBrands.every(value => typeof value === 'string' && slugs.includes(value)) ||
-    (!raw.authenticated && raw.votedBrands.length > 0)) throw new Error('추천 상태를 확인하지 못했습니다.');
-  return { counts: validatedCounts(raw.counts), authenticated: raw.authenticated, votedBrands: [...new Set(raw.votedBrands as string[])] };
+  if (raw.identityMode !== 'browser' || raw.toggleVotesAllowed !== true || raw.duplicateVotesAllowed !== false || raw.multipleProjectsAllowed !== true ||
+    !Array.isArray(raw.votedBrands) || !raw.votedBrands.every(value => typeof value === 'string' && slugs.includes(value))) throw new Error('추천 상태를 확인하지 못했습니다.');
+  return { counts: validatedCounts(raw.counts), votedBrands: [...new Set(raw.votedBrands as string[])] };
 }
 
 function voteEndpoint(apiBase: string) {
@@ -88,10 +137,9 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   const [slug, setSlug] = useState<string | null>(null);
   const [counts, setCounts] = useState<Counts | null>(null);
   const [countError, setCountError] = useState(false);
-  const [authenticated, setAuthenticated] = useState(false);
+  const [storageError, setStorageError] = useState('');
   const [votedBrands, setVotedBrands] = useState<string[]>([]);
   const [sessionState, setSessionState] = useState<SessionState>('loading');
-  const [sameOrigin, setSameOrigin] = useState<boolean | null>(null);
   const [pendingBrand, setPendingBrand] = useState<string | null>(null);
   const [voteState, setVoteState] = useState<VoteState>('idle');
   const [message, setMessage] = useState('');
@@ -104,13 +152,15 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   const celebrationTimer = useRef<number | null>(null);
   const celebrationId = useRef(0);
   const inFlight = useRef(false);
+  const browserIdRef = useRef<string | null>(null);
+  const refreshQueued = useRef(false);
   const requestVersion = useRef(0);
   const requestController = useRef<AbortController | null>(null);
   const activeSlug = useRef<string | null>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const brand = portfolio.brands.find(item => item.slug === slug);
   const nextBrand = brand ? portfolio.brands[(portfolio.brands.indexOf(brand) + 1) % portfolio.brands.length] : null;
-  const hasVoted = Boolean(brand && authenticated && votedBrands.includes(brand.slug));
+  const hasVoted = Boolean(brand && votedBrands.includes(brand.slug));
 
   const clearCelebration = useCallback(() => {
     if (celebrationTimer.current !== null) window.clearTimeout(celebrationTimer.current);
@@ -153,41 +203,61 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
     };
   }, [clearCelebration]);
 
-  const applySnapshot = useCallback((next: VoteSnapshot, viewerAllowed: boolean) => {
+  const applySnapshot = useCallback((next: VoteSnapshot, browserId: string) => {
+    persistBrowserSnapshot(browserId, next.votedBrands);
+    browserIdRef.current = browserId;
     setCounts(next.counts);
-    // Cross-origin pages display public totals only. Account state belongs to the canonical site.
-    setAuthenticated(viewerAllowed && next.authenticated);
-    setVotedBrands(viewerAllowed && next.authenticated ? next.votedBrands : []);
+    setVotedBrands(next.votedBrands);
     setSessionState('ready');
     setCountError(false);
-  }, []);
+    setStorageError('');
+    setVoteState('idle');
+    setMessage('');
+    if (activeSlug.current && !next.votedBrands.includes(activeSlug.current)) clearCelebration();
+  }, [clearCelebration]);
 
-  const refreshCounts = useCallback(async (): Promise<VoteSnapshot | null> => {
-    if (inFlight.current) return null;
+  const refreshCounts = useCallback(async (): Promise<BrowserVoteSnapshot | null> => {
+    if (inFlight.current) { refreshQueued.current = true; return null; }
+    refreshQueued.current = false;
     const version = ++requestVersion.current;
     requestController.current?.abort();
     const controller = new AbortController();
     requestController.current = controller;
     try {
-      const endpoint = voteEndpoint(apiBase);
-      setSameOrigin(endpoint.sameOrigin);
-      const response = await fetch(endpoint.url, {
-        cache: 'no-store', credentials: endpoint.sameOrigin ? 'same-origin' : 'omit',
-        mode: endpoint.sameOrigin ? 'same-origin' : 'cors',
-        signal: AbortSignal.any([controller.signal, AbortSignal.timeout(12000)]),
-      });
-      if (!response.ok) throw new Error('count request failed');
-      const next = validatedSnapshot(await response.json());
-      if (version !== requestVersion.current) return null;
-      applySnapshot(next, endpoint.sameOrigin);
-      return endpoint.sameOrigin ? next : { ...next, authenticated: false, votedBrands: [] };
-    } catch {
+      // Retry once if another tab replaced the browser record while this read was in flight.
+      for (let attempt = 0; attempt < 2; attempt++) {
+        const record = readBrowserRecord();
+        if (browserIdRef.current !== record.id) {
+          browserIdRef.current = record.id;
+          setVotedBrands(record.votedBrands);
+          setSessionState('loading');
+          clearCelebration();
+        }
+        setStorageError('');
+        const endpoint = voteEndpoint(apiBase);
+        const response = await fetch(endpoint.url, {
+          cache: 'no-store', credentials: 'omit',
+          headers: { 'X-Farm-Browser-Id': record.id },
+          mode: endpoint.sameOrigin ? 'same-origin' : 'cors',
+          signal: AbortSignal.any([controller.signal, AbortSignal.timeout(12000)]),
+        });
+        if (!response.ok) throw new Error('count request failed');
+        const next = validatedSnapshot(await response.json());
+        if (version !== requestVersion.current) return null;
+        try { applySnapshot(next, record.id); }
+        catch (error) { if (error instanceof BrowserIdentityChangedError && attempt === 0) continue; throw error; }
+        return { ...next, browserId: record.id };
+      }
+      return null;
+    } catch (error) {
       if (version !== requestVersion.current) return null;
       setCountError(true);
       setSessionState('unavailable');
+      if (error instanceof BrowserStorageError) setStorageError(error.message);
+      else if (error instanceof BrowserIdentityChangedError) setMessage('브라우저의 추천 기록이 변경되었습니다. 다시 확인해 주세요.');
       return null;
     }
-  }, [apiBase, applySnapshot]);
+  }, [apiBase, applySnapshot, clearCelebration]);
 
   useEffect(() => {
     function route() {
@@ -213,24 +283,33 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   }, [clearCelebration]);
 
   useEffect(() => {
-    setAuthenticated(false);
+    browserIdRef.current = null;
     setVotedBrands([]);
     setSessionState('loading');
-    setSameOrigin(null);
+    setStorageError('');
     setPendingBrand(null);
     inFlight.current = false;
     void refreshCounts();
     const onFocus = () => { if (!document.hidden) void refreshCounts(); };
+    const onStorage = (event: StorageEvent) => {
+      if (event.key === null || event.key === browserVoteStorageKey) {
+        setMessage('');
+        void refreshCounts();
+      }
+    };
     window.addEventListener('focus', onFocus);
+    window.addEventListener('storage', onStorage);
     document.addEventListener('visibilitychange', onFocus);
     const interval = setInterval(onFocus, 30000);
     return () => {
       window.removeEventListener('focus', onFocus);
+      window.removeEventListener('storage', onStorage);
       document.removeEventListener('visibilitychange', onFocus);
       clearInterval(interval);
       ++requestVersion.current;
       requestController.current?.abort();
       inFlight.current = false;
+      refreshQueued.current = false;
     };
   }, [refreshCounts]);
 
@@ -244,11 +323,27 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   }, [lightbox]);
 
   async function vote() {
-    if (!brand || inFlight.current || !authenticated || sessionState !== 'ready' || hasVoted) return;
+    if (!brand || inFlight.current || sessionState !== 'ready') return;
+    let record: BrowserVoteRecord;
+    try {
+      record = readBrowserRecord();
+      persistBrowserSnapshot(record.id, record.votedBrands);
+    }
+    catch (error) {
+      setStorageError(error instanceof BrowserStorageError ? error.message : storageFailureMessage);
+      setSessionState('unavailable');
+      return;
+    }
+    if (record.id !== browserIdRef.current) {
+      setMessage('브라우저의 추천 기록이 변경되어 최신 상태를 확인하고 있어요.');
+      setSessionState('loading');
+      void refreshCounts();
+      return;
+    }
     const endpoint = voteEndpoint(apiBase);
-    // The GitHub copy must never submit an authenticated write across origins.
-    if (!endpoint.sameOrigin) return;
     const target = brand.slug;
+    const recommended = !hasVoted;
+    const browserId = record.id;
     const version = ++requestVersion.current;
     requestController.current?.abort();
     const controller = new AbortController();
@@ -257,40 +352,35 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
     setPendingBrand(target);
     setVoteState('sending');
     setMessage('');
+    clearCelebration();
     let reconcile = false;
     try {
       const response = await fetch(endpoint.url, {
-        method: 'POST', credentials: 'same-origin', mode: 'same-origin',
-        headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ brand: target }),
+        method: 'POST', credentials: 'omit', mode: endpoint.sameOrigin ? 'same-origin' : 'cors',
+        headers: { 'Content-Type': 'application/json', 'X-Farm-Browser-Id': browserId },
+        body: JSON.stringify({ brand: target, recommended }),
         signal: AbortSignal.any([controller.signal, AbortSignal.timeout(12000)]),
       });
       if (version !== requestVersion.current) return;
-      if (response.status === 401) {
-        setAuthenticated(false);
-        setVotedBrands([]);
-        setSessionState('ready');
-        if (activeSlug.current === target) {
-          setVoteState('idle');
-          setMessage('ChatGPT 계정으로 다시 로그인한 뒤 추천해 주세요.');
-        }
-        return;
-      }
       if (!response.ok) throw new Error('vote request failed');
       const data = await response.json() as Record<string, unknown>;
       const next = validatedSnapshot(data);
-      if (!next.authenticated || !next.votedBrands.includes(target) || typeof data.counted !== 'boolean') throw new Error('vote response incomplete');
+      if (typeof data.changed !== 'boolean' || data.recommended !== recommended || next.votedBrands.includes(target) !== recommended) throw new Error('vote response incomplete');
       if (version !== requestVersion.current) return;
-      applySnapshot(next, true);
+      applySnapshot(next, browserId);
       if (activeSlug.current === target) {
         setVoteState('success');
-        setMessage(data.counted ? '추천했어요. 다른 프로젝트에도 추천할 수 있습니다.' : '이미 추천한 프로젝트입니다. 다른 프로젝트에도 추천할 수 있습니다.');
-        if (data.counted === true) celebrateVote(target);
+        setMessage(recommended
+          ? data.changed ? '추천했어요. 다시 누르면 해제할 수 있어요.' : '이미 추천한 상태입니다. 다시 누르면 해제할 수 있어요.'
+          : data.changed ? '추천을 해제했어요. 언제든 다시 추천할 수 있습니다.' : '추천이 해제된 상태입니다.');
+        if (data.changed === true && data.recommended === true) celebrateVote(target);
       }
-    } catch {
+    } catch (error) {
       if (version !== requestVersion.current) return;
-      // A lost response may still have committed. Read server state before offering another action.
+      // Reconcile a lost response before allowing another explicit desired-state request.
       reconcile = true;
       setSessionState('loading');
+      if (error instanceof BrowserStorageError) setStorageError(error.message);
       if (activeSlug.current === target) {
         setMessage('');
       }
@@ -300,20 +390,20 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
         setPendingBrand(null);
       }
     }
-    if (reconcile) {
+    if (reconcile || refreshQueued.current) {
       const refresh = refreshCounts();
       const reconciliationVersion = requestVersion.current;
       const latest = await refresh;
-      if (requestVersion.current !== reconciliationVersion || activeSlug.current !== target) return;
-      if (latest?.authenticated && latest.votedBrands.includes(target)) {
-        setVoteState('success');
-        setMessage('추천 완료를 확인했어요. 다른 프로젝트에도 추천할 수 있습니다.');
-      } else if (latest && !latest.authenticated) {
+      if (!reconcile || requestVersion.current !== reconciliationVersion || activeSlug.current !== target) return;
+      if (latest && latest.browserId !== browserId) {
         setVoteState('idle');
-        setMessage('ChatGPT 계정으로 다시 로그인한 뒤 추천해 주세요.');
+        setMessage('브라우저 기록이 변경되어 최신 상태로 갱신했어요. 원하는 상태를 다시 선택해 주세요.');
+      } else if (latest && latest.votedBrands.includes(target) === recommended) {
+        setVoteState('success');
+        setMessage(recommended ? '추천 완료를 확인했어요. 다시 누르면 해제할 수 있어요.' : '추천 해제를 확인했어요.');
       } else {
         setVoteState('error');
-        setMessage(latest ? '추천을 완료하지 못했습니다. 다시 시도해 주세요.' : '추천 결과를 확인하지 못했습니다. 연결을 확인한 뒤 다시 확인해 주세요.');
+        setMessage(latest ? '추천 상태를 변경하지 못했습니다. 다시 눌러 주세요.' : '추천 결과를 확인하지 못했습니다. 연결을 확인한 뒤 다시 확인해 주세요.');
       }
     }
   }
@@ -326,9 +416,7 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
   }
 
   const style = brand ? { '--sc-ink': brand.color, '--sc-paper': brand.paper } as CSSProperties : undefined;
-  const canonicalProjectUrl = brand ? new URL(`/#/${brand.slug}`, defaultApi).href : new URL('/', defaultApi).href;
-  const signInUrl = brand ? `/signin-with-chatgpt?return_to=${encodeURIComponent(`/#/${brand.slug}`)}` : '/signin-with-chatgpt';
-  const voteMessage = message || (countError ? '추천 상태를 불러오지 못했습니다. 다시 확인해 주세요.' : '');
+  const voteMessage = storageError || message || (countError ? '추천 상태를 불러오지 못했습니다. 다시 확인해 주세요.' : '');
   const voteCountLabel = brand && counts ? formatCount(counts[brand.slug]) : '—';
   const checkingVote = sessionState === 'loading' || pendingBrand !== null;
   return <div ref={rootRef} className={`sc-app ${brand ? 'sc-project' : 'sc-index'}`} style={style}>
@@ -348,11 +436,11 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
         <div className="sc-section-label"><span>THE COLLECTION</span><span>01 — 04</span></div>
         <div className="sc-grid">{portfolio.brands.map((item, index) => <a href={`#/${item.slug}`} className={`sc-card sc-card-${item.slug}`} key={item.slug} style={{ '--card-ink': item.color, '--card-paper': item.paper } as CSSProperties}>
           <div className="sc-card-image"><img src={item.hero} width={1536} height={1024} alt={`${item.name} 브랜드 패키지와 식재료 응용 장면`} loading={index < 2 ? 'eager' : 'lazy'} decoding="async" /><span className="sc-card-num">0{index + 1}</span><span className="sc-card-open" aria-hidden="true"><ArrowUpRight size={24} /></span></div>
-          <div className="sc-card-body"><div><h2>{item.slug === 'gounbat' ? item.name : item.englishName}</h2><p>{item.oneLine}</p></div><div className="sc-card-voting"><span className="sc-vote-count" aria-label={counts ? `${item.name} 추천 ${formatCount(counts[item.slug])}건` : `${item.name} 추천 수 불러오는 중`}><ThumbsUp size={17} aria-hidden="true" /><span>{counts ? formatCount(counts[item.slug]) : '—'}</span><small>추천</small></span>{authenticated && votedBrands.includes(item.slug) && <span className="sc-voted-badge"><Check size={12} aria-hidden="true" />추천 완료</span>}</div></div>
+          <div className="sc-card-body"><div><h2>{item.slug === 'gounbat' ? item.name : item.englishName}</h2><p>{item.oneLine}</p></div><div className="sc-card-voting"><span className="sc-vote-count" aria-label={counts ? `${item.name} 추천 ${formatCount(counts[item.slug])}건` : `${item.name} 추천 수 불러오는 중`}><ThumbsUp size={17} aria-hidden="true" /><span>{counts ? formatCount(counts[item.slug]) : '—'}</span><small>추천</small></span>{votedBrands.includes(item.slug) && <span className="sc-voted-badge"><Check size={12} aria-hidden="true" />추천 완료</span>}</div></div>
           <div className="sc-card-tags">{item.keywords.map(keyword => <span key={keyword}>{keyword}</span>)}<span>{item.boardCount} scenes</span></div>
         </a>)}</div>
       </section>
-      <div className="sc-vote-info"><ThumbsUp size={20} aria-hidden="true" /><div><strong>프로젝트별 한 번, 여러 프로젝트에 추천할 수 있어요.</strong><p>{sameOrigin === false ? '프로젝트의 추천 페이지로 이동해 ChatGPT 계정으로 로그인하고 참여할 수 있습니다.' : authenticated ? '추천 여부는 로그인한 ChatGPT 계정을 기준으로 확인합니다. 네 프로젝트 모두 각각 추천할 수 있습니다.' : 'ChatGPT 계정으로 로그인한 뒤, 원하는 프로젝트에서 투표 버튼을 눌러 주세요.'}</p>{countError && <p className="sc-connection-message">{counts ? '최신 추천 상태를 확인하지 못했습니다.' : '추천 수를 불러오지 못했습니다.'} <button type="button" onClick={() => void refreshCounts()}>다시 확인하기</button></p>}</div></div>
+      <div className="sc-vote-info"><ThumbsUp size={20} aria-hidden="true" /><div><strong>마음에 드는 프로젝트를 추천하고, 다시 눌러 해제하세요.</strong><p>로그인 없이 네 프로젝트에 각각 추천할 수 있어요. 추천 기록은 접속한 사이트와 브라우저별로 저장됩니다.<br />다른 브라우저를 사용하거나 사이트 데이터를 지우면 새 기록으로 시작합니다.</p>{(countError || storageError) && <p className="sc-connection-message">{storageError || (counts ? '최신 추천 상태를 확인하지 못했습니다.' : '추천 수를 불러오지 못했습니다.')} <button type="button" onClick={() => { setMessage(''); void refreshCounts(); }}>다시 확인하기</button></p>}</div></div>
       <footer className="sc-index-footer"><span>FOUR PERSPECTIVES<br /><small>BRAND EXPERIENCE COLLECTION</small></span><div><a href="https://uxidesigner-ux.github.io/farm-storybook/journal/" target="_blank" rel="noreferrer">작업 기록 <ArrowUpRight size={14} /></a><a href="https://uxidesigner-ux.github.io/farm-storybook/operations/" target="_blank" rel="noreferrer">운영 기준 <ArrowUpRight size={14} /></a></div><small>실사 응용 이미지는 AI 연출 목업입니다.</small></footer>
     </main> : <>
       <main tabIndex={-1} id="sc-main" className="sc-canvas" aria-label={`${brand.name} 브랜드 포트폴리오`}>
@@ -364,14 +452,11 @@ export function ShowcaseApp({ apiBase = defaultApi }: { apiBase?: string }) {
       </main>
       <section className="sc-project-end"><p className="sc-eyebrow">ANOTHER PERSPECTIVE</p><a href={`#/${nextBrand?.slug}`}><span>다음 이야기</span><strong>{nextBrand?.slug === 'gounbat' ? nextBrand.name : nextBrand?.englishName}</strong><ArrowRight size={42} /></a><a href="#/" className="sc-back-index"><Grid2X2 size={17} />모든 프로젝트 보기</a></section>
       <aside className="sc-vote-float" aria-label={`${brand.name} 추천 투표`}>
-        <div className={`sc-vote-message ${voteState === 'error' || countError ? 'sc-vote-message-error' : ''}`} role="status" aria-live="polite">{voteMessage}</div>
-        {sameOrigin === false ? <a className="sc-fab" href={canonicalProjectUrl} target="_top" aria-label={`${brand.name} 투표 페이지로 이동. ChatGPT 계정으로 로그인한 뒤 프로젝트별 한 번 추천할 수 있습니다.`}><ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" /><span>투표하기</span><span className="sc-fab-count">{voteCountLabel}</span></a>
-          : hasVoted ? <button ref={voteButtonRef} type="button" className={`sc-fab sc-fab-completed${celebration?.brand === brand.slug ? ' sc-fab-celebrate' : ''}`} disabled aria-label={`${brand.name} 추천 완료. 현재 추천 ${voteCountLabel}건`}><Check size={23} strokeWidth={1.8} aria-hidden="true" /><span>추천 완료</span><span className="sc-fab-count">{voteCountLabel}</span></button>
-          : sessionState === 'ready' && !authenticated ? <a className="sc-fab" href={signInUrl} target="_top" aria-label={`${brand.name} 추천을 위해 ChatGPT 계정으로 로그인하기. 로그인 후 투표 버튼을 눌러 주세요.`}><ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" /><span>로그인하고 투표</span><span className="sc-fab-count">{voteCountLabel}</span></a>
-          : <button ref={voteButtonRef} type="button" className="sc-fab" onClick={() => { if (sessionState === 'unavailable') { setMessage(''); setSessionState('loading'); void refreshCounts(); } else void vote(); }} disabled={checkingVote || sameOrigin === null} aria-busy={checkingVote} aria-label={`${brand.name} ${sessionState === 'unavailable' ? '추천 상태 다시 확인' : checkingVote ? '추천 상태 확인 중' : '투표하기. 프로젝트별 한 번 추천할 수 있습니다.'} 현재 추천 ${voteCountLabel}`}>
-            <ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" /><span>{pendingBrand ? '반영 중' : sessionState === 'loading' ? '확인 중' : sessionState === 'unavailable' ? '다시 확인' : '투표하기'}</span><span className="sc-fab-count">{voteCountLabel}</span>
-          </button>}
-        <span className="sc-vote-policy">프로젝트별 1회 · 다른 프로젝트도 추천 가능{(sameOrigin === false || (sessionState === 'ready' && !authenticated)) && <span className="sc-vote-login">{sameOrigin === false ? '투표 페이지에서 ChatGPT 계정으로 로그인해 주세요.' : 'ChatGPT 로그인 후 투표 버튼을 눌러 주세요.'}</span>}</span>
+        <div className={`sc-vote-message ${voteState === 'error' || countError || storageError ? 'sc-vote-message-error' : ''}`} role="status" aria-live="polite">{voteMessage}</div>
+        <button ref={voteButtonRef} type="button" className={`sc-fab${hasVoted ? ' sc-fab-completed' : ''}${hasVoted && celebration?.brand === brand.slug ? ' sc-fab-celebrate' : ''}`} onClick={() => { if (sessionState === 'unavailable') { setMessage(''); setSessionState('loading'); void refreshCounts(); } else void vote(); }} disabled={checkingVote} aria-pressed={hasVoted} aria-busy={checkingVote} aria-label={`${brand.name} ${sessionState === 'unavailable' ? '추천 상태 다시 확인' : checkingVote ? '추천 상태 반영 중' : hasVoted ? '추천 해제하기' : '투표하기'}. 현재 추천 ${voteCountLabel}건`}>
+          {hasVoted ? <Check size={23} strokeWidth={1.8} aria-hidden="true" /> : <ThumbsUp size={23} strokeWidth={1.8} aria-hidden="true" />}<span>{pendingBrand ? '반영 중' : sessionState === 'loading' ? '확인 중' : sessionState === 'unavailable' ? '다시 확인' : hasVoted ? '추천 완료' : '투표하기'}</span><span className="sc-fab-count">{voteCountLabel}</span>
+        </button>
+        <span className="sc-vote-policy">{hasVoted ? '다시 누르면 추천 해제' : '네 프로젝트에 각각 추천할 수 있어요'}<span className="sc-vote-storage">로그인 없이 이 브라우저에 저장</span></span>
       </aside>
     </>}
     {celebration && celebration.brand === slug && <div key={celebration.id} className="sc-celebration" aria-hidden="true" style={{ '--like-origin-x': `${celebration.x}px`, '--like-origin-y': `${celebration.y}px` } as CSSProperties}>
